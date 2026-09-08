@@ -1,0 +1,19 @@
+# targets/cinder/modes.yaml — EXTERNAL
+# The difficulty-mode axis. Target 02 is the first target to have one, and it is
+# load-bearing rather than cosmetic.
+
+canonical_mode: normal      # "default" in the target's own vocabulary, minimal grinding off
+
+modes:
+  - key: normal
+    scored: true
+  - key: hardcore
+    scored: false           # parsed, tagged and retained; the cross-mode diff is the
+                            # cheapest answer to "what changes if I switch modes"
+
+roster_divergence: 214      # of 464 trainers differ between the two modes
+
+item_conditionality: UNRESOLVED
+# The source does not encode which items exist in which mode. That conditionality is
+# prose in the documentation set and needs a manual pass. Until it is done, every
+# recommended build is mode-agnostic. See docs/AVAILABILITY_NOTE.md.

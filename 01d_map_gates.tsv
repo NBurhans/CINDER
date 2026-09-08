@@ -1,0 +1,196 @@
+area	region	earliest_gate	gate_name	encounters	items	basis	confidence
+Diglett's Cave 1F	Kanto	0	Brock	24	1	numeric key on the area entry, read as an index into caps	Measured
+Pallet Town	Kanto	0	Brock	15	0	numeric key on the area entry, read as an index into caps	Measured
+Pallet Town Oak's Lab	Kanto	0	Brock	27	2	numeric key on the area entry, read as an index into caps	Measured
+Pallet Town Player's House 1F	Kanto	0	Brock	0	6	numeric key on the area entry, read as an index into caps	Measured
+Pallet Town Rival's House	Kanto	0	Brock	0	1	numeric key on the area entry, read as an index into caps	Measured
+Pewter City	Kanto	0	Brock	24	8	numeric key on the area entry, read as an index into caps	Measured
+Pewter City Museum 1F	Kanto	0	Brock	0	2	numeric key on the area entry, read as an index into caps	Measured
+Pewter City Museum 2F	Kanto	0	Brock	0	1	numeric key on the area entry, read as an index into caps	Measured
+Pewter City Poke Mart	Kanto	0	Brock	0	19	numeric key on the area entry, read as an index into caps	Measured
+Route 1	Kanto	0	Brock	24	1	numeric key on the area entry, read as an index into caps	Measured
+Route 2	Kanto	0	Brock	32	43	numeric key on the area entry, read as an index into caps	Measured
+Route 21 North	Kanto	0	Brock	39	2	numeric key on the area entry, read as an index into caps	Measured
+Route 22	Kanto	0	Brock	39	1	numeric key on the area entry, read as an index into caps	Measured
+Viridian City	Kanto	0	Brock	49	6	numeric key on the area entry, read as an index into caps	Measured
+Viridian City Poke Center	Kanto	0	Brock	0	6	numeric key on the area entry, read as an index into caps	Measured
+Viridian City Poke Mart	Kanto	0	Brock	0	20	numeric key on the area entry, read as an index into caps	Measured
+Viridian City Trainer School	Kanto	0	Brock	0	1	numeric key on the area entry, read as an index into caps	Measured
+Viridian Forest	Kanto	0	Brock	24	15	numeric key on the area entry, read as an index into caps	Measured
+Viridian Forest Heart	Kanto	0	Brock	32	5	numeric key on the area entry, read as an index into caps	Measured
+Mt. Moon 1F	Kanto	1	Archer-1	33	7	numeric key on the area entry, read as an index into caps	Measured
+Mt. Moon B1F	Kanto	1	Archer-1	24	2	numeric key on the area entry, read as an index into caps	Measured
+Mt. Moon B2F	Kanto	1	Archer-1	25	10	numeric key on the area entry, read as an index into caps	Measured
+Pewter City Gym	Kanto	1	Archer-1	0	3	numeric key on the area entry, read as an index into caps	Measured
+Route 3	Kanto	1	Archer-1	29	18	numeric key on the area entry, read as an index into caps	Measured
+Route 4	Kanto	1	Archer-1	29	19	numeric key on the area entry, read as an index into caps	Measured
+Route 4 Poke Center	Kanto	1	Archer-1	1	0	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City	Kanto	2	Misty	15	16	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City Bike Shop	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City Central House	Kanto	2	Misty	1	0	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City North House	Kanto	2	Misty	0	3	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City Poke Mart	Kanto	2	Misty	0	25	numeric key on the area entry, read as an index into caps	Measured
+Diglett's Cave B1F	Kanto	2	Misty	29	1	numeric key on the area entry, read as an index into caps	Measured
+Route 11	Kanto	2	Misty	39	6	numeric key on the area entry, read as an index into caps	Measured
+Route 11 Gatehouse 2F	Kanto	2	Misty	1	1	numeric key on the area entry, read as an index into caps	Measured
+Route 2 House	Kanto	2	Misty	1	0	numeric key on the area entry, read as an index into caps	Measured
+Route 24	Kanto	2	Misty	44	10	numeric key on the area entry, read as an index into caps	Measured
+Route 25	Kanto	2	Misty	47	8	numeric key on the area entry, read as an index into caps	Measured
+Route 25 Bill's House	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+Route 5	Kanto	2	Misty	29	1	numeric key on the area entry, read as an index into caps	Measured
+Route 5 Daycare	Kanto	2	Misty	1	0	numeric key on the area entry, read as an index into caps	Measured
+Route 6	Kanto	2	Misty	44	9	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne 1F Room 2	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne 2F	Kanto	2	Misty	0	2	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne 2F Room 2	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne 2F Room 4	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne B1F	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne B1F Room 2	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne B1F Room 3	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne B1F Room 5	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne Captain's Quarters	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne Kitchen	Kanto	2	Misty	0	4	numeric key on the area entry, read as an index into caps	Measured
+S.S. Anne Port	Kanto	2	Misty	5	0	numeric key on the area entry, read as an index into caps	Measured
+Underground Path Vertical	Kanto	2	Misty	0	7	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City	Kanto	2	Misty	15	2	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City Central House	Kanto	2	Misty	1	0	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City Fisherman's House	Kanto	2	Misty	0	1	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City Poke Mart	Kanto	2	Misty	0	19	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City Pokemon Fan Club	Kanto	2	Misty	11	8	numeric key on the area entry, read as an index into caps	Measured
+Celadon City	Kanto	3	Surge	15	6	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Department Store 2F	Kanto	3	Surge	0	32	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Department Store 3F	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Department Store 4F	Kanto	3	Surge	0	14	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Department Store 5F	Kanto	3	Surge	0	6	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Department Store 6F	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Hotel	Kanto	3	Surge	0	2	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Mansion 1F	Kanto	3	Surge	42	1	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Mansion 2F	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Mansion Roof House	Kanto	3	Surge	1	0	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Restaurant	Kanto	3	Surge	1	1	numeric key on the area entry, read as an index into caps	Measured
+Cerulean City Gym	Kanto	3	Surge	2	3	numeric key on the area entry, read as an index into caps	Measured
+Lavender Town Mr. Fuji's House	Kanto	3	Surge	0	5	numeric key on the area entry, read as an index into caps	Measured
+Lavender Town Poke Mart	Kanto	3	Surge	0	19	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 3F	Kanto	3	Surge	24	1	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 4F	Kanto	3	Surge	24	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 5F	Kanto	3	Surge	24	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 6F	Kanto	3	Surge	24	4	numeric key on the area entry, read as an index into caps	Measured
+Rock Tunnel 1F	Kanto	3	Surge	24	3	numeric key on the area entry, read as an index into caps	Measured
+Rock Tunnel B1F	Kanto	3	Surge	33	4	numeric key on the area entry, read as an index into caps	Measured
+Route 10	Kanto	3	Surge	47	12	numeric key on the area entry, read as an index into caps	Measured
+Route 10 Poke Center	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Route 12	Kanto	3	Surge	45	7	numeric key on the area entry, read as an index into caps	Measured
+Route 12 Gatehouse 2F	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Route 16	Kanto	3	Surge	33	2	numeric key on the area entry, read as an index into caps	Measured
+Route 16 Fly HM House	Kanto	3	Surge	0	2	numeric key on the area entry, read as an index into caps	Measured
+Route 2 Gatehouse	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Route 7	Kanto	3	Surge	24	2	numeric key on the area entry, read as an index into caps	Measured
+Route 8	Kanto	3	Surge	29	6	numeric key on the area entry, read as an index into caps	Measured
+Route 9	Kanto	3	Surge	29	13	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Fighting Dojo	Kanto	3	Surge	2	4	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Mr. Psychic's House	Kanto	3	Surge	0	1	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Poke Mart	Kanto	3	Surge	0	19	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Trainer Fan Club	Kanto	3	Surge	0	18	numeric key on the area entry, read as an index into caps	Measured
+Underground Path Horizontal	Kanto	3	Surge	0	8	numeric key on the area entry, read as an index into caps	Measured
+Underground Path Route 5 Entrance	Kanto	4	Erika	1	0	numeric key on the area entry, read as an index into caps	Measured
+Vermilion City Gym	Kanto	4	Erika	0	3	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Gym	Kanto	5	Giovanni-1	1	2	numeric key on the area entry, read as an index into caps	Measured
+Rocket Hideout B1F	Kanto	5	Giovanni-1	0	3	numeric key on the area entry, read as an index into caps	Measured
+Rocket Hideout B2F	Kanto	5	Giovanni-1	0	4	numeric key on the area entry, read as an index into caps	Measured
+Rocket Hideout B3F	Kanto	5	Giovanni-1	0	4	numeric key on the area entry, read as an index into caps	Measured
+Rocket Hideout B4F	Kanto	5	Giovanni-1	0	7	numeric key on the area entry, read as an index into caps	Measured
+Celadon City Game Corner Exchange	Kanto	6	Archer-2	15	22	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 7F	Kanto	6	Archer-2	24	1	numeric key on the area entry, read as an index into caps	Measured
+Route 16 Gatehouse 2F	Kanto	6	Archer-2	0	4	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 10F	Kanto	6	Archer-2	0	4	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 11F	Kanto	6	Archer-2	0	4	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 1F	Kanto	6	Archer-2	0	1	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 2F	Kanto	6	Archer-2	0	2	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 3F	Kanto	6	Archer-2	0	2	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 4F	Kanto	6	Archer-2	0	5	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 5F	Kanto	6	Archer-2	0	5	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 6F	Kanto	6	Archer-2	0	3	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 7F	Kanto	6	Archer-2	1	3	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 8F	Kanto	6	Archer-2	0	2	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. 9F	Kanto	6	Archer-2	0	2	numeric key on the area entry, read as an index into caps	Measured
+Saffron City	Kanto	8	Sabrina	0	1	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Gian's House 1F	Kanto	8	Sabrina	1	2	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Gian's House 2F	Kanto	8	Sabrina	0	2	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Western House	Kanto	8	Sabrina	0	18	numeric key on the area entry, read as an index into caps	Measured
+Fuchsia City	Kanto	9	Koga	0	21	numeric key on the area entry, read as an index into caps	Measured
+Fuchsia City Fishing Guru's House	Kanto	9	Koga	0	2	numeric key on the area entry, read as an index into caps	Measured
+Fuchsia City Gym	Kanto	9	Koga	0	3	numeric key on the area entry, read as an index into caps	Measured
+Fuchsia City Poke Mart	Kanto	9	Koga	0	19	numeric key on the area entry, read as an index into caps	Measured
+Fuchsia City Warden's House	Kanto	9	Koga	0	2	numeric key on the area entry, read as an index into caps	Measured
+Route 12 Fisherman's House	Kanto	9	Koga	0	1	numeric key on the area entry, read as an index into caps	Measured
+Route 13	Kanto	9	Koga	47	3	numeric key on the area entry, read as an index into caps	Measured
+Route 14	Kanto	9	Koga	29	3	numeric key on the area entry, read as an index into caps	Measured
+Route 15	Kanto	9	Koga	29	3	numeric key on the area entry, read as an index into caps	Measured
+Route 15 Gatehouse 2F	Kanto	9	Koga	0	8	numeric key on the area entry, read as an index into caps	Measured
+Route 17	Kanto	9	Koga	24	7	numeric key on the area entry, read as an index into caps	Measured
+Route 18	Kanto	9	Koga	24	1	numeric key on the area entry, read as an index into caps	Measured
+Route 18 Gatehouse 2F	Kanto	9	Koga	1	0	numeric key on the area entry, read as an index into caps	Measured
+Route 19	Kanto	9	Koga	15	1	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Area 1	Kanto	9	Koga	39	2	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Area 2	Kanto	9	Koga	39	5	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Area 3	Kanto	9	Koga	39	3	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Area 4	Kanto	9	Koga	39	6	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Secret House	Kanto	9	Koga	0	1	numeric key on the area entry, read as an index into caps	Measured
+Saffron City Gym	Kanto	9	Koga	0	5	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island	Kanto	10	May	15	1	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Lab	Kanto	10	May	0	9	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Lab Meeting Room	Kanto	10	May	1	0	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Lab RnD Room	Kanto	10	May	0	4	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Lab Testing Room	Kanto	10	May	1	26	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Poke Mart	Kanto	10	May	0	19	numeric key on the area entry, read as an index into caps	Measured
+Power Plant	Kanto	10	May	33	9	numeric key on the area entry, read as an index into caps	Measured
+Route 20	Kanto	10	May	15	5	numeric key on the area entry, read as an index into caps	Measured
+Route 21 South	Kanto	10	May	15	0	numeric key on the area entry, read as an index into caps	Measured
+Safari Zone Moltres' Den	Kanto	10	May	44	3	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands B1F	Kanto	10	May	33	1	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands B2F	Kanto	10	May	25	2	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands B3F	Kanto	10	May	39	1	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands B4F	Kanto	10	May	39	1	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands B5F	Kanto	10	May	2	2	numeric key on the area entry, read as an index into caps	Measured
+Cinnabar Island Gym	Kanto	11	Blaine	0	6	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion 1F	Kanto	11	Blaine	31	5	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion 2F	Kanto	11	Blaine	24	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion 3F	Kanto	11	Blaine	24	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion B1F	Kanto	11	Blaine	24	5	numeric key on the area entry, read as an index into caps	Measured
+Cerulean Cave 1F	Kanto	12	Archer-3	39	6	numeric key on the area entry, read as an index into caps	Measured
+Cerulean Cave 2F	Kanto	12	Archer-3	38	4	numeric key on the area entry, read as an index into caps	Measured
+Cerulean Cave B1F	Kanto	13	Giovanni-3	40	2	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion 4F	Kanto	15	Brendan	24	1	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Mansion Gouging Fire's Room	Kanto	15	Brendan	25	3	numeric key on the area entry, read as an index into caps	Measured
+Route 23	Kanto	15	Brendan	39	10	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. B1F	Kanto	15	Brendan	0	1	numeric key on the area entry, read as an index into caps	Measured
+Silph Co. Raging Bolt's Office	Kanto	15	Brendan	1	0	numeric key on the area entry, read as an index into caps	Measured
+Viridian City Gym	Kanto	15	Brendan	1	3	numeric key on the area entry, read as an index into caps	Measured
+Indigo Plateau League Approach	Kanto	16	Elite-4	0	1	numeric key on the area entry, read as an index into caps	Measured
+Pokemon League Lobby	Kanto	16	Elite-4	0	19	numeric key on the area entry, read as an index into caps	Measured
+Victory Road 1F	Kanto	16	Elite-4	24	4	numeric key on the area entry, read as an index into caps	Measured
+Victory Road 2F	Kanto	16	Elite-4	29	5	numeric key on the area entry, read as an index into caps	Measured
+Victory Road 3F	Kanto	16	Elite-4	24	2	numeric key on the area entry, read as an index into caps	Measured
+Berry Forest	Sevii	17	Post-Game	40	18	numeric key on the area entry, read as an index into caps	Measured
+Bond Bridge	Sevii	17	Post-Game	39	3	numeric key on the area entry, read as an index into caps	Measured
+Cape Brink	Sevii	17	Post-Game	39	2	numeric key on the area entry, read as an index into caps	Measured
+Cape Brink House	Sevii	17	Post-Game	0	1	numeric key on the area entry, read as an index into caps	Measured
+Ember Spa	Sevii	17	Post-Game	0	1	numeric key on the area entry, read as an index into caps	Measured
+Kindle Road	Sevii	17	Post-Game	40	4	numeric key on the area entry, read as an index into caps	Measured
+Mt Ember Exterior	Sevii	17	Post-Game	24	6	numeric key on the area entry, read as an index into caps	Measured
+Mt Ember Interior	Sevii	17	Post-Game	24	0	numeric key on the area entry, read as an index into caps	Measured
+Mt Ember Summit	Sevii	17	Post-Game	2	0	numeric key on the area entry, read as an index into caps	Measured
+One Island	Sevii	17	Post-Game	0	2	numeric key on the area entry, read as an index into caps	Measured
+One Island Poke Center	Sevii	17	Post-Game	0	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 8F	Kanto	17	Post-Game	24	3	numeric key on the area entry, read as an index into caps	Measured
+Pokemon Tower 9F	Kanto	17	Post-Game	25	3	numeric key on the area entry, read as an index into caps	Measured
+Rock Tunnel Magearna's Chamber	Kanto	17	Post-Game	30	4	numeric key on the area entry, read as an index into caps	Measured
+Seafoam Islands Kyogre's Chamber	Kanto	17	Post-Game	1	4	numeric key on the area entry, read as an index into caps	Measured
+Three Island	Sevii	17	Post-Game	0	3	numeric key on the area entry, read as an index into caps	Measured
+Three Island Poke Mart	Sevii	17	Post-Game	0	19	numeric key on the area entry, read as an index into caps	Measured
+Three Isle Path	Sevii	17	Post-Game	0	2	numeric key on the area entry, read as an index into caps	Measured
+Three Isle Port	Sevii	17	Post-Game	24	0	numeric key on the area entry, read as an index into caps	Measured
+Treasure Beach	Sevii	17	Post-Game	40	7	numeric key on the area entry, read as an index into caps	Measured
+Two Island	Sevii	17	Post-Game	0	9	numeric key on the area entry, read as an index into caps	Measured
+Two Island Game Corner	Sevii	17	Post-Game	0	3	numeric key on the area entry, read as an index into caps	Measured
+Two Island House	Sevii	17	Post-Game	1	1	numeric key on the area entry, read as an index into caps	Measured

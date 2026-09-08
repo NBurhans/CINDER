@@ -1,0 +1,2547 @@
+internal_id	form_key	location	method	gate	gate_name	level_min	level_max	slot_index	earliest_gate	gate_basis	confidence
+1	Bulbasaur	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+1	Bulbasaur	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+1	Bulbasaur	Route 13	wild-day	9	Koga	48	50	6	0	direct	Measured
+1	Bulbasaur	Route 13	wild-day	9	Koga	48	50	7	0	direct	Measured
+4	Charmander	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+4	Charmander	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+4	Charmander	Route 13	wild-day	9	Koga	48	50	10	0	direct	Measured
+4	Charmander	Route 13	wild-day	9	Koga	48	50	11	0	direct	Measured
+4	Charmander	Route 13	wild-night	9	Koga	48	50	6	0	direct	Measured
+4	Charmander	Route 13	wild-night	9	Koga	48	50	7	0	direct	Measured
+7	Squirtle	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+7	Squirtle	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+10	Caterpie	Viridian Forest	wild-day	0	Brock	4	6	0	0	direct	Measured
+10	Caterpie	Viridian Forest Heart	wild-day	0	Brock	4	6	0	0	direct	Measured
+13	Weedle	Viridian Forest	wild-day	0	Brock	4	6	1	0	direct	Measured
+13	Weedle	Viridian Forest Heart	wild-day	0	Brock	4	6	1	0	direct	Measured
+16	Pidgey	Route 1	wild-day	0	Brock	3	5	6	0	direct	Measured
+16	Pidgey	Route 1	wild-day	0	Brock	3	5	7	0	direct	Measured
+16	Pidgey	Route 1	wild-night	0	Brock	3	5	6	0	direct	Measured
+16	Pidgey	Route 1	wild-night	0	Brock	3	5	7	0	direct	Measured
+19	Rattata	Route 1	wild-day	0	Brock	2	4	2	0	direct	Measured
+20	Raticate	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	0	0	via-evolution	Measured
+20	Raticate	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	0	0	via-evolution	Measured
+21	Spearow	Viridian City	wild-day	0	Brock	3	5	3	0	direct	Measured
+21	Spearow	Viridian City	wild-night	0	Brock	3	5	3	0	direct	Measured
+21	Spearow	Route 3	wild-day	1	Archer-1	10	12	2	0	direct	Measured
+21	Spearow	Route 3	wild-night	1	Archer-1	10	12	2	0	direct	Measured
+22	Fearow	Route 23	wild-day	15	Brendan	33	35	1	0	via-evolution	Measured
+22	Fearow	Route 23	wild-night	15	Brendan	33	35	1	0	via-evolution	Measured
+23	Ekans	Pewter City	wild-day	0	Brock	7	9	8	0	direct	Measured
+23	Ekans	Pewter City	wild-night	0	Brock	7	9	8	0	direct	Measured
+23	Ekans	Route 3	wild-day	1	Archer-1	10	12	1	0	direct	Measured
+23	Ekans	Route 3	wild-night	1	Archer-1	10	12	1	0	direct	Measured
+25	Pikachu	Viridian Forest	wild-day	0	Brock	4	6	2	0	direct	Measured
+25	Pikachu	Viridian Forest	wild-night	0	Brock	4	6	2	0	direct	Measured
+27	Sandshrew	Diglett's Cave 1F	wild-day	0	Brock	7	9	4	0	direct	Measured
+27	Sandshrew	Diglett's Cave 1F	wild-night	0	Brock	7	9	4	0	direct	Measured
+28	Sandslash	Rock Tunnel B1F	wild-day	3	Surge	30	32	0	0	via-evolution	Measured
+29	Nidoran-F	Route 3	wild-night	1	Archer-1	10	12	3	1	direct	Measured
+32	Nidoran-M	Route 3	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+32	Nidoran-M	Route 3	wild-day	1	Archer-1	10	12	3	1	direct	Measured
+35	Clefairy	Mt. Moon 1F	wild-day	1	Archer-1	12	14	9	1	direct	Measured
+35	Clefairy	Mt. Moon 1F	wild-night	1	Archer-1	12	14	9	1	direct	Measured
+36	Clefable	Two Island House	fixed-gift	17	Post-Game	NA	NA	NA	1	via-evolution	Measured
+37	Vulpix	Route 5	wild-day	2	Misty	18	20	6	2	direct	Measured
+38	Ninetales	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	6	2	via-evolution	Measured
+38	Ninetales	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	7	2	via-evolution	Measured
+38	Ninetales	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	6	2	via-evolution	Measured
+38	Ninetales	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	7	2	via-evolution	Measured
+38	Ninetales	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	6	2	via-evolution	Measured
+38	Ninetales	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	7	2	via-evolution	Measured
+38	Ninetales	Mt Ember Interior	wild-day	17	Post-Game	84	85	2	2	via-evolution	Measured
+38	Ninetales	Mt Ember Interior	wild-day	17	Post-Game	84	85	3	2	via-evolution	Measured
+38	Ninetales	Mt Ember Interior	wild-night	17	Post-Game	84	85	2	2	via-evolution	Measured
+38	Ninetales	Mt Ember Interior	wild-night	17	Post-Game	84	85	3	2	via-evolution	Measured
+39	Jigglypuff	Route 3	wild-day	1	Archer-1	10	12	10	1	direct	Measured
+39	Jigglypuff	Route 3	wild-night	1	Archer-1	10	12	10	1	direct	Measured
+41	Zubat	Mt. Moon 1F	wild-day	1	Archer-1	12	14	1	1	direct	Measured
+41	Zubat	Mt. Moon B2F	wild-day	1	Archer-1	12	14	1	1	direct	Measured
+41	Zubat	Mt. Moon 1F	wild-night	1	Archer-1	12	14	1	1	direct	Measured
+41	Zubat	Mt. Moon B2F	wild-night	1	Archer-1	12	14	1	1	direct	Measured
+42	Golbat	Seafoam Islands B1F	wild-day	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B1F	wild-day	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B2F	wild-day	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B2F	wild-day	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B3F	wild-day	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B3F	wild-day	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B4F	wild-day	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B4F	wild-day	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B1F	wild-night	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B1F	wild-night	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B2F	wild-night	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B2F	wild-night	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B3F	wild-night	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B3F	wild-night	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B4F	wild-night	10	May	62	64	6	1	via-evolution	Measured
+42	Golbat	Seafoam Islands B4F	wild-night	10	May	62	64	7	1	via-evolution	Measured
+42	Golbat	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	1	1	via-evolution	Measured
+42	Golbat	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	1	1	via-evolution	Measured
+42	Golbat	Route 23	wild-day	15	Brendan	33	35	8	1	via-evolution	Measured
+42	Golbat	Route 23	wild-day	15	Brendan	33	35	9	1	via-evolution	Measured
+42	Golbat	Route 23	wild-night	15	Brendan	33	35	8	1	via-evolution	Measured
+42	Golbat	Route 23	wild-night	15	Brendan	33	35	9	1	via-evolution	Measured
+43	Oddish	Route 22	wild-day	0	Brock	3	5	6	0	direct	Measured
+43	Oddish	Route 4	wild-night	1	Archer-1	13	15	1	0	direct	Measured
+46	Paras	Route 22	wild-night	0	Brock	3	5	8	0	direct	Measured
+46	Paras	Mt. Moon B1F	wild-day	1	Archer-1	12	14	0	0	direct	Measured
+46	Paras	Mt. Moon B1F	wild-night	1	Archer-1	12	14	0	0	direct	Measured
+47	Parasect	Route 18	wild-day	9	Koga	49	51	5	0	via-evolution	Measured
+47	Parasect	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	0	0	via-evolution	Measured
+47	Parasect	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	0	0	via-evolution	Measured
+48	Venonat	Route 25	wild-night	2	Misty	16	18	2	2	direct	Measured
+50	Diglett	Diglett's Cave 1F	wild-day	0	Brock	7	9	0	0	direct	Measured
+50	Diglett	Diglett's Cave B1F	wild-day	2	Misty	23	25	0	0	direct	Measured
+50	Diglett	Diglett's Cave B1F	wild-day	2	Misty	23	25	1	0	direct	Measured
+51	Dugtrio	Diglett's Cave B1F	wild-day	2	Misty	23	25	9	0	via-evolution	Measured
+52	Meowth	Route 1	wild-day	0	Brock	2	4	4	0	direct	Measured
+52	Meowth	Route 5	wild-day	2	Misty	18	20	0	0	direct	Measured
+54	Psyduck	Route 22	wild-oldRod	0	Brock	2	4	0	0	direct	Measured
+54	Psyduck	Route 25	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+54	Psyduck	Celadon City	wild-superRod	9	Koga	53	55	0	0	direct	Measured
+54	Psyduck	Route 25	wild-superRod	9	Koga	53	55	3	0	direct	Measured
+54	Psyduck	Route 25	wild-superRod	9	Koga	53	55	4	0	direct	Measured
+54	Psyduck	Route 6	wild-superRod	9	Koga	53	55	3	0	direct	Measured
+54	Psyduck	Route 22	wild-surf	10	May	56	58	0	0	direct	Measured
+54	Psyduck	Route 22	wild-surf	10	May	56	58	1	0	direct	Measured
+54	Psyduck	Route 25	wild-surf	10	May	56	58	0	0	direct	Measured
+54	Psyduck	Route 25	wild-surf	10	May	56	58	1	0	direct	Measured
+54	Psyduck	Route 25	wild-surf	10	May	56	58	2	0	direct	Measured
+54	Psyduck	Route 25	wild-surf	10	May	56	58	3	0	direct	Measured
+54	Psyduck	Route 25	wild-surf	10	May	56	58	4	0	direct	Measured
+54	Psyduck	Route 6	wild-surf	10	May	56	58	0	0	direct	Measured
+54	Psyduck	Route 6	wild-surf	10	May	56	58	1	0	direct	Measured
+54	Psyduck	Route 6	wild-surf	10	May	56	58	2	0	direct	Measured
+54	Psyduck	Route 6	wild-surf	10	May	56	58	3	0	direct	Measured
+54	Psyduck	Route 6	wild-surf	10	May	56	58	4	0	direct	Measured
+54	Psyduck	Route 23	wild-superRod	15	Brendan	53	55	1	0	direct	Measured
+54	Psyduck	Route 23	wild-surf	15	Brendan	56	58	0	0	direct	Measured
+54	Psyduck	Route 23	wild-surf	15	Brendan	56	58	1	0	direct	Measured
+54	Psyduck	Route 23	wild-surf	15	Brendan	56	58	2	0	direct	Measured
+54	Psyduck	Route 23	wild-surf	15	Brendan	56	58	3	0	direct	Measured
+54	Psyduck	Route 23	wild-surf	15	Brendan	56	58	4	0	direct	Measured
+55	Golduck	Route 6	wild-superRod	9	Koga	53	55	4	0	via-evolution	Measured
+55	Golduck	Seafoam Islands B2F	wild-night	10	May	62	64	4	0	via-evolution	Measured
+55	Golduck	Seafoam Islands B2F	wild-night	10	May	62	64	5	0	via-evolution	Measured
+55	Golduck	Seafoam Islands B4F	wild-night	10	May	62	64	4	0	via-evolution	Measured
+55	Golduck	Seafoam Islands B4F	wild-night	10	May	62	64	5	0	via-evolution	Measured
+55	Golduck	Cerulean City	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+55	Golduck	Cerulean City	wild-surf	10	May	56	58	1	0	via-evolution	Measured
+55	Golduck	Cerulean City	wild-surf	10	May	56	58	2	0	via-evolution	Measured
+55	Golduck	Route 24	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+55	Golduck	Route 24	wild-surf	10	May	56	58	1	0	via-evolution	Measured
+55	Golduck	Route 24	wild-surf	10	May	56	58	2	0	via-evolution	Measured
+55	Golduck	Route 24	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+55	Golduck	Route 24	wild-surf	10	May	56	58	4	0	via-evolution	Measured
+55	Golduck	Safari Zone Area 1	wild-surf	10	May	56	58	1	0	via-evolution	Measured
+55	Golduck	Safari Zone Area 1	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+55	Golduck	Safari Zone Area 1	wild-surf	10	May	56	58	4	0	via-evolution	Measured
+55	Golduck	Safari Zone Area 4	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+55	Golduck	Safari Zone Moltres' Den	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+55	Golduck	Seafoam Islands B4F	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+55	Golduck	Cerulean Cave 1F	wild-surf	12	Archer-3	56	58	1	0	via-evolution	Measured
+56	Mankey	Route 22	wild-day	0	Brock	3	5	2	0	direct	Measured
+56	Mankey	Route 22	wild-night	0	Brock	3	5	2	0	direct	Measured
+57	Primeape	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	2	0	via-evolution	Measured
+57	Primeape	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	3	0	via-evolution	Measured
+57	Primeape	Route 23	wild-day	15	Brendan	33	35	0	0	via-evolution	Measured
+57	Primeape	Route 23	wild-night	15	Brendan	33	35	0	0	via-evolution	Measured
+58	Growlithe	Route 5	wild-day	2	Misty	18	20	3	2	direct	Measured
+59	Arcanine	Route 13	wild-night	9	Koga	48	50	2	2	via-evolution	Measured
+59	Arcanine	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	6	2	via-evolution	Measured
+59	Arcanine	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	7	2	via-evolution	Measured
+59	Arcanine	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	6	2	via-evolution	Measured
+59	Arcanine	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	7	2	via-evolution	Measured
+59	Arcanine	Mt Ember Exterior	wild-day	17	Post-Game	83	85	6	2	via-evolution	Measured
+59	Arcanine	Mt Ember Exterior	wild-day	17	Post-Game	83	85	7	2	via-evolution	Measured
+60	Poliwag	Celadon City	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+60	Poliwag	Safari Zone Area 3	wild-oldRod	9	Koga	2	4	1	3	direct	Measured
+60	Poliwag	Route 25	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+60	Poliwag	Route 23	wild-goodRod	15	Brendan	27	29	0	3	direct	Measured
+60	Poliwag	Route 23	wild-superRod	15	Brendan	53	55	0	3	direct	Measured
+61	Poliwhirl	Route 25	wild-superRod	9	Koga	53	55	1	3	via-evolution	Measured
+61	Poliwhirl	Celadon City	wild-surf	10	May	56	58	0	3	via-evolution	Measured
+61	Poliwhirl	Celadon City	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+61	Poliwhirl	Celadon City	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+61	Poliwhirl	Celadon City	wild-surf	10	May	56	58	3	3	via-evolution	Measured
+61	Poliwhirl	Celadon City	wild-surf	10	May	56	58	4	3	via-evolution	Measured
+61	Poliwhirl	Route 22	wild-surf	10	May	56	58	3	3	via-evolution	Measured
+61	Poliwhirl	Route 22	wild-surf	10	May	56	58	4	3	via-evolution	Measured
+61	Poliwhirl	Cerulean Cave 1F	wild-superRod	12	Archer-3	53	55	1	3	via-evolution	Measured
+61	Poliwhirl	Route 23	wild-superRod	15	Brendan	53	55	2	3	via-evolution	Measured
+62	Poliwrath	Route 18	wild-day	9	Koga	49	51	2	3	via-evolution	Measured
+62	Poliwrath	Cerulean Cave B1F	wild-superRod	13	Giovanni-3	53	55	0	3	via-evolution	Measured
+63	Abra	Route 2	wild-day	0	Brock	3	5	9	0	direct	Measured
+63	Abra	Route 2	wild-night	0	Brock	3	5	9	0	direct	Measured
+63	Abra	Route 24	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+63	Abra	Route 24	wild-day	2	Misty	14	16	9	0	direct	Measured
+63	Abra	Route 24	wild-night	2	Misty	14	16	9	0	direct	Measured
+65	Alakazam	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	6	0	via-evolution	Measured
+65	Alakazam	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	7	0	via-evolution	Measured
+66	Machop	Diglett's Cave 1F	wild-day	0	Brock	7	9	9	0	direct	Measured
+66	Machop	Mt. Moon 1F	wild-night	1	Archer-1	12	14	3	0	direct	Measured
+68	Machamp	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	2	0	via-evolution	Measured
+68	Machamp	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	3	0	via-evolution	Measured
+68	Machamp	Victory Road 2F	wild-day	16	Elite-4	80	82	3	0	via-evolution	Measured
+68	Machamp	Victory Road 2F	wild-night	16	Elite-4	80	82	3	0	via-evolution	Measured
+69	Bellsprout	Route 22	wild-day	0	Brock	3	5	8	0	direct	Measured
+69	Bellsprout	Route 4	wild-day	1	Archer-1	13	15	1	0	direct	Measured
+72	Tentacool	Pallet Town	wild-oldRod	0	Brock	2	4	0	0	direct	Measured
+72	Tentacool	Pallet Town	wild-surf	10	May	56	58	0	0	direct	Measured
+72	Tentacool	Pallet Town	wild-surf	10	May	56	58	1	0	direct	Measured
+72	Tentacool	Route 10	wild-surf	10	May	56	58	0	0	direct	Measured
+72	Tentacool	Route 10	wild-surf	10	May	56	58	1	0	direct	Measured
+72	Tentacool	Route 10	wild-surf	10	May	56	58	2	0	direct	Measured
+72	Tentacool	Route 12	wild-surf	10	May	56	58	0	0	direct	Measured
+72	Tentacool	Route 12	wild-surf	10	May	56	58	1	0	direct	Measured
+72	Tentacool	Route 13	wild-surf	10	May	56	58	0	0	direct	Measured
+72	Tentacool	Route 13	wild-surf	10	May	56	58	1	0	direct	Measured
+72	Tentacool	Vermilion City	wild-surf	10	May	56	58	0	0	direct	Measured
+73	Tentacruel	Cinnabar Island	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+73	Tentacruel	Pallet Town	wild-surf	10	May	56	58	2	0	via-evolution	Measured
+73	Tentacruel	Pallet Town	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+73	Tentacruel	Pallet Town	wild-surf	10	May	56	58	4	0	via-evolution	Measured
+73	Tentacruel	Route 12	wild-surf	10	May	56	58	2	0	via-evolution	Measured
+73	Tentacruel	Route 20	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+73	Tentacruel	Route 21 North	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+73	Tentacruel	Route 21 South	wild-surf	10	May	56	58	0	0	via-evolution	Measured
+73	Tentacruel	Berry Forest	wild-surf	17	Post-Game	56	58	4	0	via-evolution	Measured
+74	Geodude	Diglett's Cave 1F	wild-day	0	Brock	7	9	5	0	direct	Measured
+74	Geodude	Mt. Moon 1F	wild-day	1	Archer-1	12	14	0	0	direct	Measured
+75	Graveler	Rock Tunnel 1F	wild-day	3	Surge	29	31	0	0	via-evolution	Measured
+76	Golem	Rock Tunnel Magearna's Chamber	wild-smash	17	Post-Game	85	85	0	0	via-evolution	Measured
+77	Ponyta	Route 2	wild-day	0	Brock	3	5	2	0	direct	Measured
+78	Rapidash	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	4	0	via-evolution	Measured
+79	Slowpoke	Celadon City	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+79	Slowpoke	Route 19	wild-goodRod	9	Koga	27	29	1	3	direct	Measured
+79	Slowpoke	Route 19	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+79	Slowpoke	Route 22	wild-surf	10	May	56	58	2	3	direct	Measured
+80	Slowbro	Seafoam Islands B1F	wild-day	10	May	62	64	4	3	via-evolution	Measured
+80	Slowbro	Seafoam Islands B1F	wild-day	10	May	62	64	5	3	via-evolution	Measured
+80	Slowbro	Seafoam Islands B4F	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+80	Slowbro	Cerulean Cave B1F	wild-surf	13	Giovanni-3	56	58	1	3	via-evolution	Measured
+80	Slowbro	Cape Brink	wild-night	17	Post-Game	83	85	5	3	via-evolution	Measured
+80	Slowbro	Cape Brink	wild-night	17	Post-Game	84	85	4	3	via-evolution	Measured
+80	Slowbro	Cape Brink	wild-surf	17	Post-Game	83	85	1	3	via-evolution	Measured
+81	Magnemite	Mt. Moon 1F	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+81	Magnemite	Route 10	wild-day	3	Surge	27	29	8	1	direct	Measured
+81	Magnemite	Route 10	wild-day	3	Surge	27	29	9	1	direct	Measured
+81	Magnemite	Route 10	wild-night	3	Surge	27	29	8	1	direct	Measured
+81	Magnemite	Route 10	wild-night	3	Surge	27	29	9	1	direct	Measured
+82	Magneton	Power Plant	wild-day	10	May	63	65	0	1	via-evolution	Measured
+82	Magneton	Power Plant	wild-night	10	May	63	65	0	1	via-evolution	Measured
+82	Magneton	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	4	1	via-evolution	Measured
+82	Magneton	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	5	1	via-evolution	Measured
+82	Magneton	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	4	1	via-evolution	Measured
+82	Magneton	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	5	1	via-evolution	Measured
+83	Farfetch’d	Route 24	wild-day	2	Misty	14	16	7	2	direct	Measured
+84	Doduo	Route 25	wild-day	2	Misty	16	18	5	2	direct	Measured
+84	Doduo	Route 25	wild-night	2	Misty	16	18	5	2	direct	Measured
+86	Seel	Route 12	wild-oldRod	3	Surge	2	4	1	3	direct	Measured
+87	Dewgong	Route 12	wild-day	9	Koga	50	52	1	3	via-evolution	Measured
+87	Dewgong	Route 12	wild-night	9	Koga	50	52	1	3	via-evolution	Measured
+87	Dewgong	Route 12	wild-superRod	9	Koga	53	55	2	3	via-evolution	Measured
+87	Dewgong	Seafoam Islands B4F	wild-day	10	May	62	64	4	3	via-evolution	Measured
+87	Dewgong	Seafoam Islands B4F	wild-day	10	May	62	64	5	3	via-evolution	Measured
+87	Dewgong	Seafoam Islands B3F	wild-surf	10	May	56	58	0	3	via-evolution	Measured
+88	Grimer	Pewter City	wild-day	0	Brock	7	9	0	0	direct	Measured
+88	Grimer	Route 5	wild-day	2	Misty	18	20	8	0	direct	Measured
+88	Grimer	Route 5	wild-day	2	Misty	18	20	9	0	direct	Measured
+89	Muk	Route 17	wild-day	9	Koga	46	48	2	0	via-evolution	Measured
+89	Muk	Celadon City	wild-superRod	9	Koga	53	55	3	0	via-evolution	Measured
+89	Muk	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	2	0	via-evolution	Measured
+89	Muk	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	3	0	via-evolution	Measured
+90	Shellder	Route 21 North	wild-oldRod	0	Brock	2	4	1	0	direct	Measured
+90	Shellder	Route 6	wild-oldRod	2	Misty	2	4	1	0	direct	Measured
+90	Shellder	Route 12	wild-goodRod	3	Surge	27	29	0	0	direct	Measured
+90	Shellder	Route 19	wild-goodRod	9	Koga	27	29	0	0	direct	Measured
+90	Shellder	Seafoam Islands B4F	wild-goodRod	10	May	27	29	1	0	direct	Measured
+90	Shellder	Route 21 South	wild-oldRod	10	May	2	4	1	0	direct	Measured
+92	Gastly	Pewter City	wild-night	0	Brock	7	9	6	0	direct	Measured
+93	Haunter	Pokemon Tower 3F	wild-day	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 4F	wild-day	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 5F	wild-day	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 6F	wild-day	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 3F	wild-night	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 4F	wild-night	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 5F	wild-night	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 6F	wild-night	3	Surge	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	0	0	via-evolution	Measured
+93	Haunter	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	0	0	via-evolution	Measured
+95	Onix	Mt. Moon B2F	wild-day	1	Archer-1	12	14	10	1	direct	Measured
+95	Onix	Mt. Moon B2F	wild-day	1	Archer-1	12	14	11	1	direct	Measured
+95	Onix	Mt. Moon B2F	wild-night	1	Archer-1	12	14	10	1	direct	Measured
+95	Onix	Mt. Moon B2F	wild-night	1	Archer-1	12	14	11	1	direct	Measured
+95	Onix	Rock Tunnel 1F	wild-night	3	Surge	29	31	4	1	direct	Measured
+96	Drowzee	Route 11	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+96	Drowzee	Route 11	wild-day	2	Misty	23	25	2	2	direct	Measured
+96	Drowzee	Route 11	wild-night	2	Misty	23	25	2	2	direct	Measured
+98	Krabby	Route 11	wild-oldRod	2	Misty	2	4	0	2	direct	Measured
+98	Krabby	Route 21 North	wild-goodRod	3	Surge	27	29	0	2	direct	Measured
+98	Krabby	S.S. Anne Port	wild-goodRod	3	Surge	27	29	2	2	direct	Measured
+98	Krabby	Safari Zone Area 3	wild-goodRod	9	Koga	27	29	1	2	direct	Measured
+98	Krabby	Safari Zone Area 1	wild-oldRod	9	Koga	2	4	1	2	direct	Measured
+98	Krabby	Cinnabar Island	wild-goodRod	10	May	27	29	0	2	direct	Measured
+98	Krabby	Route 21 South	wild-goodRod	10	May	27	29	0	2	direct	Measured
+98	Krabby	Seafoam Islands B3F	wild-goodRod	10	May	27	29	2	2	direct	Measured
+98	Krabby	Cerulean Cave 1F	wild-goodRod	12	Archer-3	27	29	2	2	direct	Measured
+98	Krabby	Cerulean Cave B1F	wild-goodRod	13	Giovanni-3	27	29	1	2	direct	Measured
+99	Kingler	Route 21 North	wild-superRod	9	Koga	53	55	2	2	via-evolution	Measured
+99	Kingler	Safari Zone Area 3	wild-superRod	9	Koga	53	55	0	2	via-evolution	Measured
+99	Kingler	Seafoam Islands B3F	wild-night	10	May	62	64	4	2	via-evolution	Measured
+99	Kingler	Seafoam Islands B3F	wild-night	10	May	62	64	5	2	via-evolution	Measured
+99	Kingler	Cerulean Cave 1F	wild-surf	12	Archer-3	56	58	3	2	via-evolution	Measured
+99	Kingler	Cerulean Cave 1F	wild-surf	12	Archer-3	56	58	4	2	via-evolution	Measured
+99	Kingler	Treasure Beach	wild-day	17	Post-Game	83	85	8	2	via-evolution	Measured
+99	Kingler	Treasure Beach	wild-day	17	Post-Game	83	85	9	2	via-evolution	Measured
+99	Kingler	Cape Brink	wild-superRod	17	Post-Game	83	85	3	2	via-evolution	Measured
+99	Kingler	Cape Brink	wild-superRod	17	Post-Game	83	85	4	2	via-evolution	Measured
+100	Voltorb	Route 10	wild-day	3	Surge	27	29	0	3	direct	Measured
+101	Electrode	Power Plant	wild-day	10	May	63	65	1	3	via-evolution	Measured
+101	Electrode	Power Plant	wild-night	10	May	63	65	1	3	via-evolution	Measured
+102	Exeggcute	Pewter City	wild-day	0	Brock	7	9	2	0	direct	Measured
+102	Exeggcute	Pewter City	wild-night	0	Brock	7	9	2	0	direct	Measured
+102	Exeggcute	Route 9	wild-day	3	Surge	25	27	1	0	direct	Measured
+102	Exeggcute	Route 9	wild-night	3	Surge	25	27	1	0	direct	Measured
+103	Exeggutor	Route 13	wild-day	9	Koga	48	50	1	0	via-evolution	Measured
+104	Cubone	Pokemon Tower 3F	wild-day	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 4F	wild-day	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 5F	wild-day	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 6F	wild-day	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 3F	wild-night	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 4F	wild-night	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 5F	wild-night	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 6F	wild-night	3	Surge	45	47	5	3	direct	Measured
+104	Cubone	Rock Tunnel B1F	wild-night	3	Surge	30	32	3	3	direct	Measured
+104	Cubone	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	5	3	direct	Measured
+104	Cubone	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	5	3	direct	Measured
+105	Marowak	Victory Road 1F	wild-day	16	Elite-4	80	82	8	3	via-evolution	Measured
+108	Lickitung	Route 6	wild-day	2	Misty	16	18	6	2	direct	Measured
+108	Lickitung	Route 6	wild-day	2	Misty	16	18	7	2	direct	Measured
+109	Koffing	Route 2	raid1	0	Brock	NA	NA	NA	0	direct	Measured
+110	Weezing	Route 17	wild-day	9	Koga	46	48	0	0	via-evolution	Measured
+110	Weezing	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	4	0	via-evolution	Measured
+110	Weezing	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	2	0	via-evolution	Measured
+111	Rhyhorn	Route 5	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+111	Rhyhorn	Route 16	wild-day	3	Surge	36	38	2	2	direct	Measured
+111	Rhyhorn	Rock Tunnel B1F	wild-night	3	Surge	30	32	1	2	direct	Measured
+111	Rhyhorn	Route 16	wild-night	3	Surge	36	38	2	2	direct	Measured
+113	Chansey	Safari Zone Area 1	wild-day	9	Koga	50	52	10	9	direct	Measured
+113	Chansey	Safari Zone Area 1	wild-day	9	Koga	50	52	11	9	direct	Measured
+113	Chansey	Safari Zone Area 1	wild-night	9	Koga	50	52	10	9	direct	Measured
+113	Chansey	Safari Zone Area 1	wild-night	9	Koga	50	52	11	9	direct	Measured
+114	Tangela	Route 9	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+115	Kangaskhan	Safari Zone Area 2	wild-day	9	Koga	50	52	10	9	direct	Measured
+115	Kangaskhan	Safari Zone Area 2	wild-day	9	Koga	50	52	11	9	direct	Measured
+115	Kangaskhan	Safari Zone Area 2	wild-night	9	Koga	50	52	10	9	direct	Measured
+115	Kangaskhan	Safari Zone Area 2	wild-night	9	Koga	50	52	11	9	direct	Measured
+116	Horsea	Route 11	wild-oldRod	2	Misty	2	4	1	2	direct	Measured
+116	Horsea	Route 19	wild-oldRod	9	Koga	2	4	1	2	direct	Measured
+116	Horsea	Safari Zone Area 4	wild-oldRod	9	Koga	2	4	1	2	direct	Measured
+116	Horsea	Safari Zone Moltres' Den	wild-oldRod	10	May	2	4	1	2	direct	Measured
+117	Seadra	Safari Zone Area 2	wild-goodRod	9	Koga	27	29	1	2	via-evolution	Measured
+117	Seadra	Safari Zone Area 4	wild-goodRod	9	Koga	27	29	1	2	via-evolution	Measured
+117	Seadra	Route 10	wild-superRod	9	Koga	53	55	3	2	via-evolution	Measured
+117	Seadra	Route 10	wild-superRod	9	Koga	53	55	4	2	via-evolution	Measured
+117	Seadra	Route 11	wild-superRod	9	Koga	53	55	3	2	via-evolution	Measured
+117	Seadra	Route 19	wild-superRod	9	Koga	53	55	0	2	via-evolution	Measured
+117	Seadra	Vermilion City	wild-superRod	9	Koga	53	55	3	2	via-evolution	Measured
+117	Seadra	Safari Zone Moltres' Den	wild-goodRod	10	May	27	29	1	2	via-evolution	Measured
+117	Seadra	Route 20	wild-superRod	10	May	53	55	0	2	via-evolution	Measured
+117	Seadra	Seafoam Islands B3F	wild-superRod	10	May	53	55	0	2	via-evolution	Measured
+117	Seadra	Seafoam Islands B3F	wild-superRod	10	May	53	55	1	2	via-evolution	Measured
+117	Seadra	Seafoam Islands B4F	wild-superRod	10	May	53	55	0	2	via-evolution	Measured
+117	Seadra	Seafoam Islands B4F	wild-superRod	10	May	53	55	1	2	via-evolution	Measured
+118	Goldeen	Route 25	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+118	Goldeen	Seafoam Islands B3F	wild-oldRod	10	May	2	4	1	3	direct	Measured
+118	Goldeen	Route 23	wild-goodRod	15	Brendan	27	29	1	3	direct	Measured
+119	Seaking	Safari Zone Area 4	wild-superRod	9	Koga	53	55	1	3	via-evolution	Measured
+119	Seaking	Safari Zone Moltres' Den	wild-superRod	10	May	53	55	1	3	via-evolution	Measured
+120	Staryu	S.S. Anne Port	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+120	Staryu	Vermilion City	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+120	Staryu	Cerulean Cave 1F	wild-oldRod	12	Archer-3	2	4	1	3	direct	Measured
+120	Staryu	Berry Forest	wild-oldRod	17	Post-Game	83	85	0	3	direct	Measured
+121	Starmie	Safari Zone Area 2	wild-superRod	9	Koga	53	55	2	3	via-evolution	Measured
+123	Scyther	Route 16	wild-night	3	Surge	36	38	0	3	direct	Measured
+123	Scyther	Safari Zone Area 1	wild-day	9	Koga	50	52	8	3	direct	Measured
+123	Scyther	Safari Zone Area 1	wild-day	9	Koga	50	52	9	3	direct	Measured
+123	Scyther	Cape Brink	wild-day	17	Post-Game	83	85	10	3	direct	Measured
+123	Scyther	Cape Brink	wild-day	17	Post-Game	83	85	11	3	direct	Measured
+123	Scyther	Cape Brink	wild-night	17	Post-Game	83	85	10	3	direct	Measured
+123	Scyther	Cape Brink	wild-night	17	Post-Game	83	85	11	3	direct	Measured
+124	Jynx	Route 18	wild-night	9	Koga	49	51	5	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B1F	wild-day	10	May	62	64	10	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B1F	wild-day	10	May	62	64	11	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B4F	wild-day	10	May	62	64	10	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B4F	wild-day	10	May	62	64	11	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B1F	wild-night	10	May	62	64	10	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B1F	wild-night	10	May	62	64	11	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B4F	wild-night	10	May	62	64	10	1	via-evolution	Measured
+124	Jynx	Seafoam Islands B4F	wild-night	10	May	62	64	11	1	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-day	10	May	63	65	8	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-day	10	May	63	65	9	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-day	10	May	63	65	10	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-day	10	May	63	65	11	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-night	10	May	63	65	8	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-night	10	May	63	65	9	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-night	10	May	63	65	10	2	via-evolution	Measured
+125	Electabuzz	Power Plant	wild-night	10	May	63	65	11	2	via-evolution	Measured
+126	Magmar	Route 13	wild-night	9	Koga	48	50	3	2	via-evolution	Measured
+126	Magmar	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	4	2	via-evolution	Measured
+126	Magmar	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	4	2	via-evolution	Measured
+127	Pinsir	Route 2	raid1	0	Brock	NA	NA	NA	0	direct	Measured
+127	Pinsir	Safari Zone Area 2	wild-day	9	Koga	50	52	8	0	direct	Measured
+127	Pinsir	Safari Zone Area 2	wild-day	9	Koga	50	52	9	0	direct	Measured
+127	Pinsir	Safari Zone Area 2	wild-night	9	Koga	50	52	8	0	direct	Measured
+127	Pinsir	Safari Zone Area 2	wild-night	9	Koga	50	52	9	0	direct	Measured
+127	Pinsir	Kindle Road	fixed-gift	17	Post-Game	NA	NA	NA	0	direct	Measured
+127	Pinsir	Berry Forest	wild-day	17	Post-Game	83	85	5	0	direct	Measured
+127	Pinsir	Berry Forest	wild-day	17	Post-Game	84	85	4	0	direct	Measured
+127	Pinsir	Berry Forest	wild-night	17	Post-Game	83	85	5	0	direct	Measured
+127	Pinsir	Berry Forest	wild-night	17	Post-Game	84	85	4	0	direct	Measured
+128	Tauros	Route 12	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+128	Tauros	Safari Zone Area 2	wild-day	9	Koga	50	52	2	3	direct	Measured
+129	Magikarp	Route 21 North	wild-oldRod	0	Brock	2	4	0	0	direct	Measured
+129	Magikarp	Route 4 Poke Center	fixed-gift	1	Archer-1	NA	NA	NA	0	direct	Measured
+129	Magikarp	Route 25	wild-oldRod	2	Misty	2	4	0	0	direct	Measured
+129	Magikarp	Celadon City	wild-oldRod	3	Surge	2	4	0	0	direct	Measured
+129	Magikarp	Safari Zone Area 1	wild-oldRod	9	Koga	2	4	0	0	direct	Measured
+129	Magikarp	Safari Zone Area 2	wild-oldRod	9	Koga	2	4	0	0	direct	Measured
+129	Magikarp	Safari Zone Area 3	wild-oldRod	9	Koga	2	4	0	0	direct	Measured
+129	Magikarp	Safari Zone Area 4	wild-oldRod	9	Koga	2	4	0	0	direct	Measured
+129	Magikarp	Cinnabar Island	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Route 20	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Route 21 South	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Safari Zone Moltres' Den	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Seafoam Islands B3F	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Seafoam Islands B4F	wild-oldRod	10	May	2	4	0	0	direct	Measured
+129	Magikarp	Cerulean Cave 1F	wild-oldRod	12	Archer-3	2	4	0	0	direct	Measured
+129	Magikarp	Route 23	wild-goodRod	15	Brendan	27	29	2	0	direct	Measured
+129	Magikarp	Route 23	wild-oldRod	15	Brendan	2	4	0	0	direct	Measured
+129	Magikarp	Route 23	wild-oldRod	15	Brendan	2	4	1	0	direct	Measured
+130	Gyarados	Route 11	wild-superRod	9	Koga	53	55	4	0	via-evolution	Measured
+130	Gyarados	Route 25	wild-superRod	9	Koga	53	55	2	0	via-evolution	Measured
+130	Gyarados	Route 6	wild-superRod	9	Koga	53	55	2	0	via-evolution	Measured
+130	Gyarados	Vermilion City	wild-superRod	9	Koga	53	55	4	0	via-evolution	Measured
+130	Gyarados	Seafoam Islands B3F	wild-superRod	10	May	53	55	2	0	via-evolution	Measured
+130	Gyarados	Seafoam Islands B4F	wild-superRod	10	May	53	55	2	0	via-evolution	Measured
+130	Gyarados	Cerulean Cave B1F	wild-superRod	13	Giovanni-3	53	55	3	0	via-evolution	Measured
+130	Gyarados	Cerulean Cave B1F	wild-superRod	13	Giovanni-3	53	55	4	0	via-evolution	Measured
+130	Gyarados	Route 23	wild-superRod	15	Brendan	53	55	3	0	via-evolution	Measured
+130	Gyarados	Route 23	wild-superRod	15	Brendan	53	55	4	0	via-evolution	Measured
+131	Lapras	Silph Co. 7F	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+131	Lapras	Safari Zone Moltres' Den	wild-surf	10	May	56	58	0	6	direct	Measured
+132	Ditto	Route 15	wild-day	9	Koga	49	51	10	9	direct	Measured
+132	Ditto	Route 15	wild-day	9	Koga	49	51	11	9	direct	Measured
+132	Ditto	Route 15	wild-night	9	Koga	49	51	10	9	direct	Measured
+132	Ditto	Route 15	wild-night	9	Koga	49	51	11	9	direct	Measured
+133	Eevee	Route 5 Daycare	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+133	Eevee	Celadon City Mansion Roof House	fixed-gift	3	Surge	NA	NA	NA	2	direct	Measured
+133	Eevee	Route 10	raid1	3	Surge	NA	NA	NA	2	direct	Measured
+133	Eevee	Safari Zone Moltres' Den	wild-day	10	May	50	52	8	2	direct	Measured
+133	Eevee	Safari Zone Moltres' Den	wild-day	10	May	50	52	9	2	direct	Measured
+133	Eevee	Safari Zone Moltres' Den	wild-night	10	May	50	52	8	2	direct	Measured
+133	Eevee	Safari Zone Moltres' Den	wild-night	10	May	50	52	9	2	direct	Measured
+137	Porygon	Route 16	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+137	Porygon	Route 7	wild-day	3	Surge	36	38	10	3	direct	Measured
+137	Porygon	Route 7	wild-day	3	Surge	36	38	11	3	direct	Measured
+137	Porygon	Route 7	wild-night	3	Surge	36	38	10	3	direct	Measured
+137	Porygon	Route 7	wild-night	3	Surge	36	38	11	3	direct	Measured
+137	Porygon	Safari Zone Area 1	wild-day	9	Koga	50	52	6	3	direct	Measured
+137	Porygon	Safari Zone Area 1	wild-day	9	Koga	50	52	7	3	direct	Measured
+137	Porygon	Safari Zone Area 1	wild-night	9	Koga	50	52	6	3	direct	Measured
+137	Porygon	Safari Zone Area 1	wild-night	9	Koga	50	52	7	3	direct	Measured
+138	Omanyte	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+139	Omastar	Route 18	wild-night	9	Koga	49	51	8	2	via-evolution	Measured
+139	Omastar	Route 18	wild-night	9	Koga	49	51	9	2	via-evolution	Measured
+140	Kabuto	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+141	Kabutops	Route 18	wild-day	9	Koga	49	51	8	2	via-evolution	Measured
+141	Kabutops	Route 18	wild-day	9	Koga	49	51	9	2	via-evolution	Measured
+142	Aerodactyl	Vermilion City Pokemon Fan Club	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+142	Aerodactyl	Victory Road 3F	wild-day	16	Elite-4	80	82	7	3	direct	Measured
+142	Aerodactyl	Victory Road 3F	wild-day	16	Elite-4	80	82	8	3	direct	Measured
+142	Aerodactyl	Victory Road 3F	wild-night	16	Elite-4	80	82	7	3	direct	Measured
+142	Aerodactyl	Victory Road 3F	wild-night	16	Elite-4	80	82	8	3	direct	Measured
+142	Aerodactyl	Mt Ember Summit	fixed-gift	17	Post-Game	NA	NA	NA	3	direct	Measured
+143	Snorlax	Route 12	fixed-overworld	6	Archer-2	NA	NA	NA	6	direct	Measured
+143	Snorlax	Route 16	fixed-overworld	6	Archer-2	NA	NA	NA	6	direct	Measured
+144	Articuno	Seafoam Islands B5F	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+145	Zapdos	Power Plant	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+146	Moltres	Safari Zone Moltres' Den	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+147	Dratini	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+149	Dragonite	Victory Road 3F	wild-day	16	Elite-4	80	82	0	6	via-evolution	Measured
+149	Dragonite	Victory Road 3F	wild-day	16	Elite-4	80	82	11	6	via-evolution	Measured
+149	Dragonite	Victory Road 3F	wild-night	16	Elite-4	80	82	0	6	via-evolution	Measured
+149	Dragonite	Victory Road 3F	wild-night	16	Elite-4	80	82	11	6	via-evolution	Measured
+150	Mewtwo	Cerulean Cave B1F	fixed-overworld	17	Post-Game	NA	NA	NA	17	direct	Measured
+151	Mew	Berry Forest	fixed-gift	17	Post-Game	NA	NA	NA	17	direct	Measured
+152	Chikorita	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+152	Chikorita	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+154	Meganium	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	2	0	via-evolution	Measured
+154	Meganium	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	3	0	via-evolution	Measured
+155	Cyndaquil	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+155	Cyndaquil	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+157	Typhlosion	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	63	65	4	0	via-evolution	Measured
+157	Typhlosion	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	63	65	5	0	via-evolution	Measured
+157	Typhlosion	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	4	0	via-evolution	Measured
+157	Typhlosion	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	5	0	via-evolution	Measured
+158	Totodile	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+158	Totodile	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+161	Sentret	Route 2	wild-day	0	Brock	3	5	1	0	direct	Measured
+161	Sentret	Route 2	wild-night	0	Brock	3	5	1	0	direct	Measured
+163	Hoothoot	Route 1	wild-night	0	Brock	2	4	5	0	direct	Measured
+164	Noctowl	Pokemon Mansion 1F	raid4	11	Blaine	NA	NA	NA	0	via-evolution	Measured
+165	Ledyba	Viridian Forest	wild-day	0	Brock	4	6	6	0	direct	Measured
+165	Ledyba	Viridian Forest	wild-night	0	Brock	4	6	6	0	direct	Measured
+167	Spinarak	Viridian Forest	wild-night	0	Brock	4	6	0	0	direct	Measured
+168	Ariados	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	2	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	3	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	2	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	3	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	2	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	3	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	2	0	via-evolution	Measured
+168	Ariados	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	3	0	via-evolution	Measured
+170	Chinchou	Route 25	wild-oldRod	2	Misty	2	4	1	2	direct	Measured
+170	Chinchou	Route 6	wild-oldRod	2	Misty	2	4	0	2	direct	Measured
+170	Chinchou	Route 20	wild-oldRod	10	May	2	4	1	2	direct	Measured
+171	Lanturn	Route 6	wild-superRod	9	Koga	53	55	1	2	via-evolution	Measured
+171	Lanturn	Route 20	wild-surf	10	May	56	58	3	2	via-evolution	Measured
+171	Lanturn	Route 20	wild-surf	10	May	56	58	4	2	via-evolution	Measured
+171	Lanturn	Safari Zone Area 2	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+171	Lanturn	Viridian City	wild-surf	10	May	56	58	0	2	via-evolution	Measured
+171	Lanturn	Viridian City	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+171	Lanturn	Viridian City	wild-surf	10	May	56	58	2	2	via-evolution	Measured
+171	Lanturn	Viridian City	wild-surf	10	May	56	58	3	2	via-evolution	Measured
+171	Lanturn	Viridian City	wild-surf	10	May	56	58	4	2	via-evolution	Measured
+175	Togepi	Route 6	wild-day	2	Misty	16	18	10	2	direct	Measured
+175	Togepi	Route 6	wild-day	2	Misty	16	18	11	2	direct	Measured
+175	Togepi	Route 6	wild-night	2	Misty	16	18	10	2	direct	Measured
+175	Togepi	Route 6	wild-night	2	Misty	16	18	11	2	direct	Measured
+177	Natu	Viridian Forest Heart	wild-day	0	Brock	4	6	2	0	direct	Measured
+178	Xatu	Route 18	wild-day	9	Koga	49	51	0	0	via-evolution	Measured
+178	Xatu	Route 18	wild-night	9	Koga	49	51	0	0	via-evolution	Measured
+179	Mareep	Route 2	wild-day	0	Brock	3	5	6	0	direct	Measured
+179	Mareep	Route 2	wild-night	0	Brock	3	5	6	0	direct	Measured
+179	Mareep	Viridian City	wild-night	0	Brock	3	5	1	0	direct	Measured
+179	Mareep	Route 4	wild-night	1	Archer-1	13	15	2	0	direct	Measured
+181	Ampharos	Power Plant	wild-day	10	May	63	65	4	0	via-evolution	Measured
+181	Ampharos	Power Plant	wild-day	10	May	63	65	5	0	via-evolution	Measured
+181	Ampharos	Power Plant	wild-night	10	May	63	65	4	0	via-evolution	Measured
+181	Ampharos	Power Plant	wild-night	10	May	63	65	5	0	via-evolution	Measured
+183	Marill	Viridian City	wild-oldRod	0	Brock	3	4	0	0	direct	Measured
+183	Marill	Route 24	wild-day	2	Misty	14	16	6	0	direct	Measured
+186	Politoed	Route 18	wild-night	9	Koga	49	51	2	3	via-evolution	Measured
+187	Hoppip	Pewter City	wild-day	0	Brock	7	9	4	0	direct	Measured
+189	Jumpluff	Route 13	wild-day	9	Koga	48	50	5	0	via-evolution	Measured
+190	Aipom	Route 25	wild-day	2	Misty	16	18	6	2	direct	Measured
+190	Aipom	Route 25	wild-night	2	Misty	16	18	6	2	direct	Measured
+191	Sunkern	Route 6	wild-day	2	Misty	16	18	0	2	direct	Measured
+193	Yanma	Route 4	wild-day	1	Archer-1	13	15	10	1	direct	Measured
+193	Yanma	Route 4	wild-night	1	Archer-1	13	15	10	1	direct	Measured
+193	Yanma	Route 8	raid1	3	Surge	NA	NA	NA	1	direct	Measured
+193	Yanma	Route 16	wild-day	3	Surge	36	38	1	1	direct	Measured
+194	Wooper	Route 21 North	wild-day	0	Brock	4	6	0	0	direct	Measured
+194	Wooper	Route 10	wild-oldRod	3	Surge	2	4	0	0	direct	Measured
+198	Murkrow	Route 24	wild-night	2	Misty	14	16	7	2	direct	Measured
+199	Slowking	Seafoam Islands B2F	wild-day	10	May	62	64	4	3	via-evolution	Measured
+199	Slowking	Seafoam Islands B2F	wild-day	10	May	62	64	5	3	via-evolution	Measured
+199	Slowking	Bond Bridge	wild-surf	17	Post-Game	83	85	1	3	via-evolution	Measured
+200	Misdreavus	Mt. Moon B1F	wild-night	1	Archer-1	12	14	8	1	direct	Measured
+200	Misdreavus	Mt. Moon B1F	wild-night	1	Archer-1	12	14	9	1	direct	Measured
+200	Misdreavus	Diglett's Cave B1F	raid1	2	Misty	NA	NA	NA	1	direct	Measured
+200	Misdreavus	Route 11	raid1	2	Misty	NA	NA	NA	1	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	0	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	1	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	10	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	11	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	0	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	1	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	10	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	11	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	0	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	1	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	10	15	direct	Measured
+201	Unown	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	11	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	0	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	1	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	10	15	direct	Measured
+201	Unown	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	11	15	direct	Measured
+202	Wobbuffet	Safari Zone Area 2	wild-day	9	Koga	50	52	4	9	direct	Measured
+202	Wobbuffet	Safari Zone Area 2	wild-day	9	Koga	50	52	5	9	direct	Measured
+202	Wobbuffet	Safari Zone Area 2	wild-night	9	Koga	50	52	4	9	direct	Measured
+202	Wobbuffet	Safari Zone Area 2	wild-night	9	Koga	50	52	5	9	direct	Measured
+203	Girafarig	Route 8	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+203	Girafarig	Route 8	wild-day	3	Surge	33	35	8	3	direct	Measured
+203	Girafarig	Route 8	wild-day	3	Surge	33	35	9	3	direct	Measured
+204	Pineco	Route 25	wild-day	2	Misty	16	18	2	2	direct	Measured
+205	Forretress	Route 16	wild-night	3	Surge	36	38	1	2	via-evolution	Measured
+206	Dunsparce	Mt. Moon 1F	wild-night	1	Archer-1	12	14	6	1	direct	Measured
+206	Dunsparce	Mt. Moon 1F	wild-night	1	Archer-1	12	14	7	1	direct	Measured
+206	Dunsparce	Three Isle Port	wild-day	17	Post-Game	85	85	0	1	direct	Measured
+206	Dunsparce	Three Isle Port	wild-night	17	Post-Game	85	85	0	1	direct	Measured
+207	Gligar	Diglett's Cave B1F	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+207	Gligar	Diglett's Cave B1F	wild-day	2	Misty	23	25	7	2	direct	Measured
+207	Gligar	Diglett's Cave B1F	wild-night	2	Misty	23	25	7	2	direct	Measured
+208	Steelix	Victory Road 1F	wild-day	16	Elite-4	80	82	3	1	via-evolution	Measured
+208	Steelix	Victory Road 1F	wild-night	16	Elite-4	80	82	3	1	via-evolution	Measured
+209	Snubbull	Route 21 North	wild-day	0	Brock	4	6	5	0	direct	Measured
+209	Snubbull	Route 22	wild-day	0	Brock	3	5	4	0	direct	Measured
+209	Snubbull	Route 21 North	wild-night	0	Brock	4	6	5	0	direct	Measured
+209	Snubbull	Route 24	wild-day	2	Misty	14	16	0	0	direct	Measured
+209	Snubbull	Route 24	wild-night	2	Misty	14	16	0	0	direct	Measured
+210	Granbull	Viridian Forest Heart	raid3	0	Brock	NA	NA	NA	0	direct	Measured
+211	Qwilfish	Pallet Town	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+211	Qwilfish	Route 21 North	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+211	Qwilfish	Safari Zone Area 1	wild-goodRod	9	Koga	27	29	0	3	direct	Measured
+211	Qwilfish	Safari Zone Area 4	wild-goodRod	9	Koga	27	29	0	3	direct	Measured
+211	Qwilfish	Cinnabar Island	wild-goodRod	10	May	27	29	1	3	direct	Measured
+211	Qwilfish	Route 21 South	wild-goodRod	10	May	27	29	1	3	direct	Measured
+211	Qwilfish	Safari Zone Moltres' Den	wild-goodRod	10	May	27	29	0	3	direct	Measured
+211	Qwilfish	Kindle Road	wild-goodRod	17	Post-Game	83	85	1	3	direct	Measured
+211	Qwilfish	Kindle Road	wild-goodRod	17	Post-Game	83	85	2	3	direct	Measured
+212	Scizor	Victory Road 3F	wild-day	16	Elite-4	80	82	6	3	via-evolution	Measured
+212	Scizor	Victory Road 3F	wild-night	16	Elite-4	80	82	6	3	via-evolution	Measured
+213	Shuckle	Rock Tunnel 1F	wild-day	3	Surge	29	31	2	3	direct	Measured
+214	Heracross	Route 10	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+214	Heracross	Route 16	wild-day	3	Surge	36	38	0	3	direct	Measured
+214	Heracross	Safari Zone Area 1	wild-night	9	Koga	50	52	8	3	direct	Measured
+214	Heracross	Safari Zone Area 1	wild-night	9	Koga	50	52	9	3	direct	Measured
+215	Sneasel	Rock Tunnel B1F	wild-night	3	Surge	30	32	8	3	direct	Measured
+215	Sneasel	Rock Tunnel B1F	wild-night	3	Surge	30	32	9	3	direct	Measured
+215	Sneasel	Route 12	wild-day	9	Koga	50	52	0	3	direct	Measured
+215	Sneasel	Route 12	wild-night	9	Koga	50	52	0	3	direct	Measured
+215	Sneasel	Seafoam Islands B3F	wild-day	10	May	62	64	8	3	direct	Measured
+215	Sneasel	Seafoam Islands B3F	wild-day	10	May	62	64	9	3	direct	Measured
+215	Sneasel	Seafoam Islands B3F	wild-night	10	May	62	64	8	3	direct	Measured
+215	Sneasel	Seafoam Islands B3F	wild-night	10	May	62	64	9	3	direct	Measured
+216	Teddiursa	Mt. Moon B1F	wild-day	1	Archer-1	12	14	5	1	direct	Measured
+216	Teddiursa	Mt. Moon B1F	wild-night	1	Archer-1	12	14	5	1	direct	Measured
+218	Slugma	Mt. Moon B1F	wild-day	1	Archer-1	12	14	3	1	direct	Measured
+218	Slugma	Mt. Moon B1F	wild-night	1	Archer-1	12	14	3	1	direct	Measured
+219	Magcargo	Pokemon Mansion 1F	raid4	11	Blaine	NA	NA	NA	1	via-evolution	Measured
+219	Magcargo	Mt Ember Interior	wild-day	17	Post-Game	84	85	1	1	via-evolution	Measured
+219	Magcargo	Mt Ember Interior	wild-night	17	Post-Game	84	85	1	1	via-evolution	Measured
+220	Swinub	Viridian City	wild-night	0	Brock	3	5	10	0	direct	Measured
+220	Swinub	Viridian City	wild-night	0	Brock	3	5	11	0	direct	Measured
+220	Swinub	Rock Tunnel B1F	wild-day	3	Surge	30	32	2	0	direct	Measured
+220	Swinub	Rock Tunnel B1F	wild-night	3	Surge	30	32	2	0	direct	Measured
+221	Piloswine	Seafoam Islands B1F	wild-day	10	May	62	64	0	0	via-evolution	Measured
+221	Piloswine	Seafoam Islands B2F	wild-day	10	May	62	64	0	0	via-evolution	Measured
+221	Piloswine	Seafoam Islands B4F	wild-day	10	May	62	64	0	0	via-evolution	Measured
+222	Corsola	Viridian City	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+222	Corsola	Safari Zone Area 2	wild-goodRod	9	Koga	27	29	0	3	direct	Measured
+222	Corsola	Route 21 South	wild-goodRod	10	May	27	29	2	3	direct	Measured
+222	Corsola	Cinnabar Island	wild-oldRod	10	May	2	4	1	3	direct	Measured
+223	Remoraid	Cerulean City	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+223	Remoraid	Viridian City	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+223	Remoraid	Safari Zone Area 2	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+223	Remoraid	Seafoam Islands B4F	wild-oldRod	10	May	2	4	1	3	direct	Measured
+223	Remoraid	Bond Bridge	wild-oldRod	17	Post-Game	83	85	1	3	direct	Measured
+223	Remoraid	Cape Brink	wild-oldRod	17	Post-Game	83	85	1	3	direct	Measured
+223	Remoraid	Kindle Road	wild-oldRod	17	Post-Game	83	85	1	3	direct	Measured
+223	Remoraid	Treasure Beach	wild-oldRod	17	Post-Game	60	65	1	3	direct	Measured
+224	Octillery	Cerulean City	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+224	Octillery	Cerulean City	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+224	Octillery	Route 21 North	wild-superRod	9	Koga	53	55	0	3	via-evolution	Measured
+224	Octillery	Route 24	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+224	Octillery	Route 24	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+224	Octillery	Cinnabar Island	wild-superRod	10	May	53	55	0	3	via-evolution	Measured
+224	Octillery	Route 21 South	wild-superRod	10	May	53	55	0	3	via-evolution	Measured
+225	Delibird	Rock Tunnel B1F	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+225	Delibird	Seafoam Islands B2F	wild-day	10	May	62	64	10	3	direct	Measured
+225	Delibird	Seafoam Islands B2F	wild-day	10	May	62	64	11	3	direct	Measured
+225	Delibird	Seafoam Islands B3F	wild-day	10	May	62	64	10	3	direct	Measured
+225	Delibird	Seafoam Islands B3F	wild-day	10	May	62	64	11	3	direct	Measured
+225	Delibird	Seafoam Islands B2F	wild-night	10	May	62	64	10	3	direct	Measured
+225	Delibird	Seafoam Islands B2F	wild-night	10	May	62	64	11	3	direct	Measured
+225	Delibird	Seafoam Islands B3F	wild-night	10	May	62	64	10	3	direct	Measured
+225	Delibird	Seafoam Islands B3F	wild-night	10	May	62	64	11	3	direct	Measured
+226	Mantine	Route 13	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+226	Mantine	Route 13	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+226	Mantine	Route 19	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+226	Mantine	Route 19	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+226	Mantine	Cinnabar Island	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+226	Mantine	Cinnabar Island	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+226	Mantine	Route 21 South	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+226	Mantine	Route 21 South	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+227	Skarmory	Route 16	wild-day	3	Surge	36	38	7	3	direct	Measured
+227	Skarmory	Route 16	wild-night	3	Surge	36	38	7	3	direct	Measured
+227	Skarmory	Route 17	wild-day	9	Koga	46	48	6	3	direct	Measured
+227	Skarmory	Route 17	wild-day	9	Koga	46	48	7	3	direct	Measured
+227	Skarmory	Safari Zone Area 3	wild-day	9	Koga	50	52	6	3	direct	Measured
+227	Skarmory	Safari Zone Area 3	wild-day	9	Koga	50	52	7	3	direct	Measured
+227	Skarmory	Route 17	wild-night	9	Koga	46	48	6	3	direct	Measured
+227	Skarmory	Route 17	wild-night	9	Koga	46	48	7	3	direct	Measured
+228	Houndour	Route 2	wild-night	0	Brock	4	6	7	0	direct	Measured
+229	Houndoom	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	6	0	via-evolution	Measured
+229	Houndoom	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	7	0	via-evolution	Measured
+229	Houndoom	Mt Ember Exterior	wild-night	17	Post-Game	83	85	4	0	via-evolution	Measured
+231	Phanpy	Pewter City	wild-day	0	Brock	7	9	9	0	direct	Measured
+231	Phanpy	Route 2	wild-day	0	Brock	3	5	3	0	direct	Measured
+231	Phanpy	Pewter City	wild-night	0	Brock	7	9	9	0	direct	Measured
+231	Phanpy	Route 2	wild-night	0	Brock	3	5	3	0	direct	Measured
+234	Stantler	Route 8	wild-night	3	Surge	33	35	8	3	direct	Measured
+234	Stantler	Route 8	wild-night	3	Surge	33	35	9	3	direct	Measured
+235	Smeargle	Safari Zone Area 4	wild-day	9	Koga	50	52	10	9	direct	Measured
+235	Smeargle	Safari Zone Area 4	wild-day	9	Koga	50	52	11	9	direct	Measured
+235	Smeargle	Safari Zone Area 4	wild-night	9	Koga	50	52	10	9	direct	Measured
+235	Smeargle	Safari Zone Area 4	wild-night	9	Koga	50	52	11	9	direct	Measured
+235	Smeargle	Kindle Road	wild-day	17	Post-Game	83	85	1	9	direct	Measured
+235	Smeargle	Three Isle Port	wild-day	17	Post-Game	83	85	8	9	direct	Measured
+235	Smeargle	Three Isle Port	wild-day	17	Post-Game	83	85	9	9	direct	Measured
+235	Smeargle	Kindle Road	wild-night	17	Post-Game	83	85	1	9	direct	Measured
+235	Smeargle	Three Isle Port	wild-night	17	Post-Game	83	85	8	9	direct	Measured
+235	Smeargle	Three Isle Port	wild-night	17	Post-Game	83	85	9	9	direct	Measured
+236	Tyrogue	Mt. Moon 1F	wild-day	1	Archer-1	12	14	8	1	direct	Measured
+236	Tyrogue	Mt. Moon 1F	wild-night	1	Archer-1	12	14	8	1	direct	Measured
+238	Smoochum	Mt. Moon B2F	wild-day	1	Archer-1	12	14	7	1	direct	Measured
+238	Smoochum	Mt. Moon B2F	wild-day	1	Archer-1	12	14	8	1	direct	Measured
+239	Elekid	Route 24	wild-day	2	Misty	14	16	4	2	direct	Measured
+240	Magby	Route 24	wild-night	2	Misty	14	16	4	2	direct	Measured
+241	Miltank	Route 8	wild-day	3	Surge	33	35	10	3	direct	Measured
+241	Miltank	Route 8	wild-day	3	Surge	33	35	11	3	direct	Measured
+243	Raikou	Route 2	raid4	0	Brock	NA	NA	NA	0	direct	Measured
+244	Entei	Route 2	raid4	0	Brock	NA	NA	NA	0	direct	Measured
+245	Suicune	Route 2	raid4	0	Brock	NA	NA	NA	0	direct	Measured
+246	Larvitar	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+248	Tyranitar	Victory Road 2F	wild-day	16	Elite-4	80	82	2	6	via-evolution	Measured
+248	Tyranitar	Victory Road 2F	wild-day	16	Elite-4	80	82	11	6	via-evolution	Measured
+248	Tyranitar	Victory Road 2F	wild-night	16	Elite-4	80	82	2	6	via-evolution	Measured
+248	Tyranitar	Victory Road 2F	wild-night	16	Elite-4	80	82	11	6	via-evolution	Measured
+251	Celebi	Route 25	raid4	2	Misty	NA	NA	NA	2	direct	Measured
+277	Treecko	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+277	Treecko	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+280	Torchic	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+280	Torchic	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+282	Blaziken	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	6	0	via-evolution	Measured
+282	Blaziken	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	7	0	via-evolution	Measured
+282	Blaziken	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	6	0	via-evolution	Measured
+282	Blaziken	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	7	0	via-evolution	Measured
+283	Mudkip	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+283	Mudkip	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+286	Poochyena	Viridian City	wild-day	0	Brock	3	5	2	0	direct	Measured
+286	Poochyena	Route 1	wild-night	0	Brock	2	4	0	0	direct	Measured
+286	Poochyena	Route 2	wild-night	0	Brock	3	5	0	0	direct	Measured
+286	Poochyena	Viridian City	wild-night	0	Brock	3	5	2	0	direct	Measured
+287	Mightyena	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	5	0	via-evolution	Measured
+287	Mightyena	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	5	0	via-evolution	Measured
+288	Zigzagoon	Route 1	wild-day	0	Brock	2	4	1	0	direct	Measured
+288	Zigzagoon	Route 2	wild-day	0	Brock	3	5	8	0	direct	Measured
+290	Wurmple	Viridian Forest	wild-night	0	Brock	4	6	1	0	direct	Measured
+295	Lotad	Route 21 North	wild-night	0	Brock	4	6	10	0	direct	Measured
+295	Lotad	Route 21 North	wild-night	0	Brock	4	6	11	0	direct	Measured
+295	Lotad	Route 24	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+295	Lotad	Route 24	wild-oldRod	2	Misty	2	4	1	0	direct	Measured
+298	Seedot	Route 1	wild-night	0	Brock	2	4	8	0	direct	Measured
+298	Seedot	Route 1	wild-night	0	Brock	2	4	9	0	direct	Measured
+300	Shiftry	Cape Brink	wild-night	17	Post-Game	84	85	2	0	via-evolution	Measured
+300	Shiftry	Cape Brink	wild-night	17	Post-Game	84	85	3	0	via-evolution	Measured
+301	Nincada	Viridian Forest	wild-night	0	Brock	4	6	4	0	direct	Measured
+301	Nincada	Viridian Forest Heart	wild-night	0	Brock	4	6	4	0	direct	Measured
+304	Taillow	Route 25	wild-day	2	Misty	16	18	1	2	direct	Measured
+304	Taillow	Route 25	wild-night	2	Misty	16	18	1	2	direct	Measured
+306	Shroomish	Viridian Forest	wild-day	0	Brock	4	6	8	0	direct	Measured
+306	Shroomish	Viridian Forest	wild-day	0	Brock	4	6	9	0	direct	Measured
+306	Shroomish	Route 3	wild-day	1	Archer-1	10	12	5	0	direct	Measured
+307	Breloom	Route 13	raid3	9	Koga	NA	NA	NA	0	via-evolution	Measured
+308	Spinda	Safari Zone Area 1	wild-day	9	Koga	50	52	1	9	direct	Measured
+308	Spinda	Safari Zone Area 1	wild-night	9	Koga	50	52	1	9	direct	Measured
+309	Wingull	Route 21 North	wild-day	0	Brock	4	6	6	0	direct	Measured
+309	Wingull	Route 21 North	wild-day	0	Brock	4	6	7	0	direct	Measured
+309	Wingull	Route 21 North	wild-night	0	Brock	4	6	6	0	direct	Measured
+309	Wingull	Route 21 North	wild-night	0	Brock	4	6	7	0	direct	Measured
+309	Wingull	Route 10	wild-surf	10	May	56	58	3	0	direct	Measured
+309	Wingull	Route 10	wild-surf	10	May	56	58	4	0	direct	Measured
+310	Pelipper	Route 14	raid3	9	Koga	NA	NA	NA	0	via-evolution	Measured
+310	Pelipper	Route 14	wild-day	9	Koga	48	50	0	0	via-evolution	Measured
+310	Pelipper	Route 14	wild-night	9	Koga	48	50	0	0	via-evolution	Measured
+310	Pelipper	Vermilion City	wild-surf	10	May	56	58	1	0	via-evolution	Measured
+311	Surskit	Viridian Forest	wild-day	0	Brock	4	6	7	0	direct	Measured
+312	Masquerain	Berry Forest	wild-surf	17	Post-Game	56	58	2	0	via-evolution	Measured
+312	Masquerain	Berry Forest	wild-surf	17	Post-Game	56	58	3	0	via-evolution	Measured
+313	Wailmer	Route 24	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+313	Wailmer	Safari Zone Area 3	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+313	Wailmer	Safari Zone Area 4	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+313	Wailmer	Route 20	wild-goodRod	10	May	27	29	0	3	direct	Measured
+313	Wailmer	Safari Zone Moltres' Den	wild-goodRod	10	May	27	29	2	3	direct	Measured
+314	Wailord	Route 22	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+314	Wailord	Route 22	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+314	Wailord	Route 20	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+315	Skitty	Route 10	wild-day	3	Surge	27	29	5	3	direct	Measured
+315	Skitty	Route 10	wild-night	3	Surge	27	29	5	3	direct	Measured
+317	Kecleon	Safari Zone Area 1	wild-day	9	Koga	50	52	0	9	direct	Measured
+317	Kecleon	Safari Zone Area 1	wild-night	9	Koga	50	52	0	9	direct	Measured
+318	Baltoy	Mt. Moon B1F	wild-day	1	Archer-1	12	14	7	1	direct	Measured
+318	Baltoy	Route 11	wild-day	2	Misty	23	25	3	1	direct	Measured
+318	Baltoy	Route 11	wild-night	2	Misty	23	25	3	1	direct	Measured
+320	Nosepass	Rock Tunnel B1F	wild-night	3	Surge	30	32	4	3	direct	Measured
+321	Torkoal	Mt. Moon B1F	wild-day	1	Archer-1	12	14	4	1	direct	Measured
+321	Torkoal	Mt. Moon B1F	wild-night	1	Archer-1	12	14	4	1	direct	Measured
+321	Torkoal	Route 13	raid3	9	Koga	NA	NA	NA	1	direct	Measured
+321	Torkoal	Route 14	wild-day	9	Koga	48	50	2	1	direct	Measured
+321	Torkoal	Route 14	wild-day	9	Koga	48	50	3	1	direct	Measured
+321	Torkoal	Route 17	wild-day	9	Koga	46	48	5	1	direct	Measured
+321	Torkoal	Route 14	wild-night	9	Koga	48	50	2	1	direct	Measured
+321	Torkoal	Route 14	wild-night	9	Koga	48	50	3	1	direct	Measured
+321	Torkoal	Route 17	wild-night	9	Koga	46	48	5	1	direct	Measured
+321	Torkoal	Mt Ember Interior	wild-day	17	Post-Game	85	85	0	1	direct	Measured
+321	Torkoal	Mt Ember Interior	wild-night	17	Post-Game	85	85	0	1	direct	Measured
+322	Sableye	Pokemon Tower 3F	wild-day	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 4F	wild-day	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 5F	wild-day	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 6F	wild-day	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 3F	wild-night	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 4F	wild-night	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 5F	wild-night	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 6F	wild-night	3	Surge	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	7	3	direct	Measured
+322	Sableye	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	8	3	direct	Measured
+322	Sableye	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	9	3	direct	Measured
+322	Sableye	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	8	3	direct	Measured
+322	Sableye	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	9	3	direct	Measured
+323	Barboach	Pallet Town	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+323	Barboach	Route 10	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+324	Whiscash	Pallet Town	wild-superRod	9	Koga	53	55	3	3	via-evolution	Measured
+324	Whiscash	Pallet Town	wild-superRod	9	Koga	53	55	4	3	via-evolution	Measured
+324	Whiscash	Route 10	wild-superRod	9	Koga	53	55	0	3	via-evolution	Measured
+324	Whiscash	Route 10	wild-superRod	9	Koga	53	55	1	3	via-evolution	Measured
+325	Luvdisc	Route 12	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+325	Luvdisc	Cerulean City	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Cerulean City	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Pallet Town	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Pallet Town	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Route 11	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Route 11	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Route 22	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Route 22	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Route 24	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Route 24	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Vermilion City	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Vermilion City	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Viridian City	wild-superRod	9	Koga	53	55	0	3	direct	Measured
+325	Luvdisc	Viridian City	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+325	Luvdisc	Berry Forest	wild-superRod	17	Post-Game	83	85	2	3	direct	Measured
+325	Luvdisc	Cape Brink	wild-superRod	17	Post-Game	83	85	0	3	direct	Measured
+325	Luvdisc	Cape Brink	wild-superRod	17	Post-Game	83	85	1	3	direct	Measured
+325	Luvdisc	Kindle Road	wild-superRod	17	Post-Game	83	85	0	3	direct	Measured
+325	Luvdisc	Kindle Road	wild-superRod	17	Post-Game	83	85	1	3	direct	Measured
+326	Corphish	Route 22	wild-oldRod	0	Brock	2	4	1	0	direct	Measured
+326	Corphish	Cerulean Cave B1F	wild-goodRod	13	Giovanni-3	27	29	0	0	direct	Measured
+327	Crawdaunt	Safari Zone Area 4	wild-superRod	9	Koga	53	55	0	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-day	10	May	62	64	4	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-day	10	May	62	64	5	0	via-evolution	Measured
+327	Crawdaunt	Safari Zone Moltres' Den	wild-superRod	10	May	53	55	0	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-superRod	10	May	53	55	3	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-superRod	10	May	53	55	4	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-surf	10	May	56	58	2	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-surf	10	May	56	58	3	0	via-evolution	Measured
+327	Crawdaunt	Seafoam Islands B3F	wild-surf	10	May	56	58	4	0	via-evolution	Measured
+327	Crawdaunt	Cerulean Cave 1F	wild-superRod	12	Archer-3	53	55	2	0	via-evolution	Measured
+327	Crawdaunt	Cerulean Cave 1F	wild-superRod	12	Archer-3	53	55	3	0	via-evolution	Measured
+327	Crawdaunt	Cerulean Cave 1F	wild-superRod	12	Archer-3	53	55	4	0	via-evolution	Measured
+327	Crawdaunt	Cerulean Cave 1F	wild-surf	12	Archer-3	56	58	2	0	via-evolution	Measured
+327	Crawdaunt	Cerulean Cave B1F	wild-superRod	13	Giovanni-3	53	55	1	0	via-evolution	Measured
+327	Crawdaunt	Treasure Beach	wild-night	17	Post-Game	83	85	8	0	via-evolution	Measured
+327	Crawdaunt	Treasure Beach	wild-night	17	Post-Game	83	85	9	0	via-evolution	Measured
+327	Crawdaunt	Berry Forest	wild-superRod	17	Post-Game	83	85	3	0	via-evolution	Measured
+327	Crawdaunt	Berry Forest	wild-superRod	17	Post-Game	83	85	4	0	via-evolution	Measured
+328	Feebas	Safari Zone Area 1	wild-superRod	9	Koga	53	55	3	9	direct	Measured
+328	Feebas	Safari Zone Area 1	wild-superRod	9	Koga	53	55	4	9	direct	Measured
+328	Feebas	Cinnabar Island	wild-goodRod	10	May	27	29	2	9	direct	Measured
+328	Feebas	Cerulean Cave B1F	wild-oldRod	13	Giovanni-3	2	4	0	9	direct	Measured
+328	Feebas	Bond Bridge	wild-oldRod	17	Post-Game	83	85	0	9	direct	Measured
+328	Feebas	Cape Brink	wild-oldRod	17	Post-Game	83	85	0	9	direct	Measured
+328	Feebas	Kindle Road	wild-oldRod	17	Post-Game	83	85	0	9	direct	Measured
+328	Feebas	Treasure Beach	wild-oldRod	17	Post-Game	60	65	0	9	direct	Measured
+329	Milotic	Safari Zone Area 4	wild-surf	10	May	56	58	4	9	via-evolution	Measured
+329	Milotic	Safari Zone Moltres' Den	wild-surf	10	May	56	58	4	9	via-evolution	Measured
+329	Milotic	Cerulean Cave B1F	wild-surf	13	Giovanni-3	56	58	4	9	via-evolution	Measured
+330	Carvanha	Route 24	wild-oldRod	2	Misty	2	4	0	2	direct	Measured
+330	Carvanha	Pallet Town	wild-goodRod	3	Surge	27	29	1	2	direct	Measured
+330	Carvanha	Seafoam Islands B4F	wild-goodRod	10	May	27	29	2	2	direct	Measured
+330	Carvanha	Cerulean Cave 1F	wild-goodRod	12	Archer-3	27	29	0	2	direct	Measured
+331	Sharpedo	Cerulean City	wild-superRod	9	Koga	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Route 24	wild-superRod	9	Koga	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Safari Zone Area 1	wild-superRod	9	Koga	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Cinnabar Island	wild-superRod	10	May	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Route 21 South	wild-superRod	10	May	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Route 20	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+331	Sharpedo	Seafoam Islands B4F	wild-surf	10	May	56	58	2	2	via-evolution	Measured
+331	Sharpedo	Seafoam Islands B4F	wild-surf	10	May	56	58	3	2	via-evolution	Measured
+331	Sharpedo	Seafoam Islands B4F	wild-surf	10	May	56	58	4	2	via-evolution	Measured
+331	Sharpedo	Cerulean Cave B1F	wild-superRod	13	Giovanni-3	53	55	2	2	via-evolution	Measured
+331	Sharpedo	Cerulean Cave B1F	wild-surf	13	Giovanni-3	56	58	0	2	via-evolution	Measured
+331	Sharpedo	Bond Bridge	wild-goodRod	17	Post-Game	83	85	1	2	via-evolution	Measured
+331	Sharpedo	Bond Bridge	wild-goodRod	17	Post-Game	83	85	2	2	via-evolution	Measured
+331	Sharpedo	Berry Forest	wild-superRod	17	Post-Game	83	85	0	2	via-evolution	Measured
+331	Sharpedo	Berry Forest	wild-superRod	17	Post-Game	83	85	1	2	via-evolution	Measured
+332	Trapinch	Diglett's Cave 1F	wild-day	0	Brock	7	9	6	0	direct	Measured
+332	Trapinch	Diglett's Cave 1F	wild-night	0	Brock	7	9	6	0	direct	Measured
+334	Flygon	Treasure Beach	wild-day	17	Post-Game	83	85	5	0	via-evolution	Measured
+334	Flygon	Treasure Beach	wild-day	17	Post-Game	84	85	4	0	via-evolution	Measured
+335	Makuhita	Mt. Moon 1F	wild-day	1	Archer-1	12	14	6	1	direct	Measured
+335	Makuhita	Mt. Moon 1F	wild-day	1	Archer-1	12	14	7	1	direct	Measured
+337	Electrike	Route 10	wild-night	3	Surge	27	29	1	3	direct	Measured
+338	Manectric	Power Plant	wild-night	10	May	63	65	2	3	via-evolution	Measured
+339	Numel	Diglett's Cave 1F	wild-day	0	Brock	7	9	2	0	direct	Measured
+339	Numel	Pewter City	wild-day	0	Brock	7	9	5	0	direct	Measured
+339	Numel	Diglett's Cave 1F	wild-night	0	Brock	7	9	2	0	direct	Measured
+339	Numel	Pewter City	wild-night	0	Brock	7	9	5	0	direct	Measured
+339	Numel	Mt. Moon B2F	wild-day	1	Archer-1	12	14	3	0	direct	Measured
+341	Spheal	Route 12	wild-oldRod	3	Surge	2	4	0	3	direct	Measured
+341	Spheal	Seafoam Islands B3F	wild-goodRod	10	May	27	29	0	3	direct	Measured
+341	Spheal	Seafoam Islands B4F	wild-goodRod	10	May	27	29	0	3	direct	Measured
+342	Sealeo	Route 12	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+343	Walrein	Route 12	wild-day	9	Koga	50	52	2	3	via-evolution	Measured
+343	Walrein	Route 12	wild-night	9	Koga	50	52	2	3	via-evolution	Measured
+343	Walrein	Seafoam Islands B1F	wild-night	10	May	62	64	4	3	via-evolution	Measured
+343	Walrein	Seafoam Islands B1F	wild-night	10	May	62	64	5	3	via-evolution	Measured
+343	Walrein	Seafoam Islands B3F	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+344	Cacnea	Route 11	wild-night	2	Misty	23	25	4	2	direct	Measured
+346	Snorunt	Rock Tunnel B1F	wild-day	3	Surge	30	32	3	3	direct	Measured
+346	Snorunt	Seafoam Islands B1F	wild-day	10	May	62	64	1	3	direct	Measured
+346	Snorunt	Seafoam Islands B1F	wild-night	10	May	62	64	1	3	direct	Measured
+346	Snorunt	Seafoam Islands B3F	wild-night	10	May	62	64	1	3	direct	Measured
+347	Glalie	Route 12	wild-day	9	Koga	50	52	3	3	via-evolution	Measured
+348	Lunatone	Mt. Moon 1F	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+348	Lunatone	Mt. Moon B2F	wild-night	1	Archer-1	12	14	9	1	direct	Measured
+348	Lunatone	Rock Tunnel 1F	wild-night	3	Surge	29	31	3	1	direct	Measured
+349	Solrock	Mt. Moon B2F	wild-day	1	Archer-1	12	14	9	1	direct	Measured
+349	Solrock	Rock Tunnel 1F	wild-day	3	Surge	29	31	3	1	direct	Measured
+351	Spoink	Pewter City	wild-day	0	Brock	7	9	3	0	direct	Measured
+352	Grumpig	Route 17	wild-day	9	Koga	46	48	4	0	via-evolution	Measured
+352	Grumpig	Route 17	wild-night	9	Koga	46	48	4	0	via-evolution	Measured
+353	Plusle	Route 10	wild-day	3	Surge	27	29	4	3	direct	Measured
+354	Minun	Route 10	wild-night	3	Surge	27	29	4	3	direct	Measured
+355	Mawile	Mt. Moon B2F	wild-night	1	Archer-1	12	14	0	1	direct	Measured
+355	Mawile	Victory Road 3F	wild-day	16	Elite-4	80	82	3	1	direct	Measured
+355	Mawile	Victory Road 3F	wild-day	16	Elite-4	80	82	4	1	direct	Measured
+355	Mawile	Victory Road 3F	wild-night	16	Elite-4	80	82	3	1	direct	Measured
+355	Mawile	Victory Road 3F	wild-night	16	Elite-4	80	82	4	1	direct	Measured
+356	Meditite	Route 2	wild-day	0	Brock	3	5	4	0	direct	Measured
+356	Meditite	Route 2	wild-night	0	Brock	3	5	4	0	direct	Measured
+356	Meditite	Route 6	wild-night	2	Misty	16	18	8	0	direct	Measured
+356	Meditite	Route 6	wild-night	2	Misty	16	18	9	0	direct	Measured
+357	Medicham	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	2	0	via-evolution	Measured
+357	Medicham	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	3	0	via-evolution	Measured
+357	Medicham	Victory Road 2F	wild-day	16	Elite-4	80	82	4	0	via-evolution	Measured
+357	Medicham	Victory Road 2F	wild-day	16	Elite-4	80	82	7	0	via-evolution	Measured
+357	Medicham	Victory Road 2F	wild-night	16	Elite-4	80	82	4	0	via-evolution	Measured
+357	Medicham	Victory Road 2F	wild-night	16	Elite-4	80	82	7	0	via-evolution	Measured
+358	Swablu	Route 25	wild-day	2	Misty	16	18	0	2	direct	Measured
+358	Swablu	Route 25	wild-night	2	Misty	16	18	0	2	direct	Measured
+359	Altaria	Route 18	wild-day	9	Koga	49	51	4	2	via-evolution	Measured
+359	Altaria	Route 18	wild-night	9	Koga	49	51	4	2	via-evolution	Measured
+362	Dusclops	Pokemon Tower 3F	wild-day	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 4F	wild-day	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 5F	wild-day	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 6F	wild-day	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 3F	wild-night	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 4F	wild-night	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 5F	wild-night	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 6F	wild-night	3	Surge	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	2	3	direct	Measured
+362	Dusclops	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	2	3	direct	Measured
+362	Dusclops	Route 15	raid3	9	Koga	NA	NA	NA	3	direct	Measured
+363	Roselia	Route 13	wild-day	9	Koga	48	50	2	0	via-evolution	Measured
+364	Slakoth	Viridian Forest Heart	wild-day	0	Brock	4	6	6	0	direct	Measured
+364	Slakoth	Viridian Forest Heart	wild-night	0	Brock	4	6	6	0	direct	Measured
+367	Gulpin	Route 6	wild-day	2	Misty	16	18	2	2	direct	Measured
+368	Swalot	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	3	2	via-evolution	Measured
+368	Swalot	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	3	2	via-evolution	Measured
+369	Tropius	Route 9	wild-day	3	Surge	25	27	8	3	direct	Measured
+369	Tropius	Route 9	wild-day	3	Surge	25	27	9	3	direct	Measured
+369	Tropius	Route 9	wild-night	3	Surge	25	27	8	3	direct	Measured
+369	Tropius	Route 9	wild-night	3	Surge	25	27	9	3	direct	Measured
+370	Whismur	Route 25	wild-day	2	Misty	16	18	7	2	direct	Measured
+372	Exploud	Route 15	raid3	9	Koga	NA	NA	NA	2	via-evolution	Measured
+373	Clamperl	Viridian City	wild-oldRod	0	Brock	3	4	1	0	direct	Measured
+373	Clamperl	Route 19	wild-oldRod	9	Koga	2	4	0	0	direct	Measured
+373	Clamperl	Pallet Town	wild-superRod	9	Koga	53	55	2	0	direct	Measured
+374	Huntail	Route 19	wild-superRod	9	Koga	53	55	1	0	via-evolution	Measured
+374	Huntail	Safari Zone Area 2	wild-superRod	9	Koga	53	55	1	0	via-evolution	Measured
+374	Huntail	Kindle Road	wild-superRod	17	Post-Game	83	85	3	0	via-evolution	Measured
+374	Huntail	Kindle Road	wild-superRod	17	Post-Game	83	85	4	0	via-evolution	Measured
+375	Gorebyss	Route 19	wild-superRod	9	Koga	53	55	2	0	via-evolution	Measured
+375	Gorebyss	Safari Zone Area 2	wild-superRod	9	Koga	53	55	0	0	via-evolution	Measured
+375	Gorebyss	Kindle Road	wild-superRod	17	Post-Game	83	85	2	0	via-evolution	Measured
+376	Absol	Route 8	wild-night	3	Surge	33	35	3	3	direct	Measured
+376	Absol	Route 8	wild-night	3	Surge	33	35	4	3	direct	Measured
+376	Absol	Kindle Road	wild-day	17	Post-Game	83	85	0	3	direct	Measured
+376	Absol	Kindle Road	wild-night	17	Post-Game	83	85	0	3	direct	Measured
+377	Shuppet	Viridian City	wild-night	0	Brock	3	5	7	0	direct	Measured
+377	Shuppet	Mt. Moon B1F	wild-day	1	Archer-1	12	14	8	0	direct	Measured
+377	Shuppet	Mt. Moon B1F	wild-day	1	Archer-1	12	14	9	0	direct	Measured
+378	Banette	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	8	0	via-evolution	Measured
+378	Banette	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	9	0	via-evolution	Measured
+378	Banette	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	8	0	via-evolution	Measured
+378	Banette	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	9	0	via-evolution	Measured
+378	Banette	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	8	0	via-evolution	Measured
+378	Banette	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	9	0	via-evolution	Measured
+378	Banette	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	8	0	via-evolution	Measured
+378	Banette	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	9	0	via-evolution	Measured
+379	Seviper	Route 25	wild-night	2	Misty	16	18	10	2	direct	Measured
+379	Seviper	Route 25	wild-night	2	Misty	16	18	11	2	direct	Measured
+379	Seviper	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	1	2	direct	Measured
+379	Seviper	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	1	2	direct	Measured
+379	Seviper	Route 23	wild-day	15	Brendan	33	35	6	2	direct	Measured
+379	Seviper	Route 23	wild-day	15	Brendan	33	35	7	2	direct	Measured
+379	Seviper	Route 23	wild-night	15	Brendan	33	35	6	2	direct	Measured
+379	Seviper	Route 23	wild-night	15	Brendan	33	35	7	2	direct	Measured
+379	Seviper	Kindle Road	wild-day	17	Post-Game	83	85	8	2	direct	Measured
+379	Seviper	Kindle Road	wild-day	17	Post-Game	83	85	9	2	direct	Measured
+379	Seviper	Kindle Road	wild-day	17	Post-Game	83	85	10	2	direct	Measured
+379	Seviper	Kindle Road	wild-day	17	Post-Game	83	85	11	2	direct	Measured
+380	Zangoose	Route 25	wild-day	2	Misty	16	18	10	2	direct	Measured
+380	Zangoose	Route 25	wild-day	2	Misty	16	18	11	2	direct	Measured
+381	Relicanth	Route 11	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+381	Relicanth	Route 21 North	wild-superRod	9	Koga	53	55	3	3	direct	Measured
+381	Relicanth	Route 21 North	wild-superRod	9	Koga	53	55	4	3	direct	Measured
+381	Relicanth	Safari Zone Area 4	wild-superRod	9	Koga	53	55	3	3	direct	Measured
+381	Relicanth	Safari Zone Area 4	wild-superRod	9	Koga	53	55	4	3	direct	Measured
+381	Relicanth	Route 21 South	wild-superRod	10	May	53	55	3	3	direct	Measured
+381	Relicanth	Route 21 South	wild-superRod	10	May	53	55	4	3	direct	Measured
+381	Relicanth	Safari Zone Moltres' Den	wild-superRod	10	May	53	55	3	3	direct	Measured
+381	Relicanth	Safari Zone Moltres' Den	wild-superRod	10	May	53	55	4	3	direct	Measured
+381	Relicanth	Safari Zone Area 4	wild-surf	10	May	56	58	2	3	direct	Measured
+381	Relicanth	Safari Zone Moltres' Den	wild-surf	10	May	56	58	2	3	direct	Measured
+382	Aron	Rock Tunnel 1F	wild-day	3	Surge	29	31	1	3	direct	Measured
+382	Aron	Rock Tunnel 1F	wild-night	3	Surge	29	31	1	3	direct	Measured
+384	Aggron	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	84	85	2	3	via-evolution	Measured
+384	Aggron	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	84	85	3	3	via-evolution	Measured
+385	Castform	Safari Zone Area 2	wild-day	9	Koga	50	52	1	9	direct	Measured
+385	Castform	Safari Zone Area 2	wild-night	9	Koga	50	52	1	9	direct	Measured
+386	Volbeat	Route 24	wild-day	2	Misty	14	16	5	2	direct	Measured
+387	Illumise	Route 24	wild-night	2	Misty	14	16	5	2	direct	Measured
+388	Lileep	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+390	Anorith	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+392	Ralts	Route 24	wild-day	2	Misty	14	16	8	2	direct	Measured
+392	Ralts	Route 24	wild-night	2	Misty	14	16	8	2	direct	Measured
+394	Gardevoir	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	7	2	via-evolution	Measured
+394	Gardevoir	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	7	2	via-evolution	Measured
+394	Gardevoir	Kindle Road	wild-day	17	Post-Game	83	85	6	2	via-evolution	Measured
+394	Gardevoir	Kindle Road	wild-day	17	Post-Game	83	85	7	2	via-evolution	Measured
+395	Bagon	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+397	Salamence	Victory Road 1F	wild-day	16	Elite-4	80	82	5	6	via-evolution	Measured
+397	Salamence	Victory Road 1F	wild-day	16	Elite-4	80	82	9	6	via-evolution	Measured
+397	Salamence	Victory Road 1F	wild-day	16	Elite-4	80	82	11	6	via-evolution	Measured
+397	Salamence	Victory Road 1F	wild-night	16	Elite-4	80	82	5	6	via-evolution	Measured
+397	Salamence	Victory Road 1F	wild-night	16	Elite-4	80	82	9	6	via-evolution	Measured
+397	Salamence	Victory Road 1F	wild-night	16	Elite-4	80	82	11	6	via-evolution	Measured
+398	Beldum	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+400	Metagross	Victory Road 1F	wild-day	16	Elite-4	80	82	1	6	via-evolution	Measured
+400	Metagross	Victory Road 1F	wild-day	16	Elite-4	80	82	10	6	via-evolution	Measured
+400	Metagross	Victory Road 1F	wild-night	16	Elite-4	80	82	1	6	via-evolution	Measured
+400	Metagross	Victory Road 1F	wild-night	16	Elite-4	80	82	10	6	via-evolution	Measured
+401	Regirock	Mt. Moon 1F	raid3	1	Archer-1	NA	NA	NA	1	direct	Measured
+402	Regice	Mt. Moon 1F	raid3	1	Archer-1	NA	NA	NA	1	direct	Measured
+403	Registeel	Mt. Moon 1F	raid3	1	Archer-1	NA	NA	NA	1	direct	Measured
+404	Kyogre	Seafoam Islands Kyogre's Chamber	fixed-overworld	17	Post-Game	NA	NA	NA	17	direct	Measured
+407	Latias	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+408	Latios	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+409	Jirachi	Victory Road 2F	raid5	16	Elite-4	NA	NA	NA	16	direct	Measured
+411	Chimecho	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	11	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	10	0	via-evolution	Measured
+411	Chimecho	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	11	0	via-evolution	Measured
+440	Turtwig	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+440	Turtwig	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+443	Chimchar	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+443	Chimchar	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+445	Infernape	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	2	0	via-evolution	Measured
+445	Infernape	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	3	0	via-evolution	Measured
+446	Piplup	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+446	Piplup	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+448	Empoleon	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	6	0	via-evolution	Measured
+448	Empoleon	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	7	0	via-evolution	Measured
+448	Empoleon	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	6	0	via-evolution	Measured
+448	Empoleon	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	7	0	via-evolution	Measured
+449	Starly	Pewter City	wild-day	0	Brock	7	9	1	0	direct	Measured
+449	Starly	Route 22	wild-day	0	Brock	3	5	0	0	direct	Measured
+449	Starly	Pewter City	wild-night	0	Brock	7	9	1	0	direct	Measured
+449	Starly	Route 22	wild-night	0	Brock	3	5	0	0	direct	Measured
+451	Staraptor	Route 23	wild-day	15	Brendan	33	35	10	0	via-evolution	Measured
+451	Staraptor	Route 23	wild-day	15	Brendan	33	35	11	0	via-evolution	Measured
+451	Staraptor	Route 23	wild-night	15	Brendan	33	35	10	0	via-evolution	Measured
+451	Staraptor	Route 23	wild-night	15	Brendan	33	35	11	0	via-evolution	Measured
+452	Bidoof	Route 1	wild-day	0	Brock	2	4	0	0	direct	Measured
+452	Bidoof	Route 2	wild-day	0	Brock	3	5	0	0	direct	Measured
+454	Kricketot	Viridian Forest Heart	wild-day	0	Brock	4	6	5	0	direct	Measured
+454	Kricketot	Viridian Forest	wild-night	0	Brock	4	6	5	0	direct	Measured
+454	Kricketot	Viridian Forest Heart	wild-night	0	Brock	4	6	5	0	direct	Measured
+456	Shinx	Route 2	wild-day	0	Brock	3	5	5	0	direct	Measured
+456	Shinx	Viridian City	wild-day	0	Brock	3	5	0	0	direct	Measured
+456	Shinx	Route 2	wild-night	0	Brock	3	5	5	0	direct	Measured
+456	Shinx	Route 4	wild-day	1	Archer-1	13	15	2	0	direct	Measured
+459	Budew	Route 22	wild-day	0	Brock	3	5	1	0	direct	Measured
+460	Roserade	Berry Forest	wild-day	17	Post-Game	83	85	8	0	via-evolution	Measured
+460	Roserade	Berry Forest	wild-day	17	Post-Game	83	85	9	0	via-evolution	Measured
+461	Cranidos	Mt. Moon B2F	wild-day	1	Archer-1	12	14	4	1	direct	Measured
+461	Cranidos	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	1	direct	Measured
+463	Shieldon	Mt. Moon B2F	wild-night	1	Archer-1	12	14	4	1	direct	Measured
+463	Shieldon	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	1	direct	Measured
+465	Burmy	Viridian Forest Heart	wild-day	0	Brock	4	6	3	0	direct	Measured
+468	Combee	Viridian Forest Heart	wild-day	0	Brock	4	6	4	0	direct	Measured
+470	Pachirisu	Route 4	wild-day	1	Archer-1	13	15	3	1	direct	Measured
+470	Pachirisu	Route 4	wild-night	1	Archer-1	13	15	3	1	direct	Measured
+471	Buizel	Route 24	wild-night	2	Misty	14	16	6	2	direct	Measured
+471	Buizel	Route 13	wild-surf	10	May	56	58	2	2	direct	Measured
+471	Buizel	Route 13	wild-surf	10	May	56	58	3	2	direct	Measured
+471	Buizel	Route 13	wild-surf	10	May	56	58	4	2	direct	Measured
+472	Floatzel	Safari Zone Area 4	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+472	Floatzel	Safari Zone Moltres' Den	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+472	Floatzel	Pokemon Mansion 1F	raid4	11	Blaine	NA	NA	NA	2	via-evolution	Measured
+473	Cherubi	Route 6	wild-day	2	Misty	16	18	1	2	direct	Measured
+475	Shellos	Diglett's Cave B1F	wild-night	2	Misty	23	25	4	2	direct	Measured
+477	Ambipom	Route 15	wild-day	9	Koga	49	51	1	2	via-evolution	Measured
+477	Ambipom	Route 15	wild-night	9	Koga	49	51	1	2	via-evolution	Measured
+478	Drifloon	Route 5	wild-day	2	Misty	18	20	10	2	direct	Measured
+478	Drifloon	Route 5	wild-day	2	Misty	18	20	11	2	direct	Measured
+478	Drifloon	Route 5	wild-night	2	Misty	18	20	10	2	direct	Measured
+478	Drifloon	Route 5	wild-night	2	Misty	18	20	11	2	direct	Measured
+480	Buneary	Route 3	wild-day	1	Archer-1	10	12	6	1	direct	Measured
+480	Buneary	Route 3	wild-day	1	Archer-1	10	12	7	1	direct	Measured
+481	Lopunny	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	4	1	via-evolution	Measured
+481	Lopunny	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	6	1	via-evolution	Measured
+481	Lopunny	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	4	1	via-evolution	Measured
+481	Lopunny	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	6	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 3F	wild-day	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 3F	wild-day	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 4F	wild-day	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 4F	wild-day	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 5F	wild-day	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 5F	wild-day	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 3F	wild-night	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 3F	wild-night	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 4F	wild-night	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 4F	wild-night	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 5F	wild-night	3	Surge	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 5F	wild-night	3	Surge	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	3	1	via-evolution	Measured
+482	Mismagius	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	4	1	via-evolution	Measured
+482	Mismagius	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	8	1	via-evolution	Measured
+482	Mismagius	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	9	1	via-evolution	Measured
+484	Glameow	Route 4	wild-day	1	Archer-1	13	15	4	1	direct	Measured
+484	Glameow	Route 3	wild-night	1	Archer-1	10	12	9	1	direct	Measured
+486	Chingling	Viridian Forest Heart	wild-night	0	Brock	4	6	2	0	direct	Measured
+487	Stunky	Route 3	wild-day	1	Archer-1	10	12	9	1	direct	Measured
+487	Stunky	Route 4	wild-night	1	Archer-1	13	15	4	1	direct	Measured
+488	Skuntank	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	5	1	via-evolution	Measured
+488	Skuntank	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	5	1	via-evolution	Measured
+489	Bronzor	Diglett's Cave 1F	wild-day	0	Brock	7	9	8	0	direct	Measured
+489	Bronzor	Diglett's Cave 1F	wild-night	0	Brock	7	9	8	0	direct	Measured
+489	Bronzor	Rock Tunnel B1F	wild-day	3	Surge	30	32	4	0	direct	Measured
+491	Bonsly	Pewter City	wild-day	0	Brock	7	9	11	0	direct	Measured
+491	Bonsly	Pewter City	wild-night	0	Brock	7	9	11	0	direct	Measured
+491	Bonsly	Rock Tunnel B1F	wild-day	3	Surge	30	32	5	0	direct	Measured
+492	Mime Jr.	Route 9	wild-day	3	Surge	25	27	6	3	direct	Measured
+492	Mime Jr.	Route 9	wild-day	3	Surge	25	27	7	3	direct	Measured
+494	Chatot	Celadon City Restaurant	fixed-trade	3	Surge	NA	NA	NA	3	direct	Measured
+494	Chatot	Safari Zone Moltres' Den	wild-day	10	May	50	52	2	3	direct	Measured
+494	Chatot	Safari Zone Moltres' Den	wild-night	10	May	50	52	2	3	direct	Measured
+495	Spiritomb	Pokemon Tower 3F	wild-day	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 4F	wild-day	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 5F	wild-day	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 6F	wild-day	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 3F	wild-night	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 4F	wild-night	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 5F	wild-night	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 6F	wild-night	3	Surge	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	6	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	5	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	10	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	11	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-day	17	Post-Game	84	85	4	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	5	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	10	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	11	3	direct	Measured
+495	Spiritomb	Pokemon Tower 9F	wild-night	17	Post-Game	84	85	4	3	direct	Measured
+496	Gible	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+498	Garchomp	Victory Road 2F	wild-day	16	Elite-4	80	82	1	6	via-evolution	Measured
+498	Garchomp	Victory Road 2F	wild-night	16	Elite-4	80	82	1	6	via-evolution	Measured
+499	Munchlax	Safari Zone Moltres' Den	wild-day	10	May	50	52	3	10	direct	Measured
+499	Munchlax	Safari Zone Moltres' Den	wild-night	10	May	50	52	3	10	direct	Measured
+500	Riolu	Mt. Moon B1F	wild-day	1	Archer-1	12	14	11	1	direct	Measured
+500	Riolu	Mt. Moon B1F	wild-night	1	Archer-1	12	14	11	1	direct	Measured
+500	Riolu	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	1	direct	Measured
+501	Lucario	Victory Road 2F	wild-day	16	Elite-4	80	82	5	1	via-evolution	Measured
+501	Lucario	Victory Road 2F	wild-day	16	Elite-4	80	82	6	1	via-evolution	Measured
+501	Lucario	Victory Road 2F	wild-night	16	Elite-4	80	82	5	1	via-evolution	Measured
+501	Lucario	Victory Road 2F	wild-night	16	Elite-4	80	82	6	1	via-evolution	Measured
+502	Hippopotas	Diglett's Cave B1F	wild-day	2	Misty	23	25	10	2	direct	Measured
+502	Hippopotas	Diglett's Cave B1F	wild-day	2	Misty	23	25	11	2	direct	Measured
+502	Hippopotas	Diglett's Cave B1F	wild-night	2	Misty	23	25	10	2	direct	Measured
+502	Hippopotas	Diglett's Cave B1F	wild-night	2	Misty	23	25	11	2	direct	Measured
+503	Hippowdon	Safari Zone Area 4	wild-day	9	Koga	50	52	4	2	via-evolution	Measured
+503	Hippowdon	Safari Zone Area 4	wild-day	9	Koga	50	52	5	2	via-evolution	Measured
+503	Hippowdon	Safari Zone Area 4	wild-night	9	Koga	50	52	4	2	via-evolution	Measured
+503	Hippowdon	Safari Zone Area 4	wild-night	9	Koga	50	52	5	2	via-evolution	Measured
+504	Skorupi	Route 16	wild-day	3	Surge	36	38	3	3	direct	Measured
+504	Skorupi	Route 9	wild-day	3	Surge	25	27	10	3	direct	Measured
+504	Skorupi	Route 9	wild-day	3	Surge	25	27	11	3	direct	Measured
+504	Skorupi	Route 9	wild-night	3	Surge	25	27	10	3	direct	Measured
+504	Skorupi	Route 9	wild-night	3	Surge	25	27	11	3	direct	Measured
+506	Croagunk	Route 10	wild-night	3	Surge	27	29	10	3	direct	Measured
+506	Croagunk	Route 10	wild-night	3	Surge	27	29	11	3	direct	Measured
+507	Toxicroak	Route 18	wild-day	9	Koga	49	51	6	3	via-evolution	Measured
+507	Toxicroak	Route 18	wild-day	9	Koga	49	51	7	3	via-evolution	Measured
+507	Toxicroak	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	2	3	via-evolution	Measured
+507	Toxicroak	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	3	3	via-evolution	Measured
+508	Carnivine	Cerulean City Central House	fixed-trade	2	Misty	NA	NA	NA	2	direct	Measured
+508	Carnivine	Safari Zone Moltres' Den	wild-day	10	May	50	52	1	2	direct	Measured
+508	Carnivine	Safari Zone Moltres' Den	wild-night	10	May	50	52	1	2	direct	Measured
+509	Finneon	S.S. Anne Port	wild-oldRod	2	Misty	2	4	1	2	direct	Measured
+509	Finneon	Vermilion City	wild-oldRod	2	Misty	2	4	1	2	direct	Measured
+509	Finneon	Route 12	wild-surf	10	May	56	58	3	2	direct	Measured
+509	Finneon	Route 12	wild-surf	10	May	56	58	4	2	direct	Measured
+510	Lumineon	Route 21 North	wild-superRod	9	Koga	53	55	1	2	via-evolution	Measured
+510	Lumineon	Cinnabar Island	wild-superRod	10	May	53	55	1	2	via-evolution	Measured
+510	Lumineon	Route 21 South	wild-superRod	10	May	53	55	1	2	via-evolution	Measured
+510	Lumineon	Route 19	wild-surf	10	May	56	58	0	2	via-evolution	Measured
+510	Lumineon	Route 21 North	wild-surf	10	May	56	58	2	2	via-evolution	Measured
+510	Lumineon	Safari Zone Area 4	wild-surf	10	May	56	58	0	2	via-evolution	Measured
+511	Mantyke	Route 22	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+511	Mantyke	Route 25	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+511	Mantyke	Safari Zone Area 1	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+512	Snover	Viridian City	wild-day	0	Brock	3	5	10	0	direct	Measured
+512	Snover	Viridian City	wild-day	0	Brock	3	5	11	0	direct	Measured
+512	Snover	Seafoam Islands B3F	wild-day	10	May	62	64	1	0	direct	Measured
+513	Abomasnow	Route 18	wild-day	9	Koga	49	51	3	0	via-evolution	Measured
+513	Abomasnow	Route 18	wild-night	9	Koga	49	51	3	0	via-evolution	Measured
+513	Abomasnow	Seafoam Islands B3F	wild-day	10	May	62	64	0	0	via-evolution	Measured
+513	Abomasnow	Seafoam Islands B3F	wild-night	10	May	62	64	0	0	via-evolution	Measured
+518	Tangrowth	Route 13	wild-day	9	Koga	48	50	0	3	via-evolution	Measured
+525	Gliscor	Bond Bridge	wild-day	17	Post-Game	83	85	8	2	via-evolution	Measured
+525	Gliscor	Bond Bridge	wild-day	17	Post-Game	83	85	9	2	via-evolution	Measured
+525	Gliscor	Bond Bridge	wild-night	17	Post-Game	83	85	8	2	via-evolution	Measured
+525	Gliscor	Bond Bridge	wild-night	17	Post-Game	83	85	9	2	via-evolution	Measured
+529	Probopass	Rock Tunnel Magearna's Chamber	wild-smash	17	Post-Game	84	85	2	3	via-evolution	Measured
+529	Probopass	Rock Tunnel Magearna's Chamber	wild-smash	17	Post-Game	84	85	3	3	via-evolution	Measured
+531	Froslass	Route 12	wild-night	9	Koga	50	52	3	3	via-evolution	Measured
+531	Froslass	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	8	3	via-evolution	Measured
+531	Froslass	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	9	3	via-evolution	Measured
+532	Rotom	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+532	Rotom	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	10	6	direct	Measured
+532	Rotom	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	11	6	direct	Measured
+532	Rotom	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	10	6	direct	Measured
+532	Rotom	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	11	6	direct	Measured
+533	Uxie	Route 10	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+534	Mesprit	Route 10	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+535	Azelf	Route 10	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+538	Heatran	Mt Ember Summit	fixed-overworld	17	Post-Game	NA	NA	NA	17	direct	Measured
+539	Regigigas	Mt. Moon 1F	raid6	1	Archer-1	NA	NA	NA	1	direct	Measured
+541	Cresselia	Route 13	raid5	9	Koga	NA	NA	NA	9	direct	Measured
+543	Manaphy	Seafoam Islands B1F	raid6	10	May	NA	NA	NA	10	direct	Measured
+545	Shaymin	Viridian Forest Heart	raid5	0	Brock	NA	NA	NA	0	direct	Measured
+547	Victini	Route 13	raid5	9	Koga	NA	NA	NA	9	direct	Measured
+548	Snivy	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+548	Snivy	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+551	Tepig	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+551	Tepig	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+554	Oshawott	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+554	Oshawott	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+557	Patrat	Viridian City	wild-day	0	Brock	3	5	4	0	direct	Measured
+557	Patrat	Viridian City	wild-night	0	Brock	3	5	4	0	direct	Measured
+559	Lillipup	Route 22	wild-day	0	Brock	3	5	5	0	direct	Measured
+562	Purrloin	Route 25	wild-night	2	Misty	16	18	7	2	direct	Measured
+563	Liepard	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	5	2	via-evolution	Measured
+563	Liepard	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	5	2	via-evolution	Measured
+564	Pansage	Route 2	wild-day	0	Brock	3	5	10	0	direct	Measured
+564	Pansage	Route 2	wild-day	0	Brock	3	5	11	0	direct	Measured
+564	Pansage	Route 2	wild-night	0	Brock	3	5	10	0	direct	Measured
+564	Pansage	Route 2	wild-night	0	Brock	3	5	11	0	direct	Measured
+564	Pansage	Route 4	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+565	Simisage	Route 13	wild-day	9	Koga	48	50	4	0	via-evolution	Measured
+565	Simisage	Route 23	wild-day	15	Brendan	33	35	2	0	via-evolution	Measured
+565	Simisage	Route 23	wild-night	15	Brendan	33	35	2	0	via-evolution	Measured
+566	Pansear	Route 1	wild-day	0	Brock	2	4	10	0	direct	Measured
+566	Pansear	Route 1	wild-day	0	Brock	2	4	11	0	direct	Measured
+566	Pansear	Route 1	wild-night	0	Brock	2	4	10	0	direct	Measured
+566	Pansear	Route 1	wild-night	0	Brock	2	4	11	0	direct	Measured
+566	Pansear	Route 4	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+567	Simisear	Route 13	wild-night	9	Koga	48	50	4	0	via-evolution	Measured
+567	Simisear	Route 23	wild-day	15	Brendan	33	35	3	0	via-evolution	Measured
+567	Simisear	Route 23	wild-night	15	Brendan	33	35	3	0	via-evolution	Measured
+568	Panpour	Route 22	wild-day	0	Brock	3	5	10	0	direct	Measured
+568	Panpour	Route 22	wild-day	0	Brock	3	5	11	0	direct	Measured
+568	Panpour	Route 22	wild-night	0	Brock	3	5	10	0	direct	Measured
+568	Panpour	Route 22	wild-night	0	Brock	3	5	11	0	direct	Measured
+568	Panpour	Route 4	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+569	Simipour	Route 15	wild-day	9	Koga	49	51	4	0	via-evolution	Measured
+569	Simipour	Route 15	wild-night	9	Koga	49	51	4	0	via-evolution	Measured
+569	Simipour	Route 23	wild-day	15	Brendan	33	35	4	0	via-evolution	Measured
+569	Simipour	Route 23	wild-day	15	Brendan	33	35	5	0	via-evolution	Measured
+569	Simipour	Route 23	wild-night	15	Brendan	33	35	4	0	via-evolution	Measured
+569	Simipour	Route 23	wild-night	15	Brendan	33	35	5	0	via-evolution	Measured
+570	Munna	Mt. Moon B2F	wild-night	1	Archer-1	12	14	7	1	direct	Measured
+570	Munna	Mt. Moon B2F	wild-night	1	Archer-1	12	14	8	1	direct	Measured
+572	Pidove	Route 4	wild-day	1	Archer-1	13	15	0	1	direct	Measured
+572	Pidove	Route 4	wild-night	1	Archer-1	13	15	0	1	direct	Measured
+575	Blitzle	Route 6	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+575	Blitzle	Route 10	wild-day	3	Surge	27	29	2	2	direct	Measured
+575	Blitzle	Route 10	wild-night	3	Surge	27	29	2	2	direct	Measured
+576	Zebstrika	Route 17	wild-day	9	Koga	46	48	3	2	via-evolution	Measured
+576	Zebstrika	Route 17	wild-night	9	Koga	46	48	3	2	via-evolution	Measured
+576	Zebstrika	Power Plant	wild-day	10	May	63	65	2	2	via-evolution	Measured
+577	Roggenrola	Mt. Moon B1F	wild-night	1	Archer-1	12	14	2	1	direct	Measured
+578	Boldore	Rock Tunnel B1F	wild-day	3	Surge	30	32	1	1	via-evolution	Measured
+580	Woobat	Mt. Moon 1F	wild-day	1	Archer-1	12	14	4	1	direct	Measured
+582	Drilbur	Mt. Moon B2F	wild-day	1	Archer-1	12	14	5	1	direct	Measured
+582	Drilbur	Mt. Moon B2F	wild-night	1	Archer-1	12	14	5	1	direct	Measured
+582	Drilbur	Diglett's Cave B1F	wild-day	2	Misty	23	25	6	1	direct	Measured
+582	Drilbur	Diglett's Cave B1F	wild-night	2	Misty	23	25	6	1	direct	Measured
+583	Excadrill	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	8	1	via-evolution	Measured
+583	Excadrill	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	9	1	via-evolution	Measured
+583	Excadrill	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	8	1	via-evolution	Measured
+583	Excadrill	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	9	1	via-evolution	Measured
+584	Audino	Route 25	wild-day	2	Misty	16	18	9	2	direct	Measured
+584	Audino	Route 25	wild-night	2	Misty	16	18	9	2	direct	Measured
+584	Audino	Pokemon Mansion 1F	wild-day	11	Blaine	63	65	1	2	direct	Measured
+584	Audino	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	1	2	direct	Measured
+584	Audino	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	5	2	direct	Measured
+584	Audino	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	5	2	direct	Measured
+584	Audino	Victory Road 1F	wild-day	16	Elite-4	80	82	4	2	direct	Measured
+584	Audino	Victory Road 1F	wild-night	16	Elite-4	80	82	4	2	direct	Measured
+585	Timburr	Mt. Moon 1F	wild-day	1	Archer-1	12	14	3	1	direct	Measured
+587	Conkeldurr	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	2	1	via-evolution	Measured
+587	Conkeldurr	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	3	1	via-evolution	Measured
+588	Tympole	Mt. Moon 1F	wild-night	1	Archer-1	12	14	5	1	direct	Measured
+590	Seismitoad	Safari Zone Area 2	wild-surf	10	May	56	58	3	1	via-evolution	Measured
+590	Seismitoad	Safari Zone Area 2	wild-surf	10	May	56	58	4	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	6	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	7	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	6	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	7	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-superRod	12	Archer-3	53	55	0	1	via-evolution	Measured
+590	Seismitoad	Cerulean Cave 1F	wild-surf	12	Archer-3	56	58	0	1	via-evolution	Measured
+591	Throh	Mt. Moon 1F	wild-day	1	Archer-1	12	14	11	1	direct	Measured
+591	Throh	Route 12	wild-day	9	Koga	50	52	4	1	direct	Measured
+592	Sawk	Mt. Moon 1F	wild-night	1	Archer-1	12	14	11	1	direct	Measured
+592	Sawk	Route 12	wild-night	9	Koga	50	52	4	1	direct	Measured
+593	Sewaddle	Viridian Forest	wild-day	0	Brock	4	6	4	0	direct	Measured
+594	Swadloon	Route 11	raid1	2	Misty	NA	NA	NA	0	via-evolution	Measured
+594	Swadloon	Route 14	wild-day	9	Koga	48	50	1	0	via-evolution	Measured
+594	Swadloon	Route 14	wild-night	9	Koga	48	50	1	0	via-evolution	Measured
+596	Venipede	Route 8	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+596	Venipede	Route 8	wild-day	3	Surge	33	35	5	3	direct	Measured
+596	Venipede	Route 8	wild-night	3	Surge	33	35	5	3	direct	Measured
+597	Whirlipede	Route 14	wild-day	9	Koga	48	50	4	3	via-evolution	Measured
+597	Whirlipede	Route 14	wild-day	9	Koga	48	50	5	3	via-evolution	Measured
+599	Cottonee	Route 24	wild-night	2	Misty	14	16	1	2	direct	Measured
+601	Petilil	Route 24	wild-day	2	Misty	14	16	1	2	direct	Measured
+602	Lilligant	Treasure Beach	wild-day	17	Post-Game	84	85	2	2	via-evolution	Measured
+602	Lilligant	Treasure Beach	wild-day	17	Post-Game	84	85	3	2	via-evolution	Measured
+603	Basculin	Route 6	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+603	Basculin	Safari Zone Area 1	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+603	Basculin	Safari Zone Area 4	wild-superRod	9	Koga	53	55	2	3	direct	Measured
+603	Basculin	Safari Zone Moltres' Den	wild-superRod	10	May	53	55	2	3	direct	Measured
+603	Basculin	Treasure Beach	wild-superRod	17	Post-Game	83	85	0	3	direct	Measured
+603	Basculin	Treasure Beach	wild-superRod	17	Post-Game	83	85	1	3	direct	Measured
+604	Sandile	Diglett's Cave 1F	wild-night	0	Brock	7	9	7	0	direct	Measured
+604	Sandile	Mt. Moon B1F	wild-night	1	Archer-1	12	14	7	0	direct	Measured
+604	Sandile	Diglett's Cave B1F	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+604	Sandile	Diglett's Cave B1F	wild-day	2	Misty	23	25	5	0	direct	Measured
+604	Sandile	Diglett's Cave B1F	wild-night	2	Misty	23	25	5	0	direct	Measured
+606	Krookodile	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	8	0	via-evolution	Measured
+606	Krookodile	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	9	0	via-evolution	Measured
+606	Krookodile	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	8	0	via-evolution	Measured
+606	Krookodile	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	9	0	via-evolution	Measured
+607	Darumaka	Route 9	wild-day	3	Surge	25	27	2	3	direct	Measured
+608	Darmanitan	Mt Ember Exterior	wild-day	17	Post-Game	83	85	2	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Exterior	wild-day	17	Post-Game	83	85	3	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Interior	wild-day	17	Post-Game	83	85	6	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Interior	wild-day	17	Post-Game	83	85	7	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Exterior	wild-night	17	Post-Game	83	85	2	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Exterior	wild-night	17	Post-Game	83	85	3	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Interior	wild-night	17	Post-Game	83	85	6	3	via-evolution	Measured
+608	Darmanitan	Mt Ember Interior	wild-night	17	Post-Game	83	85	7	3	via-evolution	Measured
+609	Maractus	Route 11	wild-day	2	Misty	23	25	4	2	direct	Measured
+610	Dwebble	Route 21 North	wild-day	0	Brock	4	6	4	0	direct	Measured
+610	Dwebble	Route 21 North	wild-night	0	Brock	4	6	4	0	direct	Measured
+610	Dwebble	Rock Tunnel 1F	wild-night	3	Surge	29	31	2	0	direct	Measured
+611	Crustle	Bond Bridge	wild-day	17	Post-Game	83	85	5	0	via-evolution	Measured
+611	Crustle	Bond Bridge	wild-day	17	Post-Game	84	85	4	0	via-evolution	Measured
+611	Crustle	Bond Bridge	wild-night	17	Post-Game	83	85	5	0	via-evolution	Measured
+611	Crustle	Bond Bridge	wild-night	17	Post-Game	84	85	4	0	via-evolution	Measured
+612	Scraggy	Route 1	wild-night	0	Brock	2	4	3	0	direct	Measured
+612	Scraggy	Route 11	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+612	Scraggy	Route 11	wild-night	2	Misty	23	25	6	0	direct	Measured
+612	Scraggy	Route 11	wild-night	2	Misty	23	25	7	0	direct	Measured
+614	Sigilyph	Route 11	wild-day	2	Misty	23	25	10	2	direct	Measured
+614	Sigilyph	Route 11	wild-day	2	Misty	23	25	11	2	direct	Measured
+614	Sigilyph	Route 11	wild-night	2	Misty	23	25	10	2	direct	Measured
+614	Sigilyph	Route 11	wild-night	2	Misty	23	25	11	2	direct	Measured
+614	Sigilyph	Route 15	raid3	9	Koga	NA	NA	NA	2	direct	Measured
+614	Sigilyph	Route 15	wild-day	9	Koga	49	51	6	2	direct	Measured
+614	Sigilyph	Route 15	wild-day	9	Koga	49	51	7	2	direct	Measured
+614	Sigilyph	Route 15	wild-night	9	Koga	49	51	6	2	direct	Measured
+614	Sigilyph	Route 15	wild-night	9	Koga	49	51	7	2	direct	Measured
+615	Yamask	Diglett's Cave 1F	wild-day	0	Brock	7	9	3	0	direct	Measured
+616	Cofagrigus	Pokemon Tower 3F	wild-day	3	Surge	45	47	1	0	via-evolution	Measured
+616	Cofagrigus	Pokemon Tower 4F	wild-day	3	Surge	45	47	1	0	via-evolution	Measured
+616	Cofagrigus	Pokemon Tower 5F	wild-day	3	Surge	45	47	1	0	via-evolution	Measured
+616	Cofagrigus	Pokemon Tower 6F	wild-day	3	Surge	45	47	1	0	via-evolution	Measured
+616	Cofagrigus	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	1	0	via-evolution	Measured
+617	Tirtouga	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+619	Archen	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+621	Trubbish	Route 6	wild-night	2	Misty	16	18	2	2	direct	Measured
+622	Garbodor	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	1	2	via-evolution	Measured
+622	Garbodor	Pokemon Mansion B1F	wild-day	11	Blaine	63	65	1	2	via-evolution	Measured
+622	Garbodor	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	1	2	via-evolution	Measured
+622	Garbodor	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	1	2	via-evolution	Measured
+623	Zorua	Route 10	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+623	Zorua	Safari Zone Area 2	wild-day	9	Koga	50	52	6	3	direct	Measured
+623	Zorua	Safari Zone Area 2	wild-day	9	Koga	50	52	7	3	direct	Measured
+625	Minccino	Route 8	wild-day	3	Surge	33	35	1	3	direct	Measured
+625	Minccino	Route 8	wild-night	3	Surge	33	35	1	3	direct	Measured
+627	Gothita	Route 5	wild-night	2	Misty	18	20	2	2	direct	Measured
+627	Gothita	Route 5	wild-night	2	Misty	18	20	7	2	direct	Measured
+630	Solosis	Route 5	wild-day	2	Misty	18	20	2	2	direct	Measured
+630	Solosis	Route 5	wild-day	2	Misty	18	20	7	2	direct	Measured
+632	Reuniclus	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	6	2	via-evolution	Measured
+632	Reuniclus	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	7	2	via-evolution	Measured
+633	Ducklett	Route 11	wild-day	2	Misty	23	25	1	2	direct	Measured
+633	Ducklett	Route 11	wild-night	2	Misty	23	25	1	2	direct	Measured
+635	Vanillite	Route 8	wild-day	3	Surge	33	35	2	3	direct	Measured
+635	Vanillite	Route 8	wild-night	3	Surge	33	35	2	3	direct	Measured
+637	Vanilluxe	Seafoam Islands B2F	wild-day	10	May	62	64	2	3	via-evolution	Measured
+637	Vanilluxe	Seafoam Islands B2F	wild-day	10	May	62	64	3	3	via-evolution	Measured
+637	Vanilluxe	Seafoam Islands B2F	wild-night	10	May	62	64	2	3	via-evolution	Measured
+637	Vanilluxe	Seafoam Islands B2F	wild-night	10	May	62	64	3	3	via-evolution	Measured
+638	Deerling	Route 7	wild-day	3	Surge	36	38	0	3	direct	Measured
+640	Emolga	Route 10	wild-night	3	Surge	27	29	6	3	direct	Measured
+640	Emolga	Route 10	wild-night	3	Surge	27	29	7	3	direct	Measured
+641	Karrablast	Route 25	wild-day	2	Misty	16	18	4	2	direct	Measured
+641	Karrablast	Route 25	wild-night	2	Misty	16	18	4	2	direct	Measured
+642	Escavalier	Route 16	wild-day	3	Surge	36	38	10	2	via-evolution	Measured
+642	Escavalier	Route 16	wild-night	3	Surge	36	38	10	2	via-evolution	Measured
+643	Foongus	Route 8	wild-night	3	Surge	33	35	0	3	direct	Measured
+644	Amoonguss	Route 14	raid3	9	Koga	NA	NA	NA	3	via-evolution	Measured
+644	Amoonguss	Route 15	wild-day	9	Koga	49	51	0	3	via-evolution	Measured
+644	Amoonguss	Route 15	wild-night	9	Koga	49	51	0	3	via-evolution	Measured
+645	Frillish	Route 11	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+645	Frillish	Vermilion City	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+645	Frillish	Safari Zone Area 1	wild-surf	10	May	56	58	0	3	direct	Measured
+646	Jellicent	Route 19	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+646	Jellicent	Route 21 South	wild-surf	10	May	56	58	3	3	via-evolution	Measured
+646	Jellicent	Route 21 South	wild-surf	10	May	56	58	4	3	via-evolution	Measured
+646	Jellicent	Safari Zone Area 1	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+647	Alomomola	Route 11	wild-superRod	9	Koga	53	55	2	9	direct	Measured
+647	Alomomola	Safari Zone Area 1	wild-superRod	9	Koga	53	55	0	9	direct	Measured
+647	Alomomola	Vermilion City	wild-superRod	9	Koga	53	55	2	9	direct	Measured
+647	Alomomola	Bond Bridge	wild-superRod	17	Post-Game	83	85	0	9	direct	Measured
+647	Alomomola	Bond Bridge	wild-superRod	17	Post-Game	83	85	1	9	direct	Measured
+648	Joltik	Viridian Forest	wild-day	0	Brock	4	6	11	0	direct	Measured
+648	Joltik	Viridian Forest	wild-day	0	Brock	5	7	10	0	direct	Measured
+649	Galvantula	Route 15	wild-day	9	Koga	49	51	3	0	via-evolution	Measured
+649	Galvantula	Route 15	wild-night	9	Koga	49	51	3	0	via-evolution	Measured
+650	Ferroseed	Rock Tunnel B1F	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+650	Ferroseed	Rock Tunnel 1F	wild-day	3	Surge	29	31	7	3	direct	Measured
+650	Ferroseed	Rock Tunnel 1F	wild-night	3	Surge	29	31	7	3	direct	Measured
+651	Ferrothorn	Route 15	wild-day	9	Koga	49	51	8	3	via-evolution	Measured
+651	Ferrothorn	Route 15	wild-day	9	Koga	49	51	9	3	via-evolution	Measured
+651	Ferrothorn	Route 15	wild-night	9	Koga	49	51	8	3	via-evolution	Measured
+651	Ferrothorn	Route 15	wild-night	9	Koga	49	51	9	3	via-evolution	Measured
+652	Klink	Diglett's Cave B1F	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+655	Tynamo	Route 10	wild-oldRod	3	Surge	2	4	1	3	direct	Measured
+657	Eelektross	Power Plant	wild-day	10	May	63	65	3	3	via-evolution	Measured
+657	Eelektross	Kindle Road	wild-night	17	Post-Game	83	85	8	3	via-evolution	Measured
+657	Eelektross	Kindle Road	wild-night	17	Post-Game	83	85	9	3	via-evolution	Measured
+657	Eelektross	Kindle Road	wild-night	17	Post-Game	83	85	10	3	via-evolution	Measured
+657	Eelektross	Kindle Road	wild-night	17	Post-Game	83	85	11	3	via-evolution	Measured
+658	Elgyem	Mt. Moon 1F	wild-day	1	Archer-1	12	14	10	1	direct	Measured
+658	Elgyem	Mt. Moon 1F	wild-night	1	Archer-1	12	14	10	1	direct	Measured
+661	Lampent	Pokemon Tower 3F	wild-day	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 3F	wild-day	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 4F	wild-day	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 4F	wild-day	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 5F	wild-day	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 5F	wild-day	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 6F	wild-day	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 6F	wild-day	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 3F	wild-night	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 3F	wild-night	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 4F	wild-night	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 4F	wild-night	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 5F	wild-night	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 5F	wild-night	3	Surge	45	47	11	3	direct	Measured
+661	Lampent	Pokemon Tower 6F	wild-night	3	Surge	45	47	10	3	direct	Measured
+661	Lampent	Pokemon Tower 6F	wild-night	3	Surge	45	47	11	3	direct	Measured
+663	Axew	Pewter City	wild-day	0	Brock	7	9	10	0	direct	Measured
+663	Axew	Pewter City	wild-night	0	Brock	7	9	10	0	direct	Measured
+663	Axew	Safari Zone Area 3	wild-day	9	Koga	50	52	10	0	direct	Measured
+663	Axew	Safari Zone Area 3	wild-day	9	Koga	50	52	11	0	direct	Measured
+663	Axew	Safari Zone Area 3	wild-night	9	Koga	50	52	10	0	direct	Measured
+663	Axew	Safari Zone Area 3	wild-night	9	Koga	50	52	11	0	direct	Measured
+666	Cubchoo	Viridian City	wild-day	0	Brock	4	6	5	0	direct	Measured
+666	Cubchoo	Viridian City	wild-night	0	Brock	4	6	5	0	direct	Measured
+666	Cubchoo	Rock Tunnel B1F	wild-day	3	Surge	30	32	8	0	direct	Measured
+666	Cubchoo	Rock Tunnel B1F	wild-day	3	Surge	30	32	9	0	direct	Measured
+667	Beartic	Seafoam Islands B1F	wild-day	10	May	62	64	2	0	via-evolution	Measured
+667	Beartic	Seafoam Islands B1F	wild-day	10	May	62	64	3	0	via-evolution	Measured
+667	Beartic	Seafoam Islands B1F	wild-night	10	May	62	64	2	0	via-evolution	Measured
+667	Beartic	Seafoam Islands B1F	wild-night	10	May	62	64	3	0	via-evolution	Measured
+668	Cryogonal	Rock Tunnel B1F	wild-night	3	Surge	30	32	5	3	direct	Measured
+668	Cryogonal	Seafoam Islands B2F	wild-day	10	May	62	64	8	3	direct	Measured
+668	Cryogonal	Seafoam Islands B2F	wild-day	10	May	62	64	9	3	direct	Measured
+668	Cryogonal	Seafoam Islands B2F	wild-night	10	May	62	64	8	3	direct	Measured
+668	Cryogonal	Seafoam Islands B2F	wild-night	10	May	62	64	9	3	direct	Measured
+669	Shelmet	Route 9	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+669	Shelmet	Route 9	wild-day	3	Surge	25	27	0	3	direct	Measured
+669	Shelmet	Route 9	wild-night	3	Surge	25	27	0	3	direct	Measured
+671	Stunfisk	Diglett's Cave B1F	wild-day	2	Misty	23	25	2	2	direct	Measured
+671	Stunfisk	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	5	2	direct	Measured
+671	Stunfisk	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	84	85	4	2	direct	Measured
+672	Mienfoo	Route 1	wild-day	0	Brock	2	4	3	0	direct	Measured
+672	Mienfoo	Route 6	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+672	Mienfoo	Route 7	wild-day	3	Surge	36	38	8	0	direct	Measured
+672	Mienfoo	Route 7	wild-day	3	Surge	36	38	9	0	direct	Measured
+672	Mienfoo	Route 7	wild-night	3	Surge	36	38	8	0	direct	Measured
+672	Mienfoo	Route 7	wild-night	3	Surge	36	38	9	0	direct	Measured
+674	Druddigon	Safari Zone Area 4	wild-day	9	Koga	50	52	0	9	direct	Measured
+674	Druddigon	Safari Zone Area 4	wild-day	9	Koga	50	52	1	9	direct	Measured
+674	Druddigon	Safari Zone Area 4	wild-night	9	Koga	50	52	0	9	direct	Measured
+674	Druddigon	Safari Zone Area 4	wild-night	9	Koga	50	52	1	9	direct	Measured
+675	Golett	Diglett's Cave B1F	wild-day	2	Misty	23	25	4	2	direct	Measured
+675	Golett	Diglett's Cave B1F	wild-day	2	Misty	23	25	8	2	direct	Measured
+676	Golurk	Viridian Forest Heart	raid3	0	Brock	NA	NA	NA	0	direct	Measured
+677	Pawniard	Mt. Moon B2F	wild-day	1	Archer-1	12	14	2	1	direct	Measured
+677	Pawniard	Mt. Moon B2F	wild-night	1	Archer-1	12	14	2	1	direct	Measured
+678	Bisharp	Safari Zone Area 3	wild-day	9	Koga	50	52	4	1	via-evolution	Measured
+678	Bisharp	Safari Zone Area 3	wild-day	9	Koga	50	52	5	1	via-evolution	Measured
+678	Bisharp	Safari Zone Area 3	wild-night	9	Koga	50	52	4	1	via-evolution	Measured
+678	Bisharp	Safari Zone Area 3	wild-night	9	Koga	50	52	5	1	via-evolution	Measured
+679	Bouffalant	Route 8	wild-day	3	Surge	33	35	3	3	direct	Measured
+679	Bouffalant	Route 8	wild-day	3	Surge	33	35	4	3	direct	Measured
+680	Rufflet	Route 7	wild-day	3	Surge	36	38	2	3	direct	Measured
+680	Rufflet	Route 7	wild-day	3	Surge	36	38	3	3	direct	Measured
+680	Rufflet	Route 9	wild-day	3	Surge	25	27	5	3	direct	Measured
+680	Rufflet	Route 9	wild-night	3	Surge	25	27	5	3	direct	Measured
+682	Vullaby	Route 7	wild-night	3	Surge	36	38	2	3	direct	Measured
+682	Vullaby	Route 7	wild-night	3	Surge	36	38	3	3	direct	Measured
+684	Heatmor	Rock Tunnel 1F	wild-day	3	Surge	29	31	9	3	direct	Measured
+684	Heatmor	Rock Tunnel 1F	wild-night	3	Surge	29	31	9	3	direct	Measured
+684	Heatmor	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	4	3	direct	Measured
+684	Heatmor	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	4	3	direct	Measured
+685	Durant	Rock Tunnel 1F	wild-day	3	Surge	29	31	10	3	direct	Measured
+685	Durant	Rock Tunnel 1F	wild-day	3	Surge	29	31	11	3	direct	Measured
+685	Durant	Route 16	wild-day	3	Surge	36	38	5	3	direct	Measured
+685	Durant	Rock Tunnel 1F	wild-night	3	Surge	29	31	10	3	direct	Measured
+685	Durant	Rock Tunnel 1F	wild-night	3	Surge	29	31	11	3	direct	Measured
+685	Durant	Route 16	wild-night	3	Surge	36	38	5	3	direct	Measured
+685	Durant	Route 14	wild-day	9	Koga	48	50	8	3	direct	Measured
+685	Durant	Route 14	wild-day	9	Koga	48	50	9	3	direct	Measured
+685	Durant	Route 14	wild-night	9	Koga	48	50	8	3	direct	Measured
+685	Durant	Route 14	wild-night	9	Koga	48	50	9	3	direct	Measured
+685	Durant	Berry Forest	wild-day	17	Post-Game	83	85	10	3	direct	Measured
+685	Durant	Berry Forest	wild-day	17	Post-Game	83	85	11	3	direct	Measured
+685	Durant	Berry Forest	wild-night	17	Post-Game	83	85	10	3	direct	Measured
+685	Durant	Berry Forest	wild-night	17	Post-Game	83	85	11	3	direct	Measured
+686	Deino	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+689	Larvesta	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+690	Volcarona	Victory Road 1F	wild-day	16	Elite-4	80	82	6	6	via-evolution	Measured
+690	Volcarona	Victory Road 1F	wild-night	16	Elite-4	80	82	6	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-day	17	Post-Game	83	85	8	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-day	17	Post-Game	83	85	9	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-day	17	Post-Game	83	85	10	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-day	17	Post-Game	83	85	11	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-night	17	Post-Game	83	85	8	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-night	17	Post-Game	83	85	9	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-night	17	Post-Game	83	85	10	6	via-evolution	Measured
+690	Volcarona	Mt Ember Exterior	wild-night	17	Post-Game	83	85	11	6	via-evolution	Measured
+691	Cobalion	Mt. Moon B2F	fixed-overworld	9	Koga	NA	NA	NA	9	direct	Measured
+692	Terrakion	Rock Tunnel B1F	fixed-overworld	9	Koga	NA	NA	NA	9	direct	Measured
+693	Virizion	Viridian Forest Heart	fixed-overworld	9	Koga	NA	NA	NA	9	direct	Measured
+694	Tornadus	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+695	Thundurus	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+698	Landorus	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+699	Kyurem	Seafoam Islands B1F	raid6	10	May	NA	NA	NA	10	direct	Measured
+700	Keldeo	Seafoam Islands B2F	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+701	Meloetta	Victory Road 2F	raid5	16	Elite-4	NA	NA	NA	16	direct	Measured
+702	Genesect	Victory Road 2F	raid5	16	Elite-4	NA	NA	NA	16	direct	Measured
+706	Klawf	Route 25	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+706	Klawf	Route 24	wild-day	2	Misty	14	16	10	2	direct	Measured
+706	Klawf	Route 24	wild-day	2	Misty	14	16	11	2	direct	Measured
+706	Klawf	Route 24	wild-night	2	Misty	14	16	10	2	direct	Measured
+706	Klawf	Route 24	wild-night	2	Misty	14	16	11	2	direct	Measured
+707	Burmy	Viridian Forest	wild-day	0	Brock	4	6	3	0	direct	Measured
+708	Burmy	Viridian Forest	wild-night	0	Brock	4	6	3	0	direct	Measured
+708	Burmy	Viridian Forest Heart	wild-night	0	Brock	4	6	3	0	direct	Measured
+711	Shellos	Route 2	raid1	0	Brock	NA	NA	NA	0	direct	Measured
+711	Shellos	Route 10	wild-goodRod	3	Surge	27	29	1	0	direct	Measured
+736	Basculin-Blue-Striped	Route 10	wild-superRod	9	Koga	53	55	2	9	direct	Measured
+736	Basculin-Blue-Striped	Route 22	wild-superRod	9	Koga	53	55	2	9	direct	Measured
+736	Basculin-Blue-Striped	Route 20	wild-superRod	10	May	53	55	1	9	direct	Measured
+736	Basculin-Blue-Striped	Route 19	wild-surf	10	May	56	58	2	9	direct	Measured
+738	Deerling	Viridian City	wild-day	0	Brock	3	5	6	0	direct	Measured
+739	Deerling	Viridian City	wild-night	0	Brock	3	5	6	0	direct	Measured
+740	Deerling	Route 7	wild-night	3	Surge	36	38	0	3	direct	Measured
+747	Ting-Lu	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+748	Chien-Pao	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+749	Wo-Chien	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+750	Chi-Yu	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+758	Chespin	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+758	Chespin	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+761	Fennekin	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+761	Fennekin	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+764	Froakie	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+764	Froakie	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+767	Bunnelby	Route 11	wild-day	2	Misty	23	25	5	2	direct	Measured
+767	Bunnelby	Route 11	wild-night	2	Misty	23	25	5	2	direct	Measured
+769	Fletchling	Route 3	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+769	Fletchling	Route 3	wild-day	1	Archer-1	10	12	0	1	direct	Measured
+769	Fletchling	Route 3	wild-night	1	Archer-1	10	12	0	1	direct	Measured
+771	Talonflame	Route 13	wild-night	9	Koga	48	50	0	1	via-evolution	Measured
+772	Scatterbug	Viridian Forest	wild-day	0	Brock	4	6	5	0	direct	Measured
+775	Litleo	Route 2	wild-day	0	Brock	4	6	7	0	direct	Measured
+775	Litleo	Route 3	wild-day	1	Archer-1	10	12	8	0	direct	Measured
+775	Litleo	Route 3	wild-night	1	Archer-1	10	12	8	0	direct	Measured
+775	Litleo	Route 6	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+776	Pyroar	Route 13	wild-night	9	Koga	48	50	1	0	via-evolution	Measured
+776	Pyroar	Mt Ember Exterior	wild-day	17	Post-Game	83	85	4	0	via-evolution	Measured
+776	Pyroar	Mt Ember Interior	wild-day	17	Post-Game	83	85	5	0	via-evolution	Measured
+776	Pyroar	Mt Ember Interior	wild-day	17	Post-Game	84	85	4	0	via-evolution	Measured
+776	Pyroar	Mt Ember Interior	wild-night	17	Post-Game	83	85	5	0	via-evolution	Measured
+776	Pyroar	Mt Ember Interior	wild-night	17	Post-Game	84	85	4	0	via-evolution	Measured
+777	Flabébé	Route 22	wild-night	0	Brock	3	5	4	0	direct	Measured
+777	Flabébé	Route 4	wild-day	1	Archer-1	13	15	7	0	direct	Measured
+777	Flabébé	Route 4	wild-night	1	Archer-1	13	15	7	0	direct	Measured
+780	Skiddo	Pewter City	wild-night	0	Brock	7	9	4	0	direct	Measured
+780	Skiddo	Route 3	wild-night	1	Archer-1	10	12	5	0	direct	Measured
+782	Pancham	Diglett's Cave 1F	wild-night	0	Brock	7	9	9	0	direct	Measured
+782	Pancham	Route 11	wild-night	2	Misty	23	25	0	0	direct	Measured
+783	Pangoro	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	2	0	via-evolution	Measured
+783	Pangoro	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	3	0	via-evolution	Measured
+784	Furfrou	Route 6	wild-day	2	Misty	16	18	3	2	direct	Measured
+784	Furfrou	Route 6	wild-night	2	Misty	16	18	3	2	direct	Measured
+785	Espurr	Pewter City	wild-night	0	Brock	7	9	3	0	direct	Measured
+785	Espurr	Route 9	wild-night	3	Surge	25	27	6	0	direct	Measured
+785	Espurr	Route 9	wild-night	3	Surge	25	27	7	0	direct	Measured
+787	Honedge	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+789	Aegislash-Shield	Victory Road 1F	wild-day	16	Elite-4	80	82	7	6	via-evolution	Measured
+789	Aegislash-Shield	Victory Road 1F	wild-night	16	Elite-4	80	82	7	6	via-evolution	Measured
+790	Spritzee	Route 2	raid1	0	Brock	NA	NA	NA	0	direct	Measured
+790	Spritzee	Route 5	wild-night	2	Misty	18	20	4	0	direct	Measured
+792	Swirlix	Route 5	wild-day	2	Misty	18	20	4	2	direct	Measured
+794	Inkay	Route 7	wild-day	3	Surge	36	38	1	3	direct	Measured
+794	Inkay	Route 7	wild-night	3	Surge	36	38	1	3	direct	Measured
+796	Binacle	Pallet Town	wild-oldRod	0	Brock	2	4	1	0	direct	Measured
+797	Barbaracle	Cape Brink	wild-surf	17	Post-Game	83	85	3	0	via-evolution	Measured
+797	Barbaracle	Cape Brink	wild-surf	17	Post-Game	83	85	4	0	via-evolution	Measured
+798	Skrelp	Route 6	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+798	Skrelp	Route 13	wild-goodRod	9	Koga	27	29	2	3	direct	Measured
+798	Skrelp	Route 13	wild-oldRod	9	Koga	2	4	0	3	direct	Measured
+798	Skrelp	Safari Zone Area 3	wild-superRod	9	Koga	53	55	3	3	direct	Measured
+798	Skrelp	Safari Zone Area 3	wild-superRod	9	Koga	53	55	4	3	direct	Measured
+799	Dragalge	Route 13	wild-superRod	9	Koga	53	55	0	3	via-evolution	Measured
+800	Clauncher	Route 25	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+800	Clauncher	Cerulean City	wild-oldRod	2	Misty	2	4	1	2	direct	Measured
+800	Clauncher	Viridian City	wild-goodRod	3	Surge	27	29	0	2	direct	Measured
+800	Clauncher	Route 20	wild-goodRod	10	May	27	29	1	2	direct	Measured
+801	Clawitzer	Viridian City	wild-superRod	9	Koga	53	55	3	2	via-evolution	Measured
+801	Clawitzer	Viridian City	wild-superRod	9	Koga	53	55	4	2	via-evolution	Measured
+801	Clawitzer	Route 20	wild-superRod	10	May	53	55	2	2	via-evolution	Measured
+801	Clawitzer	Route 19	wild-surf	10	May	56	58	3	2	via-evolution	Measured
+801	Clawitzer	Route 19	wild-surf	10	May	56	58	4	2	via-evolution	Measured
+801	Clawitzer	Bond Bridge	wild-goodRod	17	Post-Game	83	85	0	2	via-evolution	Measured
+802	Helioptile	Route 10	wild-day	3	Surge	27	29	1	3	direct	Measured
+803	Heliolisk	Route 18	wild-night	9	Koga	49	51	6	3	via-evolution	Measured
+803	Heliolisk	Route 18	wild-night	9	Koga	49	51	7	3	via-evolution	Measured
+803	Heliolisk	Power Plant	raid4	10	May	NA	NA	NA	3	via-evolution	Measured
+804	Tyrunt	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+806	Amaura	Vermilion City Pokemon Fan Club	fixed-gift	2	Misty	NA	NA	NA	2	direct	Measured
+809	Hawlucha	Safari Zone Area 2	wild-day	9	Koga	50	52	0	9	direct	Measured
+809	Hawlucha	Safari Zone Area 2	wild-night	9	Koga	50	52	0	9	direct	Measured
+809	Hawlucha	Bond Bridge	wild-day	17	Post-Game	83	85	10	9	direct	Measured
+809	Hawlucha	Bond Bridge	wild-day	17	Post-Game	83	85	11	9	direct	Measured
+809	Hawlucha	Bond Bridge	wild-night	17	Post-Game	83	85	10	9	direct	Measured
+809	Hawlucha	Bond Bridge	wild-night	17	Post-Game	83	85	11	9	direct	Measured
+810	Dedenne	Route 6	wild-day	2	Misty	16	18	5	2	direct	Measured
+810	Dedenne	Route 6	wild-night	2	Misty	16	18	5	2	direct	Measured
+810	Dedenne	Route 14	raid3	9	Koga	NA	NA	NA	2	direct	Measured
+810	Dedenne	Power Plant	wild-day	10	May	63	65	6	2	direct	Measured
+810	Dedenne	Power Plant	wild-day	10	May	63	65	7	2	direct	Measured
+811	Carbink	Rock Tunnel 1F	wild-day	3	Surge	29	31	5	3	direct	Measured
+811	Carbink	Rock Tunnel 1F	wild-night	3	Surge	29	31	5	3	direct	Measured
+811	Carbink	Rock Tunnel Magearna's Chamber	wild-smash	17	Post-Game	84	85	4	3	direct	Measured
+812	Goomy	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+814	Goodra	Victory Road 1F	wild-day	16	Elite-4	80	82	2	6	via-evolution	Measured
+815	Klefki	Safari Zone Area 3	wild-day	9	Koga	50	52	0	9	direct	Measured
+815	Klefki	Safari Zone Area 3	wild-night	9	Koga	50	52	0	9	direct	Measured
+815	Klefki	Treasure Beach	wild-day	17	Post-Game	83	85	6	9	direct	Measured
+815	Klefki	Treasure Beach	wild-day	17	Post-Game	83	85	7	9	direct	Measured
+815	Klefki	Treasure Beach	wild-night	17	Post-Game	83	85	6	9	direct	Measured
+815	Klefki	Treasure Beach	wild-night	17	Post-Game	83	85	7	9	direct	Measured
+816	Phantump	Viridian Forest Heart	wild-night	0	Brock	4	6	9	0	direct	Measured
+816	Phantump	Route 4	wild-night	1	Archer-1	13	15	6	0	direct	Measured
+818	Pumpkaboo	Route 4	wild-day	1	Archer-1	13	15	6	1	direct	Measured
+820	Bergmite	Rock Tunnel B1F	wild-night	3	Surge	30	32	0	3	direct	Measured
+821	Avalugg	Route 12	wild-day	9	Koga	50	52	6	3	via-evolution	Measured
+821	Avalugg	Route 12	wild-day	9	Koga	50	52	7	3	via-evolution	Measured
+821	Avalugg	Seafoam Islands B1F	wild-day	10	May	62	64	8	3	via-evolution	Measured
+821	Avalugg	Seafoam Islands B1F	wild-day	10	May	62	64	9	3	via-evolution	Measured
+821	Avalugg	Seafoam Islands B1F	wild-night	10	May	62	64	8	3	via-evolution	Measured
+821	Avalugg	Seafoam Islands B1F	wild-night	10	May	62	64	9	3	via-evolution	Measured
+822	Noibat	Diglett's Cave 1F	wild-day	0	Brock	7	9	10	0	direct	Measured
+822	Noibat	Diglett's Cave 1F	wild-day	0	Brock	7	9	11	0	direct	Measured
+822	Noibat	Diglett's Cave 1F	wild-night	0	Brock	7	9	10	0	direct	Measured
+822	Noibat	Diglett's Cave 1F	wild-night	0	Brock	7	9	11	0	direct	Measured
+822	Noibat	Mt. Moon 1F	wild-night	1	Archer-1	10	11	4	0	direct	Measured
+823	Noivern	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	1	0	via-evolution	Measured
+823	Noivern	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	1	0	via-evolution	Measured
+826	Zygarde	Victory Road 2F	raid6	16	Elite-4	NA	NA	NA	16	direct	Measured
+827	Diancie	Route 16	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+828	Hoopa	Pokemon Mansion 1F	raid5	11	Blaine	NA	NA	NA	11	direct	Measured
+830	Volcanion	Route 13	raid5	9	Koga	NA	NA	NA	9	direct	Measured
+835	Varoom	Mt. Moon 1F	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+835	Varoom	Mt. Moon B2F	wild-day	1	Archer-1	12	14	0	1	direct	Measured
+837	Zygarde-10%	Route 16	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+840	Tinkatink	Mt. Moon B1F	wild-day	1	Archer-1	12	14	6	1	direct	Measured
+840	Tinkatink	Mt. Moon B1F	wild-day	1	Archer-1	12	14	10	1	direct	Measured
+840	Tinkatink	Mt. Moon B1F	wild-night	1	Archer-1	12	14	6	1	direct	Measured
+840	Tinkatink	Mt. Moon B1F	wild-night	1	Archer-1	12	14	10	1	direct	Measured
+841	Tinkatuff	Rock Tunnel B1F	raid1	3	Surge	NA	NA	NA	1	via-evolution	Measured
+843	Pawmi	Viridian City	wild-night	0	Brock	3	5	0	0	direct	Measured
+843	Pawmi	Route 4	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+846	Lechonk	Route 21 North	wild-day	0	Brock	4	6	1	0	direct	Measured
+846	Lechonk	Route 21 North	wild-night	0	Brock	4	6	1	0	direct	Measured
+848	Floette-Eternal	Route 11 Gatehouse 2F	fixed-trade	2	Misty	NA	NA	NA	2	direct	Measured
+848	Floette-Eternal	Safari Zone Moltres' Den	wild-day	10	May	50	52	10	2	direct	Measured
+848	Floette-Eternal	Safari Zone Moltres' Den	wild-day	10	May	50	52	11	2	direct	Measured
+848	Floette-Eternal	Safari Zone Moltres' Den	wild-night	10	May	50	52	10	2	direct	Measured
+848	Floette-Eternal	Safari Zone Moltres' Den	wild-night	10	May	50	52	11	2	direct	Measured
+850	Gimmighoul	Safari Zone Area 3	wild-day	9	Koga	50	52	8	9	direct	Measured
+850	Gimmighoul	Safari Zone Area 3	wild-day	9	Koga	50	52	9	9	direct	Measured
+850	Gimmighoul	Safari Zone Area 3	wild-night	9	Koga	50	52	8	9	direct	Measured
+850	Gimmighoul	Safari Zone Area 3	wild-night	9	Koga	50	52	9	9	direct	Measured
+853	Pumpkaboo	Viridian Forest Heart	wild-day	0	Brock	4	6	9	0	direct	Measured
+854	Pumpkaboo	Route 4	wild-night	1	Archer-1	13	15	8	1	direct	Measured
+854	Pumpkaboo	Route 4	wild-night	1	Archer-1	13	15	9	1	direct	Measured
+855	Pumpkaboo	Route 4	wild-day	1	Archer-1	13	15	8	1	direct	Measured
+855	Pumpkaboo	Route 4	wild-day	1	Archer-1	13	15	9	1	direct	Measured
+856	Gourgeist	Viridian Forest Heart	raid3	0	Brock	NA	NA	NA	0	direct	Measured
+859	Greavard	Viridian City	wild-day	0	Brock	3	5	7	0	direct	Measured
+860	Houndstone	Pokemon Tower 4F	wild-day	3	Surge	45	47	8	0	via-evolution	Measured
+860	Houndstone	Pokemon Tower 4F	wild-day	3	Surge	45	47	9	0	via-evolution	Measured
+860	Houndstone	Pokemon Tower 4F	wild-night	3	Surge	45	47	8	0	via-evolution	Measured
+860	Houndstone	Pokemon Tower 4F	wild-night	3	Surge	45	47	9	0	via-evolution	Measured
+861	Tadbulb	Route 25	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+861	Tadbulb	Route 25	wild-day	2	Misty	16	18	3	2	direct	Measured
+861	Tadbulb	Route 25	wild-night	2	Misty	16	18	3	2	direct	Measured
+861	Tadbulb	Route 10	wild-day	3	Surge	27	29	6	2	direct	Measured
+861	Tadbulb	Route 10	wild-day	3	Surge	27	29	7	2	direct	Measured
+863	Finizen	Cerulean City Gym	fixed-gift	9	Koga	NA	NA	NA	9	direct	Measured
+864	Palafin	Bond Bridge	wild-surf	17	Post-Game	60	65	0	9	via-evolution	Measured
+866	Noibat-Sevii	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	84	85	1	17	direct	Measured
+866	Noibat-Sevii	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	84	85	1	17	direct	Measured
+921	Sprigatito	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+921	Sprigatito	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+923	Meowscarada	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	2	0	via-evolution	Measured
+923	Meowscarada	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	3	0	via-evolution	Measured
+924	Fuecoco	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+924	Fuecoco	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+927	Quaxly	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+927	Quaxly	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+929	Quaquaval	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	4	0	via-evolution	Measured
+929	Quaquaval	Pokemon Mansion 4F	wild-day	15	Brendan	75	77	5	0	via-evolution	Measured
+929	Quaquaval	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	4	0	via-evolution	Measured
+929	Quaquaval	Pokemon Mansion 4F	wild-night	15	Brendan	75	77	5	0	via-evolution	Measured
+930	Wooper-Paldea	Route 21 North	wild-night	0	Brock	4	6	0	0	direct	Measured
+932	Wiglett	Route 21 North	wild-day	0	Brock	4	6	2	0	direct	Measured
+932	Wiglett	Route 21 North	wild-day	0	Brock	4	6	3	0	direct	Measured
+932	Wiglett	Route 21 North	wild-night	0	Brock	4	6	2	0	direct	Measured
+932	Wiglett	Route 21 North	wild-night	0	Brock	4	6	3	0	direct	Measured
+934	Ceruledge	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	6	2	via-evolution	Measured
+934	Ceruledge	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	7	2	via-evolution	Measured
+935	Armarouge	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	6	2	via-evolution	Measured
+935	Armarouge	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	7	2	via-evolution	Measured
+937	Annihilape	Pokemon Tower 6F	wild-day	3	Surge	45	47	3	0	via-evolution	Measured
+937	Annihilape	Pokemon Tower 6F	wild-day	3	Surge	45	47	4	0	via-evolution	Measured
+937	Annihilape	Pokemon Tower 6F	wild-night	3	Surge	45	47	3	0	via-evolution	Measured
+937	Annihilape	Pokemon Tower 6F	wild-night	3	Surge	45	47	4	0	via-evolution	Measured
+938	Charcadet	Route 24	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+938	Charcadet	Route 24	wild-day	2	Misty	14	16	3	2	direct	Measured
+938	Charcadet	Route 24	wild-night	2	Misty	14	16	3	2	direct	Measured
+939	Rowlet	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+939	Rowlet	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+942	Litten	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+942	Litten	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+945	Popplio	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+945	Popplio	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+948	Pikipek	Viridian City	wild-day	0	Brock	3	5	8	0	direct	Measured
+948	Pikipek	Viridian City	wild-day	0	Brock	3	5	9	0	direct	Measured
+951	Yungoos	Route 1	wild-day	0	Brock	2	4	5	0	direct	Measured
+952	Gumshoos	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	0	0	via-evolution	Measured
+953	Grubbin	Viridian Forest Heart	wild-day	0	Brock	4	6	7	0	direct	Measured
+954	Charjabug	Route 14	wild-day	9	Koga	48	50	6	0	via-evolution	Measured
+954	Charjabug	Route 14	wild-day	9	Koga	48	50	7	0	via-evolution	Measured
+954	Charjabug	Route 14	wild-night	9	Koga	48	50	6	0	via-evolution	Measured
+954	Charjabug	Route 14	wild-night	9	Koga	48	50	7	0	via-evolution	Measured
+955	Vikavolt	Route 18	wild-day	9	Koga	49	51	1	0	via-evolution	Measured
+955	Vikavolt	Route 18	wild-night	9	Koga	49	51	1	0	via-evolution	Measured
+955	Vikavolt	Power Plant	wild-night	10	May	63	65	3	0	via-evolution	Measured
+956	Crabrawler	Route 11	wild-day	2	Misty	23	25	6	2	direct	Measured
+956	Crabrawler	Route 11	wild-day	2	Misty	23	25	7	2	direct	Measured
+957	Crabominable	Safari Zone Area 4	wild-day	9	Koga	50	52	8	2	via-evolution	Measured
+957	Crabominable	Safari Zone Area 4	wild-day	9	Koga	50	52	9	2	via-evolution	Measured
+957	Crabominable	Safari Zone Area 4	wild-night	9	Koga	50	52	8	2	via-evolution	Measured
+957	Crabominable	Safari Zone Area 4	wild-night	9	Koga	50	52	9	2	via-evolution	Measured
+958	Oricorio	Route 5	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+958	Oricorio	Route 15	wild-day	9	Koga	49	51	5	2	direct	Measured
+958	Oricorio	Route 13	wild-night	9	Koga	48	50	5	2	direct	Measured
+958	Oricorio	Route 15	wild-night	9	Koga	49	51	5	2	direct	Measured
+959	Cutiefly	Pewter City	wild-day	0	Brock	7	9	6	0	direct	Measured
+959	Cutiefly	Route 7	wild-day	3	Surge	36	38	4	0	direct	Measured
+959	Cutiefly	Route 7	wild-night	3	Surge	36	38	4	0	direct	Measured
+961	Rockruff	Route 22	wild-day	0	Brock	3	5	9	0	direct	Measured
+961	Rockruff	Route 22	wild-night	0	Brock	3	5	9	0	direct	Measured
+961	Rockruff	Mt. Moon 1F	wild-day	1	Archer-1	12	14	2	0	direct	Measured
+961	Rockruff	Mt. Moon 1F	wild-night	1	Archer-1	12	14	2	0	direct	Measured
+963	Wishiwashi	Cerulean City	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+963	Wishiwashi	Route 24	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+963	Wishiwashi	Cape Brink	wild-superRod	17	Post-Game	83	85	2	3	direct	Measured
+964	Mareanie	Route 22	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+964	Mareanie	Safari Zone Area 1	wild-goodRod	9	Koga	27	29	1	3	direct	Measured
+964	Mareanie	Celadon City	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+964	Mareanie	Celadon City	wild-superRod	9	Koga	53	55	2	3	direct	Measured
+964	Mareanie	Seafoam Islands B3F	wild-goodRod	10	May	27	29	1	3	direct	Measured
+964	Mareanie	Cerulean Cave B1F	wild-goodRod	13	Giovanni-3	27	29	2	3	direct	Measured
+964	Mareanie	Cerulean Cave B1F	wild-oldRod	13	Giovanni-3	2	4	1	3	direct	Measured
+965	Toxapex	Route 13	wild-superRod	9	Koga	53	55	2	3	via-evolution	Measured
+965	Toxapex	Safari Zone Area 3	wild-surf	10	May	56	58	1	3	via-evolution	Measured
+965	Toxapex	Cerulean Cave B1F	wild-surf	13	Giovanni-3	56	58	2	3	via-evolution	Measured
+965	Toxapex	Cerulean Cave B1F	wild-surf	13	Giovanni-3	56	58	3	3	via-evolution	Measured
+966	Mudbray	Mt. Moon B2F	wild-day	1	Archer-1	12	14	6	1	direct	Measured
+966	Mudbray	Mt. Moon B2F	wild-night	1	Archer-1	12	14	6	1	direct	Measured
+968	Dewpider	Route 9	wild-day	3	Surge	25	27	3	3	direct	Measured
+968	Dewpider	Route 25	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+968	Dewpider	Route 9	wild-night	3	Surge	25	27	3	3	direct	Measured
+968	Dewpider	Route 13	wild-goodRod	9	Koga	27	29	1	3	direct	Measured
+968	Dewpider	Safari Zone Area 3	wild-surf	10	May	56	58	0	3	direct	Measured
+969	Araquanid	Safari Zone Area 2	wild-surf	10	May	56	58	2	3	via-evolution	Measured
+969	Araquanid	Treasure Beach	wild-superRod	17	Post-Game	83	85	3	3	via-evolution	Measured
+969	Araquanid	Treasure Beach	wild-superRod	17	Post-Game	83	85	4	3	via-evolution	Measured
+969	Araquanid	Berry Forest	wild-surf	17	Post-Game	56	58	0	3	via-evolution	Measured
+969	Araquanid	Cape Brink	wild-surf	17	Post-Game	60	65	0	3	via-evolution	Measured
+970	Fomantis	Route 8	wild-day	3	Surge	33	35	0	3	direct	Measured
+971	Lurantis	Route 13	wild-day	9	Koga	48	50	3	3	via-evolution	Measured
+972	Morelull	Route 22	wild-day	0	Brock	3	5	3	0	direct	Measured
+972	Morelull	Route 22	wild-night	0	Brock	3	5	3	0	direct	Measured
+972	Morelull	Route 5	wild-day	2	Misty	18	20	5	0	direct	Measured
+972	Morelull	Route 5	wild-night	2	Misty	18	20	5	0	direct	Measured
+974	Salandit	Route 9	wild-night	3	Surge	25	27	2	3	direct	Measured
+975	Salazzle	Pokemon Mansion 2F	wild-day	11	Blaine	63	65	5	3	via-evolution	Measured
+975	Salazzle	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	5	3	via-evolution	Measured
+976	Stufful	Route 11	wild-day	2	Misty	23	25	0	2	direct	Measured
+977	Bewear	Pokemon Mansion 3F	wild-day	11	Blaine	63	65	0	2	via-evolution	Measured
+978	Bounsweet	Route 6	wild-night	2	Misty	16	18	0	2	direct	Measured
+980	Tsareena	Route 15	wild-day	9	Koga	49	51	2	2	via-evolution	Measured
+980	Tsareena	Route 15	wild-night	9	Koga	49	51	2	2	via-evolution	Measured
+980	Tsareena	Berry Forest	wild-night	17	Post-Game	83	85	8	2	via-evolution	Measured
+980	Tsareena	Berry Forest	wild-night	17	Post-Game	83	85	9	2	via-evolution	Measured
+981	Comfey	Route 8	wild-day	3	Surge	33	35	6	3	direct	Measured
+981	Comfey	Route 8	wild-day	3	Surge	33	35	7	3	direct	Measured
+982	Oranguru	Route 16	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+982	Oranguru	Route 7	wild-night	3	Surge	36	38	6	3	direct	Measured
+982	Oranguru	Route 7	wild-night	3	Surge	36	38	7	3	direct	Measured
+983	Passimian	Route 16	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+983	Passimian	Route 7	wild-day	3	Surge	36	38	6	3	direct	Measured
+983	Passimian	Route 7	wild-day	3	Surge	36	38	7	3	direct	Measured
+984	Wimpod	S.S. Anne Port	wild-oldRod	2	Misty	2	4	0	2	direct	Measured
+984	Wimpod	Vermilion City	wild-goodRod	3	Surge	27	29	2	2	direct	Measured
+984	Wimpod	Safari Zone Area 2	wild-surf	10	May	56	58	0	2	direct	Measured
+985	Golisopod	Route 14	wild-day	9	Koga	48	50	10	2	via-evolution	Measured
+985	Golisopod	Route 14	wild-day	9	Koga	48	50	11	2	via-evolution	Measured
+985	Golisopod	Route 14	wild-night	9	Koga	48	50	10	2	via-evolution	Measured
+985	Golisopod	Route 14	wild-night	9	Koga	48	50	11	2	via-evolution	Measured
+985	Golisopod	Safari Zone Area 3	wild-surf	10	May	56	58	2	2	via-evolution	Measured
+985	Golisopod	Safari Zone Area 3	wild-surf	10	May	56	58	3	2	via-evolution	Measured
+985	Golisopod	Safari Zone Area 3	wild-surf	10	May	56	58	4	2	via-evolution	Measured
+985	Golisopod	Treasure Beach	wild-superRod	17	Post-Game	83	85	2	2	via-evolution	Measured
+985	Golisopod	Berry Forest	wild-surf	17	Post-Game	56	58	1	2	via-evolution	Measured
+986	Sandygast	Route 22	wild-day	0	Brock	3	5	7	0	direct	Measured
+986	Sandygast	Route 22	wild-night	0	Brock	3	5	7	0	direct	Measured
+986	Sandygast	Diglett's Cave B1F	wild-night	2	Misty	23	25	8	0	direct	Measured
+987	Palossand	Route 14	wild-night	9	Koga	48	50	4	0	via-evolution	Measured
+987	Palossand	Route 14	wild-night	9	Koga	48	50	5	0	via-evolution	Measured
+988	Pyukumuku	Safari Zone Area 3	wild-goodRod	9	Koga	27	29	0	9	direct	Measured
+988	Pyukumuku	Cerulean Cave 1F	wild-goodRod	12	Archer-3	27	29	1	9	direct	Measured
+988	Pyukumuku	Kindle Road	wild-surf	17	Post-Game	83	85	1	9	direct	Measured
+989	Type: Null	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	11	12	direct	Measured
+989	Type: Null	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	11	12	direct	Measured
+989	Type: Null	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	11	12	direct	Measured
+989	Type: Null	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	11	12	direct	Measured
+989	Type: Null	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	11	12	direct	Measured
+989	Type: Null	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	10	12	direct	Measured
+989	Type: Null	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	11	12	direct	Measured
+991	Minior-Meteor	Rock Tunnel 1F	wild-day	3	Surge	29	31	6	3	direct	Measured
+991	Minior-Meteor	Rock Tunnel 1F	wild-night	3	Surge	29	31	6	3	direct	Measured
+992	Komala	Route 6	wild-night	2	Misty	16	18	6	2	direct	Measured
+992	Komala	Route 6	wild-night	2	Misty	16	18	7	2	direct	Measured
+992	Komala	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	0	2	direct	Measured
+993	Turtonator	Route 9	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+993	Turtonator	Route 13	wild-night	9	Koga	48	50	8	3	direct	Measured
+993	Turtonator	Route 17	wild-night	9	Koga	46	48	8	3	direct	Measured
+993	Turtonator	Route 17	wild-night	9	Koga	46	48	9	3	direct	Measured
+994	Togedemaru	Route 16	wild-day	3	Surge	36	38	6	3	direct	Measured
+994	Togedemaru	Route 16	wild-night	3	Surge	36	38	6	3	direct	Measured
+994	Togedemaru	Power Plant	wild-night	10	May	63	65	6	3	direct	Measured
+994	Togedemaru	Power Plant	wild-night	10	May	63	65	7	3	direct	Measured
+995	Mimikyu	Cinnabar Island Lab Meeting Room	fixed-trade	10	May	NA	NA	NA	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	5	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	10	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	11	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-day	17	Post-Game	84	85	4	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	5	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	10	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	11	10	direct	Measured
+995	Mimikyu	Pokemon Tower 8F	wild-night	17	Post-Game	84	85	4	10	direct	Measured
+996	Bruxish	Route 11	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+996	Bruxish	Route 12	wild-superRod	9	Koga	53	55	3	3	direct	Measured
+996	Bruxish	Safari Zone Area 3	wild-superRod	9	Koga	53	55	1	3	direct	Measured
+996	Bruxish	Viridian City	wild-superRod	9	Koga	53	55	2	3	direct	Measured
+996	Bruxish	Route 20	wild-superRod	10	May	53	55	3	3	direct	Measured
+996	Bruxish	Route 20	wild-superRod	10	May	53	55	4	3	direct	Measured
+997	Drampa	Route 8	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+997	Drampa	Route 8	wild-night	3	Surge	33	35	10	3	direct	Measured
+997	Drampa	Route 8	wild-night	3	Surge	33	35	11	3	direct	Measured
+997	Drampa	Route 17	wild-day	9	Koga	46	48	8	3	direct	Measured
+997	Drampa	Route 17	wild-day	9	Koga	46	48	9	3	direct	Measured
+998	Dhelmise	Safari Zone Area 2	wild-superRod	9	Koga	53	55	3	9	direct	Measured
+998	Dhelmise	Safari Zone Area 2	wild-superRod	9	Koga	53	55	4	9	direct	Measured
+998	Dhelmise	Cinnabar Island	wild-superRod	10	May	53	55	3	9	direct	Measured
+998	Dhelmise	Cinnabar Island	wild-superRod	10	May	53	55	4	9	direct	Measured
+999	Jangmo-o	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+1001	Kommo-o	Victory Road 2F	wild-day	16	Elite-4	80	82	8	6	via-evolution	Measured
+1001	Kommo-o	Victory Road 2F	wild-day	16	Elite-4	80	82	9	6	via-evolution	Measured
+1001	Kommo-o	Victory Road 2F	wild-night	16	Elite-4	80	82	8	6	via-evolution	Measured
+1001	Kommo-o	Victory Road 2F	wild-night	16	Elite-4	80	82	9	6	via-evolution	Measured
+1002	Tapu Koko	Power Plant	raid6	10	May	NA	NA	NA	10	direct	Measured
+1003	Tapu Lele	Pokemon Mansion 1F	raid6	11	Blaine	NA	NA	NA	11	direct	Measured
+1004	Tapu Bulu	Viridian Forest Heart	raid6	0	Brock	NA	NA	NA	0	direct	Measured
+1005	Tapu Fini	Seafoam Islands B1F	raid6	10	May	NA	NA	NA	10	direct	Measured
+1006	Cosmog	Saffron City Gian's House 1F	fixed-gift	17	Post-Game	NA	NA	NA	17	direct	Measured
+1010	Nihilego	Cerulean Cave 2F	raid5	12	Archer-3	NA	NA	NA	12	direct	Measured
+1011	Buzzwole	Cerulean Cave 2F	raid5	12	Archer-3	NA	NA	NA	12	direct	Measured
+1012	Pheromosa	Cerulean Cave 2F	raid6	12	Archer-3	NA	NA	NA	12	direct	Measured
+1013	Xurkitree	Cerulean Cave 2F	raid4	12	Archer-3	NA	NA	NA	12	direct	Measured
+1013	Xurkitree	Cerulean Cave 2F	raid5	12	Archer-3	NA	NA	NA	12	direct	Measured
+1014	Celesteela	Cerulean Cave 2F	raid6	12	Archer-3	NA	NA	NA	12	direct	Measured
+1015	Kartana	Cerulean Cave 2F	raid6	12	Archer-3	NA	NA	NA	12	direct	Measured
+1016	Guzzlord	Cerulean Cave 2F	raid4	12	Archer-3	NA	NA	NA	12	direct	Measured
+1016	Guzzlord	Cerulean Cave 2F	raid5	12	Archer-3	NA	NA	NA	12	direct	Measured
+1017	Necrozma	Route 25	raid4	2	Misty	NA	NA	NA	2	direct	Measured
+1018	Magearna	Rock Tunnel Magearna's Chamber	fixed-overworld	17	Post-Game	NA	NA	NA	17	direct	Measured
+1019	Marshadow	Pokemon Tower 9F	fixed-overworld	17	Post-Game	NA	NA	NA	17	direct	Measured
+1020	Rattata-Alola	Route 1	wild-night	0	Brock	2	4	2	0	direct	Measured
+1021	Raticate-Alola	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	0	0	via-evolution	Measured
+1021	Raticate-Alola	Pokemon Mansion B1F	wild-night	11	Blaine	63	65	0	0	via-evolution	Measured
+1023	Sandshrew-Alola	Route 22	wild-night	0	Brock	3	5	1	0	direct	Measured
+1023	Sandshrew-Alola	Rock Tunnel B1F	raid1	3	Surge	NA	NA	NA	0	direct	Measured
+1024	Sandslash-Alola	Seafoam Islands B1F	wild-night	10	May	62	64	0	0	via-evolution	Measured
+1024	Sandslash-Alola	Seafoam Islands B2F	wild-night	10	May	62	64	0	0	via-evolution	Measured
+1024	Sandslash-Alola	Seafoam Islands B4F	wild-night	10	May	62	64	0	0	via-evolution	Measured
+1025	Vulpix-Alola	Route 5	wild-night	2	Misty	18	20	3	2	direct	Measured
+1026	Ninetales-Alola	Seafoam Islands B3F	wild-day	10	May	62	64	2	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B3F	wild-day	10	May	62	64	3	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B4F	wild-day	10	May	62	64	2	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B4F	wild-day	10	May	62	64	3	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B3F	wild-night	10	May	62	64	2	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B3F	wild-night	10	May	62	64	3	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B4F	wild-night	10	May	62	64	2	2	via-evolution	Measured
+1026	Ninetales-Alola	Seafoam Islands B4F	wild-night	10	May	62	64	3	2	via-evolution	Measured
+1027	Diglett-Alola	Diglett's Cave 1F	wild-night	0	Brock	7	9	0	0	direct	Measured
+1027	Diglett-Alola	Diglett's Cave B1F	wild-night	2	Misty	23	25	0	0	direct	Measured
+1027	Diglett-Alola	Diglett's Cave B1F	wild-night	2	Misty	23	25	1	0	direct	Measured
+1028	Dugtrio-Alola	Diglett's Cave B1F	wild-night	2	Misty	23	25	9	0	via-evolution	Measured
+1029	Meowth-Alola	Route 3	wild-day	1	Archer-1	10	12	11	1	direct	Measured
+1029	Meowth-Alola	Route 3	wild-night	1	Archer-1	10	12	11	1	direct	Measured
+1030	Persian-Alola	Route 15	raid3	9	Koga	NA	NA	NA	1	via-evolution	Measured
+1031	Geodude-Alola	Diglett's Cave 1F	wild-night	0	Brock	7	9	5	0	direct	Measured
+1031	Geodude-Alola	Mt. Moon 1F	wild-night	1	Archer-1	12	14	0	0	direct	Measured
+1032	Graveler-Alola	Rock Tunnel 1F	wild-night	3	Surge	29	31	0	0	via-evolution	Measured
+1033	Golem-Alola	Rock Tunnel Magearna's Chamber	wild-smash	17	Post-Game	84	85	1	0	via-evolution	Measured
+1034	Grimer-Alola	Pewter City	wild-night	0	Brock	7	9	0	0	direct	Measured
+1034	Grimer-Alola	Route 5	wild-night	2	Misty	18	20	8	0	direct	Measured
+1034	Grimer-Alola	Route 5	wild-night	2	Misty	18	20	9	0	direct	Measured
+1035	Muk-Alola	Route 17	wild-night	9	Koga	46	48	2	0	via-evolution	Measured
+1035	Muk-Alola	Celadon City	wild-superRod	9	Koga	53	55	4	0	via-evolution	Measured
+1035	Muk-Alola	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	2	0	via-evolution	Measured
+1035	Muk-Alola	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	3	0	via-evolution	Measured
+1037	Exeggutor-Alola	Route 13	wild-day	9	Koga	48	50	8	0	via-evolution	Measured
+1039	Marowak-Alola	Victory Road 1F	wild-night	16	Elite-4	80	82	8	3	via-evolution	Measured
+1074	Poipole	Cerulean Cave 2F	raid6	12	Archer-3	NA	NA	NA	12	direct	Measured
+1076	Stakataka	Cerulean Cave 2F	raid4	12	Archer-3	NA	NA	NA	12	direct	Measured
+1076	Stakataka	Cerulean Cave 2F	raid5	12	Archer-3	NA	NA	NA	12	direct	Measured
+1077	Blacephalon	Cerulean Cave 2F	raid6	12	Archer-3	NA	NA	NA	12	direct	Measured
+1078	Zeraora	Power Plant	raid5	10	May	NA	NA	NA	10	direct	Measured
+1083	Meltan	Safari Zone Area 1	wild-day	9	Koga	50	52	4	9	direct	Measured
+1083	Meltan	Safari Zone Area 1	wild-day	9	Koga	50	52	5	9	direct	Measured
+1083	Meltan	Safari Zone Area 1	wild-night	9	Koga	50	52	4	9	direct	Measured
+1083	Meltan	Safari Zone Area 1	wild-night	9	Koga	50	52	5	9	direct	Measured
+1083	Meltan	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	10	9	direct	Measured
+1083	Meltan	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	11	9	direct	Measured
+1083	Meltan	Treasure Beach	wild-day	17	Post-Game	83	85	10	9	direct	Measured
+1083	Meltan	Treasure Beach	wild-day	17	Post-Game	83	85	11	9	direct	Measured
+1083	Meltan	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	10	9	direct	Measured
+1083	Meltan	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	11	9	direct	Measured
+1083	Meltan	Treasure Beach	wild-night	17	Post-Game	83	85	10	9	direct	Measured
+1083	Meltan	Treasure Beach	wild-night	17	Post-Game	83	85	11	9	direct	Measured
+1085	Pikachu-Surfing	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1086	Pikachu-Flying	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1087	Pikachu-Cosplay	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1088	Pikachu-Libre	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1088	Pikachu-Libre	Treasure Beach	fixed-gift	17	Post-Game	NA	NA	NA	3	direct	Measured
+1089	Pikachu-Pop-Star	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1090	Pikachu-Rock-Star	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1091	Pikachu-Belle	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1092	Pikachu-PhD	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1093	Pikachu-Original	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1094	Pikachu-Hoenn	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1095	Pikachu-Sinnoh	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1096	Pikachu-Unova	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1097	Pikachu-Kalos	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1098	Pikachu-Alola	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1099	Pikachu-Partner	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1101	Cyclizar	Route 17	wild-day	9	Koga	46	48	1	9	direct	Measured
+1101	Cyclizar	Route 17	wild-night	9	Koga	46	48	1	9	direct	Measured
+1102	Grookey	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+1102	Grookey	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+1105	Scorbunny	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+1105	Scorbunny	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+1107	Cinderace	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	2	0	via-evolution	Measured
+1107	Cinderace	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	3	0	via-evolution	Measured
+1108	Sobble	Pallet Town Oak's Lab	fixed-gift	0	Brock	NA	NA	NA	0	direct	Measured
+1108	Sobble	Celadon City Mansion 1F	fixed-gift	3	Surge	NA	NA	NA	0	direct	Measured
+1111	Skwovet	Route 22	wild-night	0	Brock	3	5	5	0	direct	Measured
+1113	Rookidee	Route 4	wild-day	1	Archer-1	13	15	11	1	direct	Measured
+1113	Rookidee	Route 4	wild-night	1	Archer-1	13	15	11	1	direct	Measured
+1115	Corviknight	Safari Zone Area 3	wild-night	9	Koga	50	52	6	1	via-evolution	Measured
+1115	Corviknight	Safari Zone Area 3	wild-night	9	Koga	50	52	7	1	via-evolution	Measured
+1115	Corviknight	Three Isle Port	wild-day	17	Post-Game	83	85	10	1	via-evolution	Measured
+1115	Corviknight	Three Isle Port	wild-day	17	Post-Game	83	85	11	1	via-evolution	Measured
+1115	Corviknight	Three Isle Port	wild-night	17	Post-Game	83	85	10	1	via-evolution	Measured
+1115	Corviknight	Three Isle Port	wild-night	17	Post-Game	83	85	11	1	via-evolution	Measured
+1116	Blipbug	Viridian Forest Heart	wild-night	0	Brock	4	6	1	0	direct	Measured
+1119	Nickit	Route 3	wild-day	1	Archer-1	10	12	4	1	direct	Measured
+1119	Nickit	Route 3	wild-night	1	Archer-1	10	12	4	1	direct	Measured
+1121	Gossifleur	Route 6	wild-night	2	Misty	16	18	1	2	direct	Measured
+1123	Wooloo	Viridian City	wild-day	0	Brock	3	5	1	0	direct	Measured
+1125	Chewtle	Mt. Moon 1F	wild-day	1	Archer-1	12	14	5	1	direct	Measured
+1125	Chewtle	Cerulean City	wild-oldRod	2	Misty	2	4	0	1	direct	Measured
+1126	Drednaw	Route 12	wild-superRod	9	Koga	53	55	4	1	via-evolution	Measured
+1126	Drednaw	Cerulean City Gym	fixed-gift	17	Post-Game	NA	NA	NA	1	via-evolution	Measured
+1127	Yamper	Route 24	wild-day	2	Misty	14	16	2	2	direct	Measured
+1127	Yamper	Route 24	wild-night	2	Misty	14	16	2	2	direct	Measured
+1129	Rolycoly	Mt. Moon B1F	wild-day	1	Archer-1	12	14	2	1	direct	Measured
+1129	Rolycoly	Mt. Moon B2F	wild-night	1	Archer-1	12	14	3	1	direct	Measured
+1130	Carkol	Rock Tunnel 1F	wild-day	3	Surge	29	31	4	1	via-evolution	Measured
+1131	Coalossal	Mt Ember Exterior	wild-day	17	Post-Game	83	85	1	1	via-evolution	Measured
+1131	Coalossal	Mt Ember Exterior	wild-night	17	Post-Game	83	85	1	1	via-evolution	Measured
+1132	Applin	Route 22	wild-night	0	Brock	3	5	6	0	direct	Measured
+1132	Applin	Route 24	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+1132	Applin	Route 6	raid1	2	Misty	NA	NA	NA	0	direct	Measured
+1132	Applin	Route 7	wild-day	3	Surge	36	38	5	0	direct	Measured
+1132	Applin	Route 7	wild-night	3	Surge	36	38	5	0	direct	Measured
+1135	Silicobra	Diglett's Cave 1F	wild-day	0	Brock	7	9	7	0	direct	Measured
+1135	Silicobra	Diglett's Cave B1F	wild-day	2	Misty	23	25	3	0	direct	Measured
+1135	Silicobra	Diglett's Cave B1F	wild-night	2	Misty	23	25	3	0	direct	Measured
+1136	Sandaconda	Three Isle Port	wild-day	17	Post-Game	83	85	6	0	via-evolution	Measured
+1136	Sandaconda	Three Isle Port	wild-day	17	Post-Game	83	85	7	0	via-evolution	Measured
+1136	Sandaconda	Three Isle Port	wild-night	17	Post-Game	83	85	6	0	via-evolution	Measured
+1136	Sandaconda	Three Isle Port	wild-night	17	Post-Game	83	85	7	0	via-evolution	Measured
+1136	Sandaconda	Treasure Beach	wild-night	17	Post-Game	83	85	5	0	via-evolution	Measured
+1136	Sandaconda	Treasure Beach	wild-night	17	Post-Game	84	85	4	0	via-evolution	Measured
+1137	Cramorant	Route 16	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1137	Cramorant	Cinnabar Island	wild-surf	10	May	56	58	3	3	direct	Measured
+1137	Cramorant	Cinnabar Island	wild-surf	10	May	56	58	4	3	direct	Measured
+1137	Cramorant	Route 21 North	wild-surf	10	May	56	58	3	3	direct	Measured
+1137	Cramorant	Route 21 North	wild-surf	10	May	56	58	4	3	direct	Measured
+1137	Cramorant	Vermilion City	wild-surf	10	May	56	58	2	3	direct	Measured
+1137	Cramorant	Vermilion City	wild-surf	10	May	56	58	3	3	direct	Measured
+1137	Cramorant	Vermilion City	wild-surf	10	May	56	58	4	3	direct	Measured
+1137	Cramorant	Cape Brink	wild-surf	17	Post-Game	83	85	2	3	direct	Measured
+1137	Cramorant	Kindle Road	wild-surf	17	Post-Game	83	85	2	3	direct	Measured
+1138	Arrokuda	Vermilion City	wild-oldRod	2	Misty	2	4	0	2	direct	Measured
+1138	Arrokuda	Celadon City	wild-oldRod	3	Surge	2	4	1	2	direct	Measured
+1138	Arrokuda	Safari Zone Area 2	wild-oldRod	9	Koga	2	4	1	2	direct	Measured
+1139	Barraskewda	Route 21 North	wild-surf	10	May	56	58	1	2	via-evolution	Measured
+1139	Barraskewda	Cape Brink	wild-goodRod	17	Post-Game	83	85	1	2	via-evolution	Measured
+1139	Barraskewda	Cape Brink	wild-goodRod	17	Post-Game	83	85	2	2	via-evolution	Measured
+1140	Toxel	Route 10	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1140	Toxel	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	3	direct	Measured
+1141	Toxtricity	Victory Road 3F	wild-day	16	Elite-4	80	82	5	3	via-evolution	Measured
+1141	Toxtricity	Victory Road 3F	wild-night	16	Elite-4	80	82	5	3	via-evolution	Measured
+1142	Sizzlipede	Route 6	wild-day	2	Misty	16	18	4	2	direct	Measured
+1142	Sizzlipede	Route 6	wild-night	2	Misty	16	18	4	2	direct	Measured
+1143	Centiskorch	Route 13	wild-night	9	Koga	48	50	10	2	via-evolution	Measured
+1143	Centiskorch	Route 13	wild-night	9	Koga	48	50	11	2	via-evolution	Measured
+1143	Centiskorch	Kindle Road	wild-day	17	Post-Game	83	85	4	2	via-evolution	Measured
+1143	Centiskorch	Kindle Road	wild-day	17	Post-Game	83	85	5	2	via-evolution	Measured
+1144	Clobbopus	Route 22	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+1144	Clobbopus	Route 24	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+1145	Grapploct	Seafoam Islands B4F	wild-superRod	10	May	53	55	3	3	via-evolution	Measured
+1145	Grapploct	Seafoam Islands B4F	wild-superRod	10	May	53	55	4	3	via-evolution	Measured
+1145	Grapploct	Cape Brink	wild-day	17	Post-Game	83	85	8	3	via-evolution	Measured
+1145	Grapploct	Cape Brink	wild-day	17	Post-Game	83	85	9	3	via-evolution	Measured
+1145	Grapploct	Cape Brink	wild-night	17	Post-Game	83	85	8	3	via-evolution	Measured
+1145	Grapploct	Cape Brink	wild-night	17	Post-Game	83	85	9	3	via-evolution	Measured
+1146	Sinistea	Pewter City	wild-day	0	Brock	7	9	7	0	direct	Measured
+1147	Polteageist	Pokemon Tower 3F	wild-day	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 3F	wild-day	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 5F	wild-day	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 5F	wild-day	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 6F	wild-day	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 6F	wild-day	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 3F	wild-night	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 3F	wild-night	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 5F	wild-night	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 5F	wild-night	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 6F	wild-night	3	Surge	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 6F	wild-night	3	Surge	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 7F	wild-day	6	Archer-2	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	9	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	8	0	via-evolution	Measured
+1147	Polteageist	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	8	0	via-evolution	Measured
+1148	Hatenna	Route 5	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1148	Hatenna	Route 5	wild-day	2	Misty	18	20	1	2	direct	Measured
+1148	Hatenna	Route 5	wild-night	2	Misty	18	20	1	2	direct	Measured
+1150	Hatterene	Bond Bridge	wild-day	17	Post-Game	84	85	2	2	via-evolution	Measured
+1150	Hatterene	Bond Bridge	wild-day	17	Post-Game	84	85	3	2	via-evolution	Measured
+1150	Hatterene	Bond Bridge	wild-night	17	Post-Game	84	85	2	2	via-evolution	Measured
+1150	Hatterene	Bond Bridge	wild-night	17	Post-Game	84	85	3	2	via-evolution	Measured
+1151	Impidimp	Route 2	raid1	0	Brock	NA	NA	NA	0	direct	Measured
+1152	Morgrem	Route 8	wild-night	3	Surge	33	35	6	0	via-evolution	Measured
+1152	Morgrem	Route 8	wild-night	3	Surge	33	35	7	0	via-evolution	Measured
+1153	Grimmsnarl	Kindle Road	wild-night	17	Post-Game	83	85	6	0	via-evolution	Measured
+1153	Grimmsnarl	Kindle Road	wild-night	17	Post-Game	83	85	7	0	via-evolution	Measured
+1154	Obstagoon	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	0	0	via-evolution	Measured
+1156	Cursola	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	8	3	via-evolution	Measured
+1156	Cursola	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	9	3	via-evolution	Measured
+1156	Cursola	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	8	3	via-evolution	Measured
+1156	Cursola	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	9	3	via-evolution	Measured
+1157	Sirfetch’d	Safari Zone Moltres' Den	wild-day	10	May	50	52	6	2	via-evolution	Measured
+1157	Sirfetch’d	Safari Zone Moltres' Den	wild-day	10	May	50	52	7	2	via-evolution	Measured
+1157	Sirfetch’d	Safari Zone Moltres' Den	wild-night	10	May	50	52	6	2	via-evolution	Measured
+1157	Sirfetch’d	Safari Zone Moltres' Den	wild-night	10	May	50	52	7	2	via-evolution	Measured
+1157	Sirfetch’d	Treasure Beach	wild-day	17	Post-Game	84	85	1	2	via-evolution	Measured
+1157	Sirfetch’d	Treasure Beach	wild-day	17	Post-Game	85	85	0	2	via-evolution	Measured
+1157	Sirfetch’d	Treasure Beach	wild-night	17	Post-Game	84	85	1	2	via-evolution	Measured
+1157	Sirfetch’d	Treasure Beach	wild-night	17	Post-Game	85	85	0	2	via-evolution	Measured
+1159	Runerigus	Pokemon Tower 3F	wild-night	3	Surge	45	47	1	0	via-evolution	Measured
+1159	Runerigus	Pokemon Tower 4F	wild-night	3	Surge	45	47	1	0	via-evolution	Measured
+1159	Runerigus	Pokemon Tower 5F	wild-night	3	Surge	45	47	1	0	via-evolution	Measured
+1159	Runerigus	Pokemon Tower 6F	wild-night	3	Surge	45	47	1	0	via-evolution	Measured
+1159	Runerigus	Pokemon Tower 7F	wild-night	6	Archer-2	45	47	1	0	via-evolution	Measured
+1160	Milcery	Route 25	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1161	Alcremie	Kindle Road	wild-day	17	Post-Game	83	85	2	2	via-evolution	Measured
+1161	Alcremie	Kindle Road	wild-day	17	Post-Game	83	85	3	2	via-evolution	Measured
+1161	Alcremie	Kindle Road	wild-night	17	Post-Game	83	85	2	2	via-evolution	Measured
+1161	Alcremie	Kindle Road	wild-night	17	Post-Game	83	85	3	2	via-evolution	Measured
+1162	Falinks	Route 9	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1162	Falinks	Route 16	wild-night	3	Surge	36	38	3	3	direct	Measured
+1163	Pincurchin	Route 10	wild-day	3	Surge	27	29	3	3	direct	Measured
+1163	Pincurchin	Route 10	wild-night	3	Surge	27	29	3	3	direct	Measured
+1163	Pincurchin	Route 15	raid3	9	Koga	NA	NA	NA	3	direct	Measured
+1164	Snom	Viridian Forest	wild-night	0	Brock	4	6	10	0	direct	Measured
+1164	Snom	Viridian Forest	wild-night	0	Brock	4	6	11	0	direct	Measured
+1165	Frosmoth	Seafoam Islands B4F	wild-day	10	May	62	64	8	0	via-evolution	Measured
+1165	Frosmoth	Seafoam Islands B4F	wild-day	10	May	62	64	9	0	via-evolution	Measured
+1165	Frosmoth	Seafoam Islands B4F	wild-night	10	May	62	64	8	0	via-evolution	Measured
+1165	Frosmoth	Seafoam Islands B4F	wild-night	10	May	62	64	9	0	via-evolution	Measured
+1166	Stonjourner	Diglett's Cave B1F	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1166	Stonjourner	Rock Tunnel 1F	wild-day	3	Surge	29	31	8	2	direct	Measured
+1166	Stonjourner	Rock Tunnel 1F	wild-night	3	Surge	29	31	8	2	direct	Measured
+1167	Eiscue	Underground Path Route 5 Entrance	fixed-trade	4	Erika	NA	NA	NA	4	direct	Measured
+1167	Eiscue	Safari Zone Moltres' Den	wild-day	10	May	50	52	4	4	direct	Measured
+1167	Eiscue	Safari Zone Moltres' Den	wild-day	10	May	50	52	5	4	direct	Measured
+1167	Eiscue	Safari Zone Moltres' Den	wild-night	10	May	50	52	4	4	direct	Measured
+1167	Eiscue	Safari Zone Moltres' Den	wild-night	10	May	50	52	5	4	direct	Measured
+1168	Indeedee	Route 9	wild-day	3	Surge	25	27	4	3	direct	Measured
+1168	Indeedee	Route 13	raid3	9	Koga	NA	NA	NA	3	direct	Measured
+1168	Indeedee	Berry Forest	wild-day	17	Post-Game	83	85	6	3	direct	Measured
+1168	Indeedee	Berry Forest	wild-day	17	Post-Game	83	85	7	3	direct	Measured
+1169	Morpeko	Route 18 Gatehouse 2F	fixed-trade	9	Koga	NA	NA	NA	9	direct	Measured
+1169	Morpeko	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	8	9	direct	Measured
+1169	Morpeko	Pokemon Mansion Gouging Fire's Room	wild-day	15	Brendan	75	77	9	9	direct	Measured
+1169	Morpeko	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	8	9	direct	Measured
+1169	Morpeko	Pokemon Mansion Gouging Fire's Room	wild-night	15	Brendan	75	77	9	9	direct	Measured
+1169	Morpeko	Cape Brink	wild-day	17	Post-Game	83	85	6	9	direct	Measured
+1169	Morpeko	Cape Brink	wild-day	17	Post-Game	83	85	7	9	direct	Measured
+1169	Morpeko	Cape Brink	wild-night	17	Post-Game	83	85	6	9	direct	Measured
+1169	Morpeko	Cape Brink	wild-night	17	Post-Game	83	85	7	9	direct	Measured
+1170	Cufant	Mt. Moon 1F	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+1170	Cufant	Route 16	wild-day	3	Surge	36	38	4	1	direct	Measured
+1170	Cufant	Route 16	wild-day	3	Surge	36	38	11	1	direct	Measured
+1170	Cufant	Route 16	wild-night	3	Surge	36	38	4	1	direct	Measured
+1170	Cufant	Route 16	wild-night	3	Surge	36	38	11	1	direct	Measured
+1171	Copperajah	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	84	85	2	1	via-evolution	Measured
+1171	Copperajah	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	84	85	3	1	via-evolution	Measured
+1172	Dracozolt	Route 17	wild-day	9	Koga	46	48	10	9	direct	Measured
+1172	Dracozolt	Route 17	wild-day	9	Koga	46	48	11	9	direct	Measured
+1172	Dracozolt	Route 17	wild-night	9	Koga	46	48	10	9	direct	Measured
+1172	Dracozolt	Route 17	wild-night	9	Koga	46	48	11	9	direct	Measured
+1172	Dracozolt	Power Plant	raid4	10	May	NA	NA	NA	9	direct	Measured
+1173	Arctozolt	Route 12	wild-day	9	Koga	50	52	11	9	direct	Measured
+1173	Arctozolt	Route 12	wild-night	9	Koga	50	52	11	9	direct	Measured
+1173	Arctozolt	Power Plant	raid4	10	May	NA	NA	NA	9	direct	Measured
+1174	Dracovish	Route 18	wild-day	9	Koga	49	51	11	9	direct	Measured
+1174	Dracovish	Route 18	wild-night	9	Koga	49	51	11	9	direct	Measured
+1174	Dracovish	Seafoam Islands B1F	raid4	10	May	NA	NA	NA	9	direct	Measured
+1174	Dracovish	Seafoam Islands B1F	raid5	10	May	NA	NA	NA	9	direct	Measured
+1175	Arctovish	Route 12	wild-day	9	Koga	50	52	10	9	direct	Measured
+1175	Arctovish	Route 18	wild-day	9	Koga	49	51	10	9	direct	Measured
+1175	Arctovish	Route 12	wild-night	9	Koga	50	52	10	9	direct	Measured
+1175	Arctovish	Route 18	wild-night	9	Koga	49	51	10	9	direct	Measured
+1175	Arctovish	Seafoam Islands B1F	raid4	10	May	NA	NA	NA	9	direct	Measured
+1175	Arctovish	Seafoam Islands B1F	raid5	10	May	NA	NA	NA	9	direct	Measured
+1176	Duraludon	Route 13	raid3	9	Koga	NA	NA	NA	9	direct	Measured
+1176	Duraludon	Route 13	wild-day	9	Koga	48	50	9	9	direct	Measured
+1176	Duraludon	Route 13	wild-night	9	Koga	48	50	9	9	direct	Measured
+1176	Duraludon	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	8	9	direct	Measured
+1176	Duraludon	Cerulean Cave 1F	wild-day	12	Archer-3	68	70	9	9	direct	Measured
+1176	Duraludon	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	8	9	direct	Measured
+1176	Duraludon	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	9	9	direct	Measured
+1176	Duraludon	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	8	9	direct	Measured
+1176	Duraludon	Cerulean Cave 1F	wild-night	12	Archer-3	68	70	9	9	direct	Measured
+1176	Duraludon	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	8	9	direct	Measured
+1176	Duraludon	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	9	9	direct	Measured
+1177	Dreepy	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+1179	Dragapult	Victory Road 3F	wild-day	16	Elite-4	80	82	2	6	via-evolution	Measured
+1179	Dragapult	Victory Road 3F	wild-day	16	Elite-4	80	82	9	6	via-evolution	Measured
+1179	Dragapult	Victory Road 3F	wild-night	16	Elite-4	80	82	2	6	via-evolution	Measured
+1179	Dragapult	Victory Road 3F	wild-night	16	Elite-4	80	82	9	6	via-evolution	Measured
+1179	Dragapult	Viridian City Gym	fixed-gift	17	Post-Game	NA	NA	NA	6	via-evolution	Measured
+1179	Dragapult	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	6	6	via-evolution	Measured
+1179	Dragapult	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	7	6	via-evolution	Measured
+1179	Dragapult	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	6	6	via-evolution	Measured
+1179	Dragapult	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	7	6	via-evolution	Measured
+1183	Kubfu	Cerulean Cave 2F	fixed-gift	14	Clair	NA	NA	NA	14	direct	Measured
+1185	Zarude	Viridian Forest Heart	raid5	0	Brock	NA	NA	NA	0	direct	Measured
+1187	Calyrex	Route 25	raid4	2	Misty	NA	NA	NA	2	direct	Measured
+1188	Regieleki	Power Plant	raid5	10	May	NA	NA	NA	10	direct	Measured
+1189	Regidrago	Pokemon Mansion 1F	raid5	11	Blaine	NA	NA	NA	11	direct	Measured
+1195	Frigibax	Celadon City Game Corner Exchange	fixed-gift	6	Archer-2	NA	NA	NA	6	direct	Measured
+1197	Baxcalibur	Victory Road 2F	wild-day	16	Elite-4	80	82	0	6	via-evolution	Measured
+1197	Baxcalibur	Victory Road 2F	wild-day	16	Elite-4	80	82	10	6	via-evolution	Measured
+1197	Baxcalibur	Victory Road 2F	wild-night	16	Elite-4	80	82	0	6	via-evolution	Measured
+1197	Baxcalibur	Victory Road 2F	wild-night	16	Elite-4	80	82	10	6	via-evolution	Measured
+1198	Toedscool	Viridian Forest	wild-night	0	Brock	4	6	8	0	direct	Measured
+1198	Toedscool	Viridian Forest	wild-night	0	Brock	4	6	9	0	direct	Measured
+1200	Nymble-Sevii	Berry Forest	wild-day	17	Post-Game	84	85	1	17	direct	Measured
+1200	Nymble-Sevii	Berry Forest	wild-night	17	Post-Game	84	85	1	17	direct	Measured
+1202	Indeedee-F	Route 9	wild-night	3	Surge	25	27	4	3	direct	Measured
+1202	Indeedee-F	Berry Forest	wild-night	17	Post-Game	83	85	6	3	direct	Measured
+1202	Indeedee-F	Berry Forest	wild-night	17	Post-Game	83	85	7	3	direct	Measured
+1208	Meowth-Galar	Route 1	wild-night	0	Brock	2	4	4	0	direct	Measured
+1208	Meowth-Galar	Route 3	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+1208	Meowth-Galar	Route 5	wild-night	2	Misty	18	20	0	0	direct	Measured
+1209	Ponyta-Galar	Route 2	wild-night	0	Brock	3	5	2	0	direct	Measured
+1210	Rapidash-Galar	Pokemon Mansion 3F	wild-night	11	Blaine	63	65	4	0	via-evolution	Measured
+1211	Slowpoke-Galar	Route 12	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1211	Slowpoke-Galar	Celadon City	wild-goodRod	3	Surge	27	29	1	3	direct	Measured
+1211	Slowpoke-Galar	Route 6	wild-goodRod	3	Surge	27	29	0	3	direct	Measured
+1212	Slowbro-Galar	Route 6	wild-superRod	9	Koga	53	55	0	3	via-evolution	Measured
+1212	Slowbro-Galar	Cape Brink	wild-day	17	Post-Game	83	85	5	3	via-evolution	Measured
+1212	Slowbro-Galar	Cape Brink	wild-day	17	Post-Game	84	85	4	3	via-evolution	Measured
+1213	Farfetch’d-Galar	Vermilion City Central House	fixed-trade	2	Misty	NA	NA	NA	2	direct	Measured
+1215	Weezing-Galar	Route 14	raid3	9	Koga	NA	NA	NA	0	via-evolution	Measured
+1215	Weezing-Galar	Route 17	wild-night	9	Koga	46	48	0	0	via-evolution	Measured
+1215	Weezing-Galar	Pokemon Mansion 1F	wild-night	11	Blaine	63	65	4	0	via-evolution	Measured
+1215	Weezing-Galar	Pokemon Mansion 2F	wild-night	11	Blaine	63	65	2	0	via-evolution	Measured
+1216	Mr. Mime-Galar	Route 12	wild-day	9	Koga	50	52	8	3	via-evolution	Measured
+1216	Mr. Mime-Galar	Route 12	wild-day	9	Koga	50	52	9	3	via-evolution	Measured
+1216	Mr. Mime-Galar	Route 12	wild-night	9	Koga	50	52	8	3	via-evolution	Measured
+1216	Mr. Mime-Galar	Route 12	wild-night	9	Koga	50	52	9	3	via-evolution	Measured
+1217	Articuno-Galar	Seafoam Islands B5F	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+1218	Zapdos-Galar	Power Plant	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+1219	Moltres-Galar	Safari Zone Moltres' Den	fixed-overworld	10	May	NA	NA	NA	10	direct	Measured
+1221	Corsola-Galar	Route 12	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1221	Corsola-Galar	Route 10	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+1221	Corsola-Galar	Route 21 North	wild-goodRod	3	Surge	27	29	2	3	direct	Measured
+1221	Corsola-Galar	Route 20	wild-goodRod	10	May	27	29	2	3	direct	Measured
+1221	Corsola-Galar	Berry Forest	wild-goodRod	17	Post-Game	83	85	0	3	direct	Measured
+1221	Corsola-Galar	Cape Brink	wild-goodRod	17	Post-Game	83	85	0	3	direct	Measured
+1221	Corsola-Galar	Kindle Road	wild-goodRod	17	Post-Game	83	85	0	3	direct	Measured
+1221	Corsola-Galar	Treasure Beach	wild-goodRod	17	Post-Game	83	85	0	3	direct	Measured
+1222	Zigzagoon-Galar	Route 1	wild-night	0	Brock	2	4	1	0	direct	Measured
+1222	Zigzagoon-Galar	Route 2	wild-night	0	Brock	3	5	8	0	direct	Measured
+1226	Darmanitan-Galar	Seafoam Islands B2F	wild-day	10	May	62	64	1	10	direct	Measured
+1226	Darmanitan-Galar	Seafoam Islands B4F	wild-day	10	May	62	64	1	10	direct	Measured
+1226	Darmanitan-Galar	Seafoam Islands B2F	wild-night	10	May	62	64	1	10	direct	Measured
+1226	Darmanitan-Galar	Seafoam Islands B4F	wild-night	10	May	62	64	1	10	direct	Measured
+1228	Yamask-Galar	Diglett's Cave 1F	wild-night	0	Brock	7	9	3	0	direct	Measured
+1229	Stunfisk-Galar	Diglett's Cave B1F	wild-night	2	Misty	23	25	2	2	direct	Measured
+1229	Stunfisk-Galar	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	5	2	direct	Measured
+1229	Stunfisk-Galar	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	84	85	4	2	direct	Measured
+1230	Iron Thorns	Safari Zone Area 4	wild-day	9	Koga	50	52	2	9	direct	Measured
+1230	Iron Thorns	Safari Zone Area 4	wild-day	9	Koga	50	52	3	9	direct	Measured
+1231	Iron Bundle	Victory Road 3F	wild-day	16	Elite-4	80	82	1	16	direct	Measured
+1231	Iron Bundle	Victory Road 3F	wild-day	16	Elite-4	80	82	10	16	direct	Measured
+1232	Iron Valiant	Power Plant	raid5	10	May	NA	NA	NA	10	direct	Measured
+1232	Iron Valiant	Victory Road 1F	wild-day	16	Elite-4	80	82	0	10	direct	Measured
+1234	Tauros-Paldea-Combat	Safari Zone Area 2	wild-day	9	Koga	50	52	3	9	direct	Measured
+1235	Tauros-Paldea-Aqua	Saffron City Fighting Dojo	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1235	Tauros-Paldea-Aqua	Safari Zone Area 2	wild-night	9	Koga	50	52	3	3	direct	Measured
+1237	Great Tusk	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	1	12	direct	Measured
+1237	Great Tusk	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	4	12	direct	Measured
+1237	Great Tusk	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	8	12	direct	Measured
+1237	Great Tusk	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	9	12	direct	Measured
+1240	Tauros-Paldea-Blaze	Saffron City Fighting Dojo	fixed-gift	3	Surge	NA	NA	NA	3	direct	Measured
+1240	Tauros-Paldea-Blaze	Safari Zone Area 2	wild-night	9	Koga	50	52	2	3	direct	Measured
+1243	Brute Bonnet	Safari Zone Area 3	wild-night	9	Koga	50	52	2	9	direct	Measured
+1243	Brute Bonnet	Safari Zone Area 3	wild-night	9	Koga	50	52	3	9	direct	Measured
+1243	Brute Bonnet	Cerulean Cave 2F	wild-day	12	Archer-3	68	70	0	9	direct	Measured
+1243	Brute Bonnet	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	0	9	direct	Measured
+1244	Sandy Shocks	Safari Zone Area 3	wild-day	9	Koga	50	52	1	9	direct	Measured
+1244	Sandy Shocks	Safari Zone Area 3	wild-night	9	Koga	50	52	1	9	direct	Measured
+1245	Screamtail	Safari Zone Area 3	wild-day	9	Koga	50	52	2	9	direct	Measured
+1245	Screamtail	Safari Zone Area 3	wild-day	9	Koga	50	52	3	9	direct	Measured
+1246	Flutter Mane	Viridian Forest Heart	raid5	0	Brock	NA	NA	NA	0	direct	Measured
+1246	Flutter Mane	Victory Road 1F	wild-night	16	Elite-4	80	82	0	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	6	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	7	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	2	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 9F	wild-day	17	Post-Game	83	85	3	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	6	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	7	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	2	0	direct	Measured
+1246	Flutter Mane	Pokemon Tower 9F	wild-night	17	Post-Game	83	85	3	0	direct	Measured
+1247	Iron Moth	Safari Zone Area 1	wild-night	9	Koga	50	52	2	9	direct	Measured
+1247	Iron Moth	Safari Zone Area 1	wild-night	9	Koga	50	52	3	9	direct	Measured
+1255	Slither Wing	Safari Zone Area 4	wild-day	9	Koga	50	52	6	9	direct	Measured
+1255	Slither Wing	Safari Zone Area 4	wild-day	9	Koga	50	52	7	9	direct	Measured
+1255	Slither Wing	Safari Zone Area 4	wild-night	9	Koga	50	52	6	9	direct	Measured
+1255	Slither Wing	Safari Zone Area 4	wild-night	9	Koga	50	52	7	9	direct	Measured
+1257	Roaring Moon	Victory Road 3F	wild-night	16	Elite-4	80	82	1	16	direct	Measured
+1257	Roaring Moon	Victory Road 3F	wild-night	16	Elite-4	80	82	10	16	direct	Measured
+1258	Iron Treads	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	1	12	direct	Measured
+1258	Iron Treads	Cerulean Cave 2F	wild-night	12	Archer-3	68	70	4	12	direct	Measured
+1258	Iron Treads	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	0	12	direct	Measured
+1258	Iron Treads	Cerulean Cave B1F	wild-day	13	Giovanni-3	68	70	5	12	direct	Measured
+1258	Iron Treads	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	0	12	direct	Measured
+1258	Iron Treads	Cerulean Cave B1F	wild-night	13	Giovanni-3	68	70	5	12	direct	Measured
+1258	Iron Treads	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	8	12	direct	Measured
+1258	Iron Treads	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	9	12	direct	Measured
+1262	Iron Hands	Safari Zone Area 1	wild-day	9	Koga	50	52	2	9	direct	Measured
+1262	Iron Hands	Safari Zone Area 1	wild-day	9	Koga	50	52	3	9	direct	Measured
+1263	Iron Jugulis	Safari Zone Area 4	wild-night	9	Koga	50	52	2	9	direct	Measured
+1263	Iron Jugulis	Safari Zone Area 4	wild-night	9	Koga	50	52	3	9	direct	Measured
+1266	Spectrier	Pokemon Mansion 1F	raid5	11	Blaine	NA	NA	NA	11	direct	Measured
+1267	Glastrier	Seafoam Islands B1F	raid5	10	May	NA	NA	NA	10	direct	Measured
+1268	Basculegion	Route 8	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1268	Basculegion	Seafoam Islands B1F	raid4	10	May	NA	NA	NA	3	direct	Measured
+1268	Basculegion	Treasure Beach	wild-surf	17	Post-Game	83	85	1	3	direct	Measured
+1269	Braviary-Hisui	Bond Bridge	wild-day	17	Post-Game	83	85	6	3	via-evolution	Measured
+1269	Braviary-Hisui	Bond Bridge	wild-day	17	Post-Game	83	85	7	3	via-evolution	Measured
+1269	Braviary-Hisui	Bond Bridge	wild-night	17	Post-Game	83	85	6	3	via-evolution	Measured
+1269	Braviary-Hisui	Bond Bridge	wild-night	17	Post-Game	83	85	7	3	via-evolution	Measured
+1271	Growlithe-Hisui	Route 5	wild-night	2	Misty	18	20	6	2	direct	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-day	17	Post-Game	83	85	8	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-day	17	Post-Game	83	85	9	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-day	17	Post-Game	83	85	10	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-day	17	Post-Game	83	85	11	2	via-evolution	Measured
+1272	Arcanine-Hisui	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	6	2	via-evolution	Measured
+1272	Arcanine-Hisui	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	83	85	7	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Exterior	wild-night	17	Post-Game	83	85	6	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Exterior	wild-night	17	Post-Game	83	85	7	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-night	17	Post-Game	83	85	8	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-night	17	Post-Game	83	85	9	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-night	17	Post-Game	83	85	10	2	via-evolution	Measured
+1272	Arcanine-Hisui	Mt Ember Interior	wild-night	17	Post-Game	83	85	11	2	via-evolution	Measured
+1272	Arcanine-Hisui	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	6	2	via-evolution	Measured
+1272	Arcanine-Hisui	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	83	85	7	2	via-evolution	Measured
+1273	Kleavor	Route 16	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1274	Blitzle-Sevii	Cape Brink	wild-day	17	Post-Game	84	85	1	17	direct	Measured
+1274	Blitzle-Sevii	Cape Brink	wild-night	17	Post-Game	84	85	1	17	direct	Measured
+1276	Doduo-Sevii	Mt Ember Exterior	wild-day	17	Post-Game	60	65	0	17	direct	Measured
+1276	Doduo-Sevii	Mt Ember Exterior	wild-night	17	Post-Game	60	65	0	17	direct	Measured
+1277	Dodrio-Sevii	Mt Ember Exterior	wild-day	17	Post-Game	83	85	5	17	direct	Measured
+1277	Dodrio-Sevii	Mt Ember Exterior	wild-night	17	Post-Game	83	85	5	17	direct	Measured
+1278	Teddiursa-Sevii	Pokemon Tower 8F	wild-day	17	Post-Game	85	85	0	17	direct	Measured
+1278	Teddiursa-Sevii	Pokemon Tower 8F	wild-night	17	Post-Game	85	85	0	17	direct	Measured
+1280	Zorua-Hisui	Route 10	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1280	Zorua-Hisui	Safari Zone Area 2	wild-night	9	Koga	50	52	6	3	direct	Measured
+1280	Zorua-Hisui	Safari Zone Area 2	wild-night	9	Koga	50	52	7	3	direct	Measured
+1281	Zoroark-Hisui	Pokemon Tower 8F	wild-day	17	Post-Game	84	85	1	3	via-evolution	Measured
+1281	Zoroark-Hisui	Pokemon Tower 8F	wild-night	17	Post-Game	84	85	1	3	via-evolution	Measured
+1282	Carnivine-Sevii	Berry Forest	wild-day	17	Post-Game	85	85	0	17	direct	Measured
+1282	Carnivine-Sevii	Berry Forest	wild-night	17	Post-Game	85	85	0	17	direct	Measured
+1283	Mantyke-Sevii	Treasure Beach	wild-goodRod	17	Post-Game	60	65	1	17	direct	Measured
+1283	Mantyke-Sevii	Treasure Beach	wild-goodRod	17	Post-Game	60	65	2	17	direct	Measured
+1283	Mantyke-Sevii	Kindle Road	wild-surf	17	Post-Game	60	65	0	17	direct	Measured
+1283	Mantyke-Sevii	Treasure Beach	wild-surf	17	Post-Game	60	65	0	17	direct	Measured
+1284	Mantine-Sevii	Bond Bridge	wild-surf	17	Post-Game	83	85	2	17	direct	Measured
+1284	Mantine-Sevii	Kindle Road	wild-surf	17	Post-Game	83	85	3	17	direct	Measured
+1284	Mantine-Sevii	Kindle Road	wild-surf	17	Post-Game	83	85	4	17	direct	Measured
+1284	Mantine-Sevii	Treasure Beach	wild-surf	17	Post-Game	83	85	3	17	direct	Measured
+1284	Mantine-Sevii	Treasure Beach	wild-surf	17	Post-Game	83	85	4	17	direct	Measured
+1285	Feebas-Sevii	Berry Forest	wild-goodRod	17	Post-Game	83	85	1	17	direct	Measured
+1285	Feebas-Sevii	Berry Forest	wild-goodRod	17	Post-Game	83	85	2	17	direct	Measured
+1286	Milotic-Sevii	Bond Bridge	wild-surf	17	Post-Game	83	85	3	17	direct	Measured
+1286	Milotic-Sevii	Bond Bridge	wild-surf	17	Post-Game	83	85	4	17	direct	Measured
+1287	Clauncher-Sevii	Three Isle Port	wild-day	17	Post-Game	84	85	1	17	direct	Measured
+1287	Clauncher-Sevii	Three Isle Port	wild-night	17	Post-Game	84	85	1	17	direct	Measured
+1287	Clauncher-Sevii	Berry Forest	wild-oldRod	17	Post-Game	83	85	1	17	direct	Measured
+1290	Centiskorch-Sevii	Kindle Road	wild-night	17	Post-Game	83	85	4	17	direct	Measured
+1290	Centiskorch-Sevii	Kindle Road	wild-night	17	Post-Game	83	85	5	17	direct	Measured
+1292	Wishiwashi-Sevii	Pokemon Tower 9F	wild-day	17	Post-Game	85	85	0	17	direct	Measured
+1292	Wishiwashi-Sevii	Pokemon Tower 9F	wild-night	17	Post-Game	85	85	0	17	direct	Measured
+1294	Dhelmise-Sevii	Bond Bridge	wild-superRod	17	Post-Game	83	85	2	17	direct	Measured
+1294	Dhelmise-Sevii	Bond Bridge	wild-superRod	17	Post-Game	83	85	3	17	direct	Measured
+1294	Dhelmise-Sevii	Bond Bridge	wild-superRod	17	Post-Game	83	85	4	17	direct	Measured
+1295	Voltorb-Hisui	Route 10	wild-night	3	Surge	27	29	0	3	direct	Measured
+1296	Electrode-Hisui	Route 9	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1296	Electrode-Hisui	Cape Brink	wild-day	17	Post-Game	85	85	0	3	direct	Measured
+1296	Electrode-Hisui	Cape Brink	wild-night	17	Post-Game	85	85	0	3	direct	Measured
+1297	Sliggoo-Hisui	Route 12	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1298	Goodra-Hisui	Victory Road 1F	wild-night	16	Elite-4	80	82	2	3	via-evolution	Measured
+1298	Goodra-Hisui	Three Isle Port	wild-day	17	Post-Game	84	85	2	3	via-evolution	Measured
+1298	Goodra-Hisui	Three Isle Port	wild-day	17	Post-Game	84	85	3	3	via-evolution	Measured
+1298	Goodra-Hisui	Three Isle Port	wild-night	17	Post-Game	84	85	2	3	via-evolution	Measured
+1298	Goodra-Hisui	Three Isle Port	wild-night	17	Post-Game	84	85	3	3	via-evolution	Measured
+1299	Typhlosion-Hisui	Pokemon Tower 9F	wild-day	17	Post-Game	84	85	1	0	via-evolution	Measured
+1299	Typhlosion-Hisui	Pokemon Tower 9F	wild-night	17	Post-Game	84	85	1	0	via-evolution	Measured
+1300	Samurott-Hisui	Three Isle Port	wild-day	17	Post-Game	83	85	5	0	via-evolution	Measured
+1300	Samurott-Hisui	Three Isle Port	wild-day	17	Post-Game	84	85	4	0	via-evolution	Measured
+1300	Samurott-Hisui	Three Isle Port	wild-night	17	Post-Game	83	85	5	0	via-evolution	Measured
+1300	Samurott-Hisui	Three Isle Port	wild-night	17	Post-Game	84	85	4	0	via-evolution	Measured
+1301	Decidueye-Hisui	Berry Forest	wild-day	17	Post-Game	84	85	2	0	via-evolution	Measured
+1301	Decidueye-Hisui	Berry Forest	wild-day	17	Post-Game	84	85	3	0	via-evolution	Measured
+1301	Decidueye-Hisui	Bond Bridge	wild-day	17	Post-Game	85	85	0	0	via-evolution	Measured
+1301	Decidueye-Hisui	Berry Forest	wild-night	17	Post-Game	84	85	2	0	via-evolution	Measured
+1301	Decidueye-Hisui	Berry Forest	wild-night	17	Post-Game	84	85	3	0	via-evolution	Measured
+1301	Decidueye-Hisui	Bond Bridge	wild-night	17	Post-Game	85	85	0	0	via-evolution	Measured
+1302	Ursaluna	Rock Tunnel Magearna's Chamber	wild-day	17	Post-Game	85	85	0	1	via-evolution	Measured
+1302	Ursaluna	Rock Tunnel Magearna's Chamber	wild-night	17	Post-Game	85	85	0	1	via-evolution	Measured
+1303	Lilligant-Hisui	Cape Brink	wild-day	17	Post-Game	84	85	2	2	via-evolution	Measured
+1303	Lilligant-Hisui	Cape Brink	wild-day	17	Post-Game	84	85	3	2	via-evolution	Measured
+1303	Lilligant-Hisui	Treasure Beach	wild-night	17	Post-Game	84	85	2	2	via-evolution	Measured
+1303	Lilligant-Hisui	Treasure Beach	wild-night	17	Post-Game	84	85	3	2	via-evolution	Measured
+1304	Sneasel-Hisui	Route 10	wild-day	3	Surge	27	29	10	3	direct	Measured
+1304	Sneasel-Hisui	Route 10	wild-day	3	Surge	27	29	11	3	direct	Measured
+1304	Sneasel-Hisui	Route 14	raid3	9	Koga	NA	NA	NA	3	direct	Measured
+1304	Sneasel-Hisui	Bond Bridge	wild-day	17	Post-Game	84	85	1	3	direct	Measured
+1304	Sneasel-Hisui	Bond Bridge	wild-night	17	Post-Game	84	85	1	3	direct	Measured
+1306	Basculegion-F	Treasure Beach	wild-surf	17	Post-Game	83	85	2	9	via-evolution	Measured
+1307	Qwilfish-Hisui	Route 13	raid3	9	Koga	NA	NA	NA	9	direct	Measured
+1307	Qwilfish-Hisui	Route 13	wild-goodRod	9	Koga	27	29	0	9	direct	Measured
+1309	Avalugg-Hisui	Route 12	wild-night	9	Koga	50	52	6	3	via-evolution	Measured
+1309	Avalugg-Hisui	Route 12	wild-night	9	Koga	50	52	7	3	via-evolution	Measured
+1314	Tarountula	Viridian Forest Heart	wild-night	0	Brock	4	6	0	0	direct	Measured
+1316	Nymble	Viridian Forest Heart	wild-day	0	Brock	4	6	11	0	direct	Measured
+1316	Nymble	Viridian Forest Heart	wild-day	0	Brock	5	7	10	0	direct	Measured
+1316	Nymble	Viridian Forest Heart	wild-night	0	Brock	4	6	10	0	direct	Measured
+1316	Nymble	Viridian Forest Heart	wild-night	0	Brock	4	6	11	0	direct	Measured
+1318	Rellor	Viridian Forest	wild-night	0	Brock	4	6	7	0	direct	Measured
+1318	Rellor	Viridian Forest Heart	wild-night	0	Brock	4	6	7	0	direct	Measured
+1320	Flittle	Route 5	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1320	Flittle	Route 6	wild-day	2	Misty	16	18	8	2	direct	Measured
+1320	Flittle	Route 6	wild-day	2	Misty	16	18	9	2	direct	Measured
+1322	Dondozo	Route 12	wild-superRod	9	Koga	53	55	0	9	direct	Measured
+1322	Dondozo	Route 12	wild-superRod	9	Koga	53	55	1	9	direct	Measured
+1322	Dondozo	Cerulean City	wild-surf	10	May	56	58	3	9	direct	Measured
+1322	Dondozo	Cerulean City	wild-surf	10	May	56	58	4	9	direct	Measured
+1323	Veluza	Route 11	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1323	Veluza	Route 12	wild-goodRod	3	Surge	27	29	2	2	direct	Measured
+1323	Veluza	S.S. Anne Port	wild-goodRod	3	Surge	27	29	0	2	direct	Measured
+1323	Veluza	Route 13	wild-superRod	9	Koga	53	55	1	2	direct	Measured
+1324	Smoliv	Route 1	wild-day	0	Brock	2	4	8	0	direct	Measured
+1324	Smoliv	Route 1	wild-day	0	Brock	2	4	9	0	direct	Measured
+1327	Capsakid	Route 21 North	wild-day	0	Brock	4	6	10	0	direct	Measured
+1327	Capsakid	Route 21 North	wild-day	0	Brock	4	6	11	0	direct	Measured
+1327	Capsakid	Route 3	raid1	1	Archer-1	NA	NA	NA	0	direct	Measured
+1329	Orthworm	Rock Tunnel B1F	raid1	3	Surge	NA	NA	NA	3	direct	Measured
+1329	Orthworm	Route 16	wild-day	3	Surge	36	38	8	3	direct	Measured
+1329	Orthworm	Route 16	wild-day	3	Surge	36	38	9	3	direct	Measured
+1329	Orthworm	Route 16	wild-night	3	Surge	36	38	8	3	direct	Measured
+1329	Orthworm	Route 16	wild-night	3	Surge	36	38	9	3	direct	Measured
+1330	Tandemaus	Route 3	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+1330	Tandemaus	Route 4	wild-day	1	Archer-1	13	15	5	1	direct	Measured
+1330	Tandemaus	Route 4	wild-night	1	Archer-1	13	15	5	1	direct	Measured
+1332	Cetoddle	Mt. Moon 1F	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+1332	Cetoddle	Rock Tunnel B1F	wild-day	3	Surge	30	32	6	1	direct	Measured
+1332	Cetoddle	Rock Tunnel B1F	wild-day	3	Surge	30	32	7	1	direct	Measured
+1332	Cetoddle	Rock Tunnel B1F	wild-night	3	Surge	30	32	6	1	direct	Measured
+1332	Cetoddle	Rock Tunnel B1F	wild-night	3	Surge	30	32	7	1	direct	Measured
+1333	Cetitan	Route 12	wild-day	9	Koga	50	52	5	1	via-evolution	Measured
+1333	Cetitan	Route 12	wild-night	9	Koga	50	52	5	1	via-evolution	Measured
+1334	Tatsugiri	Route 4	raid1	1	Archer-1	NA	NA	NA	1	direct	Measured
+1334	Tatsugiri	Cerulean City	wild-goodRod	3	Surge	27	29	1	1	direct	Measured
+1334	Tatsugiri	Route 13	wild-oldRod	9	Koga	2	4	1	1	direct	Measured
+1334	Tatsugiri	Safari Zone Area 3	wild-superRod	9	Koga	53	55	2	1	direct	Measured
+1335	Wattrel	Viridian City	wild-night	0	Brock	3	5	8	0	direct	Measured
+1335	Wattrel	Viridian City	wild-night	0	Brock	3	5	9	0	direct	Measured
+1337	Bombirdier	Route 11	wild-night	2	Misty	23	25	8	2	direct	Measured
+1337	Bombirdier	Route 11	wild-night	2	Misty	23	25	9	2	direct	Measured
+1338	Squawkabilly	Route 6	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1338	Squawkabilly	Route 25	wild-day	2	Misty	16	18	8	2	direct	Measured
+1339	Flamigo	Route 5	raid1	2	Misty	NA	NA	NA	2	direct	Measured
+1339	Flamigo	Route 11	wild-day	2	Misty	23	25	8	2	direct	Measured
+1339	Flamigo	Route 11	wild-day	2	Misty	23	25	9	2	direct	Measured
+1340	Nacli	Diglett's Cave 1F	wild-day	0	Brock	7	9	1	0	direct	Measured
+1340	Nacli	Diglett's Cave 1F	wild-night	0	Brock	7	9	1	0	direct	Measured
+1340	Nacli	Mt. Moon B1F	wild-day	1	Archer-1	12	14	1	0	direct	Measured
+1340	Nacli	Mt. Moon B1F	wild-night	1	Archer-1	12	14	1	0	direct	Measured
+1343	Glimmet	Rock Tunnel B1F	wild-day	3	Surge	30	32	10	3	direct	Measured
+1343	Glimmet	Rock Tunnel B1F	wild-day	3	Surge	30	32	11	3	direct	Measured
+1343	Glimmet	Rock Tunnel B1F	wild-night	3	Surge	30	32	10	3	direct	Measured
+1343	Glimmet	Rock Tunnel B1F	wild-night	3	Surge	30	32	11	3	direct	Measured
+1345	Shroodle	Route 3	wild-night	1	Archer-1	10	12	6	1	direct	Measured
+1345	Shroodle	Route 3	wild-night	1	Archer-1	10	12	7	1	direct	Measured
+1345	Shroodle	Route 24	raid1	2	Misty	NA	NA	NA	1	direct	Measured
+1347	Fidough	Route 21 North	wild-day	0	Brock	4	6	8	0	direct	Measured
+1347	Fidough	Route 21 North	wild-day	0	Brock	4	6	9	0	direct	Measured
+1349	Maschiff	Route 21 North	wild-night	0	Brock	4	6	8	0	direct	Measured
+1349	Maschiff	Route 21 North	wild-night	0	Brock	4	6	9	0	direct	Measured
+1351	Bramblin	Viridian Forest Heart	wild-day	0	Brock	4	6	8	0	direct	Measured
+1351	Bramblin	Viridian Forest Heart	wild-night	0	Brock	4	6	8	0	direct	Measured
+1353	Iron Leaves	Rock Tunnel B1F	raid5	3	Surge	NA	NA	NA	3	direct	Measured
+1354	Walking Wake	Victory Road 2F	fixed-overworld	16	Elite-4	NA	NA	NA	16	direct	Measured
+1355	Squawkabilly-White	Route 25	wild-night	2	Misty	16	18	8	2	direct	Measured
+1356	Ursaluna-Bloodmoon	Cinnabar Island Lab Testing Room	fixed-trade	10	May	NA	NA	NA	10	direct	Measured
+1356	Ursaluna-Bloodmoon	Pokemon Tower 8F	wild-day	17	Post-Game	84	85	2	10	direct	Measured
+1356	Ursaluna-Bloodmoon	Pokemon Tower 8F	wild-day	17	Post-Game	84	85	3	10	direct	Measured
+1356	Ursaluna-Bloodmoon	Pokemon Tower 8F	wild-night	17	Post-Game	84	85	2	10	direct	Measured
+1356	Ursaluna-Bloodmoon	Pokemon Tower 8F	wild-night	17	Post-Game	84	85	3	10	direct	Measured
+1357	Ogerpon	Celadon City Gym	fixed-gift	9	Koga	NA	NA	NA	9	direct	Measured
+1361	Poltchageist	Pewter City	wild-night	0	Brock	7	9	7	0	direct	Measured
+1362	Sinistcha	Pokemon Tower 8F	wild-day	17	Post-Game	83	85	9	0	via-evolution	Measured
+1362	Sinistcha	Pokemon Tower 8F	wild-night	17	Post-Game	83	85	9	0	via-evolution	Measured
+1364	Fezandipiti	Safari Zone Moltres' Den	raid3	10	May	NA	NA	NA	10	direct	Measured
+1365	Munkidori	Safari Zone Moltres' Den	raid3	10	May	NA	NA	NA	10	direct	Measured
+1366	Okidogi	Safari Zone Moltres' Den	raid3	10	May	NA	NA	NA	10	direct	Measured
+1367	Raging Bolt	Silph Co. Raging Bolt's Office	fixed-overworld	15	Brendan	NA	NA	NA	15	direct	Measured
+1368	Iron Crown	Rock Tunnel B1F	raid5	3	Surge	NA	NA	NA	3	direct	Measured
+1370	Terapagos-Terastal	Viridian City	fixed-roaming	15	Brendan	NA	NA	NA	15	direct	Measured
+1371	Hydrapple	Safari Zone Moltres' Den	wild-day	10	May	50	52	0	0	via-evolution	Measured
+1371	Hydrapple	Safari Zone Moltres' Den	wild-night	10	May	50	52	0	0	via-evolution	Measured
+1372	Pecharunt	Route 16	raid4	3	Surge	NA	NA	NA	3	direct	Measured
+1373	Iron Boulder	Rock Tunnel B1F	raid5	3	Surge	NA	NA	NA	3	direct	Measured
+1374	Gouging Fire	Pokemon Mansion Gouging Fire's Room	fixed-overworld	15	Brendan	NA	NA	NA	15	direct	Measured
+1375	Chillet	Route 2 House	fixed-trade	2	Misty	NA	NA	NA	2	direct	Measured

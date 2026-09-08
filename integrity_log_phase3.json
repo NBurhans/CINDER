@@ -1,0 +1,37 @@
+[
+ {
+  "check": "T0_cap_resolution",
+  "severity": "INFO",
+  "detail": "caps carry a two-element array. cap[0] matches the level cap published in the official default-mode boss sheet on 18/18 gates and is used for every cap-relative resolution. cap[1] is unidentified; the dex tool's own filter code indexes cap by a difficulty key of normal|hardcore, which makes [normal, hardcore] the leading reading. Inferred, non-blocking for the canonical mode."
+ },
+ {
+  "check": "T0b_type_chart",
+  "severity": "INFO",
+  "detail": "type matchup encoding 0=x1, 5=x0.5, 20=x2, 1=x0 reproduces 12/12 known relations. The array is 24 long against 18 types; the trailing six are mostly zero but NOT pure padding \u2014 Fighting carries a 5 at index 23. Unexplained, logged, and not read by anything downstream."
+ },
+ {
+  "check": "T0c_ability_slot",
+  "severity": "WARN",
+  "detail": "roster `ability` takes values [0, 1, 2, 3]. Three ability slots exist, so this reads as a 1-based slot with 0 meaning unspecified, not an ability ID. Inferred \u2014 confirm before any ability-gated role score in Phase 5."
+ },
+ {
+  "check": "T3_duplicate_names",
+  "severity": "WARN",
+  "detail": "27 trainer names are shared by more than one trainer, covering 127 records. Bosses are keyed on (cap, area, name). Sample: [('Leader Bugsy', [(4, 'Route 25', 8), (2, 'Route 25', 47), (17, 'Kindle Road', 75)]), ('Friendly Coach', [(3, 'Lavender Town EXP Farm', 9), (3, 'Lavender Town EXP Farm', 10), (3, 'Lavender Town EXP Farm', 11), (3, 'Lavender Town EXP Farm', 12), (3, 'Lavender Town EXP Farm', 13), (3, 'Lavender Town EXP Farm', 27)]), ('PkMn Trainer Ketchup', [(14, 'Cerulean Cave 2F', 19), (14, 'Cerulean Cave 2F', 20)]), ('PkMn Trainer Brendan', [(15, 'Route 23', 26), (0, 'Viridian Forest', 44), (2, 'S.S. Anne 2F', 50), (6, 'Silph Co. 11F', 55), (9, 'Fuchsia City', 57)])]"
+ },
+ {
+  "check": "T2_scaled",
+  "severity": "INFO",
+  "detail": "313 (trainer, mode) rows contain at least one cap-relative sentinel, resolved against cap[0]. Raw sentinel retained per slot alongside the resolved level."
+ },
+ {
+  "check": "T4_referential",
+  "severity": "INFO",
+  "detail": "unresolved roster references \u2014 species 0, moves 0, items 0"
+ },
+ {
+  "check": "T1_mode_split",
+  "severity": "INFO",
+  "detail": "214 of 464 trainers differ between modes. Both parsed and tagged; only normal is scored."
+ }
+]

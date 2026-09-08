@@ -1,0 +1,32 @@
+[
+ {
+  "check": "B0a_setup_vocab",
+  "severity": "INFO",
+  "detail": "26 setup moves recognised with the stats each boosts. Setup is deliberately NOT in the support whitelist: a setup move is the centre of a build, not a filler slot, so it generates its own variant that is then measured against the non-setup build."
+ },
+ {
+  "check": "B0_utility_whitelist",
+  "severity": "INFO",
+  "detail": "support track gated on an explicit whitelist of 72 status moves that change a fight. Growl and Tail Whip are status moves and are deliberately excluded."
+ },
+ {
+  "check": "B1a_egg_move_tutor",
+  "severity": "INFO",
+  "detail": "the egg-move tutor teaches no fixed move list, so it is absent from the `tutors` array. The documentation places it in Fuchsia City, free after its challenge; Fuchsia's own tutor entry sits at gate 9, so egg moves are gated there. Gate is Asserted, the movepool itself is Measured."
+ },
+ {
+  "check": "B1_pool_gates",
+  "severity": "INFO",
+  "detail": "move-pool gates from Phase 2: 118 TM moves, 57 tutor moves, 469 placed items. Egg-move tutor gate = 9."
+ },
+ {
+  "check": "B2_pruning",
+  "severity": "INFO",
+  "detail": "pruning rules applied: no_track=232; not_yet_obtainable=6635"
+ },
+ {
+  "check": "B3_no_track",
+  "severity": "WARN",
+  "detail": "232 (species-form, checkpoint) pairs qualified for NO track and are a finding, not a silent drop. Distinct forms affected: 100. Sample [(0, 'Squirtle', 50, 60, 50), (0, 'Wartortle', 50, 60, 65), (0, 'Blastoise', 40, 80, 85), (0, 'Metapod', 60, 55, 25), (0, 'Kakuna', 60, 55, 25), (0, 'Pikachu', 60, 55, 55)]"
+ }
+]

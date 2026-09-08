@@ -1,0 +1,136 @@
+# targets/cinder/checkpoints.yaml — EXTERNAL
+# The progression spine. Unusually for this framework it is not constructed: the
+# target's own source ships an ordered, named cap table and trainers reference it
+# by id, so this is read rather than assembled.
+#
+# Each cap carries two values. cap[0] matches the level cap published in the
+# official default-mode boss sheet on 18 of 18 gates and is what every
+# cap-relative level resolves against. cap[1] is unidentified.
+
+checkpoints:
+  - index: 0
+    name: Brock
+    level_cap: 15
+    cap_secondary: 16
+    authored_bosses: 2
+    scored_slots: 10
+    has_own_roster: true
+  - index: 1
+    name: Archer-1
+    level_cap: 22
+    cap_secondary: 23
+    authored_bosses: 1
+    scored_slots: 4
+    has_own_roster: true
+  - index: 2
+    name: Misty
+    level_cap: 27
+    cap_secondary: 28
+    authored_bosses: 4
+    scored_slots: 20
+    has_own_roster: true
+  - index: 3
+    name: Surge
+    level_cap: 34
+    cap_secondary: 36
+    authored_bosses: 13
+    scored_slots: 64
+    has_own_roster: true
+  - index: 4
+    name: Erika
+    level_cap: 44
+    cap_secondary: 44
+    authored_bosses: 3
+    scored_slots: 14
+    has_own_roster: true
+  - index: 5
+    name: Giovanni-1
+    level_cap: 47
+    cap_secondary: 47
+    authored_bosses: 4
+    scored_slots: 21
+    has_own_roster: true
+  - index: 6
+    name: Archer-2
+    level_cap: 56
+    cap_secondary: 56
+    authored_bosses: 8
+    scored_slots: 35
+    has_own_roster: true
+  - index: 7
+    name: Giovanni-2
+    level_cap: 57
+    cap_secondary: 57
+    authored_bosses: 1
+    scored_slots: 6
+    has_own_roster: true
+  - index: 8
+    name: Sabrina
+    level_cap: 59
+    cap_secondary: 59
+    authored_bosses: 2
+    scored_slots: 10
+    has_own_roster: true
+  - index: 9
+    name: Koga
+    level_cap: 68
+    cap_secondary: 68
+    authored_bosses: 8
+    scored_slots: 35
+    has_own_roster: true
+  - index: 10
+    name: May
+    level_cap: 73
+    cap_secondary: 73
+    authored_bosses: 7
+    scored_slots: 34
+    has_own_roster: true
+  - index: 11
+    name: Blaine
+    level_cap: 76
+    cap_secondary: 76
+    authored_bosses: 2
+    scored_slots: 10
+    has_own_roster: true
+  - index: 12
+    name: Archer-3
+    level_cap: 79
+    cap_secondary: 79
+    authored_bosses: 2
+    scored_slots: 8
+    has_own_roster: true
+  - index: 13
+    name: Giovanni-3
+    level_cap: 80
+    cap_secondary: 80
+    authored_bosses: 1
+    scored_slots: 6
+    has_own_roster: true
+  - index: 14
+    name: Clair
+    level_cap: 81
+    cap_secondary: 81
+    authored_bosses: 1
+    scored_slots: 6
+    has_own_roster: true
+  - index: 15
+    name: Brendan
+    level_cap: 82
+    cap_secondary: 82
+    authored_bosses: 1
+    scored_slots: 6
+    has_own_roster: true
+  - index: 16
+    name: Elite-4
+    level_cap: 85
+    cap_secondary: 85
+    authored_bosses: 9
+    scored_slots: 48
+    has_own_roster: true
+  - index: 17
+    name: Post-Game
+    level_cap: 100
+    cap_secondary: 100
+    authored_bosses: 0
+    scored_slots: 0
+    has_own_roster: false
