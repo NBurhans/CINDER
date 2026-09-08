@@ -52,6 +52,14 @@ replacing the leaked JS template string; and four valuation columns that were pa
 never exported — `replacement`, `sustain_depth`, the ceiling build's ability, and its EV
 spread.
 
+**The performance chart plots role fit, not damage margin.** The first version plotted
+`ceiling_margin` on a 0–1 axis, which is wrong twice over: the margin is an unbounded mean
+damage figure (checkpoint medians run from -0.5 to 49 and maxima past 450), and it is not
+comparable between checkpoints. Clamped to 1 it drew a square wave. The chart now plots
+`role_fit` against the `replacement` baseline on an axis fitted to the species' own range,
+so the gap between the two lines is VORP. Raw margins are still on the card, under a label
+that says what they are.
+
 **One thing the card deliberately does not claim.** The reference interface annotates each
 move with how many boss slots it was the best answer to. That figure cannot be rebuilt
 from this bundle: the 2,698,734-cell matrix was summarised to one row per build before
@@ -59,6 +67,20 @@ export, so the per-slot best-move count no longer exists on disk. Recovering it 
 re-running Phase 4 with a per-slot rollup added to the export. Likewise the sustain block
 shows depth and kit delta but not the healing, hazard-chip and screen components, which
 `09_sustain.js` computed and `05_valuation.tsv` did not carry.
+
+## The bosses tab
+
+Rebuilt around one fight at a time rather than a wall of every fight at once. A picker
+grouped by checkpoint, with a star on gyms, admins and bosses and repeated trainer names
+disambiguated. The roster now shows what it actually carries — sprite, ability, nature,
+level, held item, and all four moves as type-coloured chips — read from
+`03_trainers.tsv`'s `roster` field, which the payload had been collapsing to a list of
+species names. Then the offensive type spread, shared weakness, what walls it, the
+strategy note, and a what-to-bring ladder of the 60 best-fitting obtainable forms.
+
+That ladder is scored against every authored roster at the checkpoint, not against the
+selected roster alone, and it says so on the page. Per-fight ladders would need the
+matrix re-exported per trainer rather than per checkpoint.
 
 ## What the app does not show
 
