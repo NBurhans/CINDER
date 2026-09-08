@@ -1,0 +1,97 @@
+[
+ {
+  "check": "A6_name_not_unique",
+  "severity": "WARN",
+  "detail": "species `name` is the BASE name and is not a unique key: 198 catalogue numbers carry more than one record, covering 515 rows. Forms are identified by `key` (e.g. Charizard / Charizard-Mega-X / Charizard-Mega-Y all have name='Charizard'). Keying on name would silently merge them."
+ },
+ {
+  "check": "A5_ability_alias",
+  "severity": "INFO",
+  "detail": "20 ability IDs carry more than one display name; slot 0 used, all retained. Sample [(4, ['Battle Armor', 'Shell Armor']), (13, ['Cloud Nine', 'Air Lock']), (15, ['Insomnia', 'Vital Spirit'])]"
+ },
+ {
+  "check": "E1_evo_templates",
+  "severity": "INFO",
+  "detail": "25 evolution method templates; item-parameterised [7, 254]; name-mentions-mega []"
+ },
+ {
+  "check": "S1_starters",
+  "severity": "INFO",
+  "detail": "27 starters derived from the Oak's Lab fixed-gift record at gate 0"
+ },
+ {
+  "check": "S2_starter_reobtainable",
+  "severity": "INFO",
+  "detail": "27 of 27 starters reappear in the Celadon Mansion gift pool, so the gate-0 choice is not exclusive"
+ },
+ {
+  "check": "A2_duplicate_ids",
+  "severity": "INFO",
+  "detail": "0 duplicate internal IDs"
+ },
+ {
+  "check": "A3_index_gaps",
+  "severity": "WARN",
+  "detail": "32 gaps in the internal index range 1-1375; sample [252, 253, 254, 255, 256, 257, 258, 259, 260, 261]"
+ },
+ {
+  "check": "A1_index_vs_catalogue",
+  "severity": "INFO",
+  "detail": "1091 of 1343 species have ID != dexID; both carried as separate columns. Sample [(277, 252), (278, 253), (279, 254), (280, 255), (281, 256)]"
+ },
+ {
+  "check": "B1a_uniform_spread",
+  "severity": "INFO",
+  "detail": "50 species have all six base stats identical. In a Gen-3 decomp that is a dummy-slot tell; here it is legitimate design (e.g. Ditto 48, Mew 100), so it is reported rather than treated as a dummy: [(132, 'Ditto', 48), (151, 'Mew', 100), (191, 'Sunkern', 30), (236, 'Tyrogue', 35), (251, 'Celebi', 100), (308, 'Spinda', 80), (346, 'Snorunt', 50), (347, 'Glalie', 80)]"
+ },
+ {
+  "check": "B1_dummy_slots",
+  "severity": "INFO",
+  "detail": "0 candidate dummy/placeholder rows"
+ },
+ {
+  "check": "D1_stat_range",
+  "severity": "INFO",
+  "detail": "0 species with a base stat outside 1-255"
+ },
+ {
+  "check": "B2_zero_movepool",
+  "severity": "INFO",
+  "detail": "0 species with an empty level-up movepool"
+ },
+ {
+  "check": "C2_orphan_evolution",
+  "severity": "INFO",
+  "detail": "0 evolution targets that do not resolve"
+ },
+ {
+  "check": "C1_orphan_learnset",
+  "severity": "INFO",
+  "detail": "0 distinct undefined move IDs referenced by level-up learnsets"
+ },
+ {
+  "check": "B3_sprite_table_impurity",
+  "severity": "WARN",
+  "detail": "the sprites table has 1333 keys but 3 are not species: ['Status', 'Special', 'Physical']. These are move-category icons, not Pokemon. Species sprites = 1330."
+ },
+ {
+  "check": "B4_species_sprite_gap",
+  "severity": "WARN",
+  "detail": "1343 species vs 1330 sprites; 20 species without one: 1356:Ursaluna, 1357:Ogerpon, 1358:Ogerpon, 1359:Ogerpon, 1360:Ogerpon, 1361:Poltchageist, 1362:Sinistcha, 1363:Dipplin, 1364:Fezandipiti, 1365:Munkidori, 1366:Okidogi, 1367:Raging Bolt, 1368:Iron Crown, 1369:Archaludon, 1370:Terapagos"
+ },
+ {
+  "check": "AV2_gate_propagation",
+  "severity": "INFO",
+  "detail": "515 species-forms take their earliest gate from a pre-evolution rather than a direct encounter; 225 remain with no reachable gate"
+ },
+ {
+  "check": "AV1_no_direct_encounter",
+  "severity": "INFO",
+  "detail": "523 species-forms have no direct area record; most are evolved forms reached by evolving a pre-evolution, which is why gate propagation exists"
+ },
+ {
+  "check": "AV3_unreachable",
+  "severity": "WARN",
+  "detail": "225 species-forms have no reachable gate by any path and are OUT OF POOL until Phase 2 resolves eggs, shard trades and raid pools; sample [(172, 'Pichu'), (173, 'Cleffa'), (174, 'Igglybuff'), (249, 'Lugia'), (250, 'Ho-Oh'), (350, 'Azurill'), (360, 'Wynaut'), (361, 'Duskull'), (405, 'Groudon'), (406, 'Rayquaza'), (410, 'Deoxys'), (413, 'Unown')]"
+ }
+]

@@ -1,0 +1,1004 @@
+move_id	name	type	category	power	accuracy	pp	priority	secondary_chance	target	tm_slot	tm_number	tutor_slot	is_placeholder	source_record	confidence	description
+1	Pound	Normal	Physical	40	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[1]	Measured	A physical attack delivered with a long tail or a foreleg, etc.
+2	Karate Chop	Fighting	Physical	50	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[2]	Measured	The foe is attacked with a sharp chop. It has a high critical-hit ratio.
+3	Double Slap	Normal	Physical	15	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[3]	Measured	The foe is slapped repeatedly, back and forth, two to five times.
+4	Comet Punch	Normal	Physical	18	85	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[4]	Measured	The foe is hit with a flurry of punches that strike two to five times.
+5	Mega Punch	Normal	Physical	80	85	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[5]	Measured	The foe is slugged by a punch thrown with muscle-packed power.
+6	Pay Day	Normal	Physical	40	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[6]	Measured	Numerous coins are hurled at the foe. Money is earned after battle.
+7	Fire Punch	Fire	Physical	75	100	15	0	10	0	97	98	NA	FALSE	data.js:moves[7]	Measured	The foe is punched with a fiery fist. It may leave the foe with a burn.
+8	Ice Punch	Ice	Physical	75	100	15	0	10	0	100	101	NA	FALSE	data.js:moves[8]	Measured	The foe is punched with an icy fist. It may leave the foe frostbitten.
+9	Thunder Punch	Electric	Physical	75	100	15	0	10	0	76	77	NA	FALSE	data.js:moves[9]	Measured	The foe is punched with an electrified fist. It may leave the foe paralyzed.
+10	Scratch	Normal	Physical	40	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[10]	Measured	Hard, pointed, and sharp claws rake the foe.
+11	Vise Grip	Normal	Physical	55	100	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[11]	Measured	Huge, impressive pincers grip and squeeze the foe.
+12	Guillotine	Normal	Physical	1	30	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[12]	Measured	A vicious tearing attack with pincers. The foe will faint if it hits.
+13	Razor Wind	Normal	Special	80	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[13]	Measured	Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio.
+14	Swords Dance	Normal	Status	0	0	20	0	0	16	NA	NA	53	FALSE	data.js:moves[14]	Measured	A frenetic dance of fighting. It sharply raises the Attack stat.
+15	Cut	Steel	Physical	75	100	25	0	0	0	120	121	NA	FALSE	data.js:moves[15]	Measured	A basic attack. It can be used to cut down thin trees and grass.
+16	Gust	Flying	Special	40	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[16]	Measured	Strikes the foe with a gust of wind whipped up by wings.
+17	Wing Attack	Flying	Physical	60	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[17]	Measured	The foe is struck with large, imposing wings spread wide.
+18	Whirlwind	Normal	Status	0	0	5	250	0	0	NA	NA	NA	FALSE	data.js:moves[18]	Measured	The foe is made to switch out with an ally. In the wild, the battle ends.
+19	Fly	Flying	Physical	90	100	15	0	0	0	121	122	NA	FALSE	data.js:moves[19]	Measured	A 2-turn move that hits on the 2nd turn. Use it to fly to any known town.
+20	Bind	Normal	Physical	15	85	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[20]	Measured	A long body or tentacles are used to bind the foe for two to five turns.
+21	Slam	Normal	Physical	80	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[21]	Measured	The foe is struck with a long tail, vines, etc.
+22	Vine Whip	Grass	Physical	45	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[22]	Measured	The foe is struck with slender, whip- like vines.
+23	Stomp	Normal	Physical	65	100	20	0	30	0	NA	NA	NA	FALSE	data.js:moves[23]	Measured	The foe is stomped with a big foot. It may make the foe flinch.
+24	Double Kick	Fighting	Physical	30	100	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[24]	Measured	Two legs are used to quickly kick the foe twice in one turn.
+25	Mega Kick	Normal	Physical	120	75	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[25]	Measured	The foe is attacked by a kick fired with muscle-packed power.
+26	Jump Kick	Fighting	Physical	100	95	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[26]	Measured	The user jumps up high, then kicks. If it misses, the user hurts itself.
+27	Rolling Kick	Fighting	Physical	60	85	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[27]	Measured	A quick kick from a rolling spin. It may make the foe flinch.
+28	Sand Attack	Ground	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[28]	Measured	The user throw sand at the foe, lowering its Attack.
+29	Headbutt	Normal	Physical	70	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[29]	Measured	The user sticks its head out and rams. It may make the foe flinch.
+30	Horn Attack	Normal	Physical	65	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[30]	Measured	The foe is jabbed with a sharply pointed horn to inflict damage.
+31	Fury Attack	Normal	Physical	20	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[31]	Measured	The foe is jabbed repeatedly with a horn or beak two to five times.
+32	Horn Drill	Normal	Physical	1	30	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[32]	Measured	The horn is rotated like a drill to ram. The foe will faint if it hits.
+33	Tackle	Normal	Physical	40	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[33]	Measured	A physical attack in which the user charges, full body, into the foe.
+34	Body Slam	Normal	Physical	85	100	15	0	30	0	NA	NA	91	FALSE	data.js:moves[34]	Measured	The user drops its full body on the foe. It may leave the foe paralyzed.
+35	Wrap	Normal	Physical	15	90	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[35]	Measured	A long body or vines are used to wrap the foe for two to five turns.
+36	Take Down	Normal	Physical	90	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[36]	Measured	A reckless, full- body charge attack that also hurts the user a little.
+37	Thrash	Normal	Physical	120	100	10	0	100	4	NA	NA	NA	FALSE	data.js:moves[37]	Measured	The user rampages about for two to three turns, then becomes confused.
+38	Double-Edge	Normal	Physical	120	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[38]	Measured	A reckless, life- risking tackle that also hurts the user a little.
+39	Tail Whip	Normal	Status	0	100	30	0	0	8	NA	NA	NA	FALSE	data.js:moves[39]	Measured	The user wags its tail cutely, making the foe lower its Defense stat.
+40	Poison Sting	Poison	Physical	15	100	35	0	30	0	NA	NA	NA	FALSE	data.js:moves[40]	Measured	The foe is stabbed with a toxic barb, etc. It may poison the foe.
+41	Twineedle	Bug	Physical	25	100	20	0	20	0	NA	NA	NA	FALSE	data.js:moves[41]	Measured	The foe is stabbed twice with foreleg stingers. It may poison the foe.
+42	Pin Missile	Bug	Physical	25	100	20	0	0	0	NA	NA	84	FALSE	data.js:moves[42]	Measured	Sharp pins are shot at the foe and hit two to five times at once.
+43	Leer	Normal	Status	0	100	30	0	0	8	NA	NA	NA	FALSE	data.js:moves[43]	Measured	The foe is given an intimidating look that lowers its Defense stat.
+44	Bite	Dark	Physical	60	100	25	0	30	0	NA	NA	NA	FALSE	data.js:moves[44]	Measured	The user bites with vicious fangs. It may make the foe flinch.
+45	Growl	Normal	Status	0	100	15	0	0	8	NA	NA	NA	FALSE	data.js:moves[45]	Measured	The user growls in a cute way, making the foe lower its Attack stat.
+46	Roar	Normal	Status	0	0	5	250	0	0	4	5	NA	FALSE	data.js:moves[46]	Measured	The foe is made to switch out with an ally. In the wild, the battle ends.
+47	Sing	Normal	Status	0	55	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[47]	Measured	A soothing song in a calming voice lulls the foe into a deep slumber.
+48	Supersonic	Normal	Status	0	55	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[48]	Measured	The user generates odd sound waves. It may confuse the foe.
+49	Sonic Boom	Normal	Special	1	90	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[49]	Measured	The foe is hit with a shock wave that always inflicts 20- HP damage.
+50	Disable	Normal	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[50]	Measured	For a few turns, it prevents the foe from using the move it last used.
+51	Acid	Poison	Special	40	100	30	0	10	8	NA	NA	NA	FALSE	data.js:moves[51]	Measured	The foe is sprayed with a harsh, hide- melting acid that may lower Defense.
+52	Ember	Fire	Special	40	100	25	0	10	0	NA	NA	NA	FALSE	data.js:moves[52]	Measured	The foe is attacked with small flames. The foe may suffer a burn.
+53	Flamethrower	Fire	Special	90	100	15	0	10	0	34	35	NA	FALSE	data.js:moves[53]	Measured	The foe is scorched with intense flames. The foe may suffer a burn.
+54	Mist	Ice	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[54]	Measured	The ally party is protected by a mist that prevents stat reductions.
+55	Water Gun	Water	Special	40	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[55]	Measured	The foe is struck with a lot of water expelled forcibly from the mouth.
+56	Hydro Pump	Water	Special	110	80	5	0	0	0	17	18	NA	FALSE	data.js:moves[56]	Measured	A high volume of water is blasted at the foe under great pressure.
+57	Surf	Water	Special	90	100	15	0	0	32	122	123	NA	FALSE	data.js:moves[57]	Measured	A big wave crashes down on the foe. Can also be used for crossing water.
+58	Ice Beam	Ice	Special	90	100	10	0	10	0	12	13	NA	FALSE	data.js:moves[58]	Measured	The foe is struck with an icy beam. It may leave the target frostbitten. 
+59	Blizzard	Ice	Special	110	70	5	0	10	8	13	14	NA	FALSE	data.js:moves[59]	Measured	The foe is blasted with a blizzard. It may leave the target frostbitten.
+60	Psybeam	Psychic	Special	65	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[60]	Measured	A peculiar ray is shot at the foe. It may leave the foe confused.
+61	Bubble Beam	Water	Special	65	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[61]	Measured	A spray of bubbles strikes the foe. It may lower the foe's Speed stat.
+62	Aurora Beam	Ice	Special	65	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[62]	Measured	A rainbow-colored attack beam. It may lower the foe's Attack stat.
+63	Hyper Beam	Normal	Special	150	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[63]	Measured	A severely damaging attack that makes the user rest on the next turn.
+64	Peck	Flying	Physical	35	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[64]	Measured	The foe is jabbed with a sharply pointed beak or horn.
+65	Drill Peck	Flying	Physical	80	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[65]	Measured	A corkscrewing attack with the sharp beak acting as a drill.
+66	Submission	Fighting	Physical	80	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[66]	Measured	A reckless, full- body throw attack that also hurts the user a little.
+67	Low Kick	Fighting	Physical	1	100	20	0	0	0	39	40	NA	FALSE	data.js:moves[67]	Measured	A low, tripping kick that inflicts more damage on heavier foes.
+68	Counter	Fighting	Physical	1	100	20	251	0	1	NA	NA	NA	FALSE	data.js:moves[68]	Measured	A retaliation move that counters any physical hit with double the damage.
+69	Seismic Toss	Fighting	Physical	1	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[69]	Measured	A gravity-fed throw that causes damage matching the user's level.
+70	Strength	Normal	Physical	80	100	15	0	0	0	123	124	NA	FALSE	data.js:moves[70]	Measured	The foe is slugged at maximum power. Can also be used to move boulders.
+71	Absorb	Grass	Special	25	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[71]	Measured	An attack that absorbs half the damage it inflicted to restore HP.
+72	Mega Drain	Grass	Special	60	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[72]	Measured	A tough attack that drains half the damage it inflicted to restore HP.
+73	Leech Seed	Grass	Status	0	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[73]	Measured	A seed is planted on the foe to steal some HP for the  user on every turn.
+74	Growth	Normal	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[74]	Measured	The user's body is forced to grow, raising the Sp. Atk stat.
+75	Razor Leaf	Grass	Physical	55	100	25	0	0	8	NA	NA	NA	FALSE	data.js:moves[75]	Measured	The foe is hit with a cutting leaf. It has a high critical-hit ratio.
+76	Solar Beam	Grass	Special	120	100	10	0	0	0	NA	NA	101	FALSE	data.js:moves[76]	Measured	A 2-turn move that blasts the foe with absorbed energy in the 2nd turn.
+77	Poison Powder	Poison	Status	0	75	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[77]	Measured	A cloud of toxic dust is scattered. It may poison the foe.
+78	Stun Spore	Grass	Status	0	75	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[78]	Measured	Paralyzing dust is scattered wildly. It may paralyze the foe.
+79	Sleep Powder	Grass	Status	0	75	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[79]	Measured	A sleep-inducing dust is scattered in high volume around a foe.
+80	Petal Dance	Grass	Special	120	100	10	0	100	4	NA	NA	NA	FALSE	data.js:moves[80]	Measured	The user attacks with petals for two to three turns, then gets confused.
+81	String Shot	Bug	Status	0	95	40	0	0	8	NA	NA	NA	FALSE	data.js:moves[81]	Measured	The foe is bound with strings shot from the mouth to reduce its Speed.
+82	Dragon Rage	Dragon	Special	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[82]	Measured	The foe is hit with a shock wave that always inflicts 40- HP damage.
+83	Fire Spin	Fire	Special	35	85	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[83]	Measured	The foe is trapped in an intense spiral of fire that rages two to five turns.
+84	Thunder Shock	Electric	Special	40	100	30	0	10	0	NA	NA	NA	FALSE	data.js:moves[84]	Measured	An electric shock attack that may also leave the foe paralyzed.
+85	Thunderbolt	Electric	Special	90	100	15	0	10	0	23	24	NA	FALSE	data.js:moves[85]	Measured	A strong electrical attack that may also leave the foe paralyzed.
+86	Thunder Wave	Electric	Status	0	90	20	0	0	0	72	73	NA	FALSE	data.js:moves[86]	Measured	An electric shock that causes paralysis. Can't miss if the user is Electric-type.
+87	Thunder	Electric	Special	110	70	10	0	30	0	24	25	NA	FALSE	data.js:moves[87]	Measured	A brutal lightning attack that may also leave the foe paralyzed.
+88	Rock Throw	Rock	Physical	50	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[88]	Measured	The foe is attacked with a shower of small, easily thrown rocks.
+89	Earthquake	Ground	Physical	100	100	10	0	0	32	25	26	NA	FALSE	data.js:moves[89]	Measured	An earthquake that strikes all Pokemon in battle excluding the user.
+90	Soul Robbery	Psychic	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[90]	Measured	The user consumes the target's soul, stealing the target's stat boosts, and then attacks.
+91	Dig	Ground	Physical	80	100	10	0	0	0	27	28	NA	FALSE	data.js:moves[91]	Measured	An attack that hits on the 2nd turn. Can also be used to exit dungeons.
+92	Toxic	Poison	Status	0	90	10	0	0	0	5	6	NA	FALSE	data.js:moves[92]	Measured	A move that badly poisons the foe. Can't miss if the user is Poison-type.
+93	Confusion	Psychic	Special	50	100	25	0	10	0	NA	NA	NA	FALSE	data.js:moves[93]	Measured	A weak telekinetic attack that may also leave the foe confused.
+94	Psychic	Psychic	Special	90	100	10	0	10	0	28	29	NA	FALSE	data.js:moves[94]	Measured	A strong telekinetic attack. It may also lower the foe's Sp. Def stat.
+95	Hypnosis	Psychic	Status	0	60	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[95]	Measured	Hypnotic suggestion is used to make the foe fall into a deep sleep.
+96	Meditate	Psychic	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[96]	Measured	The user meditates to awaken its power and raise its Attack stat.
+97	Agility	Psychic	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[97]	Measured	The user relaxes and lightens its body to sharply boost its Speed.
+98	Quick Attack	Normal	Physical	40	100	30	1	0	0	NA	NA	NA	FALSE	data.js:moves[98]	Measured	An almost invisibly fast attack that is certain to strike first.
+99	Rage	Normal	Physical	20	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[99]	Measured	An attack that becomes stronger each time the user is hit in battle.
+100	Teleport	Psychic	Status	0	0	20	250	0	16	33	34	NA	FALSE	data.js:moves[100]	Measured	Use it to flee from any wild Pokemon. Also warps to the last Poke Center.
+101	Night Shade	Ghost	Special	1	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[101]	Measured	An attack with a mirage that inflicts damage matching the user's level.
+102	Mimic	Normal	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[102]	Measured	The user copies the move last used by the foe for the rest of the battle.
+103	Screech	Normal	Status	0	85	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[103]	Measured	An ear-splitting screech is emitted to sharply reduce the foe's Defense.
+104	Double Team	Normal	Status	0	0	15	0	0	16	NA	NA	NA	FALSE	data.js:moves[104]	Measured	The user creates illusory copies of itself to raise its evasiveness.
+105	Recover	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[105]	Measured	A self-healing move that restores HP by up to half of the user's maximum HP.
+106	Harden	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[106]	Measured	The user stiffens all the muscles in its body to raise its Defense stat.
+107	Minimize	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[107]	Measured	The user compresses all the cells in its body to raise its evasiveness.
+108	Smokescreen	Normal	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[108]	Measured	The user throws smoke at the foe, lowering its Attack. 
+109	Confuse Ray	Ghost	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[109]	Measured	The foe is exposed to a sinister ray that triggers confusion.
+110	Withdraw	Water	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[110]	Measured	The user withdraws its body in its hard shell, raising its Defense stat.
+111	Defense Curl	Normal	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[111]	Measured	The user curls up to conceal weak spots and raise its Defense stat.
+112	Barrier	Psychic	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[112]	Measured	The user creates a sturdy wall that sharply raises its Defense stat.
+113	Light Screen	Psychic	Status	0	0	30	0	0	16	15	16	NA	FALSE	data.js:moves[113]	Measured	A wall of light cuts damage from Sp. Atk attacks for five turns.
+114	Haze	Ice	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[114]	Measured	Eliminates all stat changes among all Pokemon engaged in battle.
+115	Reflect	Psychic	Status	0	0	20	0	0	16	32	33	NA	FALSE	data.js:moves[115]	Measured	A wall of light cuts damage from physical attacks for five turns.
+116	Focus Energy	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[116]	Measured	The user takes a deep breath and focuses to raise its critical-hit ratio.
+117	Bide	Normal	Physical	1	0	10	1	0	16	NA	NA	NA	FALSE	data.js:moves[117]	Measured	The user endures attacks for two turns, then strikes back double.
+118	Metronome	Normal	Status	0	0	30	0	0	1	NA	NA	NA	FALSE	data.js:moves[118]	Measured	Waggles a finger and stimulates the brain into using any move at random.
+119	Mirror Move	Flying	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[119]	Measured	The user counters the move last used by the foe with the same move.
+120	Self-Destruct	Normal	Physical	100	100	5	0	0	32	NA	NA	NA	FALSE	data.js:moves[120]	Measured	The user blows up to inflict severe damage, even making itself faint.
+121	Egg Bomb	Normal	Physical	100	75	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[121]	Measured	A large egg is hurled with great force at the foe to inflict damage.
+122	Lick	Ghost	Physical	30	100	30	0	30	0	NA	NA	NA	FALSE	data.js:moves[122]	Measured	The foe is licked and hit with a long tongue. It may also paralyze.
+123	Smog	Poison	Special	30	70	20	0	40	0	NA	NA	NA	FALSE	data.js:moves[123]	Measured	The foe is attacked with exhaust gases. It may also poison the foe.
+124	Sludge	Poison	Special	65	100	20	0	30	0	NA	NA	NA	FALSE	data.js:moves[124]	Measured	Toxic sludge is hurled at the foe. It may poison the target.
+125	Bone Club	Ground	Physical	65	85	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[125]	Measured	The foe is clubbed with a bone held in hand. It may make the foe flinch.
+126	Fire Blast	Fire	Special	110	85	5	0	10	0	37	38	NA	FALSE	data.js:moves[126]	Measured	The foe is hit with an intense flame. It may leave the target with a burn.
+127	Waterfall	Water	Physical	80	100	15	0	20	0	126	127	NA	FALSE	data.js:moves[127]	Measured	A powerful charge attack that can flinch. It can be used to climb water- falls.
+128	Clamp	Water	Physical	35	85	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[128]	Measured	The foe is clamped and squeezed by the user's shell for two to five turns.
+129	Swift	Normal	Special	60	0	20	0	0	8	NA	NA	NA	FALSE	data.js:moves[129]	Measured	Star-shaped rays that never miss are fired at all foes in battle.
+130	Skull Bash	Normal	Physical	130	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[130]	Measured	The user raises its Defense and Attack in the 1st turn, then attacks in the 2nd turn. 
+131	Spike Cannon	Normal	Physical	20	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[131]	Measured	Sharp spikes are fired at the foe to strike two to five times.
+132	Constrict	Normal	Physical	10	100	35	0	10	0	NA	NA	NA	FALSE	data.js:moves[132]	Measured	The foe is attacked with long tentacles or vines. It may lower Speed.
+133	Amnesia	Psychic	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[133]	Measured	Forgets about something and sharply raises Sp. Def.
+134	Kinesis	Psychic	Status	0	80	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[134]	Measured	The user distracts the foe by bending a spoon. It may lower accuracy.
+135	Soft-Boiled	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[135]	Measured	Heals the user by up to half its full HP. It can be used to heal an ally.
+136	High Jump Kick	Fighting	Physical	130	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[136]	Measured	A strong jumping knee kick. If it misses, the user is hurt.
+137	Glare	Normal	Status	0	100	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[137]	Measured	The user intimidates the foe with the design on its belly to cause paralysis.
+138	Dream Eater	Psychic	Special	100	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[138]	Measured	Absorbs half the damage it inflicted on a sleeping foe to restore HP.
+139	Poison Gas	Poison	Status	0	90	40	0	0	8	NA	NA	NA	FALSE	data.js:moves[139]	Measured	The foe is sprayed with a cloud of toxic gas that may poison the foe.
+140	Barrage	Normal	Physical	15	85	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[140]	Measured	Round objects are hurled at the foe to strike two to five times.
+141	Leech Life	Bug	Physical	80	100	15	0	0	0	48	49	NA	FALSE	data.js:moves[141]	Measured	An attack that absorbs half the damage it inflicted to restore HP.
+142	Lovely Kiss	Normal	Status	0	85	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[142]	Measured	The user forces a kiss on the foe with a scary face that induces sleep.
+143	Sky Attack	Flying	Physical	140	90	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[143]	Measured	A 2nd-turn attack move with a high critical-hit ratio. The foe may flinch.
+144	Transform	Normal	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[144]	Measured	The user transforms into a copy of the foe with even the same move set.
+145	Bubble	Water	Special	40	100	30	0	10	8	NA	NA	NA	FALSE	data.js:moves[145]	Measured	A spray of bubbles hits the foe. It may lower the foe's Speed stat.
+146	Dizzy Punch	Normal	Physical	70	100	10	0	20	0	NA	NA	NA	FALSE	data.js:moves[146]	Measured	The foe is hit with a rhythmic punch that may leave it confused.
+147	Spore	Grass	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[147]	Measured	The user scatters bursts of fine spores that induce sleep.
+148	Flash	Electric	Special	60	100	10	0	50	0	124	125	NA	FALSE	data.js:moves[148]	Measured	The user flashes a bright light, which lowers its Attack. 
+149	Psywave	Psychic	Special	1	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[149]	Measured	The foe is attacked with an odd, hot energy wave that varies in intensity.
+150	Splash	Normal	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[150]	Measured	The user just flops and splashes around without having any effect.
+151	Acid Armor	Poison	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[151]	Measured	The user alters its cells to liquefy itself and sharply raise Defense.
+152	Crabhammer	Water	Physical	100	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[152]	Measured	A large pincer is used to hammer the foe. It has a high critical-hit ratio.
+153	Explosion	Normal	Physical	150	100	5	0	0	32	63	64	NA	FALSE	data.js:moves[153]	Measured	The user explodes to inflict terrible damage even while fainting itself.
+154	Fury Swipes	Normal	Physical	18	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[154]	Measured	The foe is raked with sharp claws or scythes two to five times.
+155	Bonemerang	Ground	Physical	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[155]	Measured	The user throws a bone that hits the foe once, then once again on return.
+156	Rest	Psychic	Status	0	0	5	0	0	16	43	44	NA	FALSE	data.js:moves[156]	Measured	The user sleeps for two turns to fully restore HP and heal any status problem.
+157	Rock Slide	Rock	Physical	75	100	10	0	20	8	79	80	NA	FALSE	data.js:moves[157]	Measured	Large boulders are hurled at the foe. It may make the foe flinch.
+158	Hyper Fang	Normal	Physical	80	100	15	0	10	0	NA	NA	NA	FALSE	data.js:moves[158]	Measured	The foe is attacked with sharp fangs. It may make the foe flinch.
+159	Sharpen	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[159]	Measured	The user reduces its polygon count to sharpen edges and raise Attack.
+160	Dark Hole	Dark	Special	100	100	5	0	40	0	NA	NA	8	FALSE	data.js:moves[160]	Measured	The user sends the foe to the shadow realm. It may cause sleep.
+161	Tri Attack	Normal	Special	90	100	10	0	20	0	NA	NA	NA	FALSE	data.js:moves[161]	Measured	A simultaneous 3-beam attack that may paralyze, burn, or freeze the foe.
+162	Super Fang	Normal	Physical	1	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[162]	Measured	The user attacks with sharp fangs and halves the foe's HP.
+163	Slash	Normal	Physical	70	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[163]	Measured	The foe is slashed with claws, etc. It has a high critical-hit ratio.
+164	Substitute	Normal	Status	0	0	10	0	0	16	NA	NA	74	FALSE	data.js:moves[164]	Measured	The user creates a decoy using one- quarter of its full HP.
+165	Struggle	UNK-type9	Physical	50	0	1	0	0	4	NA	NA	NA	FALSE	data.js:moves[165]	Measured	An attack that is used only if there is no PP. It also hurts the user.
+166	Sketch	Normal	Status	0	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[166]	Measured	This move copies the move last used by the foe, then disappears.
+167	Triple Kick	Fighting	Physical	20	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[167]	Measured	A 3-kick attack that becomes more powerful with each successive hit.
+168	Thief	Dark	Physical	60	100	25	0	100	0	45	46	NA	FALSE	data.js:moves[168]	Measured	An attack that may take the foe's held item if the user isn't holding one.
+169	Spider Web	Bug	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[169]	Measured	Ensnares the foe  with sticky string so it doesn't flee or switch out.
+170	Mind Reader	Normal	Status	0	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[170]	Measured	The user predicts the foe's action to ensure its next attack hits.
+171	Nightmare	Ghost	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[171]	Measured	A sleeping foe is shown a nightmare that inflicts some damage every turn.
+172	Flame Wheel	Fire	Physical	60	100	25	0	10	0	NA	NA	NA	FALSE	data.js:moves[172]	Measured	The user makes a fiery charge at the foe. It may cause a burn.
+173	Snore	Normal	Special	50	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[173]	Measured	An attack that can be used only while asleep. It may cause flinching.
+174	Curse	Ghost	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[174]	Measured	A move that works differently for the Ghost-type and all the other types.
+175	Flail	Normal	Physical	1	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[175]	Measured	A desperate attack that becomes more powerful the less HP the user has.
+176	Conversion 2	Normal	Status	0	0	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[176]	Measured	The user changes type to make itself resistant to the last attack it took.
+177	Aeroblast	Flying	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[177]	Measured	A vortex of air is shot at the foe. It has a high critical-hit ratio.
+178	Cotton Spore	Grass	Status	0	100	40	0	0	8	NA	NA	NA	FALSE	data.js:moves[178]	Measured	Cotton-like spores cling to the foe, sharply reducing its Speed stat.
+179	Reversal	Fighting	Physical	1	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[179]	Measured	An all-out attack that becomes more powerful the less HP the user has.
+180	Spite	Ghost	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[180]	Measured	A move that cuts 2 to 5 PP from the move last used by the foe.
+181	Powder Snow	Ice	Special	40	100	25	0	10	8	NA	NA	NA	FALSE	data.js:moves[181]	Measured	Blasts the foe with a snowy gust. It may cause freezing.
+182	Protect	Normal	Status	0	0	10	4	0	16	16	17	NA	FALSE	data.js:moves[182]	Measured	Enables the user to evade all attacks. It may fail if used in succession.
+183	Mach Punch	Fighting	Physical	40	100	30	1	0	0	NA	NA	NA	FALSE	data.js:moves[183]	Measured	A punch thrown at blinding speed. It is certain to strike first.
+184	Scary Face	Normal	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[184]	Measured	Frightens the foe with a scary face to sharply reduce its Speed.
+185	Feint Attack	Dark	Physical	60	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[185]	Measured	The user draws up close to the foe disarmingly, then hits without fail.
+186	Sweet Kiss	Fairy	Status	0	75	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[186]	Measured	The user kisses the foe with sweet cuteness that causes confusion.
+187	Belly Drum	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[187]	Measured	The user maximizes its Attack stat at the cost of half its full HP.
+188	Sludge Bomb	Poison	Special	90	100	10	0	30	0	35	36	NA	FALSE	data.js:moves[188]	Measured	Filthy sludge is hurled at the foe. It may poison the target.
+189	Mud-Slap	Ground	Special	40	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[189]	Measured	The user hurls mud at the foe, dealing minimal damage. 
+190	Octazooka	Water	Special	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[190]	Measured	Ink is blasted in the foe's face or eyes to deal damage.
+191	Spikes	Ground	Status	0	0	20	0	0	64	NA	NA	72	FALSE	data.js:moves[191]	Measured	A trap of spikes is laid around the foe's party to hurt foes switching in.
+192	Zap Cannon	Electric	Special	120	50	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[192]	Measured	An electric blast is fired like a cannon to inflict damage and paralyze.
+193	Foresight	Normal	Status	0	0	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[193]	Measured	Completely negates the foe's efforts to heighten its ability to evade.
+194	Destiny Bond	Ghost	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[194]	Measured	If the user faints, the foe delivering the final hit also faints.
+195	Perish Song	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[195]	Measured	Any battler that hears this faints in three turns unless it switches.
+196	Icy Wind	Ice	Special	55	100	15	0	100	8	20	21	NA	FALSE	data.js:moves[196]	Measured	A chilling wind is used to attack. It also lowers the Speed stat.
+197	Detect	Fighting	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[197]	Measured	Enables the user to evade all attacks. It may fail if used in succession.
+198	Bone Rush	Ground	Physical	25	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[198]	Measured	The user strikes the foe with a bone in hand two to five times.
+199	Lock-On	Normal	Status	0	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[199]	Measured	The user locks on to the foe, making the next move sure to hit.
+200	Outrage	Dragon	Physical	120	100	10	0	100	4	NA	NA	NA	FALSE	data.js:moves[200]	Measured	The user thrashes about for two to three turns, then becomes confused.
+201	Sandstorm	Rock	Status	0	0	10	0	0	16	NA	NA	109	FALSE	data.js:moves[201]	Measured	A 5-turn sandstorm that damages all types except Rock, Ground, and Steel.
+202	Giga Drain	Grass	Special	75	100	10	0	0	0	18	19	NA	FALSE	data.js:moves[202]	Measured	A harsh attack that absorbs half the damage it inflicted to restore HP.
+203	Endure	Normal	Status	0	0	10	4	0	16	NA	NA	NA	FALSE	data.js:moves[203]	Measured	The user endures any hit with 1 HP left. It may fail if used in succession.
+204	Charm	Fairy	Status	0	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[204]	Measured	The foe is charmed by the user's cute appeals, sharply cutting its Attack.
+205	Rollout	Rock	Physical	30	90	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[205]	Measured	A 5-turn rolling attack that becomes stronger each time it hits.
+206	False Swipe	Normal	Physical	40	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[206]	Measured	A restrained attack that always leaves the foe with at least 1 HP.
+207	Swagger	Normal	Status	0	90	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[207]	Measured	A move that makes the foe confused, but also sharply raises its Attack.
+208	Milk Drink	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[208]	Measured	Heals the user by up to half its full HP. It can be used to heal an ally.
+209	Spark	Electric	Physical	65	100	20	0	30	0	NA	NA	NA	FALSE	data.js:moves[209]	Measured	An electrically charged tackle that may also paralyze the foe.
+210	Fury Cutter	Bug	Physical	40	95	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[210]	Measured	An attack that grows stronger on each successive hit.
+211	Steel Wing	Steel	Physical	70	100	25	0	10	0	46	47	NA	FALSE	data.js:moves[211]	Measured	The foe is hit with wings of steel. It may also raise the user's Defense.
+212	Mean Look	Normal	Status	0	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[212]	Measured	The foe is fixed with a mean look that prevents it from escaping.
+213	Attract	Normal	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[213]	Measured	If it is the other gender, the foe is made infatuated and unlikely to attack.
+214	Sleep Talk	Normal	Status	0	0	10	0	0	1	81	82	NA	FALSE	data.js:moves[214]	Measured	While asleep, the user randomly uses one of the moves it knows.
+215	Heal Bell	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[215]	Measured	A soothing bell chimes to heal the status problems of all allies.
+216	Return	Normal	Physical	1	100	20	0	0	0	26	27	NA	FALSE	data.js:moves[216]	Measured	This attack move grows more powerful the more the user likes its Trainer.
+217	Present	Normal	Physical	1	90	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[217]	Measured	The foe is given a booby-trapped gift. It restores HP sometimes, however.
+218	Frustration	Normal	Physical	1	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[218]	Measured	This attack move grows more powerful the less the user likes its Trainer.
+219	Safeguard	Normal	Status	0	0	25	0	0	16	NA	NA	NA	FALSE	data.js:moves[219]	Measured	It protects the user's party from all status problems for five turns.
+220	Pain Split	Normal	Status	1	0	20	0	0	0	NA	NA	27	FALSE	data.js:moves[220]	Measured	The user adds its HP to the foe's HP, then equally shares the total HP.
+221	Sacred Fire	Fire	Physical	100	95	5	0	50	0	NA	NA	NA	FALSE	data.js:moves[221]	Measured	A mystical and powerful fire attack that may inflict a burn.
+222	Magnitude	Ground	Physical	1	100	30	0	0	32	NA	NA	NA	FALSE	data.js:moves[222]	Measured	A ground-shaking attack against all standing Pokemon. Its power varies.
+223	Dynamic Punch	Fighting	Physical	100	50	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[223]	Measured	The foe is punched with the user's full power. It confuses the foe if it hits.
+224	Megahorn	Bug	Physical	120	85	10	0	0	0	NA	NA	125	FALSE	data.js:moves[224]	Measured	A brutal ramming attack delivered with a tough and impressive horn.
+225	Dragon Breath	Dragon	Special	60	100	20	0	30	0	NA	NA	NA	FALSE	data.js:moves[225]	Measured	The foe is hit with an incredible blast of breath that may also paralyze.
+226	Baton Pass	Normal	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[226]	Measured	The user switches out, passing along any stat changes to the new battler.
+227	Encore	Normal	Status	0	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[227]	Measured	Makes the foe use the move it last used repeatedly for two to six turns.
+228	Pursuit	Dark	Physical	40	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[228]	Measured	An attack move that works especially well on a foe that is switching out.
+229	Rapid Spin	Normal	Physical	50	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[229]	Measured	An attack that frees the user from Bind, Wrap, Leech Seed, and Spikes.
+230	Sweet Scent	Normal	Status	0	100	20	0	0	8	NA	NA	NA	FALSE	data.js:moves[230]	Measured	Allures the foe to reduce evasiveness. It also attracts wild Pokemon.
+231	Iron Tail	Steel	Physical	100	75	15	0	30	0	61	62	NA	FALSE	data.js:moves[231]	Measured	An attack with a steel-hard tail. It may lower the foe's Defense stat.
+232	Metal Claw	Steel	Physical	50	100	35	0	10	0	NA	NA	NA	FALSE	data.js:moves[232]	Measured	The foe is attacked with steel claws. It may also raise the user's Attack.
+233	Vital Throw	Fighting	Physical	70	0	10	255	0	0	NA	NA	NA	FALSE	data.js:moves[233]	Measured	Makes the user attack after the foe. In return, it will not miss.
+234	Morning Sun	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[234]	Measured	Restores the user's HP. The amount of HP regained varies with the weather.
+235	Synthesis	Grass	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[235]	Measured	Restores the user's HP. The amount of HP regained varies with the weather.
+236	Moonlight	Fairy	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[236]	Measured	Restores the user's HP. The amount of HP regained varies with the weather.
+237	Hidden Power	Normal	Special	60	100	15	0	0	0	9	10	NA	FALSE	data.js:moves[237]	Measured	An attack that varies in type and intensity depending on the user.
+238	Cross Chop	Fighting	Physical	100	80	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[238]	Measured	The foe is hit with double chops. It has a high critical-hit ratio.
+239	Twister	Dragon	Special	40	100	20	0	20	8	NA	NA	NA	FALSE	data.js:moves[239]	Measured	A vicious twister attacks the foe. It may make the foe flinch.
+240	Rain Dance	Water	Status	0	0	5	0	0	16	NA	NA	123	FALSE	data.js:moves[240]	Measured	A heavy rain falls for five turns, powering up Water- type moves.
+241	Sunny Day	Fire	Status	0	0	5	0	0	16	NA	NA	99	FALSE	data.js:moves[241]	Measured	The sun blazes for five turns, powering up Fire-type moves.
+242	Crunch	Dark	Physical	80	100	15	0	20	0	NA	NA	NA	FALSE	data.js:moves[242]	Measured	The foe is crunched with sharp fangs. It may lower the foe's Defense.
+243	Mirror Coat	Psychic	Special	1	100	20	251	0	1	NA	NA	NA	FALSE	data.js:moves[243]	Measured	A retaliation move that pays back the foe's special attack double.
+244	Psych Up	Normal	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[244]	Measured	The user hypnotizes itself into copying any stat change made by the foe.
+245	Extreme Speed	Normal	Physical	80	100	5	2	0	0	NA	NA	NA	FALSE	data.js:moves[245]	Measured	A blindingly speedy charge attack that always goes before any other.
+246	Ancient Power	Rock	Special	60	100	5	0	10	0	NA	NA	NA	FALSE	data.js:moves[246]	Measured	An ancient power is used to attack. It may also raise all the user's stats.
+247	Shadow Ball	Ghost	Special	80	100	15	0	20	0	29	30	NA	FALSE	data.js:moves[247]	Measured	A shadowy blob is hurled at the foe. May also lower the foe's Sp. Def.
+248	Future Sight	Psychic	Special	120	100	10	0	0	0	84	85	NA	FALSE	data.js:moves[248]	Measured	Two turns after this move is used, the foe is attacked psychically.
+249	Rock Smash	Fighting	Physical	60	100	15	0	50	0	125	126	NA	FALSE	data.js:moves[249]	Measured	An attack that may also cut Defense. It can also smash cracked boulders.
+250	Whirlpool	Water	Special	35	85	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[250]	Measured	The foe is trapped in a fast, vicious whirlpool for two to five turns.
+251	Beat Up	Dark	Physical	25	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[251]	Measured	The user attacks by bullying the target. It hits two to five times in a row.
+252	Fake Out	Normal	Physical	40	100	5	3	0	0	NA	NA	NA	FALSE	data.js:moves[252]	Measured	An attack that hits first and causes flinching. Usable only on 1st turn.
+253	Uproar	Normal	Special	90	100	10	0	100	4	NA	NA	7	FALSE	data.js:moves[253]	Measured	The user attacks in an uproar that prevents sleep for two to five turns.
+254	Stockpile	Normal	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[254]	Measured	The user charges up power for use later. It can be used three times.
+255	Spit Up	Normal	Special	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[255]	Measured	The power built using Stockpile is released at once for attack.
+256	Swallow	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[256]	Measured	The energy it built using Stockpile is absorbed to restore HP.
+257	Heat Wave	Fire	Special	95	90	10	0	10	8	6	7	NA	FALSE	data.js:moves[257]	Measured	The user exhales a heated breath to attack. It may also inflict a burn.
+258	Snowscape	Ice	Status	0	0	10	0	0	16	NA	NA	50	FALSE	data.js:moves[258]	Measured	A 5-turn snowstorm that boosts the Def of Ice-types.
+259	Torment	Dark	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[259]	Measured	It enrages the foe, making it incapable of using the same move successively.
+260	Flatter	Dark	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[260]	Measured	Flattery is used to confuse the foe, but its Sp. Atk also rises.
+261	Will-O-Wisp	Fire	Status	0	85	15	0	0	0	60	61	NA	FALSE	data.js:moves[261]	Measured	A sinister, bluish white flame is shot to inflict a burn. Can't miss if the user is Fire-type.
+262	Memento	Dark	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[262]	Measured	The user faints, but sharply lowers the foe's Attack and Sp. Atk.
+263	Facade	Normal	Physical	70	100	20	0	0	0	41	42	NA	FALSE	data.js:moves[263]	Measured	An attack that is boosted if user is burned, poisoned, or paralyzed.
+264	Focus Punch	Fighting	Physical	150	100	20	253	0	0	NA	NA	120	FALSE	data.js:moves[264]	Measured	An attack that is executed last. The user flinches if hit beforehand.
+265	Smelling Salts	Fighting	Physical	70	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[265]	Measured	Doubly effective on a paralyzed foe, but it also cures the foe's paralysis.
+266	Follow Me	Normal	Status	0	0	20	2	0	16	NA	NA	NA	FALSE	data.js:moves[266]	Measured	The user draws attention to itself, making foes attack only the user.
+267	Nature Power	Normal	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[267]	Measured	An attack that changes type depending on the user's location.
+268	Charge	Electric	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[268]	Measured	The user charges power to boost the Electric move it uses next.
+269	Taunt	Dark	Status	0	100	20	0	0	0	11	12	NA	FALSE	data.js:moves[269]	Measured	The foe is taunted into a rage that allows it to use only attack moves.
+270	Helping Hand	Normal	Status	0	0	20	5	0	16	NA	NA	NA	FALSE	data.js:moves[270]	Measured	A move that boosts the power of the ally's attack in a battle.
+271	Trick	Psychic	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[271]	Measured	A move that tricks the foe into trading held items with the user.
+272	Role Play	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[272]	Measured	The user mimics the foe completely and copies the foe's ability.
+273	Wish	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[273]	Measured	A self-healing move that restores half the full HP on the next turn.
+274	Assist	Normal	Status	0	0	20	0	0	1	NA	NA	NA	FALSE	data.js:moves[274]	Measured	The user randomly picks and uses a move of an allied Pokemon.
+275	Ingrain	Grass	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[275]	Measured	The user lays roots that restore HP on every turn. It can't switch out.
+276	Superpower	Fighting	Physical	120	100	5	0	0	0	108	109	NA	FALSE	data.js:moves[276]	Measured	A powerful attack, but it also lowers the user's Attack and Defense stats.
+277	Magic Coat	Psychic	Status	0	0	15	4	0	1	NA	NA	NA	FALSE	data.js:moves[277]	Measured	Reflects back the foe's Leech Seed and any status- damaging move.
+278	Recycle	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[278]	Measured	A move that recycles a used item for use once more.
+279	Revenge	Fighting	Physical	60	100	10	252	0	0	NA	NA	NA	FALSE	data.js:moves[279]	Measured	An attack move that gains in intensity if the target has hurt the user.
+280	Brick Break	Fighting	Physical	75	100	15	0	100	0	30	31	NA	FALSE	data.js:moves[280]	Measured	An attack that also breaks any barrier like Light Screen and Reflect.
+281	Yawn	Normal	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[281]	Measured	A huge yawn lulls the foe into falling asleep on the next turn.
+282	Knock Off	Dark	Physical	65	100	20	0	100	0	74	75	NA	FALSE	data.js:moves[282]	Measured	If foe has a held item, it's knocked off and is dealt extra damage.
+283	Endeavor	Normal	Physical	1	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[283]	Measured	Gains power the fewer HP the user has compared with the foe.
+284	Eruption	Fire	Special	150	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[284]	Measured	The higher the user's HP, the more powerful this attack becomes.
+285	Skill Swap	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[285]	Measured	The user employs its psychic power to swap abilities with the foe.
+286	Imprison	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[286]	Measured	Prevents foes from using any move that is also known by the user.
+287	Refresh	Normal	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[287]	Measured	A self-healing move that cures the user of a poisoning, burn, or paralysis.
+288	Grudge	Ghost	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[288]	Measured	If the user faints, this move deletes the PP of the move that finished it.
+289	Snatch	Dark	Status	0	0	10	4	0	1	NA	NA	NA	FALSE	data.js:moves[289]	Measured	Steals the effects of the foe's healing or status- changing move.
+290	Secret Power	Normal	Physical	70	100	20	0	30	0	NA	NA	NA	FALSE	data.js:moves[290]	Measured	An attack that may have an additional effect that varies with the terrain.
+291	Dive	Water	Physical	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[291]	Measured	The user dives underwater on the first turn and strikes next turn.
+292	Arm Thrust	Fighting	Physical	25	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[292]	Measured	A quick flurry of straight-arm punches that hit two to five times.
+293	Camouflage	Normal	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[293]	Measured	Alters the user's type depending on the location's terrain.
+294	Tail Glow	Bug	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[294]	Measured	The user flashes a light that sharply raises its Sp. Atk stat.
+295	Luster Purge	Psychic	Special	95	100	10	0	50	0	NA	NA	NA	FALSE	data.js:moves[295]	Measured	A burst of light injures the foe. It may also lower the foe's Sp. Def.
+296	Mist Ball	Psychic	Special	95	100	10	0	50	0	NA	NA	NA	FALSE	data.js:moves[296]	Measured	A flurry of down hits the foe. It may also lower the foe's Sp. Atk.
+297	Feather Dance	Flying	Status	0	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[297]	Measured	The foe is covered with a mass of down that sharply cuts the Attack stat.
+298	Teeter Dance	Normal	Status	0	100	20	0	0	32	NA	NA	NA	FALSE	data.js:moves[298]	Measured	A wobbly dance that confuses all the Pokemon in battle.
+299	Blaze Kick	Fire	Physical	85	100	10	0	10	0	NA	NA	104	FALSE	data.js:moves[299]	Measured	A fiery kick with a high critical-hit ratio. It may also burn the foe.
+300	Mud Sport	Ground	Status	0	0	15	0	0	16	NA	NA	NA	FALSE	data.js:moves[300]	Measured	Weakens Electric- type attacks while the user is in the battle.
+301	Ice Ball	Ice	Physical	30	90	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[301]	Measured	A 5-turn rolling attack that becomes stronger each time it rolls.
+302	Needle Arm	Grass	Physical	95	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[302]	Measured	An attack using thorny arms. It may make the foe flinch.
+303	Slack Off	Normal	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[303]	Measured	The user slacks off and restores its HP by half its full HP.
+304	Hyper Voice	Normal	Special	90	100	10	0	0	8	19	20	NA	FALSE	data.js:moves[304]	Measured	The user lets loose a horribly loud shout with the power to damage.
+305	Poison Fang	Poison	Physical	75	100	15	0	50	0	NA	NA	NA	FALSE	data.js:moves[305]	Measured	The foe is bitten with toxic fangs. It may also badly poison the foe.
+306	Crush Claw	Normal	Physical	75	100	10	0	50	0	NA	NA	NA	FALSE	data.js:moves[306]	Measured	The foe is attacked with sharp claws. It may also lower the foe's Defense.
+307	Blast Burn	Fire	Special	160	100	4	0	60	0	NA	NA	62	FALSE	data.js:moves[307]	Measured	The foe is hit with an explosion that can burn. User recharges unless it KOs the foe.
+308	Hydro Cannon	Water	Special	160	100	4	0	60	0	NA	NA	63	FALSE	data.js:moves[308]	Measured	The foe is hit with a watery cannon that can frostbite. User recharges unless it KOs the foe.
+309	Meteor Mash	Steel	Physical	90	90	10	0	20	0	NA	NA	NA	FALSE	data.js:moves[309]	Measured	The foe is hit with a hard, fast punch. It may also raise the user's Attack.
+310	Astonish	Ghost	Physical	30	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[310]	Measured	An attack using a startling shout. It also may make the foe flinch.
+311	Weather Ball	Normal	Special	50	100	10	0	0	0	21	22	NA	FALSE	data.js:moves[311]	Measured	An attack that varies in power and type depending on the weather.
+312	Aromatherapy	Grass	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[312]	Measured	A soothing scent is released to heal all status problems in the user's party.
+313	Fake Tears	Dark	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[313]	Measured	The user feigns crying to sharply lower the foe's Sp. Def stat.
+314	Air Cutter	Flying	Special	60	100	25	0	0	8	NA	NA	NA	FALSE	data.js:moves[314]	Measured	The foe is hit with razor-like wind. It has a high critical-hit ratio.
+315	Overheat	Fire	Special	130	100	5	0	100	0	49	50	NA	FALSE	data.js:moves[315]	Measured	An intense attack that also sharply reduces the user's Sp. Atk stat.
+316	Odor Sleuth	Normal	Status	0	0	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[316]	Measured	Completely negates the foe's efforts to heighten its ability to evade.
+317	Rock Tomb	Rock	Physical	60	100	15	0	100	0	38	39	NA	FALSE	data.js:moves[317]	Measured	Boulders are hurled at the foe. It also lowers the foe's Speed if it hits.
+318	Silver Wind	Bug	Special	60	100	5	0	10	0	NA	NA	NA	FALSE	data.js:moves[318]	Measured	The foe is attacked with a silver dust. It may raise all the user's stats.
+319	Metal Sound	Steel	Status	0	85	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[319]	Measured	A horrible metallic screech is used to sharply lower the foe's Sp. Def.
+320	Grass Whistle	Grass	Status	0	55	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[320]	Measured	A pleasant melody is played to lull the foe into a deep sleep.
+321	Tickle	Normal	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[321]	Measured	The foe is made to laugh, reducing its Attack and Defense stats.
+322	Cosmic Power	Psychic	Status	0	0	20	0	0	16	94	95	NA	FALSE	data.js:moves[322]	Measured	The user absorbs a mystic power to raise its Defense and Sp. Def.
+323	Water Spout	Water	Special	150	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[323]	Measured	The higher the user's HP, the more powerful this attack becomes.
+324	Signal Beam	Bug	Special	75	100	15	0	10	0	NA	NA	NA	FALSE	data.js:moves[324]	Measured	The foe is hit with a flashing beam that may also cause confusion.
+325	Shadow Punch	Ghost	Physical	80	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[325]	Measured	The user throws a punch from the shadows. It cannot be evaded.
+326	Extrasensory	Psychic	Special	80	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[326]	Measured	The user attacks with an odd power that may make the foe flinch.
+327	Sky Uppercut	Fighting	Physical	85	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[327]	Measured	The user attacks with an uppercut thrown skywards with force.
+328	Sand Tomb	Ground	Physical	35	85	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[328]	Measured	The foe is trapped inside a painful sandstorm for two to five turns.
+329	Sheer Cold	Ice	Special	1	30	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[329]	Measured	The foe is attacked with ultimate cold that causes fainting if it hits.
+330	Muddy Water	Water	Special	95	85	10	0	40	8	NA	NA	NA	FALSE	data.js:moves[330]	Measured	Attacks with muddy water. 
+331	Bullet Seed	Grass	Physical	25	100	30	0	0	0	8	9	NA	FALSE	data.js:moves[331]	Measured	The user shoots seeds at the foe. Two to five seeds are shot at once.
+332	Aerial Ace	Flying	Physical	60	0	20	0	0	0	86	87	NA	FALSE	data.js:moves[332]	Measured	An extremely fast attack against one target. It can't be evaded.
+333	Icicle Spear	Ice	Physical	25	100	30	0	0	0	NA	NA	85	FALSE	data.js:moves[333]	Measured	Sharp icicles are fired at the foe. It strikes two to five times.
+334	Iron Defense	Steel	Status	0	0	15	0	0	16	NA	NA	20	FALSE	data.js:moves[334]	Measured	The user hardens its body's surface to sharply raise its Defense stat.
+335	Block	Normal	Status	0	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[335]	Measured	The user blocks the foe's way with arms spread wide to prevent escape.
+336	Howl	Normal	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[336]	Measured	The user howls to raise its spirit and boost its Attack stat.
+337	Dragon Claw	Dragon	Physical	80	100	15	0	0	0	1	2	NA	FALSE	data.js:moves[337]	Measured	Sharp, huge claws hook and slash the foe quickly and with great power.
+338	Frenzy Plant	Grass	Special	160	100	4	0	80	0	NA	NA	61	FALSE	data.js:moves[338]	Measured	The foe is hit with a giant branch that can badly poison. User recharges unless it KOs.
+339	Bulk Up	Fighting	Status	0	0	20	0	0	16	NA	NA	31	FALSE	data.js:moves[339]	Measured	The user bulks up its body to boost both its Attack and Defense stats.
+340	Bounce	Flying	Physical	85	85	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[340]	Measured	The user bounces on the foe on the 2nd turn. It may paralyze the foe.
+341	Mud Shot	Ground	Special	55	100	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[341]	Measured	The user attacks by hurling mud. It also reduces the foe's Speed.
+342	Poison Tail	Poison	Physical	60	100	25	0	10	0	NA	NA	NA	FALSE	data.js:moves[342]	Measured	An attack with a high critical-hit ratio. It may also poison the foe.
+343	Covet	Fairy	Physical	60	100	25	0	100	0	NA	NA	NA	FALSE	data.js:moves[343]	Measured	A cutely executed attack that also steals the foe's hold item.
+344	Volt Tackle	Electric	Physical	120	100	15	0	10	0	NA	NA	NA	FALSE	data.js:moves[344]	Measured	The user throws an electrified tackle. It hurts the user a little.
+345	Magical Leaf	Grass	Special	60	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[345]	Measured	The foe is attacked with a strange leaf that cannot be evaded.
+346	Water Sport	Water	Status	0	0	15	0	0	16	NA	NA	NA	FALSE	data.js:moves[346]	Measured	Weakens Fire-type attacks while the user is in the battle.
+347	Calm Mind	Psychic	Status	0	0	20	0	0	16	NA	NA	32	FALSE	data.js:moves[347]	Measured	The user focuses its mind to raise the Sp. Atk and Sp. Def stats.
+348	Leaf Blade	Grass	Physical	90	100	15	0	0	0	NA	NA	110	FALSE	data.js:moves[348]	Measured	The foe is slashed with a sharp leaf. It has a high critical-hit ratio.
+349	Dragon Dance	Dragon	Status	0	0	20	0	0	16	NA	NA	39	FALSE	data.js:moves[349]	Measured	A mystic, powerful dance that boosts the user's Attack and Speed stats.
+350	Rock Blast	Rock	Physical	25	100	10	0	0	0	NA	NA	87	FALSE	data.js:moves[350]	Measured	The user hurls two to five hard rocks at the foe to attack.
+351	Shock Wave	Electric	Special	60	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[351]	Measured	A rapid jolt of electricity strikes the foe. It can't be evaded.
+352	Water Pulse	Water	Special	60	100	20	0	20	0	NA	NA	NA	FALSE	data.js:moves[352]	Measured	An attack with a pulsing blast of water. It may also confuse the foe.
+353	Doom Desire	Steel	Special	140	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[353]	Measured	A move that attacks the foe with a blast of light two turns after use.
+354	Psycho Boost	Psychic	Special	140	100	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[354]	Measured	An intense attack that also sharply reduces the user's Sp. Atk stat.
+355	Leech Fang	Bug	Physical	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[355]	Measured	An attack that absorbs half the damage it inflicted to restore HP.
+356	Air Slash	Flying	Special	75	100	15	0	30	0	55	56	NA	FALSE	data.js:moves[356]	Measured	The foe is sliced by a blade of air. It may also make the foe flinch.
+357	Aqua Jet	Water	Physical	40	100	20	1	0	0	NA	NA	NA	FALSE	data.js:moves[357]	Measured	An almost invisibly fast attack that is certain to strike first.
+358	Aqua Tail	Water	Physical	90	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[358]	Measured	The foe is attacked with a swinging tail as vicious as a wave in a storm.
+359	Aura Sphere	Fighting	Special	80	0	20	0	0	0	31	32	NA	FALSE	data.js:moves[359]	Measured	A blast of aura power is let loose at the foe. It is sure to hit.
+360	Avalanche	Ice	Physical	60	100	10	252	0	0	NA	NA	NA	FALSE	data.js:moves[360]	Measured	An attack move that gains in intensity if the target has hurt the user.
+361	Brave Bird	Flying	Physical	120	100	15	0	0	0	116	117	NA	FALSE	data.js:moves[361]	Measured	The user tucks in its wings and charges. It also hurts the user.         
+362	Bug Buzz	Bug	Special	90	100	10	0	10	0	NA	NA	105	FALSE	data.js:moves[362]	Measured	The user creates a damaging sound wave that may lower the foe's Sp. Def.
+363	Bullet Punch	Steel	Physical	40	100	30	1	0	0	NA	NA	NA	FALSE	data.js:moves[363]	Measured	The user strikes with a tough punch that is certain to strike first.
+364	Charge Beam	Electric	Special	50	100	10	0	100	0	NA	NA	11	FALSE	data.js:moves[364]	Measured	The user fires a load of electricity that may raise the user's Sp. Atk.  
+365	Close Combat	Fighting	Physical	120	100	5	0	0	0	0	1	NA	FALSE	data.js:moves[365]	Measured	The foe is fought up close. This cuts the user's Defense and Sp. Def.
+366	Cross Poison	Poison	Physical	70	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[366]	Measured	An attack with a high critical-hit ratio. It may also poison the foe.
+367	Dark Pulse	Dark	Special	80	100	15	0	20	0	78	79	NA	FALSE	data.js:moves[367]	Measured	The user releases a horrible aura that may also make the foe flinch.
+368	Discharge	Electric	Special	80	100	15	0	30	32	NA	NA	NA	FALSE	data.js:moves[368]	Measured	The user looses an electric flare that hits all Pokemon and may paralyze.         
+369	Draco Meteor	Dragon	Special	130	100	5	0	0	0	118	119	NA	FALSE	data.js:moves[369]	Measured	An intense attack that also sharply reduces the user's Sp. Atk stat.
+370	Dragon Pulse	Dragon	Special	85	100	10	0	0	0	58	59	NA	FALSE	data.js:moves[370]	Measured	The foe is attacked with a shock wave generated by the user's gaping mouth.
+371	Drain Punch	Fighting	Physical	75	100	10	0	0	0	59	60	NA	FALSE	data.js:moves[371]	Measured	A harsh punch that absorbs half the damage it inflicted to restore HP.
+372	Earth Power	Ground	Special	90	100	10	0	10	0	75	76	NA	FALSE	data.js:moves[372]	Measured	The ground under the foe erupts. It may also lower the foe's Sp. Def.          
+373	Energy Ball	Grass	Special	90	100	10	0	10	0	52	53	NA	FALSE	data.js:moves[373]	Measured	The foe is blasted with natural energy. It may also lower the foe's Sp. Def.
+374	Focus Blast	Fighting	Special	120	70	5	0	10	0	51	52	NA	FALSE	data.js:moves[374]	Measured	The user unleashes its power. It may also lower the foe's Sp. Def.
+375	Force Palm	Fighting	Physical	60	100	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[375]	Measured	The foe is attacked with a shock wave that may also leave it paralyzed.
+376	Giga Impact	Normal	Physical	150	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[376]	Measured	A severely damaging attack that makes the user rest on the next turn.
+377	Grass Knot	Grass	Special	1	100	20	0	0	0	85	86	NA	FALSE	data.js:moves[377]	Measured	Grass snares and trips the foe. It does more damage to heavier foes.
+378	Gunk Shot	Poison	Physical	120	80	5	0	30	0	89	90	NA	FALSE	data.js:moves[378]	Measured	Filthy garbage is shot at the foe. It may also poison the target.
+379	Hammer Arm	Fighting	Physical	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[379]	Measured	The user swings its heavy fist. It also lowers the user's Speed.
+380	Head Smash	Rock	Physical	150	85	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[380]	Measured	A reckless, life- risking tackle that also hurts the user terribly.
+381	Ice Shard	Ice	Physical	40	100	30	1	0	0	NA	NA	NA	FALSE	data.js:moves[381]	Measured	The user hurls chunks of ice that are certain to strike first.
+382	Iron Head	Steel	Physical	80	100	15	0	30	0	22	23	NA	FALSE	data.js:moves[382]	Measured	The foe is slammed with its hard head. It may also make the foe flinch.
+383	Lava Plume	Fire	Special	80	100	15	0	30	32	NA	NA	NA	FALSE	data.js:moves[383]	Measured	Scarlet flames wash over all Pokemon in battle. It may also inflict burns.
+384	Magnet Bomb	Steel	Physical	60	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[384]	Measured	A steel bomb is stuck to the foe. It is sure to hit.
+385	Mud Bomb	Ground	Special	65	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[385]	Measured	The foe is struck with a mud ball.
+386	Nasty Plot	Dark	Status	0	0	20	0	0	16	NA	NA	76	FALSE	data.js:moves[386]	Measured	The user thinks bad thoughts. It sharply raises the Sp. Atk stat.
+387	Night Slash	Dark	Physical	70	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[387]	Measured	The user slashes the foe when it can. It has a high critical-hit ratio.
+388	Ominous Wind	Ghost	Special	60	100	5	0	10	0	NA	NA	NA	FALSE	data.js:moves[388]	Measured	Repulsive wind is used to attack. It may also raise all the user's stats.
+389	Power Gem	Rock	Special	80	100	20	0	0	0	NA	NA	116	FALSE	data.js:moves[389]	Measured	The user attacks with a ray of light that sparkles like gemstones.
+390	Power Whip	Grass	Physical	120	90	10	0	0	0	NA	NA	126	FALSE	data.js:moves[390]	Measured	The user violently whirls its vines or tentacles to lash the foe.
+391	Psycho Cut	Psychic	Physical	70	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[391]	Measured	The user tears the foe with psychic blades. It has a high crit ratio.        
+392	Rock Climb	Normal	Physical	90	85	20	0	20	0	NA	NA	NA	FALSE	data.js:moves[392]	Measured	A charging attack that may confuse the foe. Can also be used to scale walls.
+393	Rock Polish	Rock	Status	0	0	20	0	0	16	NA	NA	46	FALSE	data.js:moves[393]	Measured	The user polishes its body to sharply boost its Speed.
+394	Rock Wrecker	Rock	Physical	150	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[394]	Measured	The foe is hit with a huge boulder. The user can't move on the next turn.
+395	Roost	Flying	Status	0	0	5	0	0	16	50	51	NA	FALSE	data.js:moves[395]	Measured	A self-healing move that restores HP by up to half of the user's maximum HP.
+396	Seed Bomb	Grass	Physical	80	100	15	0	0	0	3	4	NA	FALSE	data.js:moves[396]	Measured	The user shoots a barrage of hard seeds at the foe.
+397	Shadow Claw	Ghost	Physical	80	100	15	0	0	0	64	65	NA	FALSE	data.js:moves[397]	Measured	Claws made of shadows rake the foe. It has a high critical-hit ratio.
+398	Shadow Sneak	Ghost	Physical	40	100	30	1	0	0	NA	NA	NA	FALSE	data.js:moves[398]	Measured	The user extends its shadow to attack. It will strike first.         
+399	Vacuum Wave	Fighting	Special	40	100	30	1	0	0	110	111	NA	FALSE	data.js:moves[399]	Measured	The user sends a wave of vacuum at the foe. It will strike first.         
+400	X-Scissor	Bug	Physical	80	100	15	0	0	0	80	81	NA	FALSE	data.js:moves[400]	Measured	The user slashes the foe with crossed claws as if they were scissors.
+401	Zen Headbutt	Psychic	Physical	80	100	15	0	20	0	7	8	NA	FALSE	data.js:moves[401]	Measured	The user focuses and rams the foe. It may also make the foe flinch.
+402	Switcheroo	Dark	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[402]	Measured	The user trades held items with the foe faster than the eye can follow.
+403	Drill Run	Ground	Physical	80	100	10	0	0	0	NA	NA	35	FALSE	data.js:moves[403]	Measured	The user rotates its body like a drill. It has a high critical-hit ratio.
+404	Bulldoze	Ground	Physical	60	100	20	0	100	32	95	96	NA	FALSE	data.js:moves[404]	Measured	The user hits all Pokemon in battle by stomping. Lowers Speed of those hit.     
+405	Electroweb	Electric	Special	55	100	15	0	100	8	14	15	NA	FALSE	data.js:moves[405]	Measured	The user traps the foe in an electric net. It also lowers the foe's Speed.
+406	Flame Charge	Fire	Physical	50	100	20	0	100	0	NA	NA	2	FALSE	data.js:moves[406]	Measured	The user cloaks itself in flames and attacks. It also ups the user's Speed.   
+407	Frost Breath	Ice	Special	60	100	10	0	30	0	96	97	NA	FALSE	data.js:moves[407]	Measured	The user blows cold air that always lands a critical hit. It can cause frostbite.
+408	Heart Stamp	Psychic	Physical	60	100	25	0	30	0	NA	NA	NA	FALSE	data.js:moves[408]	Measured	The foe is hit after a cute act. It may also make the foe flinch.
+409	Hone Claws	Dark	Status	0	0	15	0	0	16	NA	NA	102	FALSE	data.js:moves[409]	Measured	The user sharpens its claws to raise its Attack and accuracy.
+410	Horn Leech	Grass	Physical	75	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[410]	Measured	A harsh attack that absorbs half the damage it inflicted to restore HP.
+411	Coil	Poison	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[411]	Measured	The user coils up, raising its Attack, Defense, and accuracy.
+412	Hurricane	Flying	Special	110	70	10	0	30	0	47	48	NA	FALSE	data.js:moves[412]	Measured	The foe is caught in a fierce wind. It may also confuse the foe.
+413	Icicle Crash	Ice	Physical	85	100	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[413]	Measured	Icicles are dropped on the foe. It may also make the foe flinch.
+414	Work Up	Normal	Status	0	0	30	0	0	16	NA	NA	0	FALSE	data.js:moves[414]	Measured	The user rouses itself to raise its Attack and Sp. Atk stats.
+415	Quiver Dance	Bug	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[415]	Measured	The user mystically dances, raising its Sp. Atk, Sp. Def, and Speed.
+416	Leaf Tornado	Grass	Special	65	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[416]	Measured	Sharp leaves circle the foe.
+417	Low Sweep	Fighting	Physical	60	100	20	0	100	0	77	78	NA	FALSE	data.js:moves[417]	Measured	The user attacks the foe's legs, lowering its Speed stat.
+418	Snarl	Dark	Special	55	100	15	0	100	8	107	108	NA	FALSE	data.js:moves[418]	Measured	The user barks menacingly. It also lowers the foe's Sp. Atk.
+419	Struggle Bug	Bug	Special	50	100	20	0	100	8	NA	NA	NA	FALSE	data.js:moves[419]	Measured	While resisting, the user attacks the foe, lowering its Sp. Atk stat.
+420	Steamroller	Bug	Physical	65	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[420]	Measured	The user crushes the foe with its body. It may also make the foe flinch.
+421	Storm Throw	Fighting	Physical	60	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[421]	Measured	The user strikes the foe fiercely. It always results in a critical hit.
+422	Venoshock	Poison	Special	65	100	10	0	0	0	62	63	NA	FALSE	data.js:moves[422]	Measured	The foe is soaked by a special acid. Its power doubles if the foe is poisoned.
+423	Wild Charge	Electric	Physical	90	100	15	0	0	0	98	99	NA	FALSE	data.js:moves[423]	Measured	The user throws an electrified tackle. It hurts the user a little.
+424	Poison Jab	Poison	Physical	80	100	20	0	30	0	83	84	NA	FALSE	data.js:moves[424]	Measured	The foe is stabbed by an arm steeped in poison. It may also poison the foe.
+425	Acid Spray	Poison	Special	40	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[425]	Measured	The user spits fluid that melts the foe. It harshly lowers the foe's Sp. Def.
+426	Fiery Dance	Fire	Special	80	100	10	0	50	0	NA	NA	NA	FALSE	data.js:moves[426]	Measured	Cloaked in flames, the user dances. It may also raise the user's Sp. Atk.
+427	Clear Smog	Poison	Special	50	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[427]	Measured	The user throws a clump of special mud that reverts all stat changes.
+428	Leaf Storm	Grass	Special	130	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[428]	Measured	An intense attack that also sharply reduces the user's Sp. Atk stat.
+429	Stone Edge	Rock	Physical	100	90	5	0	0	0	70	71	NA	FALSE	data.js:moves[429]	Measured	The foe is stabbed by sharpened stones. It has a high critical-hit ratio.
+430	Payback	Dark	Physical	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[430]	Measured	If the user moves after the target, this attack's power will be doubled.
+431	Fire Fang	Fire	Physical	65	100	15	0	10	0	NA	NA	90	FALSE	data.js:moves[431]	Measured	The user bites the foe. It may also make the foe flinch, or leave it burned.
+432	Ice Fang	Ice	Physical	65	100	15	0	10	0	NA	NA	89	FALSE	data.js:moves[432]	Measured	The user bites the foe. It may also make the foe flinch, or leave it frozen.
+433	Thunder Fang	Electric	Physical	65	100	15	0	10	0	NA	NA	88	FALSE	data.js:moves[433]	Measured	The user bites the foe. It may also make the foe flinch, or paralyze it.     
+434	Flare Blitz	Fire	Physical	120	100	15	0	10	0	NA	NA	121	FALSE	data.js:moves[434]	Measured	A fiery tackle that may leave the foe burned. It also hurts the user a little.
+435	Inferno	Fire	Special	120	50	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[435]	Measured	The foe is engulfed by an intense fire that is sure to leave a burn.
+436	Hex	Ghost	Special	65	100	10	0	0	0	NA	NA	100	FALSE	data.js:moves[436]	Measured	This attack does double damage to a target affected by a status problem.
+437	Dual Chop	Dragon	Physical	40	100	15	0	0	0	67	68	NA	FALSE	data.js:moves[437]	Measured	The user hits the foe with two brutal strikes in one turn.
+438	Double Hit	Normal	Physical	35	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[438]	Measured	The user slams the foe twice in a row with a long tail, vines, etc.
+439	Cotton Guard	Grass	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[439]	Measured	The user protects itself with cotton, drastically raising its Defense.
+440	Acrobatics	Flying	Physical	55	100	15	0	0	0	105	106	NA	FALSE	data.js:moves[440]	Measured	A nimble attack that does double damage if the user has no held item.
+441	Flame Burst	Fire	Special	70	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[441]	Measured	The user attacks the foe with a bursting flame.
+442	U-turn	Bug	Physical	70	100	20	0	0	0	88	89	NA	FALSE	data.js:moves[442]	Measured	After attacking, the user switches places with a party Pokemon.
+443	Volt Switch	Electric	Special	70	100	20	0	0	0	91	92	NA	FALSE	data.js:moves[443]	Measured	After attacking, the user switches places with a party Pokemon.
+444	Dragon Tail	Dragon	Physical	60	100	10	250	0	0	92	93	NA	FALSE	data.js:moves[444]	Measured	The foe is made to switch out with an ally. In the wild, the battle ends.
+445	Circle Throw	Fighting	Physical	60	100	5	250	0	0	NA	NA	NA	FALSE	data.js:moves[445]	Measured	The foe is made to switch out with an ally. In the wild, the battle ends.
+446	Mirror Shot	Steel	Special	65	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[446]	Measured	The user looses a flash of energy to damage.
+447	Wood Hammer	Grass	Physical	120	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[447]	Measured	The user slams the foe with its hard body, also hurting itself a little.
+448	Heal Pulse	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[448]	Measured	The user emits a healing pulse that restores a target's HP by up to half.
+449	Flash Cannon	Steel	Special	80	100	10	0	10	0	90	91	NA	FALSE	data.js:moves[449]	Measured	Light energy is shot at the foe. It may also lower the foe's Sp. Def.
+450	Bug Bite	Bug	Physical	60	100	20	0	0	0	NA	NA	13	FALSE	data.js:moves[450]	Measured	The user bites the foe, eating its berry if it is holding one.
+451	Pluck	Flying	Physical	60	100	20	0	0	0	87	88	NA	FALSE	data.js:moves[451]	Measured	The user pecks the foe, plucking its berry if it is holding one.
+452	Shell Smash	Normal	Status	0	0	15	0	0	16	NA	NA	NA	FALSE	data.js:moves[452]	Measured	Sharply raises Attack, Sp. Atk, and Speed, but lowers Defense and Sp. Def.
+453	Rage Powder	Bug	Status	0	0	20	2	0	16	NA	NA	NA	FALSE	data.js:moves[453]	Measured	The user scatters a cloud of powder, making foes attack only the user.
+454	Wake-Up Slap	Fighting	Physical	70	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[454]	Measured	Does double damage to a sleeping foe. It also wakes the foe up, however.
+455	Razor Shell	Water	Physical	75	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[455]	Measured	The foe is cut by sharp shells. It has a high critical-hit ratio.
+456	Copycat	Normal	Status	0	0	20	0	0	1	NA	NA	NA	FALSE	data.js:moves[456]	Measured	The user mimics the last move used. Fails if no move has been used yet.
+457	Miracle Eye	Psychic	Status	0	0	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[457]	Measured	Completely negates the foe's efforts to heighten its ability to evade.
+458	Sucker Punch	Dark	Physical	70	100	5	1	0	0	NA	NA	NA	FALSE	data.js:moves[458]	Measured	This move allows the user to strike first, if the foe is readying an attack.
+459	Scald	Water	Special	80	100	15	0	30	0	82	83	NA	FALSE	data.js:moves[459]	Measured	Boiling water is shot at the foe. It may also cause a burn.
+460	Brine	Water	Special	65	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[460]	Measured	If the foe's HP is down to half, this attack does double damage.
+461	Fairy Wind	Fairy	Special	40	100	30	0	30	0	NA	NA	NA	FALSE	data.js:moves[461]	Measured	The user stirs up a fairy wind and strikes the foe with it.
+462	Baby-Doll Eyes	Fairy	Status	0	100	10	1	0	0	NA	NA	NA	FALSE	data.js:moves[462]	Measured	A cute stare that lowers the foe's Attack stat. It is sure to go first.
+463	Play Rough	Fairy	Physical	90	100	10	0	10	0	112	113	NA	FALSE	data.js:moves[463]	Measured	The foe is roughed up by the user. This may lower the foe's Attack.
+464	Moonblast	Fairy	Special	95	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[464]	Measured	The foe is attacked with the power of the moon. This may lower its Sp. Atk.
+465	Drain Kiss	Fairy	Special	50	100	10	0	0	0	44	45	NA	FALSE	data.js:moves[465]	Measured	A sweet kiss that absorbs over half the damage inflicted to restore HP.
+466	Dazzling Gleam	Fairy	Special	80	100	10	0	0	8	101	102	NA	FALSE	data.js:moves[466]	Measured	The user damages opposing Pokemon by emitting a powerful flash.
+467	Disarm Cry	Fairy	Special	40	0	15	0	0	8	NA	NA	NA	FALSE	data.js:moves[467]	Measured	The user lets out a charming cry that cannot be evaded.
+468	Stealth Rock	Rock	Status	0	0	20	0	0	64	NA	NA	47	FALSE	data.js:moves[468]	Measured	Levitating rocks are laid around the foe's party to hurt foes switching in.
+469	Toxic Spikes	Poison	Status	0	0	20	0	0	64	NA	NA	73	FALSE	data.js:moves[469]	Measured	Poisoned spikes are laid around the foe's party to hurt foes switching in.
+470	Healing Wish	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[470]	Measured	The user faints, but will fully heal the Pokemon taking its place.
+471	Lunar Dance	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[471]	Measured	The user faints, but will fully heal the Pokemon taking its place.
+472	Tailwind	Flying	Status	0	0	15	0	0	16	NA	NA	28	FALSE	data.js:moves[472]	Measured	Whips up a tailwind that ups the Speed of all party Pokemon for four turns.
+473	Boomburst	Normal	Special	140	100	10	0	0	32	NA	NA	NA	FALSE	data.js:moves[473]	Measured	The user emits a terrible soundwave that hits everything around it.
+474	Incinerate	Fire	Special	60	100	15	0	0	8	NA	NA	NA	FALSE	data.js:moves[474]	Measured	The user burns the foe completely, rendering a held Berry useless.
+475	Worry Seed	Grass	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[475]	Measured	A worrying seed is planted on the foe, making its ability Insomnia.
+476	Gastro Acid	Poison	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[476]	Measured	Stomach acid is hurled onto the foe, suppressing its ability.
+477	Geomancy	Fairy	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[477]	Measured	The user's Sp. Atk, Sp. Def, and Speed rise sharply on the second turn.
+478	Flower Guard	Fairy	Status	0	0	10	0	0	32	NA	NA	NA	FALSE	data.js:moves[478]	Measured	The Defense stat of all Grass-type Pokemon is raised by a strange power.
+479	Rototiller	Ground	Status	0	0	10	0	0	32	NA	NA	NA	FALSE	data.js:moves[479]	Measured	The Attack and Sp. Atk stats of all Grass-type Pokemon are raised.
+480	Shift Gear	Steel	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[480]	Measured	Rotating its gears, the user raises its Attack and sharply raises its Speed.
+481	Sticky Web	Bug	Status	0	0	20	0	0	64	NA	NA	NA	FALSE	data.js:moves[481]	Measured	A sticky net is woven around the foe's party to slow foes switching in.
+482	Stored Power	Psychic	Special	20	100	10	0	0	0	NA	NA	97	FALSE	data.js:moves[482]	Measured	The user attacks with a stored power that grows with each raised stat.
+483	Acupressure	Normal	Status	0	0	30	0	0	2	NA	NA	NA	FALSE	data.js:moves[483]	Measured	The user sharply raises one of its stats by pressing its stress points.
+484	Punishment	Dark	Physical	1	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[484]	Measured	The more the foe has raised its stats, the greater the move's power.
+485	Assurance	Dark	Physical	60	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[485]	Measured	Does double damage if the foe has already taken damage this turn.
+486	Dragon Rush	Dragon	Physical	100	75	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[486]	Measured	A tackle exhibiting devastating menace. This may also make the target flinch.
+487	Dark Void	Dark	Status	0	80	10	0	100	8	NA	NA	NA	FALSE	data.js:moves[487]	Measured	All foes are taken into a world of total darkness that makes them sleep.
+488	Feint	Normal	Physical	30	100	10	2	0	0	NA	NA	NA	FALSE	data.js:moves[488]	Measured	An attack that hits a protected target. This also lifts the protection.
+489	Phantom Force	Ghost	Physical	90	100	10	0	0	0	NA	NA	113	FALSE	data.js:moves[489]	Measured	The user vanishes, then strikes on the next turn, hitting even protected foes.
+490	Petal Blizzard	Grass	Physical	90	100	15	0	0	32	NA	NA	NA	FALSE	data.js:moves[490]	Measured	Stirs up a violent petal blizzard, hitting everything around it.
+491	Play Nice	Normal	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[491]	Measured	The target loses its will to fight. This lowers its Attack.
+492	Roar of Time	Dragon	Special	80	100	10	250	0	0	NA	NA	NA	FALSE	data.js:moves[492]	Measured	An attack which distorts time. The foe is made to switch out with an ally.
+493	Spacial Rend	Dragon	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[493]	Measured	An attack that tears the space around it. Critical hits land more easily.
+494	Magma Storm	Fire	Special	100	75	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[494]	Measured	A maelstrom of fire rages that traps the target for four to five turns.
+495	Final Gambit	Fighting	Special	1	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[495]	Measured	The user risks all, dealing damage equal to its HP and then fainting from exhaustion.
+496	Shadow Force	Ghost	Physical	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[496]	Measured	The user vanishes, then strikes on the next turn, hitting even protected foes.
+497	Nuzzle	Electric	Physical	20	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[497]	Measured	The target is attacked with electrified cheeks that leave it paralyzed.
+498	Retaliate	Normal	Physical	70	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[498]	Measured	If an ally fainted in the previous turn, this attack's damage increases.
+499	Metal Bash	Steel	Physical	40	100	35	0	0	0	NA	NA	NA	FALSE	data.js:moves[499]	Measured	A physical attack in which the user charges, full body, into the foe.
+500	Judgment	Normal	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[500]	Measured	An attack which changes type, depending on which kind of Plate the user is holding.
+501	Freeze-Dry	Ice	Special	70	100	20	0	10	0	NA	NA	NA	FALSE	data.js:moves[501]	Measured	An attack which may leave the target frostbitten. It is super effective on Water types.
+502	Psyshock	Psychic	Special	80	100	10	0	100	0	103	104	NA	FALSE	data.js:moves[502]	Measured	An odd psychic wave attacks the target. This attack does physical damage.
+503	Round	Normal	Special	60	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[503]	Measured	The user attacks with a song. Others can join in, doing more damage.
+504	Tail Slap	Normal	Physical	25	100	10	0	0	0	NA	NA	86	FALSE	data.js:moves[504]	Measured	The use attacks by hitting the target with its hard tail. It hits two to five times in a row.
+505	Gear Grind	Steel	Physical	50	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[505]	Measured	The user attacks by throwing two steel gears at it target. This attack hits twice in a row.
+506	Natural Gift	Normal	Physical	1	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[506]	Measured	The type and base power of this move is determined by the user's Berry.
+507	Chip Away	Normal	Physical	70	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[507]	Measured	An attack which is not affected by the target's stat changes.
+508	Smack Down	Rock	Physical	50	100	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[508]	Measured	A projectile is thrown. A flying foe will fall to the ground.
+509	Hyperspace Hole	Psychic	Special	80	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[509]	Measured	The user attacks from a hyperspace hole, hitting even protected targets.
+510	Gyro Ball	Steel	Physical	1	100	5	0	0	0	73	74	NA	FALSE	data.js:moves[510]	Measured	A high-speed spin. The slower the user is than the foe, the greater the damage.
+511	Hyperspace Fury	Dark	Physical	100	0	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[511]	Measured	The target is hit with many arms. This hits protected foes, and lowers the user's Defense.
+512	Attack Order	Bug	Physical	120	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[512]	Measured	The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.
+513	Defend Order	Bug	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[513]	Measured	The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.
+514	Heal Order	Bug	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[514]	Measured	The user calls out its underlings to heal it. The user regains up to half of its max HP.
+515	Captivate	Normal	Status	0	100	20	0	0	8	NA	NA	NA	FALSE	data.js:moves[515]	Measured	If the foe is the opposite gender of the user, the foe's Special Attack is harshly lowered.
+516	Defog	Flying	Status	0	0	15	0	0	0	42	43	NA	FALSE	data.js:moves[516]	Measured	A strong wind blows away the target's obstacles. It also lowers the target's evasiveness.
+517	Origin Pulse	Water	Special	110	85	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[517]	Measured	The user attacks opposing Pokemon with countless beams of light that glow a deep blue.
+518	Precipice Blades	Ground	Physical	120	85	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[518]	Measured	The user attacks opposing Pokemon by manifesting the power of the land in blades of stone.
+519	Guard Swap	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[519]	Measured	The user uses its psychic power to switch changes to its Defense and Sp. Def with the foe.
+520	Steam Eruption	Water	Special	120	100	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[520]	Measured	The user immerses the target in superheated steam. This may also burn the target.
+521	Metal Burst	Steel	Physical	1	100	10	0	0	1	NA	NA	NA	FALSE	data.js:moves[521]	Measured	The user retaliates with much greater force against the opponent that last did damage to it.
+522	Me First	Normal	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[522]	Measured	The user tries to cut ahead of the target to steal and use its intended move with more power.
+523	Power Swap	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[523]	Measured	The user uses its psychic power to switch changes to its Attack and Sp. Attack with the foe.
+524	Power Trick	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[524]	Measured	The user employs its psychic power to switch its Attack stat with its Defense stat.
+525	Psycho Shift	Psychic	Status	0	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[525]	Measured	Using its psychic power of suggestion, the user transfers its status problems to the target.
+526	Wring Out	Normal	Special	1	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[526]	Measured	The user powerfully wrings the target. The more HP the target has, the greater the power.
+527	King's Shield	Steel	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[527]	Measured	The user protects itself from damage, and changes the user's form if applicable.
+528	Psystrike	Psychic	Special	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[528]	Measured	An odd psychic wave attacks the target. This attack does physical damage.
+529	Autotomize	Steel	Status	0	0	15	0	0	16	NA	NA	NA	FALSE	data.js:moves[529]	Measured	The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+530	Diamond Storm	Rock	Special	100	100	5	0	50	8	NA	NA	NA	FALSE	data.js:moves[530]	Measured	The user whips up a storm of diamonds to damage the foes. This may also raise the user's Defense. 
+531	Sludge Wave	Poison	Special	95	100	10	0	10	32	102	103	NA	FALSE	data.js:moves[531]	Measured	The area around the user is swamped by a giant sludge wave. It may also poison those hit.
+532	Heavy Slam	Steel	Physical	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[532]	Measured	The user slams into the target. The greater the weight difference, the greater the damage.
+533	Synchronoise	Psychic	Special	120	100	10	0	0	32	NA	NA	NA	FALSE	data.js:moves[533]	Measured	Using an odd shock wave, the user damages same-type Pokemon in the surrounding area.
+534	Electro Ball	Electric	Special	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[534]	Measured	The user hurls an electric orb. The faster the user is than the foe, the greater the damage.
+535	Foul Play	Dark	Physical	95	100	15	0	0	0	NA	NA	41	FALSE	data.js:moves[535]	Measured	The user turns the target's power against it. Power increases with the foe's Attack stat.
+536	Entrainment	Normal	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[536]	Measured	The user dances with an odd rhythm, making the target's Ability the same as the user's Ability.
+537	Night Daze	Dark	Special	95	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[537]	Measured	The user releases a pitch-black blast at its target. 
+538	Echoed Voice	Normal	Special	40	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[538]	Measured	The user attacks the target with a harsh echo. If used every turn, power increases.
+539	Land's Wrath	Ground	Physical	90	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[539]	Measured	The user gathers energy from the land and damages the opposing Pokemon with its power.
+540	Oblivion Wing	Flying	Special	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[540]	Measured	The user absorbs its target's HP. The user's HP is restored by over half the damage.
+541	Heart Swap	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[541]	Measured	The user employs its psychic power to switch stat changes with the target.
+542	Aqua Fang	Water	Physical	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[542]	Measured	The user bites the foe with aquatic force. 
+543	Sacred Sword	Fighting	Physical	90	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[543]	Measured	The user attacks by slicing with a long horn. The target's stat changes are ignored.
+544	Heat Crash	Fire	Physical	1	100	10	0	0	0	113	114	NA	FALSE	data.js:moves[544]	Measured	The user slams down with fire. The more the user outweighs the foe, the greater the damage.
+545	Head Charge	Normal	Physical	120	100	15	0	10	0	NA	NA	NA	FALSE	data.js:moves[545]	Measured	The user charges its head into its foe. It slightly damages the user and can lower Defense. 
+546	Techno Blast	Normal	Special	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[546]	Measured	The user fires a beam of light at its foe. The type changes depending on the Drive held.
+547	Relic Song	Normal	Special	75	100	10	0	10	8	NA	NA	NA	FALSE	data.js:moves[547]	Measured	The user sings an ancient song and attacks the hearts of the listeners. It may induce sleep.
+548	Secret Sword	Fighting	Special	85	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[548]	Measured	The user cuts with its long horn. The odd power in the horn does physical damage to the foe.
+549	Glaciate	Ice	Special	65	100	10	0	100	8	NA	NA	NA	FALSE	data.js:moves[549]	Measured	The user attacks by blowing freezing cold air at opposing Pokemon. This lowers their Speed.
+550	Bolt Strike	Electric	Physical	130	85	5	0	20	0	NA	NA	NA	FALSE	data.js:moves[550]	Measured	The user surrounds itself with abundant electricity that can paralyze and charges its target.
+551	Blue Flare	Fire	Special	130	85	5	0	20	0	NA	NA	NA	FALSE	data.js:moves[551]	Measured	The user attacks by engulfing the foe in a severe, beautiful, blue flame. It may burn the foe.
+552	Freeze Shock	Ice	Physical	140	100	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[552]	Measured	A two-turn attack that hits the foe with electrically charged ice. It may paralyze the foe.
+553	Ice Burn	Ice	Special	140	100	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[553]	Measured	A two-turn attack that surrounds the foe with ultracold, freezing wind. It may burn the foe.
+554	V-create	Fire	Physical	180	95	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[554]	Measured	The user hurls the hot flame on its forehead. It lowers the user's Def, Sp. Def, and Speed.
+555	Fusion Flare	Fire	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[555]	Measured	The user brings down a huge flame. It does more damage when influenced by an enormous bolt.
+556	Fusion Bolt	Electric	Physical	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[556]	Measured	The user throws down a giant bolt. It does more damage when influenced by an enormous flame.
+557	Fell Stinger	Bug	Physical	50	100	25	0	0	0	NA	NA	NA	FALSE	data.js:moves[557]	Measured	When the user knocks out a target with this move, the user's Attack stat rises drastically.
+558	Noble Roar	Normal	Status	0	100	30	0	0	0	NA	NA	NA	FALSE	data.js:moves[558]	Measured	Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk.
+559	Dragon Ascent	Flying	Physical	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[559]	Measured	The user attacks by dropping off from the sky at high speed. This cuts the user's Defense and Sp. Def.
+560	Parting Shot	Dark	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[560]	Measured	With a parting threat, the user lowers the foe's Attack and Sp. Atk stats then switches out.
+561	Topsy-Turvy	Dark	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[561]	Measured	All stat changes affecting the target turn topsy-turvy and become the opposite of them.
+562	Core Enforcer	Dragon	Special	100	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[562]	Measured	If the target has already used its move this turn, it nullifies the effect of its Ability.
+563	Chatter	Flying	Special	80	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[563]	Measured	The user attacks the target with sound waves of deafening chatter. This confuses the target.
+564	Confide	Normal	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[564]	Measured	The user tells the foe a secret, and it loses concentration. It lowers the foe's Sp.Atk stat.
+565	Water Shuriken	Water	Special	15	100	20	1	0	0	NA	NA	NA	FALSE	data.js:moves[565]	Measured	The user hits the foe with throwing stars two to five times in a row. This always goes first.
+566	Mystical Fire	Fire	Special	75	100	10	0	100	0	NA	NA	112	FALSE	data.js:moves[566]	Measured	The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
+567	Spiky Shield	Grass	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[567]	Measured	Aside from protecting the user from attacks, this also damages attackers who make contact.
+568	Eerie Impulse	Electric	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[568]	Measured	The user's body generates an impulse. Exposing the foe to it harshly lowers its Sp. Atk stat.
+569	Hold Back	Normal	Physical	40	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[569]	Measured	The user holds back when it attacks, and the target is left with at least 1 HP.
+570	Infestation	Bug	Special	20	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[570]	Measured	The foe is infested and attacked for four to five turns. The target can't flee during this.
+571	Power-Up Punch	Fighting	Physical	40	100	20	0	100	0	NA	NA	1	FALSE	data.js:moves[571]	Measured	Striking over and over hardens the user's fists. Hitting a target raises Attack.
+572	Thousand Arrows	Ground	Physical	90	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[572]	Measured	This move also hits opposing Pokemon in the air. They are knocked down to the ground.
+573	Thousand Waves	Ground	Physical	90	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[573]	Measured	The user attacks with a wave that crawls along the ground. Those hit can't flee from battle.
+574	Parabolic Charge	Electric	Special	75	100	20	0	0	32	NA	NA	NA	FALSE	data.js:moves[574]	Measured	The user attacks everything around it. The user's HP is restored by half the damage.
+575	Searing Shot	Fire	Special	100	100	5	0	30	32	NA	NA	NA	FALSE	data.js:moves[575]	Measured	The user torches everything around it in an inferno of scarlet flames. It may burn the foes.
+576	Seed Flare	Grass	Special	120	85	5	0	40	0	NA	NA	NA	FALSE	data.js:moves[576]	Measured	The user emits a shock wave from its body. This may also harshly lower the target's Sp. Def.
+577	Accelerock	Rock	Physical	40	100	20	1	0	0	NA	NA	NA	FALSE	data.js:moves[577]	Measured	The user smashes into the target at high speed. This move always goes first.
+578	Anchor Shot	Steel	Physical	80	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[578]	Measured	The user entangles the target with its anchor chain while attacking. The target cannot flee.
+579	Aurora Veil	Ice	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[579]	Measured	This move reduces damage from physical and special moves for five turns during a snowstorm.
+580	Baneful Bunker	Poison	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[580]	Measured	Protects the user from attacks and also poisons attackers who make contact.
+581	Beak Blast	Flying	Physical	100	100	15	253	0	0	NA	NA	NA	FALSE	data.js:moves[581]	Measured	The user heats up its beak, and attacks. Making contact while heating up causes a burn.
+582	Brutal Swing	Dark	Physical	60	100	20	0	0	32	NA	NA	NA	FALSE	data.js:moves[582]	Measured	The user swings its body around violently to inflict damage on everything in its vicinity.
+583	Burn Up	Fire	Special	130	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[583]	Measured	The user burns itself out. After using this move, the user will no longer be Fire type.
+584	Clanging Scales	Dragon	Special	110	100	5	0	100	8	NA	NA	NA	FALSE	data.js:moves[584]	Measured	The user rubs its scales and makes a huge noise to attack. The user's Def stat goes down.
+585	Darkest Lariat	Dark	Physical	85	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[585]	Measured	The user swings both arms and hits the target. The target's stat changes are ignored.
+586	Dragon Hammer	Dragon	Physical	100	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[586]	Measured	The user uses its body like a hammer to attack the target and inflict damage.
+587	Fire Lash	Fire	Physical	80	100	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[587]	Measured	The user strikes the target with a burning lash. This also lowers the target's Defense stat.
+588	First Impression	Bug	Physical	90	100	10	2	0	0	NA	NA	NA	FALSE	data.js:moves[588]	Measured	Although this move has great power, it only works the first turn the user is in battle.
+589	Fleur Cannon	Fairy	Special	130	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[589]	Measured	The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
+590	Floral Healing	Fairy	Status	0	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[590]	Measured	The user restores up to half the max HP of the target. It restores more HP on Grassy Terrain.
+591	Gear Up	Steel	Status	0	0	20	0	0	32	NA	NA	NA	FALSE	data.js:moves[591]	Measured	The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
+592	High Horsepower	Ground	Physical	95	100	10	0	0	0	36	37	NA	FALSE	data.js:moves[592]	Measured	The user fiercely attacks the target using its entire body.
+593	Ice Hammer	Ice	Physical	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[593]	Measured	The user swings with a heavy, icy fist to attack the target.
+594	Laser Focus	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[594]	Measured	The user concentrates intensely. The attack on the next turn always results in a critical hit.
+595	Leafage	Grass	Physical	40	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[595]	Measured	The user attacks by pelting the target with leaves.
+596	Liquidation	Water	Physical	85	100	10	0	20	0	40	41	NA	FALSE	data.js:moves[596]	Measured	The user slams with a forceful water blast. It may lower the foe's Defense.
+597	Lunge	Bug	Physical	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[597]	Measured	The user makes a lunge at the foe, attacking with full force. This lowers the foe's Attack.
+598	Moongeist Beam	Ghost	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[598]	Measured	The user emits a sinister ray. This can be used on the target regardless of its Ability.
+599	Multi-Attack	Normal	Physical	120	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[599]	Measured	Cloaking itself in high energy, the user slams into the foe. Its type depends on the memory.
+600	Nature's Madness	Fairy	Special	1	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[600]	Measured	The user hits the target with the force of nature. It halves the target's HP.
+601	Pollen Puff	Bug	Special	90	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[601]	Measured	The user attacks the foe with exploding pollen puff. If target is an ally, it heals instead.
+602	Power Trip	Dark	Physical	20	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[602]	Measured	The user boasts its strength. The more the user's stats are raised, the greater the power.
+603	Prism Laser	Psychic	Special	160	100	4	0	50	0	NA	NA	NA	FALSE	data.js:moves[603]	Measured	The user shoots powerful lasers using prism power. The user can't move on the next turn.
+604	Psychic Fangs	Psychic	Physical	85	100	10	0	100	0	NA	NA	117	FALSE	data.js:moves[604]	Measured	The user bites the target with psychic capabilities. This destroys Light Screen and Reflect.
+605	Purify	Poison	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[605]	Measured	The user heals the target's status condition. If the move succeeds, it also heals the user's HP.
+606	Revelation Dance	Normal	Special	100	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[606]	Measured	The user attacks the target by dancing very hard. The user's type determines this move's type.
+607	Shadow Bone	Ghost	Physical	85	100	10	0	20	0	NA	NA	NA	FALSE	data.js:moves[607]	Measured	The user attacks by beating the foe with a bone that has a spirit. It may lower Defense.
+608	Shell Trap	Fire	Special	150	100	5	253	0	8	NA	NA	NA	FALSE	data.js:moves[608]	Measured	The user sets a shell trap. If the user is hit by a physical move, the trap will explode.
+609	Shore Up	Ground	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[609]	Measured	The user regains up to half of its max HP. It restores more HP in a sandstorm.
+610	Smart Strike	Steel	Physical	70	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[610]	Measured	The user stabs the target with a sharp horn. This attack never misses.
+611	Solar Blade	Grass	Physical	125	100	10	0	0	0	NA	NA	127	FALSE	data.js:moves[611]	Measured	In this two-turn move, the user gathers light and fills a blade with light's energy to attack.
+612	Sparkling Aria	Water	Special	90	100	10	0	0	32	NA	NA	NA	FALSE	data.js:moves[612]	Measured	The user bursts into song, emitting bubbles. Any burnt Pokemon will be healed.
+613	Spectral Thief	Ghost	Physical	90	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[613]	Measured	The user hides in the target's shadow, steals the target's stat boosts,and then attacks.
+614	Speed Swap	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[614]	Measured	The user exchanges Speed stats with the target.
+615	Spirit Shackle	Ghost	Physical	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[615]	Measured	The user attacks while stitching the target's shadow to the ground to prevent escape.
+616	Spotlight	Normal	Status	0	0	15	3	0	0	NA	NA	NA	FALSE	data.js:moves[616]	Measured	The user shines a spotlight on the target so that only the target will be attacked.
+617	Stomping Tantrum	Ground	Physical	75	100	10	0	0	0	68	69	NA	FALSE	data.js:moves[617]	Measured	If the user's previous move failed, power of this move doubles.
+618	Strength Sap	Grass	Status	0	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[618]	Measured	The user drains HP equal to the foe's Attack and lowers it. 
+619	Sunsteel Strike	Steel	Physical	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[619]	Measured	The user slams the target with a meteor force. This move disregards the target's Ability.
+620	Tearful Look	Normal	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[620]	Measured	The user gets teary eyed to look pitiful. This lowers the target's Attack and Sp. Atk stats.
+621	Throat Chop	Dark	Physical	80	100	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[621]	Measured	The user attacks the foe's throat to prevent it from using moves that emit sound for two turns.
+622	Toxic Thread	Poison	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[622]	Measured	The user shoots poisonous threads to poison the target and lower the target's Speed stat.
+623	Trop Kick	Grass	Physical	70	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[623]	Measured	The user lands an intense kick of tropical origins on the target. It lowers Attack.
+624	Zing Zap	Electric	Physical	80	100	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[624]	Measured	A strong electric blast crashes down on the target. This may make the target flinch.
+625	Electric Terrain	Electric	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[625]	Measured	The user electrifies the ground for five turns, powering up Electric moves and eluding sleep.
+626	Grassy Terrain	Grass	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[626]	Measured	The user turns the ground to grass for five turns, powering up Grass moves and restoring HP.
+627	Misty Terrain	Fairy	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[627]	Measured	The user covers the ground in mist for five turns, halving Dragon moves and preventing status.
+628	Psychic Terrain	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[628]	Measured	The user makes the ground weird for five turns, boosting Psychic moves and blocking priority.
+629	Grass Pledge	Grass	Special	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[629]	Measured	When used with its water equivalent, its power increases and a vast swamp appears.
+630	Fire Pledge	Fire	Special	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[630]	Measured	When used with its grass equivalent, its power increases and a vast sea of fire appears.
+631	Water Pledge	Water	Special	80	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[631]	Measured	When combined with its fire equivalent, its power increases and a rainbow appears.
+632	Trick Room	Psychic	Status	0	0	5	249	0	16	115	116	NA	FALSE	data.js:moves[632]	Measured	The user creates a bizarre area in which slower Pokemon get to move first for five turns.
+633	Magic Room	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[633]	Measured	The user creates a bizarre area in which Pokemon's held items lose effect for five turns.
+634	Wonder Room	Psychic	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[634]	Measured	The user creates a bizarre area where Pokemon's Defense and Sp. Def swap for five turns.
+635	Crafty Guard	Fairy	Status	0	0	10	3	0	16	NA	NA	NA	FALSE	data.js:moves[635]	Measured	The user protects itself and its allies from status moves with a mysterious power.
+636	Mat Block	Fighting	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[636]	Measured	Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.
+637	Quick Guard	Fighting	Status	0	0	15	3	0	16	NA	NA	NA	FALSE	data.js:moves[637]	Measured	The user protects itself and its allies from priority moves.
+638	Wide Guard	Rock	Status	0	0	10	3	0	16	NA	NA	NA	FALSE	data.js:moves[638]	Measured	The user protects itself and its allies from wide- ranged attacks. It may fail.
+639	Aqua Ring	Water	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[639]	Measured	The user envelops itself in a veil made of water. It regains some HP every turn.
+640	Aromatic Mist	Fairy	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[640]	Measured	The user raises the Sp. Def stat of an ally Pokemon by using a mysterious aroma.
+641	Belch	Poison	Special	120	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[641]	Measured	The user lets out a damaging belch at the target. The user must eat a held Berry to use this.
+642	Bestow	Normal	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[642]	Measured	The user passes its held item to the target when the target isn't holding an item.
+643	Fling	Dark	Physical	1	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[643]	Measured	The user flings its held item at the target to attack. Its power and effect depend on the item.
+644	Flying Press	Fighting	Physical	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[644]	Measured	The user dives down onto the target from the sky. This move is both Fighting and Flying type.
+645	Gravity	Psychic	Status	0	0	5	0	0	32	NA	NA	NA	FALSE	data.js:moves[645]	Measured	Gravity intensifies for five turns, preventing moves that use flight and negating Levitate.
+646	Guard Split	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[646]	Measured	The user employs its psychic power to average its Defense and Sp. Def stats with the target.
+647	Heal Block	Psychic	Status	0	100	15	0	0	8	NA	NA	NA	FALSE	data.js:moves[647]	Measured	The user prevents the opposing team from using any HP recovery for five turns.
+648	Ion Deluge	Electric	Status	0	0	25	1	0	16	NA	NA	NA	FALSE	data.js:moves[648]	Measured	The user disperses electrically charged particles, changing Normal- to Electric- type moves.
+649	Lucky Chant	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[649]	Measured	The user chants an incantation that prevents foes from landing critical hits for five turns.
+650	Magnet Rise	Electric	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[650]	Measured	The user levitates using electrically generated magnetism for five turns.
+651	Magnetic Flux	Electric	Status	0	0	20	0	0	32	NA	NA	NA	FALSE	data.js:moves[651]	Measured	The user manipulates magnets to up Def and Sp. Def stats of allies with Plus or Minus Ability.
+652	Powder	Bug	Status	0	100	20	1	0	0	NA	NA	NA	FALSE	data.js:moves[652]	Measured	The user covers the target in a powder that explodes if it uses a Fire-type move.
+653	Power Split	Psychic	Status	0	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[653]	Measured	The user employs its psychic power to average its Attack and Sp. Atk stats with the target.
+654	Reflect Type	Normal	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[654]	Measured	The user reflects the target's type, making it the same type as the target.
+655	Simple Beam	Normal	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[655]	Measured	The user's mysterious psychic wave changes the target's Ability to Simple.
+656	Soak	Water	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[656]	Measured	The user shoots a torrent of water at the target and changes the target's type to Water.
+657	Telekinesis	Psychic	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[657]	Measured	The user makes the target float with psychic power. The target is easier to hit for three turns.
+658	Trick-or-Treat	Ghost	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[658]	Measured	The foe is brought trick-or-treating. This adds Ghost type to the target's type.
+659	Venom Drench	Poison	Status	0	100	20	0	0	8	NA	NA	NA	FALSE	data.js:moves[659]	Measured	The user sprays a poisonous liquid that lowers Attack, Sp. Atk, and Speed of poisoned foes.
+660	Forest's Curse	Grass	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[660]	Measured	The user puts a forest curse on the target. The target is now Grass type as well.
+661	Mind Blown	Fire	Special	150	100	5	0	0	32	NA	NA	NA	FALSE	data.js:moves[661]	Measured	The user attacks everything around it by making its head explode. This also damages the user.
+662	Photon Geyser	Psychic	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[662]	Measured	A pillar of light that deals physical or special damage based on the user's better stat.
+663	Plasma Fists	Electric	Physical	100	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[663]	Measured	The user attacks with electrically charged fists. This makes Normal-type moves Electric-type.
+664	Electrify	Electric	Status	0	0	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[664]	Measured	If the target is electrified before its move in the turn, the target's move becomes Electric.
+665	Embargo	Dark	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[665]	Measured	It prevents the target from using items. Its Trainer also can't use items on it.
+666	Fairy Lock	Fairy	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[666]	Measured	By locking down the battlefield, the user keeps all Pokemon from fleeing during the next turn.
+667	Light of Ruin	Fairy	Special	140	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[667]	Measured	The user fires a powerful beam of light. This also damages the user.
+668	Trump Card	Normal	Special	1	0	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[668]	Measured	The fewer PP this move has, the greater its power.
+669	After You	Normal	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[669]	Measured	The user helps the target and makes it use its move right after the user.
+670	Instruct	Psychic	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[670]	Measured	The user instructs the target to use the target's last move again.
+671	Quash	Dark	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[671]	Measured	The user suppresses the target and makes its move go last.
+672	Happy Hour	Normal	Status	0	0	30	0	0	16	NA	NA	NA	FALSE	data.js:moves[672]	Measured	This move triples the amount of prize money won after battle.
+673	Double Iron Bash	Steel	Physical	60	100	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[673]	Measured	The user centers its hex nut and strikes twice with its arms. It may cause flinching.
+674	Last Resort	Normal	Physical	140	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[674]	Measured	It can only be used after the user has exhausted all other moves it knows in battle.
+675	Sky Drop	Flying	Physical	60	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[675]	Measured	It takes the enemy into the sky, where it can't attack. It is dropped next turn.
+676	Celebrate	Normal	Status	0	0	40	0	0	16	NA	NA	21	FALSE	data.js:moves[676]	Measured	The Pokemon congratulates you on your special day!
+677	Hold Hands	Normal	Status	0	0	40	0	0	16	NA	NA	NA	FALSE	data.js:moves[677]	Measured	The user and an ally hold hands. This makes them very happy.
+678	Dynamax Cannon	Dragon	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[678]	Measured	The user unleashes a strong beam that deals double damage to Dynamaxed targets.
+679	Snipe Shot	Water	Special	70	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[679]	Measured	The user ignores the effects of moves and Abilities that draw in moves.
+680	Jaw Lock	Fighting	Physical	90	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[680]	Measured	The user bites down, preventing the tar- get from switching out.
+681	Stuff Cheeks	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[681]	Measured	The user consumes its held Berry, then raises its Defense sharply.
+682	No Retreat	Fighting	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[682]	Measured	All of the user's stats are raised, but it can no longer switch out or flee.
+683	Tar Shot	Rock	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[683]	Measured	Sticky tar lowers the target's Speed, and makes it weaker to Fire-type moves.
+684	Magic Powder	Psychic	Status	0	100	20	0	0	0	NA	NA	NA	FALSE	data.js:moves[684]	Measured	The user scatters magic powder that changes the target into a Psychic-type.
+685	Dragon Darts	Dragon	Physical	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[685]	Measured	The user attacks twice. If there are two targets, each is hit once.
+686	Teatime	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[686]	Measured	All Pokemon on the field have teatime. Each Pokemon eats its held Berry.
+687	Octolock	Fighting	Status	0	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[687]	Measured	The user traps the foe and makes its Defense and Sp. Def fall each turn.
+688	Bolt Beak	Electric	Physical	85	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[688]	Measured	If the user moves before the target, the power of this move is doubled.
+689	Fishious Rend	Water	Physical	85	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[689]	Measured	If the user moves before the target, the power of this move is doubled.
+690	Court Change	Normal	Status	0	100	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[690]	Measured	The user swaps the effects on either side of the field.
+691	Clangorous Soul	Dragon	Status	0	100	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[691]	Measured	The user raises all of its stats by using some of its HP.
+692	Body Press	Fighting	Physical	80	100	10	0	0	0	114	115	NA	FALSE	data.js:moves[692]	Measured	The higher the user's Defense, the more damage it will inflict.
+693	Decorate	Fairy	Status	0	0	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[693]	Measured	The user sharply raises the target's Attack and Sp. Atk by decorating it.
+694	Drum Beating	Grass	Physical	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[694]	Measured	The user plays its drum to attack. The target's Speed stat is lowered.
+695	Snap Trap	Steel	Physical	100	85	5	0	100	0	NA	NA	NA	FALSE	data.js:moves[695]	Measured	The user snares the target in a snap trap for four to five turns.
+696	Pyro Ball	Fire	Physical	120	90	5	0	10	0	NA	NA	NA	FALSE	data.js:moves[696]	Measured	The user launches a fiery ball at the target. It may also cause a burn.
+697	Behemoth Blade	Steel	Physical	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[697]	Measured	The user becomes a sword and strikes. Double damage on Dynamaxed targets.
+698	Behemoth Bash	Steel	Physical	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[698]	Measured	The user becomes a shield and strikes. Double damage on Dynamaxed targets.
+699	Aura Wheel	Electric	Physical	110	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[699]	Measured	The user raises its Speed and attacks. The move's Type can change based on its form.
+700	Breaking Swipe	Dragon	Physical	60	100	10	0	100	8	NA	NA	NA	FALSE	data.js:moves[700]	Measured	The user attacks by swinging its tail, lowering both the targets' Attack.
+701	Branch Poke	Grass	Physical	40	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[701]	Measured	The user attacks the target by poking it with a pointed branch.
+702	Overdrive	Electric	Special	80	100	10	0	0	8	NA	NA	NA	FALSE	data.js:moves[702]	Measured	The user twangs its guitar, which causes an echo and strong vibrations.
+703	Apple Acid	Grass	Special	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[703]	Measured	The user attacks with acid made from tart apples. Lowers the foe's Sp. Def.
+704	Grav Apple	Grass	Physical	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[704]	Measured	The user attacks by dropping an apple from above. Lowers the foe's Defense.
+705	Spirit Break	Fairy	Physical	75	100	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[705]	Measured	The user attacks with spirit-breaking force, lowering the target's Sp. Atk.
+706	Strange Steam	Fairy	Special	90	100	10	0	20	0	NA	NA	NA	FALSE	data.js:moves[706]	Measured	The user attacks by emitting steam. The steam may also confuse the target.
+707	Life Dew	Water	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[707]	Measured	The user scatters water that restores the HP of itself and its allies.
+708	Obstruct	Dark	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[708]	Measured	The user protects itself, and harshly lowers the foe's Defense on contact.
+709	False Surrender	Dark	Physical	80	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[709]	Measured	The user bows, then uses its hair to stab the foe. It never misses.
+710	Meteor Assault	Fighting	Physical	160	100	4	0	60	0	NA	NA	NA	FALSE	data.js:moves[710]	Measured	The foe is hit with a thick leek that can paralyze. The user recharges unless it KOs the foe.
+711	Eternabeam	Dragon	Special	160	90	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[711]	Measured	Eternatus's most powerful attack. The user must rest on the next turn.
+712	Steel Beam	Steel	Special	140	100	5	0	0	0	65	66	NA	FALSE	data.js:moves[712]	Measured	It fires a beam of steel from its body, which also hurts the user.
+713	Expanding Force	Psychic	Special	80	100	20	0	0	8	54	55	NA	FALSE	data.js:moves[713]	Measured	The move's power increases and damages all opposing targets in Psychic Terrain.
+714	Steel Roller	Steel	Physical	130	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[714]	Measured	The user attacks and removes terrain. The move fails if there's no terrain.
+715	Scale Shot	Dragon	Physical	25	100	25	0	0	0	93	94	NA	FALSE	data.js:moves[715]	Measured	It hits two to five times in a row. Raises Speed, but lowers Defense.
+716	Meteor Beam	Rock	Special	120	100	10	0	0	0	NA	NA	122	FALSE	data.js:moves[716]	Measured	In this two-turn move, the user gathers space power and increases Sp. Atk.
+717	Shell Side Arm	Poison	Special	100	100	10	0	10	0	NA	NA	NA	FALSE	data.js:moves[717]	Measured	Bypasses opponent's ability. May cause poison.
+718	Misty Explosion	Fairy	Special	100	100	5	0	0	32	111	112	NA	FALSE	data.js:moves[718]	Measured	The user explodes. It halves Sp. Def, and becomes stronger in Misty Terrain.
+719	Grassy Glide	Grass	Physical	55	100	20	0	0	0	53	54	NA	FALSE	data.js:moves[719]	Measured	The user glides on the ground to attack. Moves first on Grassy Terrain.
+720	Rising Voltage	Electric	Special	70	100	20	0	0	0	57	58	NA	FALSE	data.js:moves[720]	Measured	The user attacks with voltage that doubles its power on Electric Terrain.
+721	Terrain Pulse	Normal	Special	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[721]	Measured	The move's type and power depends on the terrain currently used in battle.
+722	Skitter Smack	Bug	Physical	70	90	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[722]	Measured	The user skitters behind the target to attack. It lowers the foe's Sp.Atk stat.
+723	Burning Jealousy	Fire	Special	70	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[723]	Measured	Inflicts a burn on targets who's stats were boosted during the turn when it is used.
+724	Lash Out	Dark	Physical	75	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[724]	Measured	The move's power doubles if the user's stats have been lowered during the turn.
+725	Poltergeist	Ghost	Physical	110	90	5	0	0	0	66	67	NA	FALSE	data.js:moves[725]	Measured	The user controls the target's item to attack. Fails if the target has no item.
+726	Corrosive Gas	Poison	Status	0	100	40	0	0	0	NA	NA	NA	FALSE	data.js:moves[726]	Measured	The user cloaks itself in acidic gas. It melts away the target's held item.
+727	Coaching	Fighting	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[727]	Measured	The user coaches its ally, raising the ally's Attack and Defense stats.
+728	Flip Turn	Water	Physical	60	100	20	0	0	0	2	3	NA	FALSE	data.js:moves[728]	Measured	After attacking, the user switches places with a party Pokemon.
+729	Triple Axel	Ice	Physical	20	90	10	0	0	0	69	70	NA	FALSE	data.js:moves[729]	Measured	A 3-kick attack that becomes more powerful with each successive hit.
+730	Dual Wingbeat	Flying	Physical	40	100	10	0	0	0	99	100	NA	FALSE	data.js:moves[730]	Measured	The user slams the target with its wings. The target is hit twice in a row.
+731	Scorching Sands	Ground	Special	70	100	10	0	30	0	109	110	NA	FALSE	data.js:moves[731]	Measured	The user throws scorching sand at the target. It may also inflict burn.
+732	Jungle Healing	Grass	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[732]	Measured	The user restores HP and the status of itself and its ally in battle.
+733	Wicked Blow	Dark	Physical	75	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[733]	Measured	The user strikes the foe fiercely. It always results in a critical hit.
+734	Surging Strikes	Water	Physical	25	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[734]	Measured	The user strikes three consecutive times. It always results in a critical hit.
+735	Freezing Glare	Psychic	Special	90	100	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[735]	Measured	The user attacks with psychic power. It may leave the target frozen.
+736	Thunderous Kick	Fighting	Physical	90	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[736]	Measured	The user delivers a fierce kick that lower's the target's defense stat.
+737	Fiery Wrath	Dark	Special	90	100	10	0	20	8	NA	NA	NA	FALSE	data.js:moves[737]	Measured	The user attacks with intense, dark flames. It may also make the foe flinch.
+738	Thunder Cage	Electric	Special	80	90	15	0	100	0	NA	NA	NA	FALSE	data.js:moves[738]	Measured	A cage made of elec- tricity that traps the target for four to five turns.
+739	Dragon Energy	Dragon	Special	150	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[739]	Measured	The higher the user's HP, the more powerful this attack becomes.
+740	Astral Barrage	Ghost	Special	120	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[740]	Measured	The user attacks by sending a fright- ful amount of small ghosts.
+741	Glacial Lance	Ice	Physical	120	100	5	0	0	8	NA	NA	NA	FALSE	data.js:moves[741]	Measured	The user attacks by hurling an ice- cloaked lance.
+742	Forbidden Spell	Dark	Status	0	0	1	0	0	1	NA	NA	NA	FALSE	data.js:moves[742]	Measured	The user conjures an ancient, corrupt spell that brings unexpected power.
+743	Zippy Zap	Electric	Physical	50	100	5	1	0	0	NA	NA	NA	FALSE	data.js:moves[743]	Measured	The user bursts with electricity, going first and always resulting in a critical hit. 
+744	Sappy Seed	Grass	Physical	95	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[744]	Measured	The user scatters seeds to attack, draining the target's HP every turn.
+745	Freezy Frost	Ice	Special	95	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[745]	Measured	The user attacks with a large crystal that removes all stat changes on the field.
+746	Sparkly Swirl	Fairy	Special	95	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[746]	Measured	The user attacks with a whirlwind that heals status problems on the user's party.
+747	Bouncy Bubble	Water	Special	90	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[747]	Measured	The user attacks with water bubbles that drains half the damage it inflicted.
+748	Sonic Slash	Flying	Physical	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[748]	Measured	The user attacks with a swift slash that becomes strong- er the faster the user is.
+749	Draco Barrage	Dragon	Special	100	100	5	0	0	0	71	72	NA	FALSE	data.js:moves[749]	Measured	This attack beats fairy immunities but hurts the user. Changes split based off which is stronger.
+750	Stone Axe	Rock	Physical	65	90	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[750]	Measured	The user swings with an axe that has a high-crit ratio and sets Stealth Rocks.
+751	Headlong Rush	Ground	Physical	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[751]	Measured	The user tackles the target, cutting its own defenses as a result.
+752	Victory Dance	Fighting	Status	0	0	20	0	0	16	NA	NA	NA	FALSE	data.js:moves[752]	Measured	The user triumphantly dances, raising its Attack, Defense, and Speed.
+753	Inferno Parade	Ghost	Special	60	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[753]	Measured	This attack deals double damage to a target with a status problem, and can inflict a burn.
+754	Ceaseless Edge	Dark	Physical	65	90	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[754]	Measured	This attack has a high crit rate and sets a layer of spikes.
+755	Triple Arrows	Fighting	Physical	90	100	15	0	50	0	NA	NA	NA	FALSE	data.js:moves[755]	Measured	This attack has a high chance of a critical hit, can lower Defense, and flinch.
+756	Barb Barrage	Poison	Physical	60	100	15	0	50	0	NA	NA	NA	FALSE	data.js:moves[756]	Measured	This attack deals double damage to a target with a status problem, and can in- flict poison.
+757	Chloroblast	Grass	Special	120	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[757]	Measured	The user launches its amassed chloro- phyll to inflict damage. It also hurts the user a little.
+758	Bitter Malice	Ghost	Special	60	100	15	0	30	0	NA	NA	NA	FALSE	data.js:moves[758]	Measured	This attack deals double damage to a target with a status problem, and can frostbite the foe.
+759	Esper Wing	Psychic	Special	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[759]	Measured	The user slashes the target with aura- enriched wings that raise Speed. It has a high crit ratio.
+760	Dire Claw	Poison	Physical	80	100	15	0	50	0	NA	NA	NA	FALSE	data.js:moves[760]	Measured	A slash that may poison, paralyze, or sleep the foe. 
+761	Mountain Gale	Ice	Physical	120	90	5	0	30	0	NA	NA	NA	FALSE	data.js:moves[761]	Measured	The user hurls giant chunks of ice at the foe that may cause it to flinch.
+762	Psyshield Bash	Psychic	Physical	70	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[762]	Measured	The user slams into the foe with psychic energy. It raises the user's Defense too.
+763	Mystical Power	Psychic	Special	70	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[763]	Measured	After dealing damage, the user raises its Special Attack.
+764	Wave Crash	Water	Physical	120	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[764]	Measured	The user is shrouded in water and slams the foe. It also hurts the user a little.
+765	Flower Trick	Grass	Physical	70	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[765]	Measured	The user throws flow- ers at the target. This move always results in a critical hit.
+766	Torch Song	Fire	Special	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[766]	Measured	The user scorches the target, boosting the user's Sp. Atk.
+767	Aqua Step	Water	Physical	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[767]	Measured	The user toys with the target, boosting the user's Speed.
+768	Hyper Drill	Normal	Physical	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[768]	Measured	The user drills the target quickly, hit- ting through pro- tection.
+769	Armor Cannon	Fire	Special	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[769]	Measured	The user shoots fiery projectiles. This cuts the user's Defense and Sp. Def.
+770	Bitter Blade	Fire	Physical	90	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[770]	Measured	The user bitterly slashes. This absorbs half the damage it inflicts.
+771	Aqua Cutter	Water	Physical	70	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[771]	Measured	The foe is cut by sharp pressurized water. It has a high critical-hit ratio.
+772	Rage Fist	Ghost	Physical	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[772]	Measured	The more times the user has been hit, the stronger this move becomes.
+773	Glaive Rush	Dragon	Physical	120	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[773]	Measured	After this hits, the foe cannot miss the next turn, and deals double damage.
+774	Last Respects	Ghost	Physical	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[774]	Measured	The more fallen allies on the user's party, the stronger this becomes.
+775	Shed Tail	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[775]	Measured	The user creates a half HP substitute and passes it to an ally.
+776	Jet Punch	Water	Physical	60	100	15	1	0	0	NA	NA	NA	FALSE	data.js:moves[776]	Measured	The user punches with a fast torrent that is certain to strike first.
+777	Spin Out	Steel	Physical	110	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[777]	Measured	The user spins angrily, inflicting damage. This sharply lowers the user's Speed.
+778	Collision Course	Fighting	Physical	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[778]	Measured	The user crashes, causing a huge explosion. Power is boosted if it's super-effective.
+779	Electro Drift	Electric	Special	100	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[779]	Measured	The user races, piercing the foe with sharp electricity. Power is boosted if it's super-effective.
+780	Revival Blessing	Normal	Status	0	0	1	0	0	16	NA	NA	NA	FALSE	data.js:moves[780]	Measured	The user bestows a lovely blessing, reviving a fainted party Poke- mon for half health.
+781	Gigaton Hammer	Steel	Physical	160	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[781]	Measured	The user swings with a huge hammer. This move can't be used twice in a row.
+782	Raging Bull	Normal	Physical	90	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[782]	Measured	The user tackles like a raging bull. This move type depends on the user's form. Breaks screens.
+783	Twin Beam	Psychic	Special	50	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[783]	Measured	The user fires beams from its eyes at the target. This move hits twice.
+784	Kowtow Cleave	Dark	Physical	85	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[784]	Measured	The user slashes at the target after kow- towing. This move never misses.
+785	Double Shock	Electric	Physical	120	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[785]	Measured	The user releases a lot of electricity. After using this move, the user will not be Electric type.
+786	Trailblaze	Grass	Physical	50	100	20	0	100	0	NA	NA	114	FALSE	data.js:moves[786]	Measured	The user attacks suddenly, boost- ing its Speed.
+787	Pounce	Bug	Physical	60	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[787]	Measured	The user pounces on the target, lowering its Speed stat.
+788	Make It Rain	Steel	Special	120	100	5	0	100	8	NA	NA	NA	FALSE	data.js:moves[788]	Measured	The user attacks with a mass of coins, lowering its Sp. Atk.
+789	Population Bomb	Normal	Physical	20	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[789]	Measured	The user gathers in droves for an attack that hits one to ten times in a row.
+790	Lunar Blessing	Psychic	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[790]	Measured	The user restores HP and the status of itself and its ally in battle.
+791	Take Heart	Fairy	Status	0	0	5	0	0	16	NA	NA	NA	FALSE	data.js:moves[791]	Measured	The user raises Sp. Atk and Sp. Def and also cures its status.
+792	Silk Trap	Bug	Status	0	0	5	4	0	16	NA	NA	NA	FALSE	data.js:moves[792]	Measured	The user protects itself, and lowers the foe's Speed stat on contact.
+793	Axe Kick	Fighting	Physical	120	90	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[793]	Measured	The user attack can confuse the target, and damages itself upon a miss.
+794	Lumina Crash	Psychic	Special	80	100	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[794]	Measured	The user attacks with a strange light. It harshly lowers the foe's Sp. Def.
+795	Ice Spinner	Ice	Physical	80	100	15	0	0	0	119	120	NA	FALSE	data.js:moves[795]	Measured	The user spins with ice, dealing damage and destroying terrain.
+796	Salt Cure	Rock	Physical	40	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[796]	Measured	This move damages every turn. Steel and Water types are more affected.
+797	Triple Dive	Water	Physical	40	90	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[797]	Measured	The user hits the target with three splashes of water in a row.
+798	Mortal Spin	Poison	Physical	30	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[798]	Measured	The user spins away hazards, and poisons opposing Pokemon.
+799	Fillet Away	Normal	Status	0	100	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[799]	Measured	The user sharply boosts its Attack, Sp. Atk, and Speed by using its own HP.
+800	Chilly Reception	Ice	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[800]	Measured	The user switches with a party Poke- mon and sets a snowstorm.
+801	Chilling Water	Water	Special	50	100	20	0	100	0	NA	NA	NA	FALSE	data.js:moves[801]	Measured	The user attacks with cold water that lowers the target's Attack stat.
+802	Comeuppance	Dark	Physical	1	100	10	0	0	1	NA	NA	NA	FALSE	data.js:moves[802]	Measured	The user retaliates with much greater force against the opponent that last did damage to it.
+803	Tidy Up	Normal	Status	0	0	10	0	0	16	NA	NA	NA	FALSE	data.js:moves[803]	Measured	The user raises its Attack and Speed stat, and removes hazards.
+804	Ruination	Dark	Special	1	90	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[804]	Measured	The user summons a ruinous di- saster. It halves the target's HP.
+805	Psyblade	Psychic	Physical	80	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[805]	Measured	The user cuts with an ethereal blade. Has boosted power in Electric Terrain.
+806	Hydro Steam	Water	Special	80	100	15	0	0	0	NA	NA	NA	FALSE	data.js:moves[806]	Measured	The user blasts with hot water. Has boosted power in Sun.
+807	Bleakwind Storm	Flying	Special	100	90	10	0	20	8	NA	NA	NA	FALSE	data.js:moves[807]	Measured	The foe is caught in a fierce cold wind that can cause frostbite.
+808	Wildbolt Storm	Electric	Special	100	90	10	0	20	8	NA	NA	NA	FALSE	data.js:moves[808]	Measured	The foe is caught in a wind filled with lightning. Can paralyze.
+809	Sandsear Storm	Ground	Special	100	90	10	0	20	8	NA	NA	NA	FALSE	data.js:moves[809]	Measured	The foe is caught in a wind filled with hot sand. Can inflict burn.
+810	Springtide Storm	Fairy	Special	100	90	10	0	30	8	NA	NA	NA	FALSE	data.js:moves[810]	Measured	The foe is caught in a wind filled with love and hate. Can lower Atk.
+811	Blood Moon	Normal	Special	140	100	5	0	0	0	NA	NA	NA	FALSE	data.js:moves[811]	Measured	The user unleashes its spirit from a full moon. Can't be used twice in a row.
+812	Matcha Gotcha	Grass	Special	80	100	5	0	20	8	NA	NA	NA	FALSE	data.js:moves[812]	Measured	The user fires a blast of tea that absorbs half the damage dealt and can also burn.
+813	Ivy Cudgel	Grass	Physical	100	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[813]	Measured	The user strikes with a cudgel that changes type based on the mask worn.
+814	Electro Shot	Electric	Special	130	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[814]	Measured	The user charges Sp. Atk then attacks. Skips charge in rain. 
+815	Thunderclap	Electric	Special	70	100	5	1	0	0	NA	NA	NA	FALSE	data.js:moves[815]	Measured	This move allows the user to strike first, if the foe is readying an attack.
+816	Tachyon Cutter	Steel	Special	50	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[816]	Measured	The target is hit twice in a row. Can't miss.
+817	Psychic Noise	Psychic	Special	75	100	10	0	100	0	104	105	NA	FALSE	data.js:moves[817]	Measured	The user damages and also blocks the target from heal moves for 3 turns.
+818	Upper Hand	Fighting	Physical	65	100	10	3	0	0	NA	NA	NA	FALSE	data.js:moves[818]	Measured	This move goes first and flinches, but fails if the target is not using a priority move.
+819	Fickle Beam	Dragon	Special	80	100	10	0	30	0	NA	NA	NA	FALSE	data.js:moves[819]	Measured	This move has a chance to deal double damage.
+820	Burning Bulwark	Fire	Status	0	100	10	4	0	16	NA	NA	NA	FALSE	data.js:moves[820]	Measured	This protects the user from attacks and also burns attackers who make contact.
+821	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[821]	Measured	Unknown.
+822	Mighty Cleave	Rock	Physical	95	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[822]	Measured	This move deals damage and bypasses protection.
+823	Hard Press	Steel	Physical	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[823]	Measured	The more HP the target has, the greater the power.
+824	Dragon Cheer	Dragon	Status	1	100	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[824]	Measured	unknown.
+825	Alluring Voice	Fairy	Special	80	100	10	0	100	0	NA	NA	81	FALSE	data.js:moves[825]	Measured	Causes confusion on targets whose stats were boosted during the turn it's used.
+826	Temper Flare	Fire	Physical	75	100	10	0	0	0	56	57	NA	FALSE	data.js:moves[826]	Measured	If the user's previous move failed, power of this move doubles.
+827	Soupercell Slam	Electric	Physical	120	95	15	0	0	0	10	11	NA	FALSE	data.js:moves[827]	Measured	The user electrifies and slams the target. If it misses, the user takes damage instead.
+828	Malignant Chain	Poison	Special	100	100	15	0	50	0	NA	NA	NA	FALSE	data.js:moves[828]	Measured	The foe is hit with a deadly chain that can badly poison.
+829	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[829]	Measured	Unknown.
+830	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[830]	Measured	Unknown.
+831	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[831]	Measured	Unknown.
+832	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[832]	Measured	Unknown.
+833	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[833]	Measured	Unknown.
+834	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[834]	Measured	Unknown.
+835	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[835]	Measured	Unknown.
+836	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[836]	Measured	Unknown.
+837	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[837]	Measured	Unknown.
+838	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[838]	Measured	Unknown.
+839	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[839]	Measured	Unknown.
+840	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[840]	Measured	Unknown.
+841	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[841]	Measured	Unknown.
+842	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[842]	Measured	Unknown.
+843	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[843]	Measured	Unknown.
+844	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[844]	Measured	Unknown.
+845	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[845]	Measured	Unknown.
+846	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[846]	Measured	Unknown.
+847	Placeholder	Normal	Physical	0	0	0	0	0	0	NA	NA	NA	TRUE	data.js:moves[847]	Measured	Unknown.
+848	Z-Move 1	Normal	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[848]	Measured	-
+849	Z-Move 2	Normal	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[849]	Measured	-
+850	Z-Move 3	Fighting	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[850]	Measured	-
+851	Z-Move 4	Fighting	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[851]	Measured	-
+852	Z-Move 5	Flying	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[852]	Measured	-
+853	Z-Move 6	Flying	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[853]	Measured	-
+854	Z-Move 7	Poison	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[854]	Measured	-
+855	Z-Move 8	Poison	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[855]	Measured	-
+856	Z-Move 9	Ground	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[856]	Measured	-
+857	Z-Move 10	Ground	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[857]	Measured	-
+858	Z-Move 11	Rock	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[858]	Measured	-
+859	Z-Move 12	Rock	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[859]	Measured	-
+860	Z-Move 13	Bug	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[860]	Measured	-
+861	Z-Move 14	Bug	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[861]	Measured	-
+862	Z-Move 15	Ghost	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[862]	Measured	-
+863	Z-Move 16	Ghost	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[863]	Measured	-
+864	Z-Move 17	Steel	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[864]	Measured	-
+865	Z-Move 18	Steel	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[865]	Measured	-
+866	Z-Move 19	Fire	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[866]	Measured	-
+867	Z-Move 20	Fire	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[867]	Measured	-
+868	Z-Move 21	Water	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[868]	Measured	-
+869	Z-Move 22	Water	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[869]	Measured	-
+870	Z-Move 23	Grass	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[870]	Measured	-
+871	Z-Move 24	Grass	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[871]	Measured	-
+872	Z-Move 25	Electric	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[872]	Measured	-
+873	Z-Move 26	Electric	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[873]	Measured	-
+874	Z-Move 27	Psychic	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[874]	Measured	-
+875	Z-Move 28	Psychic	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[875]	Measured	-
+876	Z-Move 29	Ice	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[876]	Measured	-
+877	Z-Move 30	Ice	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[877]	Measured	-
+878	Z-Move 31	Dragon	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[878]	Measured	-
+879	Z-Move 32	Dragon	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[879]	Measured	-
+880	Z-Move 33	Dark	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[880]	Measured	-
+881	Z-Move 34	Dark	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[881]	Measured	-
+882	Z-Move 35	Fairy	Physical	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[882]	Measured	-
+883	Z-Move 36	Fairy	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[883]	Measured	-
+884	Z-Move 37	Electric	Physical	210	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[884]	Measured	-
+885	Z-Move 38	Electric	Special	195	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[885]	Measured	-
+886	Z-Move 39	Electric	Special	175	0	1	0	100	0	NA	NA	NA	FALSE	data.js:moves[886]	Measured	-
+887	Z-Move 40	Normal	Status	0	0	1	0	0	16	NA	NA	NA	FALSE	data.js:moves[887]	Measured	-
+888	Z-Move 41	Normal	Physical	210	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[888]	Measured	-
+889	Z-Move 42	Psychic	Special	185	0	1	0	100	0	NA	NA	NA	FALSE	data.js:moves[889]	Measured	-
+890	Z-Move 43	Ghost	Physical	180	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[890]	Measured	-
+891	Z-Move 44	Dark	Physical	180	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[891]	Measured	-
+892	Z-Move 45	Water	Special	195	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[892]	Measured	-
+893	Z-Move 46	Rock	Physical	190	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[893]	Measured	-
+894	Z-Move 47	Fairy	Physical	190	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[894]	Measured	-
+895	Z-Move 48	Dragon	Special	185	0	1	0	100	8	NA	NA	NA	FALSE	data.js:moves[895]	Measured	-
+896	Z-Move 49	Fairy	Special	1	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[896]	Measured	-
+897	Z-Move 50	Steel	Physical	200	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[897]	Measured	-
+898	Z-Move 51	Ghost	Special	200	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[898]	Measured	-
+899	Z-Move 52	Psychic	Special	200	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[899]	Measured	-
+900	Z-Move 53	Ghost	Physical	195	0	1	0	0	0	NA	NA	NA	FALSE	data.js:moves[900]	Measured	-
+901	Guard	Normal	Status	0	0	10	4	0	16	NA	NA	NA	FALSE	data.js:moves[901]	Measured	Enables the user to evade all attacks. It may fail if used in succession.
+902	Strike	Normal	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[902]	Measured	Normal-Type Dynamax move. It lowers the target's Speed stat.
+903	Strike	Normal	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[903]	Measured	Normal-Type Dynamax move. It lowers the target's Speed stat.
+904	Knuckle	Fighting	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[904]	Measured	Fighting Dynamax move. It raises ally Pokemon's Attack stats.
+905	Knuckle	Fighting	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[905]	Measured	Fighting Dynamax move. It raises ally Pokemon's Attack stats.
+906	Airstream	Flying	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[906]	Measured	Flying-Type Dynamax move. It raises ally Pokemon's Speed stats.
+907	Airstream	Flying	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[907]	Measured	Flying-Type Dynamax move. It raises ally Pokemon's Speed stats.
+908	Ooze	Poison	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[908]	Measured	Poison-Type Dynamax move. It raises ally Pokemon's Sp. Atk stats.
+909	Ooze	Poison	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[909]	Measured	Poison-Type Dynamax move. It raises ally Pokemon's Sp. Atk stats.
+910	Quake	Ground	Physical	1	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[910]	Measured	Ground-Type Dynamax move. It raises ally Pokemon's Sp. Def stats.
+911	Quake	Ground	Special	1	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[911]	Measured	Ground-Type Dynamax move. It raises ally Pokemon's Sp. Def stats.
+912	Rockfall	Rock	Physical	1	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[912]	Measured	Rock-Type Dynamax move. It summons a sandstorm that lasts five turns.
+913	Rockfall	Rock	Special	1	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[913]	Measured	Rock-Type Dynamax move. It summons a sandstorm that lasts five turns.
+914	Flutterby	Bug	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[914]	Measured	Bug-Type Dynamax move. It lowers the target's Sp. Atk stat.
+915	Flutterby	Bug	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[915]	Measured	Bug-Type Dynamax move. It lowers the target's Sp. Atk stat.
+916	Phantasm	Ghost	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[916]	Measured	Ghost-Type Dynamax move. It lowers the target's Defense stat.
+917	Phantasm	Ghost	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[917]	Measured	Ghost-Type Dynamax move. It lowers the target's Defense stat.
+918	Steelspike	Steel	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[918]	Measured	Steel-Type Dynamax move. It raises ally Pokemon's Defense stats.
+919	Steelspike	Steel	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[919]	Measured	Steel-Type Dynamax move. It raises ally Pokemon's Defense stats.
+920	Flare	Fire	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[920]	Measured	Fire-Type Dynamax move. It causes the sun to intensify for five turns.
+921	Flare	Fire	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[921]	Measured	Fire-Type Dynamax move. It causes the sun to intensify for five turns.
+922	Geyser	Water	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[922]	Measured	Water-Type Dynamax move. It summons rain that falls for five turns.
+923	Geyser	Water	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[923]	Measured	Water-Type Dynamax move. It summons rain that falls for five turns.
+924	Overgrowth	Grass	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[924]	Measured	Grass-Type Dynamax move. It activates Grassy Terrain for five turns.
+925	Overgrowth	Grass	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[925]	Measured	Grass-Type Dynamax move. It activates Grassy Terrain for five turns.
+926	Lightning	Electric	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[926]	Measured	Electric Dynamax move. It activates Electric Terrain for five turns.
+927	Lightning	Electric	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[927]	Measured	Electric Dynamax move. It activates Electric Terrain for five turns.
+928	Mindstorm	Psychic	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[928]	Measured	Psychic Dynamax move. It activates Psychic Terrain for five turns.
+929	Mindstorm	Psychic	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[929]	Measured	Psychic Dynamax move. It activates Psychic Terrain for five turns.
+930	Hailstorm	Ice	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[930]	Measured	Ice-Type Dynamax move. It summons a snowstorm for five turns.
+931	Hailstorm	Ice	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[931]	Measured	Ice-Type Dynamax move. It summons a snowstorm for five turns.
+932	Wyrmwind	Dragon	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[932]	Measured	Dragon-Type Dynamax move. It lowers the target's Attack stat.
+933	Wyrmwind	Dragon	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[933]	Measured	Dragon-Type Dynamax move. It lowers the target's Attack stat.
+934	Darkness	Dark	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[934]	Measured	Dark-Type Dynamax move. It lowers the target's Sp. Def stat.
+935	Darkness	Dark	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[935]	Measured	Dark-Type Dynamax move. It lowers the target's Sp. Def stat.
+936	Starfall	Fairy	Physical	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[936]	Measured	Fairy-Type Dynamax move. It activates Misty Terrain for five turns.
+937	Starfall	Fairy	Special	1	0	10	0	100	0	NA	NA	NA	FALSE	data.js:moves[937]	Measured	Fairy-Type Dynamax move. It activates Misty Terrain for five turns.
+938	Vine Lash	Grass	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[938]	Measured	G-Max Venusaur's signature move. It deals damage for four turns.
+939	Vine Lash	Grass	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[939]	Measured	G-Max Venusaur's signature move. It deals damage for four turns.
+940	Wildfire	Fire	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[940]	Measured	G-Max Charizard's signature move. It deals damage for four turns.
+941	Wildfire	Fire	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[941]	Measured	G-Max Charizard's signature move. It deals damage for four turns.
+942	Cannonade	Water	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[942]	Measured	G-Max Blastoise's signature move. It deals damage for four turns.
+943	Cannonade	Water	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[943]	Measured	G-Max Blastoise's signature move. It deals damage for four turns.
+944	Befuddle	Bug	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[944]	Measured	G-Max Butterfree's signature move. It causes paralysis, sleep, or poison.
+945	Befuddle	Bug	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[945]	Measured	G-Max Butterfree's signature move. It causes paralysis, sleep, or poison.
+946	Voltcrash	Electric	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[946]	Measured	G-Max Pikachu's signature move. It paralyzes the target.
+947	Voltcrash	Electric	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[947]	Measured	G-Max Pikachu's signature move. It paralyzes the target.
+948	Goldrush	Normal	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[948]	Measured	G-Max Meowth's signature move. It confuses the foe and creates money.
+949	Goldrush	Normal	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[949]	Measured	G-Max Meowth's signature move. It confuses the foe and creates money.
+950	Chistrike	Fighting	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[950]	Measured	G-Max Machamp's signature move. It raises the chance of critical hits.
+951	Chistrike	Fighting	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[951]	Measured	G-Max Machamp's signature move. It raises the chance of critical hits.
+952	Terror	Ghost	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[952]	Measured	G-Max Gengar's signature move. It prevents the foe from escaping.
+953	Terror	Ghost	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[953]	Measured	G-Max Gengar's signature move. It prevents the foe from escaping.
+954	Foamburst	Water	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[954]	Measured	G-Max Kingler's signature move. It harshly lowers the target's Speed.
+955	Foamburst	Water	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[955]	Measured	G-Max Kingler's signature move. It harshly lowers the target's Speed.
+956	Resonance	Ice	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[956]	Measured	G-Max Lapras's signature move. It reduces damage for five turns.
+957	Resonance	Ice	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[957]	Measured	G-Max Lapras's signature move. It reduces damage for five turns.
+958	Cuddle	Normal	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[958]	Measured	G-Max Eevee's signature move. It infatuates the target.
+959	Cuddle	Normal	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[959]	Measured	G-Max Eevee's signature move. It infatuates the target.
+960	Replenish	Normal	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[960]	Measured	G-Max Snorlax's signature move. It restores Berries that were eaten.
+961	Replenish	Normal	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[961]	Measured	G-Max Snorlax's signature move. It restores Berries that were eaten.
+962	Malodor	Poison	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[962]	Measured	G-Max Garbodor's signature move. It poisons the target.
+963	Malodor	Poison	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[963]	Measured	G-Max Garbodor's signature move. It poisons the target.
+964	Meltdown	Steel	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[964]	Measured	G-Max Melmetal's signature move. It prevents the foe from repeating moves.
+965	Meltdown	Steel	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[965]	Measured	G-Max Melmetal's signature move. It prevents the foe from repeating moves.
+966	Drum Solo	Grass	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[966]	Measured	G-Max Rillaboom's signature move. It strikes regardless of the target's ability.
+967	Drum Solo	Grass	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[967]	Measured	G-Max Rillaboom's signature move. It strikes regardless of the target's ability.
+968	Fireball	Fire	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[968]	Measured	G-Max Cinderace's signature move. It strikes regardless of the target's ability.
+969	Fireball	Fire	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[969]	Measured	G-Max Cinderace's signature move. It strikes regardless of the target's ability.
+970	Hydrosnipe	Water	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[970]	Measured	G-Max Inteleon's signature move. It strikes regardless of the target's ability.
+971	Hydrosnipe	Water	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[971]	Measured	G-Max Inteleon's signature move. It strikes regardless of the target's ability.
+972	Windrage	Flying	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[972]	Measured	G-Max Corviknight's signature move. It removes the effect of screen moves.
+973	Windrage	Flying	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[973]	Measured	G-Max Corviknight's signature move. It removes the effect of screen moves.
+974	Gravitas	Psychic	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[974]	Measured	G-Max Orbeetle's signature move. It changes gravity for five turns.
+975	Gravitas	Psychic	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[975]	Measured	G-Max Orbeetle's signature move. It changes gravity for five turns.
+976	Stonesurge	Water	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[976]	Measured	G-Max Drednaw's signature move. It scatters rocks around the field.
+977	Stonesurge	Water	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[977]	Measured	G-Max Drednaw's signature move. It scatters rocks around the field.
+978	Volcalith	Rock	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[978]	Measured	G-Max Coalossal's signature move. It deals damage for four turns.
+979	Volcalith	Rock	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[979]	Measured	G-Max Coalossal's signature move. It deals damage for four turns.
+980	Tartness	Grass	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[980]	Measured	G-Max Flapple's signature move. It reduces the foe's evasiveness.
+981	Tartness	Grass	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[981]	Measured	G-Max Flapple's signature move. It reduces the foe's evasiveness.
+982	Sweetness	Grass	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[982]	Measured	G-Max Appletun's signature move. It heals the status of its allies.
+983	Sweetness	Grass	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[983]	Measured	G-Max Appletun's signature move. It heals the status of its allies.
+984	Sandblast	Ground	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[984]	Measured	G-Max Sandaconda's signature move. It traps the foe for four to five turns.
+985	Sandblast	Ground	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[985]	Measured	G-Max Sandaconda's signature move. It traps the foe for four to five turns.
+986	Stunshock	Electric	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[986]	Measured	G-Max Toxtricity's signature move. It paralyzes or poisons opponents.
+987	Stunshock	Electric	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[987]	Measured	G-Max Toxtricity's signature move. It paralyzes or poisons opponents.
+988	Centiferno	Fire	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[988]	Measured	G-Max Centiskorch's signature move. It traps the foe for four to five turns.
+989	Centiferno	Fire	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[989]	Measured	G-Max Centiskorch's signature move. It traps the foe for four to five turns.
+990	Smite	Fairy	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[990]	Measured	G-Max Hatterene's signature move. It confuses the target.
+991	Smite	Fairy	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[991]	Measured	G-Max Hatterene's signature move. It confuses the target.
+992	Snooze	Dark	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[992]	Measured	G-Max Grimmsnarl's signature move. It inflicts Yawn status on the foe.
+993	Snooze	Dark	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[993]	Measured	G-Max Grimmsnarl's signature move. It inflicts Yawn status on the foe.
+994	Finale	Fairy	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[994]	Measured	G-Max Alcremie's signature move. It heals the HP of its allies.
+995	Finale	Fairy	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[995]	Measured	G-Max Alcremie's signature move. It heals the HP of its allies.
+996	Steelsurge	Steel	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[996]	Measured	G-Max Copperajah's signature move. It scatters spikes around the field.
+997	Steelsurge	Steel	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[997]	Measured	G-Max Copperajah's signature move. It scatters spikes around the field.
+998	Depletion	Dragon	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[998]	Measured	G-Max Duraludon's signature move. It reduces the PP of the last move used.
+999	Depletion	Dragon	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[999]	Measured	G-Max Duraludon's signature move. It reduces the PP of the last move used.
+1000	One Blow	Dark	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[1000]	Measured	G-Max Single Strike Urshifu's signature move. It bypasses the use of Max Guard.
+1001	One Blow	Dark	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[1001]	Measured	G-Max Single Strike Urshifu's signature move. It bypasses the use of Max Guard.
+1002	Rapid Flow	Water	Physical	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[1002]	Measured	G-Max Rapid Strike Urshifu's signature move. It bypasses the use of Max Guard.
+1003	Rapid Flow	Water	Special	10	0	10	0	0	0	NA	NA	NA	FALSE	data.js:moves[1003]	Measured	G-Max Rapid Strike Urshifu's signature move. It bypasses the use of Max Guard.

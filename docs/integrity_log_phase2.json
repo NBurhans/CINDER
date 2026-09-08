@@ -1,0 +1,42 @@
+[
+ {
+  "check": "W1_rate_ladders",
+  "severity": "INFO",
+  "detail": "rate ladders taken from the official locations sheet, not from source, so every rate is Asserted while the species, level band and slot index on the same row are Measured. wild-day 12 slots; wild-night 12 slots; wild-oldRod 2 slots; wild-goodRod 3 slots; wild-superRod 5 slots; wild-surf 5 slots"
+ },
+ {
+  "check": "W2_unknown_ladder",
+  "severity": "INFO",
+  "detail": "every table matched its published ladder"
+ },
+ {
+  "check": "W3_tm_offset",
+  "severity": "INFO",
+  "detail": "TM item names are 1-indexed (TM01..) while the tmMoves table is 0-indexed; TM number N resolves through slot N-1. 118 distinct TMs placed across 120 rows. Spot check: TM01 -> Close Combat, TM39 -> Rock Tomb"
+ },
+ {
+  "check": "W4_unplaced_tms",
+  "severity": "WARN",
+  "detail": "2 TMs numbered 1-120 have no placement in any area: [107, 118]"
+ },
+ {
+  "check": "W5_species_channels",
+  "severity": "INFO",
+  "detail": "820 distinct species-forms have at least one acquisition channel in the areas array"
+ },
+ {
+  "check": "W6_evolution_items",
+  "severity": "WARN",
+  "detail": "137 distinct evolution items referenced by species evolutions; 46 have no placement anywhere: ['Adamant Orb', 'Bug Memory', 'Dark Memory', 'Darkinium Z', 'Draco Plate', 'Dragon Memory', 'Dragonium Z', 'Dread Plate', 'Earth Plate', 'Electric Memory', 'Electrium Z', 'Eternamax Orb', 'Fairy Memory', 'Fight Memory', 'Fire Memory', 'Firium Z', 'Fist Plate', 'Flame Plate', 'Flying Memory', 'Ghost Memory']"
+ },
+ {
+  "check": "W7_mode_availability",
+  "severity": "WARN",
+  "detail": "mode_availability is UNK on every row. The extracted database does not encode difficulty-mode conditionality; the official item sheet marks it in prose ((HARDCORE) Unavailable, (DEFAULT MODE ONLY), MGM/HARDCORE variants). Filling this column is a manual pass against the doc set and it is Asserted when done. It gates ceiling builds in Phase 5, not scoring in Phase 3."
+ },
+ {
+  "check": "W8_cost_unknown",
+  "severity": "INFO",
+  "detail": "shop prices are absent from the extracted database and are carried as UNK; the official item sheet publishes them and would be Asserted"
+ }
+]

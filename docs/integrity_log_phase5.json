@@ -1,0 +1,67 @@
+[
+ {
+  "check": "V0_weights",
+  "severity": "INFO",
+  "detail": "role_fit = 0.25*S + 0.2*T + 0.15*Y + 0.4*F; utility family {'S': 0.0, 'T': 0.3, 'Y': 0.2, 'F': 0.5}; dead-weight penalty 0.5; thresholds set numerically on the VORP distribution"
+ },
+ {
+  "check": "V0c_natures",
+  "severity": "INFO",
+  "detail": "natures enumerated and MEASURED against the roster for 43934 builds, replacing the blanket Hardy that made I2 unmeasurable. Candidates are the natures that plausibly serve each track, not all 25."
+ },
+ {
+  "check": "V0a_floor_matrix",
+  "severity": "INFO",
+  "detail": "16125 floor builds run through the matrix so VORP's zero-investment baseline and ROI are measured rather than proxied"
+ },
+ {
+  "check": "V0b_type_keyspace",
+  "severity": "INFO",
+  "detail": "the type table is NOT contiguous: ids 0-8, 10-17, 23. Index 9 is the unused ??? slot and FAIRY IS 23, which is why the matchup array is 24 long and why Fighting carries a 0.5 at index 23. That resolves the Phase 3 open item. 1 moves carry the unused type and are excluded from coverage scoring."
+ },
+ {
+  "check": "V1_replacement",
+  "severity": "WARN",
+  "detail": "267 (checkpoint, role) cells; 15 have fewer than 3 zero-investment builds so replacement is undefined and VORP is suppressed rather than computed against an empty baseline"
+ },
+ {
+  "check": "V2_sustain",
+  "severity": "INFO",
+  "detail": "sustain computed for 16125 (form, checkpoint) pairs: sequential lifebar in roster order, reset at every trainer boundary, published as the kit delta. DEVIATION: the vision says read turns-to-KO off the matrix cells; the matrix stored aggregates rather than per-slot cells, so this recomputes them from the same engine and inputs. Same formula, second implementation."
+ },
+ {
+  "check": "V3_lineage",
+  "severity": "INFO",
+  "detail": "570 lineages aggregated; dead-weight penalty 0.5 applied to every checkpoint the line spends below replacement. Mean penalty 0.0215"
+ },
+ {
+  "check": "INV_I3_nfloor",
+  "severity": "INFO",
+  "detail": "I3 is a mean of within-cell correlations, so cells with too few builds are noise rather than evidence. Cells with n<20 are excluded from the mean and reported separately: 36 excluded (their mean |r| 0.598), 216 retained."
+ },
+ {
+  "check": "INV_I1",
+  "severity": "WARN",
+  "detail": "FAIL \u2014 observed 0.3233692210259658 against threshold 0.25 Life Orb"
+ },
+ {
+  "check": "INV_I2",
+  "severity": "WARN",
+  "detail": "FAIL \u2014 observed 0.26117796073464217 against threshold 0.2 Adamant"
+ },
+ {
+  "check": "INV_I3",
+  "severity": "INFO",
+  "detail": "PASS \u2014 observed 0.5698413833314175 against threshold 0.6 "
+ },
+ {
+  "check": "INV_I4",
+  "severity": "WARN",
+  "detail": "FAIL \u2014 observed 35 against threshold 0 "
+ },
+ {
+  "check": "INV_I7",
+  "severity": "INFO",
+  "detail": "PASS \u2014 observed 0.19594680177327423 against threshold 0.3 Toxic"
+ }
+]

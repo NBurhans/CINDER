@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CINDER — Species Survey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#12211D;--ground2:#192E28;--ground3:#0C1815;
+  --paper:#E8E2D2;--paper2:#DCD4C0;--ink:#16241F;
+  --brass:#B0873C;--brass-lt:#D8AC5C;--verd:#589B84;--oxide:#A85440;
+  --mute:#8A9A93;--line:rgba(232,226,210,.16);--line2:rgba(232,226,210,.3);
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Archivo","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--paper);font-family:var(--sans);font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;margin:0}
+p{margin:0 0 .9em}
+a{color:var(--brass-lt);text-decoration:none}a:hover{text-decoration:underline}
+button,select,input{font:inherit;font-family:var(--sans)}
+button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--brass-lt);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+.mast{border-bottom:1px solid var(--line);background:radial-gradient(1000px 380px at 10% -10%,rgba(88,155,132,.16),transparent 60%),linear-gradient(180deg,var(--ground3),var(--ground))}
+.mast .wrap{padding:34px 20px 22px}
+.mast h1{font-size:clamp(34px,5.5vw,58px);line-height:1;max-width:16ch}
+.mast h1 em{font-style:italic;color:var(--brass-lt)}
+.mast .sub{color:#C9D3CE;max-width:64ch;margin:10px 0 18px;font-size:15px}
+.search{display:flex;gap:10px;align-items:center;max-width:720px}
+.search input{flex:1;background:var(--paper);color:var(--ink);border:0;border-radius:6px;padding:12px 16px;font-size:18px;font-family:var(--serif)}
+.search input::placeholder{color:#6E7873}
+nav{position:sticky;top:0;z-index:20;background:rgba(18,33,29,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:0 20px}
+nav button{background:none;border:0;border-bottom:2px solid transparent;color:var(--mute);padding:12px;cursor:pointer;white-space:nowrap;font-size:15px}
+nav button[aria-current=page]{color:var(--paper);border-bottom-color:var(--brass)}
+main .wrap{padding:22px 20px 60px}
+
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.filters select,.filters input{background:var(--ground2);color:var(--paper);border:1px solid var(--line2);border-radius:6px;padding:7px 10px}
+.count{color:var(--mute);margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.spec{background:var(--ground2);border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer;display:grid;grid-template-columns:56px 1fr auto;gap:4px 10px;align-items:start}
+.spec:hover{border-color:var(--line2)}
+.spec .art{grid-row:1/4;width:56px;height:56px;image-rendering:pixelated;object-fit:contain;background:var(--ground3);border-radius:6px}
+.spec .nm{font-family:var(--serif);font-size:22px;line-height:1.1}
+.spec .nm small{font-family:var(--sans);font-size:12px;color:var(--mute);margin-left:6px}
+.spec .tys{grid-column:1/-1;display:flex;gap:5px;flex-wrap:wrap;margin-top:2px}
+.spec .mark{text-align:right}
+.spec .no{color:var(--mute);font-size:12px}
+.spec .cm{color:var(--brass-lt);font-weight:600;font-size:12px}
+.ty{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:600;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.45)}
+.tier{display:inline-block;min-width:30px;text-align:center;border-radius:3px;padding:1px 6px;font-weight:700;font-size:13px;color:var(--ink)}
+.tier.Sp{background:var(--brass-lt)}.tier.S{background:var(--verd)}.tier.A{background:#8DB7C9}
+.tier.B{background:var(--paper2)}.tier.C{background:#9AA79F}.tier.D{background:#5E6C66;color:var(--paper)}
+.tier.F{background:#3C4944;color:var(--mute)}.tier.NR{background:var(--ground3);color:var(--mute)}
+
+.back{background:none;border:1px solid var(--line2);color:var(--paper);border-radius:6px;padding:6px 12px;cursor:pointer;margin-bottom:14px}
+.doss h2{font-size:clamp(34px,5vw,54px);line-height:1}
+.doss .hero{display:flex;gap:18px;align-items:flex-end;flex-wrap:wrap}
+.doss .art{width:128px;height:128px;image-rendering:pixelated;object-fit:contain;background:var(--ground3);border-radius:10px;border:1px solid var(--line);flex:none}
+.doss .lead{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:8px 0 4px;color:#C9D3CE}
+.doss .lead .big{font-size:22px;color:var(--paper)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:820px){.cols{grid-template-columns:1fr}}
+h3{font-family:var(--sans);font-weight:600;font-size:13px;color:var(--mute);margin:20px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;margin:0}
+.kv dt{color:var(--mute)}.kv dd{margin:0}
+.stat{display:grid;grid-template-columns:38px 40px 1fr;gap:10px;align-items:center;margin:3px 0}
+.stat .bar{height:9px;background:var(--ground3);border-radius:3px;position:relative}
+.stat .bar i{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:var(--mute)}
+.stat .bar i.hi{background:var(--verd)}.stat .bar i.lo{background:var(--oxide)}
+.curve{width:100%;height:120px;display:block}
+.mv{display:inline-block;padding:2px 8px;margin:2px 3px 2px 0;border-radius:3px;background:var(--ground3);font-size:13px;border-left:3px solid var(--line2)}
+.mv.used{border:1px solid var(--brass-lt);border-left-width:3px;background:rgba(216,172,92,.12)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{color:var(--mute);font-weight:600;text-align:left;padding:6px 8px;border-bottom:1px solid var(--line2);white-space:nowrap;cursor:pointer}
+th.n,td.n{text-align:right}th.no{cursor:default}
+td{padding:5px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.clk{cursor:pointer}tr.clk:hover{background:var(--ground2)}
+.note{color:var(--mute);font-size:13px}
+.warn{color:var(--brass-lt)}
+.band{margin:18px 0 6px;padding:5px 10px;border-radius:4px;font-weight:600;color:var(--ink);display:flex;justify-content:space-between;background:var(--paper2)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.chip{padding:3px 10px;border:1px solid var(--line2);border-radius:14px;background:var(--ground2);font-size:13px}
+.empty{color:var(--mute);padding:40px 0;text-align:center;font-family:var(--serif);font-size:20px}
+.rt{background:var(--ground2);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0}
+.rt h4{margin:0 0 6px;font-family:var(--serif);font-size:20px;font-weight:400}
+.rostart{width:40px;height:40px;image-rendering:pixelated;vertical-align:middle;margin-right:6px;object-fit:contain}
+.tbl-scroll{overflow-x:auto}
+.spark{display:flex;gap:2px;align-items:flex-end;height:30px}
+.spark i{width:7px;background:var(--verd);display:block;border-radius:1px}
+.spark i.neg{background:var(--oxide)}
+</style></head>
+<body>
+<header class="mast"><div class="wrap">
+<h1>A survey of <em>every</em> species, scored against the fights that matter.</h1>
+<p class="sub">All 1,343 forms rated by role at each of eighteen checkpoints, from 2,698,734
+damage-calculated matchups. Items and natures are chosen by measurement, not by rank.</p>
+<div class="search"><input id="q" type="search" placeholder="Search a species, a route, a boss" aria-label="Search"></div>
+</div></header>
+<nav><div class="wrap" id="tabs"></div></nav>
+<main><div class="wrap" id="main">Loading…</div></main>
+
+<script id="payload" type="application/octet-stream">__PAYLOAD__</script>
+<script id="sprites" type="application/octet-stream">__SPRITES__</script>
+<script>
+"use strict";
+var D=null, SPR={}, best={}, view=null;
+var St={tab:'dex',role:null,cp:9,tier:'all',type:'all',q:'',sort:4,dir:-1,rcp:9,avail:'all'};
+var SP={NAME:0,DEX:1,T1:2,T2:3,HP:4,ATK:5,DEF:6,SPA:7,SPD:8,SPE:9,BST:10,A1:11,A2:12,AH:13,
+        GATE:14,GBASIS:15,FROM:16,INTO:17,EVO:18,LIN:19,SPR:20,STARTER:21,MISS:22,ONE:23,EGG:24,FORM:25};
+var V={CP:0,SP:1,ROLE:2,TIER:3,VORP:4,FIT:5,S:6,T:7,Y:8,F:9,CEIL:10,FLOOR:11,ROI:12,ITEM:13,
+       NAT:14,MOVES:15,SUS:16,TEAM:17,SAFE:18,SETUP:19,IDEP:20,TRACK:21};
+
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function fmt(v){return v==null?'\u2014':(+v).toFixed(3);}
+function f2(v){return v==null?'\u2014':(+v).toFixed(2);}
+function art(i){return SPR[i]||'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';}
+function roleName(r){return String(r).replace(/_/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});}
+function tierPill(t){return '<span class="tier '+(t==='S+'?'Sp':t)+'">'+esc(t)+'</span>';}
+function tyPill(i){if(i==null||i<0)return '';
+  return '<span class="ty" style="background:'+D.meta.typecolors[i]+'">'+esc(D.meta.types[i])+'</span>';}
+function cpName(c){for(var i=0;i<D.meta.cps.length;i++)if(D.meta.cps[i][0]===c)return D.meta.cps[i][1];return '?';}
+function cpCap(c){for(var i=0;i<D.meta.cps.length;i++)if(D.meta.cps[i][0]===c)return D.meta.cps[i][2];return 0;}
+function sel(key,opts,cur){
+  var h='<select data-k="'+key+'">';
+  for(var i=0;i<opts.length;i++)h+='<option value="'+esc(opts[i][0])+'"'+
+    (String(opts[i][0])===String(cur)?' selected':'')+'>'+esc(opts[i][1])+'</option>';
+  return h+'</select>';}
+function cpOpts(all){var o=all?[['all','Every checkpoint']]:[];
+  for(var i=0;i<D.meta.cps.length;i++)o.push([D.meta.cps[i][0],D.meta.cps[i][1]+' \u00b7 cap '+D.meta.cps[i][2]]);
+  return o;}
+
+var TABS=[['dex','Dex'],['rank','Rankings'],['roles','Roles'],['teams','Teams'],
+          ['starters','Starters'],['boss','Bosses'],['routes','Routes'],['about','About']];
+
+/* ---------- dex ---------- */
+function specCard(si,r){
+  var s=D.species[si];
+  return '<div class="spec" tabindex="0" data-sp="'+si+'">'+
+    '<img class="art" loading="lazy" alt="" src="'+art(s[SP.SPR])+'">'+
+    '<div class="nm">'+esc(s[SP.NAME])+'<small>'+s[SP.BST]+'</small></div>'+
+    '<div class="mark">'+(r?tierPill(D.meta.tiers[r[V.TIER]]):'<span class="no">\u2014</span>')+
+      (s[SP.MISS]?'<div class="cm">one-time</div>':'')+'</div>'+
+    '<div class="tys">'+tyPill(s[SP.T1])+tyPill(s[SP.T2])+'</div>'+
+    '<div class="no" style="grid-column:1/-1">'+
+      (r?esc(roleName(D.meta.roles[r[V.ROLE]]))+' \u00b7 VORP '+fmt(r[V.VORP])+
+         (s[SP.GATE]!==''?' \u00b7 caught by '+cpName(s[SP.GATE]):'')
+       :'not scored here')+'</div></div>';}
+
+function rowsAt(cp){var o=[];for(var i=0;i<D.val.length;i++)if(D.val[i][V.CP]===cp)o.push(D.val[i]);return o;}
+function bestAt(cp){var m={},r,i;var a=rowsAt(cp);
+  for(i=0;i<a.length;i++){r=a[i];if(!m[r[V.SP]]||r[V.FIT]>m[r[V.SP]][V.FIT])m[r[V.SP]]=r;}return m;}
+
+function viewDex(){
+  var cp=+St.cp, bm=bestAt(cp), keys=Object.keys(bm), out=[];
+  for(var i=0;i<keys.length;i++){
+    var si=+keys[i], s=D.species[si], r=bm[si];
+    if(St.tier!=='all'&&D.meta.tiers[r[V.TIER]]!==St.tier)continue;
+    if(St.type!=='all'&&D.meta.types[s[SP.T1]]!==St.type&&D.meta.types[s[SP.T2]]!==St.type)continue;
+    if(St.q&&s[SP.NAME].toLowerCase().indexOf(St.q.toLowerCase())<0)continue;
+    out.push(r);}
+  out.sort(function(a,b){return b[V.VORP]-a[V.VORP];});
+  var types=D.meta.types.slice().sort();
+  var h='<div class="filters">'+sel('cp',cpOpts(false),cp)+
+    sel('tier',[['all','Every tier']].concat(D.meta.tiers.map(function(t){return [t,'Tier '+t];})),St.tier)+
+    sel('type',[['all','Every type']].concat(types.map(function(t){return [t,t];})),St.type)+
+    '<span class="count">'+out.length.toLocaleString()+' forms obtainable</span></div>';
+  if(!out.length)return h+'<div class="empty">Nothing matches that filter.</div>';
+  h+='<div class="grid">';
+  for(var k=0;k<Math.min(out.length,240);k++)h+=specCard(out[k][V.SP],out[k]);
+  h+='</div>';
+  if(out.length>240)h+='<p class="note">Showing the strongest 240. Narrow with a filter or the search box.</p>';
+  return h;}
+
+/* ---------- rankings ---------- */
+function viewRank(){
+  var role=St.role||D.meta.roles[0], rows=[];
+  for(var i=0;i<D.val.length;i++){var r=D.val[i];
+    if(D.meta.roles[r[V.ROLE]]!==role)continue;
+    if(St.cp!=='all'&&r[V.CP]!==+St.cp)continue;
+    if(St.q&&D.species[r[V.SP]][SP.NAME].toLowerCase().indexOf(St.q.toLowerCase())<0)continue;
+    rows.push(r);}
+  var sk=St.sort,dr=St.dir;
+  rows.sort(function(a,b){var x=a[sk],y=b[sk];if(x==null)x=-99;if(y==null)y=-99;return (y-x)*(dr<0?1:-1);});
+  var h='<div class="filters">'+
+    sel('role',D.meta.roles.map(function(r){return [r,roleName(r)];}),role)+
+    sel('cp',[['all','Every checkpoint']].concat(cpOpts(false)),St.cp)+
+    '<span class="count">'+rows.length.toLocaleString()+' scored builds</span></div>';
+  if(!rows.length)return h+'<div class="empty">No builds pass this role\u2019s gates here.</div>';
+  h+='<p class="note">Sorted on value over replacement. Replacement is the third-best '+
+     'zero-investment build for the same role at the same checkpoint.</p>';
+  h+='<div class="tbl-scroll"><table><thead><tr><th class="no">Species</th>'+
+     '<th data-s="'+V.CP+'" class="n">Fight</th><th class="no">Tier</th>'+
+     '<th data-s="'+V.VORP+'" class="n">VORP</th><th data-s="'+V.CEIL+'" class="n">Ceiling</th>'+
+     '<th data-s="'+V.FLOOR+'" class="n">Floor</th><th data-s="'+V.ROI+'" class="n">ROI</th>'+
+     '<th data-s="'+V.SUS+'" class="n">Sustain</th><th data-s="'+V.TEAM+'" class="n">Team</th>'+
+     '<th class="no">Nature</th><th class="no">Item</th><th class="no">Moves</th></tr></thead><tbody>';
+  for(var i=0;i<Math.min(rows.length,300);i++){var r=rows[i],s=D.species[r[V.SP]];
+    h+='<tr class="clk" data-sp="'+r[V.SP]+'"><td>'+esc(s[SP.NAME])+'</td>'+
+       '<td class="n">'+esc(cpName(r[V.CP]))+'</td>'+
+       '<td>'+tierPill(D.meta.tiers[r[V.TIER]])+'</td>'+
+       '<td class="n">'+fmt(r[V.VORP])+'</td><td class="n">'+f2(r[V.CEIL])+'</td>'+
+       '<td class="n">'+f2(r[V.FLOOR])+'</td><td class="n">'+f2(r[V.ROI])+'</td>'+
+       '<td class="n">'+(r[V.SUS]==null?'\u2014':r[V.SUS])+'</td>'+
+       '<td class="n">'+(r[V.TEAM]?f2(r[V.TEAM]):'\u2014')+'</td>'+
+       '<td>'+esc(D.meta.natures[r[V.NAT]])+'</td>'+
+       '<td>'+esc(D.meta.items[r[V.ITEM]])+(r[V.IDEP]>0?' <span class="warn">scarce</span>':'')+'</td>'+
+       '<td class="note">'+r[V.MOVES].map(function(m){return esc(D.meta.moves[m]);}).join(', ')+'</td></tr>';}
+  return h+'</tbody></table></div>';}
+
+/* ---------- roles ---------- */
+function viewRoles(){
+  var cp=+St.rcp;
+  var h='<div class="filters">'+sel('rcp',cpOpts(false),cp)+
+        '<span class="count">leaders by role, level cap '+cpCap(cp)+'</span></div>', any=false;
+  for(var i=0;i<D.meta.roles.length;i++){
+    var role=D.meta.roles[i], rows=[];
+    for(var j=0;j<D.val.length;j++){var r=D.val[j];
+      if(r[V.ROLE]===i&&r[V.CP]===cp)rows.push(r);}
+    if(!rows.length)continue;
+    any=true;
+    rows.sort(function(a,b){return b[V.VORP]-a[V.VORP];});
+    h+='<div class="band">'+esc(roleName(role))+'<span>'+rows.length+' pass the gates</span></div><div class="grid">';
+    for(var k=0;k<Math.min(rows.length,6);k++)h+=specCard(rows[k][V.SP],rows[k]);
+    h+='</div>';}
+  return any?h:h+'<div class="empty">No roles scored at that checkpoint.</div>';}
+
+/* ---------- teams ---------- */
+function viewTeams(){
+  var h='<p class="note">The strongest six drawn from each checkpoint\u2019s pool by beam search, '+
+        'scored on coverage of that roster\u2019s threats weighted by how badly each unanswered one '+
+        'loses. Every team is checked against literal item copy counts.</p>';
+  for(var i=0;i<D.teams.length;i++){var t=D.teams[i];
+    var mem=t[1].split(','), rl=t[2].split(','), it=t[3].split(',');
+    h+='<div class="rt"><h4>'+esc(cpName(t[0]))+' <span class="note">covers '+t[4]+' of '+t[5]+
+       ' roster slots \u00b7 level cap '+cpCap(t[0])+'</span></h4><div class="grid">';
+    for(var j=0;j<mem.length;j++){
+      var si=-1;for(var k=0;k<D.species.length;k++)if(D.species[k][SP.NAME]===mem[j]){si=k;break;}
+      var s=si>=0?D.species[si]:null;
+      h+='<div class="spec" tabindex="0" data-sp="'+si+'">'+
+         '<img class="art" loading="lazy" alt="" src="'+art(s?s[SP.SPR]:-1)+'">'+
+         '<div class="nm">'+esc(mem[j])+'</div><div class="mark"></div>'+
+         '<div class="no" style="grid-column:1/-1">'+esc(roleName(rl[j]||''))+' \u00b7 '+
+         esc(it[j]||'no item')+'</div></div>';}
+    h+='</div></div>';}
+  return h+'<p class="note">Coverage counts a threat as answered when one member beats it '+
+    'one-on-one. That is a low bar, so read these as a ceiling rather than a promise.</p>';}
+
+/* ---------- starters ---------- */
+function viewStarters(){
+  var b=D.starters[0];
+  var h='<div class="rt"><h4>Open with '+esc(b[0])+'</h4><p class="note">Highest '+
+    'lineage-adjusted value across all eighteen checkpoints ('+fmt(b[2])+'), coming online at '+
+    (b[4]==='never'?'no point in the run':esc(cpName(+b[4])))+'. This is the one ranking scored '+
+    'over the whole run rather than at a checkpoint, because the choice is made once, before the '+
+    'first gate, and has to survive to the end.</p></div>';
+  h+='<p class="note">All 27 reappear in the Celadon shard-trade pool at the third gate. The '+
+     'choice is a head start, not a lock \u2014 what it costs is three gates of exclusivity.</p>';
+  h+='<div class="tbl-scroll"><table><thead><tr><th class="no">Starter</th><th class="no">Line</th>'+
+     '<th class="no n">Line value</th><th class="no n">Dead-weight</th><th class="no">Comes online</th>'+
+     '<th class="no n">Early game</th><th class="no">Per-checkpoint curve</th></tr></thead><tbody>';
+  for(var i=0;i<D.starters.length;i++){var s=D.starters[i], sp=D.species[s[1]];
+    var spark='<div class="spark">';
+    for(var c=0;c<18;c++){var v=s[6][c];
+      var ht=v==null?1:Math.max(2,Math.min(30,Math.round((v+0.6)*30)));
+      spark+='<i class="'+(v!=null&&v<0?'neg':'')+'" style="height:'+ht+'px" title="'+
+             esc(cpName(c))+': '+(v==null?'not scored':fmt(v))+'"></i>';}
+    spark+='</div>';
+    h+='<tr class="clk" data-sp="'+s[1]+'"><td><img class="rostart" alt="" src="'+art(sp[SP.SPR])+'">'+
+       esc(s[0])+'</td><td class="note">'+esc(s[8].split(',').slice(0,3).join(' \u2192 '))+'</td>'+
+       '<td class="n">'+fmt(s[2])+'</td><td class="n">'+fmt(s[3])+'</td>'+
+       '<td>'+(s[4]==='never'?'\u2014':esc(cpName(+s[4])))+'</td>'+
+       '<td class="n">'+fmt(s[5])+'</td><td>'+spark+'</td></tr>';}
+  return h+'</tbody></table></div><p class="note">Line value applies a 0.50 dead-weight penalty to '+
+    'every checkpoint the line spends below replacement, so a starter that is dead weight early is '+
+    'marked down for it. The early-game column is gates 0\u20132 on their own, because that is when '+
+    'the starter is most of your team.</p>';}
+
+/* ---------- bosses ---------- */
+function viewBoss(){
+  var h='';
+  for(var i=0;i<D.fights.length;i++){
+    var cp=D.fights[i][0], list=D.fights[i][1];
+    h+='<h3>'+esc(cpName(cp))+' \u00b7 level cap '+cpCap(cp)+' \u00b7 '+list.length+' authored fights</h3>';
+    for(var j=0;j<list.length;j++){var t=list[j];
+      h+='<div class="rt"><h4>'+esc(t[0])+' <span class="note">'+esc(t[1])+' \u00b7 '+t[2]+
+         ' slots \u00b7 highest level '+t[3]+'</span></h4><div>';
+      for(var k=0;k<t[4].length;k++)h+='<span class="mv">'+esc(t[4][k][0])+'</span>';
+      h+='</div><dl class="kv" style="margin-top:8px">'+
+         '<dt>Shared weakness</dt><dd>'+esc(t[5]==='NONE'?'none across half the team':t[5])+'</dd>'+
+         '<dt>Walled by</dt><dd>'+esc(t[6]==='NONE'?'no single type resists it all':t[6])+'</dd>'+
+         '<dt>Attacks with</dt><dd>'+esc(t[7])+'</dd></dl>'+
+         '<p class="note" style="margin-top:6px">'+esc(t[8])+'</p></div>';}}
+  return h;}
+
+/* ---------- routes ---------- */
+function viewRoutes(){
+  var cp=+St.cp, names=Object.keys(D.routes).sort(function(a,b){return D.routes[a].g-D.routes[b].g;});
+  var h='<div class="filters">'+sel('cp',cpOpts(false),cp)+
+        '<span class="count">read-only \u00b7 no run state</span></div>', n=0;
+  for(var i=0;i<names.length;i++){
+    var nm=names[i], rt=D.routes[nm];
+    if(rt.g>cp)continue;
+    if(St.q&&nm.toLowerCase().indexOf(St.q.toLowerCase())<0)continue;
+    n++;
+    var miss=0;for(var j=0;j<rt.e.length;j++)if(rt.e[j][6])miss++;
+    h+='<div class="rt"><h4>'+esc(nm)+' <span class="note">opens at '+esc(cpName(rt.g))+
+       ' \u00b7 '+rt.e.length+' encounters \u00b7 '+rt.i.length+' items'+
+       (miss?' \u00b7 <span class="warn">'+miss+' one-time</span>':'')+'</span></h4>';
+    if(rt.e.length){
+      h+='<div class="tbl-scroll"><table><thead><tr><th class="no">Pokémon</th><th class="no">How</th>'+
+         '<th class="no n">Rate</th><th class="no n">Levels</th><th class="no">Tier here</th></tr></thead><tbody>';
+      var bm=bestAt(cp);
+      for(var j=0;j<rt.e.length;j++){var e=rt.e[j], si=-1;
+        for(var k=0;k<D.species.length;k++)if(D.species[k][SP.NAME]===e[0]){si=k;break;}
+        var r=si>=0?bm[si]:null;
+        h+='<tr'+(si>=0?' class="clk" data-sp="'+si+'"':'')+'><td>'+esc(e[0])+
+           (e[6]?' <span class="cm">one-time</span>':'')+'</td><td class="note">'+esc(e[1])+
+           (e[7]?' '+e[7]+'\u2605':'')+'</td><td class="n">'+(e[3]==='UNK'?'\u2014':e[3]+'%')+'</td>'+
+           '<td class="n">'+(e[4]==='NA'?'\u2014':e[4]+'\u2013'+e[5])+'</td>'+
+           '<td>'+(r?tierPill(D.meta.tiers[r[V.TIER]]):'<span class="no">\u2014</span>')+'</td></tr>';}
+      h+='</tbody></table></div>';}
+    if(rt.i.length){h+='<p class="note" style="margin-top:8px">Items: ';
+      var parts=[];for(var j=0;j<rt.i.length;j++){var it=rt.i[j];
+        parts.push(esc(it[0])+(it[3]?' ('+esc(it[3])+')':'')+
+          (it[2]&&it[2]!=='1'&&it[2]!=='NA'?' \u00d7'+esc(it[2]):''));}
+      h+=parts.join(' \u00b7 ')+'</p>';}
+    h+='</div>';}
+  return n?h:h+'<div class="empty">Nothing reachable yet at that checkpoint.</div>';}
+
+/* ---------- about ---------- */
+function viewAbout(){
+  var h='<div class="cols"><div><h3>How a build is scored</h3>'+
+    '<p>Roles first, gates before scores. A wall without recovery is not a wall at any bulk. '+
+    'Every build is scored inside a role, never on one global ladder.</p>'+
+    '<p class="note">role_fit = '+esc(D.meta.weights)+'. The utility family carries no stat term: '+
+    'scoring a pivot on raw HP made the cell a base-stat ranking by construction.</p>'+
+    '<h3>Floor, ceiling, VORP</h3>'+
+    '<p>Floor is zero investment. Ceiling is the best build using only what is obtainable by that '+
+    'checkpoint. VORP subtracts the third-best zero-investment build in the same role at the same '+
+    'checkpoint. Both anchors were run through the damage engine \u2014 neither is a proxy.</p>'+
+    '<h3>Items and natures are measured</h3>'+
+    '<p>Each build\u2019s three candidate items are run against the roster and the winner is whichever '+
+    'performs best. Measurement changed the pick on 16.2% of builds. Natures are enumerated the same '+
+    'way; 18 distinct ones are chosen across the recommended set.</p>'+
+    '<h3>Setup, priority, the Choice lock</h3>'+
+    '<p>Setup moves generate their own variant, evaluated with boosts applied and gated on surviving '+
+    'the setup turn \u2014 it wins on 9.6% of the builds offered both. Priority orders turns. Choice '+
+    'items are scored under lock, one move across the whole roster.</p></div><div>'+
+    '<h3>Invariants</h3><div class="tbl-scroll"><table><thead><tr><th class="no">Check</th>'+
+    '<th class="no">Measures</th><th class="no n">Observed</th><th class="no n">Threshold</th>'+
+    '<th class="no">Result</th></tr></thead><tbody>';
+  for(var i=0;i<D.meta.invariants.length;i++){var v=D.meta.invariants[i];
+    h+='<tr><td>'+esc(v[0])+'</td><td class="note">'+esc(v[1])+'</td><td class="n">'+esc(v[2])+
+       '</td><td class="n">'+esc(v[3])+'</td><td>'+(v[4]==='pass'?'pass':
+       '<span class="warn">'+esc(v[4])+'</span>')+'</td></tr>';}
+  h+='</tbody></table></div><p class="note">A failing invariant blocks release until it is fixed or '+
+     'overridden in writing, with the value, the reason and what would fix it. Three are overridden.</p>'+
+     '<h3>What is not trustworthy</h3><dl class="kv">'+
+     '<dt>Difficulty mode</dt><dd>Not encoded in the source. Every build here is mode-agnostic and '+
+     'may hold an item that does not exist in the canonical mode. The largest open risk.</dd>'+
+     '<dt>Team coverage</dt><dd>A threat counts as answered when one member beats it one-on-one, so '+
+     'coverage reads full everywhere.</dd>'+
+     '<dt>Hazards</dt><dd>Worth nothing in a one-on-one; their value is entirely about switching.</dd>'+
+     '<dt>Opponent behaviour</dt><dd>The data carries no trainer AI flags, so the opponent never '+
+     'switches. Modelling one would be invention.</dd>'+
+     '<dt>Rates</dt><dd>Slot rates come from the published ladders, so they are Asserted while the '+
+     'species and level band beside them are Measured.</dd>'+
+     '<dt>Out of pool</dt><dd>157 forms have no reachable gate: breeding-only babies, code-redeemed '+
+     'legendaries, and five the documentation lists as unobtainable.</dd></dl>'+
+     '<h3>Provenance</h3><p class="note">Every damage figure is Derived: generation 9 mechanics are '+
+     'pinned and the engine reproduced an independent implementation of the formula 12 times out of '+
+     '12. Availability timing is Measured from the source\u2019s own gate index, not asserted from a '+
+     'route order.</p></div></div>';
+  return h;}
+
+/* ---------- dossier ---------- */
+function viewDoss(si){
+  var s=D.species[si], rows=[];
+  for(var i=0;i<D.val.length;i++)if(D.val[i][V.SP]===si)rows.push(D.val[i]);
+  rows.sort(function(a,b){return a[V.CP]-b[V.CP];});
+  var b=null;for(i=0;i<rows.length;i++)if(!b||rows[i][V.FIT]>b[V.FIT])b=rows[i];
+  var h='<button class="back" data-back="1">\u2190 Back</button><div class="doss">';
+  h+='<div class="hero"><img class="art" alt="" src="'+art(s[SP.SPR])+'"><div>'+
+     '<h2>'+esc(s[SP.NAME])+'</h2><div class="lead">'+tyPill(s[SP.T1])+tyPill(s[SP.T2])+
+     '<span class="big">BST '+s[SP.BST]+'</span>'+(b?tierPill(D.meta.tiers[b[V.TIER]]):'')+
+     '<span class="note">#'+s[SP.DEX]+' \u00b7 '+esc(s[SP.FORM])+'</span></div></div></div>';
+  h+='<div class="cols"><div><h3>Base stats</h3>';
+  var st=[['HP',s[SP.HP]],['Atk',s[SP.ATK]],['Def',s[SP.DEF]],['SpA',s[SP.SPA]],['SpD',s[SP.SPD]],['Spe',s[SP.SPE]]];
+  for(var i=0;i<st.length;i++){var v=st[i][1],cls=v>=110?'hi':(v<=55?'lo':'');
+    h+='<div class="stat"><span class="note">'+st[i][0]+'</span><b>'+v+'</b>'+
+       '<span class="bar"><i class="'+cls+'" style="width:'+Math.min(100,v/200*100)+'%"></i></span></div>';}
+  h+='<h3>Abilities</h3><div class="chips">';
+  var abs=[s[SP.A1],s[SP.A2],s[SP.AH]];
+  for(i=0;i<3;i++)if(abs[i]!==-1&&abs[i]!=null)
+    h+='<span class="chip">'+esc(D.meta.abilities[abs[i]])+(i===2?' (hidden)':'')+'</span>';
+  h+='</div><h3>Availability</h3><dl class="kv">'+
+     '<dt>First obtainable</dt><dd>'+(s[SP.GATE]===''?'not reachable in this run':
+       esc(cpName(s[SP.GATE]))+' <span class="note">('+esc(s[SP.GBASIS])+')</span>')+'</dd>'+
+     '<dt>Evolves from</dt><dd>'+(s[SP.FROM]?esc(s[SP.FROM]):'\u2014')+'</dd>'+
+     '<dt>Evolves into</dt><dd>'+(s[SP.INTO]?esc(s[SP.INTO])+(s[SP.EVO]?' <span class="note">'+
+       esc(s[SP.EVO])+'</span>':''):'\u2014')+'</dd>'+
+     '<dt>Egg groups</dt><dd class="note">'+esc(s[SP.EGG])+'</dd>'+
+     '<dt>One-time</dt><dd>'+(s[SP.ONE]?'<span class="warn">yes \u2014 miss it and it is gone</span>':'no')+'</dd>'+
+     (s[SP.STARTER]?'<dt>Starter</dt><dd>yes \u00b7 also in the Celadon shard pool at gate 3</dd>':'')+
+     '</dl></div><div>';
+  if(b){
+    h+='<h3>Best build across checkpoints</h3><dl class="kv">'+
+      '<dt>Role</dt><dd>'+esc(roleName(D.meta.roles[b[V.ROLE]]))+' <span class="note">at '+
+        esc(cpName(b[V.CP]))+'</span></dd>'+
+      '<dt>Track</dt><dd>'+esc(String(b[V.TRACK]).replace(/_/g,' '))+'</dd>'+
+      '<dt>VORP</dt><dd>'+fmt(b[V.VORP])+'</dd>'+
+      '<dt>Ceiling / floor</dt><dd>'+f2(b[V.CEIL])+' / '+f2(b[V.FLOOR])+'</dd>'+
+      '<dt>ROI</dt><dd>'+f2(b[V.ROI])+' <span class="note">margin gained by investing</span></dd>'+
+      '<dt>Nature</dt><dd>'+esc(D.meta.natures[b[V.NAT]])+'</dd>'+
+      '<dt>Item</dt><dd>'+esc(D.meta.items[b[V.ITEM]])+
+        (b[V.IDEP]>0?' <span class="warn">scarce \u00b7 costs '+fmt(b[V.IDEP])+' to fall back</span>':'')+'</dd>'+
+      (b[V.SETUP]!==-1?'<dt>Sets up with</dt><dd>'+esc(D.meta.setups[b[V.SETUP]])+'</dd>':'')+
+      '<dt>Sustain</dt><dd>'+(b[V.SUS]==null?'\u2014':b[V.SUS]+' <span class="note">kit delta</span>')+'</dd>'+
+      '<dt>Survives a switch-in</dt><dd>'+Math.round(b[V.SAFE]*100)+'% <span class="note">of slots</span></dd>'+
+      '<dt>Team contribution</dt><dd>'+(b[V.TEAM]?f2(b[V.TEAM]):'not in a recommended six')+'</dd>'+
+      '<dt>Fit parts</dt><dd class="note">S '+fmt(b[V.S])+' \u00b7 T '+fmt(b[V.T])+
+        ' \u00b7 Y '+fmt(b[V.Y])+' \u00b7 F '+fmt(b[V.F])+'</dd></dl><h3>Moves</h3><div>';
+    for(i=0;i<b[V.MOVES].length;i++)h+='<span class="mv used">'+esc(D.meta.moves[b[V.MOVES][i]])+'</span>';
+    h+='</div>';}
+  h+='<h3>Roles it fits</h3><div class="chips">';
+  var seen={};for(i=0;i<rows.length;i++){var rn=D.meta.roles[rows[i][V.ROLE]];
+    if(!seen[rn]){seen[rn]=1;h+='<span class="chip">'+esc(roleName(rn))+'</span>';}}
+  h+='</div><h3>Value by checkpoint</h3>';
+  if(rows.length){
+    var byc={};for(i=0;i<rows.length;i++){var c=rows[i][V.CP];
+      if(!byc[c]||rows[i][V.VORP]>byc[c][V.VORP])byc[c]=rows[i];}
+    var ks=Object.keys(byc).sort(function(a,b){return a-b;}),w=4,mx=0,mn=0;
+    for(i=0;i<ks.length;i++){var vv=byc[ks[i]][V.VORP];if(vv>mx)mx=vv;if(vv<mn)mn=vv;}
+    var span=(mx-mn)||1;
+    h+='<svg class="curve" viewBox="0 0 '+(ks.length*(w+2))+' 100" preserveAspectRatio="none">';
+    for(i=0;i<ks.length;i++){var r2=byc[ks[i]],hh=Math.max(2,(r2[V.VORP]-mn)/span*96);
+      h+='<rect x="'+(i*(w+2))+'" y="'+(100-hh)+'" width="'+w+'" height="'+hh+'" fill="'+
+         (r2[V.VORP]>=0?'#589B84':'#A85440')+'"><title>'+esc(cpName(r2[V.CP]))+
+         ' \u2014 VORP '+fmt(r2[V.VORP])+' \u2014 '+D.meta.tiers[r2[V.TIER]]+'</title></rect>';}
+    h+='</svg><p class="note">'+ks.length+' checkpoints scored, in progression order. '+
+       'Bars below the line are checkpoints where it sits under replacement.</p>';
+  }else h+='<p class="note">Not scored at any checkpoint.</p>';
+  return h+'</div></div></div>';}
+
+/* ---------- shell ---------- */
+function render(){
+  var t=document.getElementById('tabs'),h='';
+  for(var i=0;i<TABS.length;i++)h+='<button data-t="'+TABS[i][0]+'"'+
+    (St.tab===TABS[i][0]&&view===null?' aria-current="page"':'')+'>'+TABS[i][1]+'</button>';
+  t.innerHTML=h;
+  var m=document.getElementById('main');
+  if(view!==null){m.innerHTML=viewDoss(view);}
+  else m.innerHTML={dex:viewDex,rank:viewRank,roles:viewRoles,teams:viewTeams,
+    starters:viewStarters,boss:viewBoss,routes:viewRoutes,about:viewAbout}[St.tab]();
+  window.scrollTo(0,0);}
+
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-t]'); if(b){St.tab=b.getAttribute('data-t');view=null;render();return;}
+  if(e.target.closest('[data-back]')){view=null;render();return;}
+  var sp=e.target.closest('[data-sp]');
+  if(sp&&+sp.getAttribute('data-sp')>=0){view=+sp.getAttribute('data-sp');render();return;}
+  var th=e.target.closest('th[data-s]');
+  if(th){var k=+th.getAttribute('data-s');St.dir=(St.sort===k)?-St.dir:-1;St.sort=k;render();}});
+document.addEventListener('keydown',function(e){
+  if(e.key==='Enter'){var sp=e.target.closest&&e.target.closest('[data-sp]');
+    if(sp){view=+sp.getAttribute('data-sp');render();}}
+  if(e.key==='Escape'&&view!==null){view=null;render();}});
+document.addEventListener('change',function(e){
+  var k=e.target.getAttribute&&e.target.getAttribute('data-k');
+  if(!k)return; St[k]=e.target.value; render();});
+document.getElementById('q').addEventListener('input',function(e){
+  St.q=e.target.value; if(view!==null)view=null;
+  if(St.tab!=='dex'&&St.tab!=='routes'&&St.tab!=='rank')St.tab='dex';
+  render();});
+
+function gunzip(b64){
+  var bin=Uint8Array.from(atob(b64),function(c){return c.charCodeAt(0);});
+  if(!('DecompressionStream' in window))return Promise.reject(new Error('DecompressionStream'));
+  return new Response(new Blob([bin]).stream().pipeThrough(new DecompressionStream('gzip')))
+    .arrayBuffer().then(function(buf){return JSON.parse(new TextDecoder().decode(buf));});}
+gunzip(document.getElementById('payload').textContent.trim()).then(function(p){
+  D=p; return gunzip(document.getElementById('sprites').textContent.trim());
+}).then(function(s){
+  for(var k in s)SPR[+k]=s[k];
+  St.role=D.meta.roles[0];
+  render();
+}).catch(function(e){
+  document.getElementById('main').innerHTML='<div class="empty">This page needs a browser with '+
+    'DecompressionStream \u2014 Chrome 80+, Firefox 113+ or Safari 16.4+.<br><span class="note">'+
+    esc(e.message)+'</span></div>';});
+</script></body></html>

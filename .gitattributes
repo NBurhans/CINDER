@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
+data/*.tsv    linguist-generated=true
+data/*.tsv.gz binary linguist-generated=true
+data/*.json   linguist-generated=true
+index.html    linguist-generated=true

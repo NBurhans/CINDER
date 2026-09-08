@@ -1,0 +1,13 @@
+# INTERNAL — never commits. See docs/VISION.md §9.
+INT_*
+*.INTERNAL.*
+targets/*/adapter_notes.md
+work/
+node_modules/
+*.gba
+*.sav
+*.sa1
+data.js
+data.json
+sprites.b64
+payload.b64

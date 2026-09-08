@@ -1,0 +1,17 @@
+[
+ {
+  "check": "T0_pruning",
+  "severity": "INFO",
+  "detail": "beam search over teams of 6: pool capped at the top 250 builds by VORP per checkpoint, beam width 24, top 20 teams retained. The cap is a pruning rule \u2014 an exhaustive search over a ~3,300-build pool is not tractable and would not change the top teams."
+ },
+ {
+  "check": "INV_I5",
+  "severity": "INFO",
+  "detail": "PASS \u2014 0 of 17 recommended teams violate item copy counts"
+ },
+ {
+  "check": "T1_team_layer",
+  "severity": "INFO",
+  "detail": "team layer built for 17 checkpoints; team_score written back to 2740 valuation rows"
+ }
+]
