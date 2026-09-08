@@ -1,0 +1,21 @@
+# targets/cinder/mechanics.yaml — EXTERNAL
+# Generation-dependent switches. Pinned once; every damage calculation inherits
+# these, which is why every matrix cell is Derived and never Measured.
+
+mechanics_gen: 9            # confirmed by hand-reproducing 12 calcs against an
+                            # independent implementation: 0.0% discrepancy
+engine:
+  package: "@smogon/calc"
+  version: "0.9.0"
+  entry: adaptable          # the bundled data layer is never used AS DATA
+  dispatch: calculateSMSSSV
+
+physical_special_split: per_move
+fairy_type: present         # source type id 23, not contiguous with 0-17
+priority_orders_turns: true # target 01 scored priority without simulating it
+stat_array_order: [hp, atk, def, spe, spa, spd]   # NOT display order
+
+recovery_per_turn:          # fractions of max HP, behind the sustain axis
+  reliable_recovery: 0.25   # inherited from target 01 and NOT re-derived here
+  regenerator: 0.11
+  leftovers_class: 0.0625

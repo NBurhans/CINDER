@@ -1,0 +1,117 @@
+[
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "01_species.tsv: 1343 rows, 47 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "02_world.tsv: 3551 rows, 26 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "03_trainers.tsv: 928 rows, 26 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "03b_checkpoints.tsv: 18 rows, 10 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "04_matchups.tsv: 43934 rows, 20 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "04a_builds.tsv: 64650 rows, 25 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "05_valuation.tsv: 105084 rows, 27 cols, 0 ragged"
+ },
+ {
+  "check": "E1_round_trip",
+  "severity": "INFO",
+  "detail": "05b_lineage.tsv: 570 rows, 7 cols, 0 ragged"
+ },
+ {
+  "check": "E2_referential",
+  "severity": "INFO",
+  "detail": "roster species unresolved 0; ceiling forms unresolved 0; ceiling items used before they are obtainable 0"
+ },
+ {
+  "check": "E3_unk_sweep",
+  "severity": "WARN",
+  "detail": "01_species.tsv: earliest_level=523; evo_item_obtainable=165; earliest_gate=157; earliest_gate_name=157; earliest_gate_basis=157; sprite_key=20"
+ },
+ {
+  "check": "E3_unk_sweep",
+  "severity": "WARN",
+  "detail": "02_world.tsv: mode_availability=3551; cost=361; encounter_rate=5"
+ },
+ {
+  "check": "E3_unk_sweep",
+  "severity": "WARN",
+  "detail": "04_matchups.tsv: item_dependence=36428"
+ },
+ {
+  "check": "E3_unk_sweep",
+  "severity": "WARN",
+  "detail": "05_valuation.tsv: item_dependence=87693; vorp=20; replacement=20"
+ },
+ {
+  "check": "E3a_mode_availability",
+  "severity": "WARN",
+  "detail": "mode_availability is UNK on 3551 of 3551 world rows. Not recoverable from the extracted database; it lives as prose in the official item sheet and needs a manual pass. It gates ceiling builds, so every ceiling is currently mode-agnostic."
+ },
+ {
+  "check": "INV_I6",
+  "severity": "INFO",
+  "detail": "PASS \u2014 28/135 = 0.2074 against a 0.20 floor; sample 135 stratified across BST quartiles and evolution stage, seed 20260908. Measures track reassignment only; item and move selection are downstream of the track."
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "mechanics_gen = 9 | affects every damage number | confirmed 12/12 against an independent implementation of the gen-9 formula; low risk"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "cap[0] is the default-mode level cap | affects every scaled level and every build level | confirmed 18/18 against the published boss sheet; low risk"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "area numeric key = checkpoint gate index | affects every earliest_gate, so the whole availability model | 8 independent corroborations incl. 6 post-game gifts at gate 17; low risk but it is the single widest-blast-radius assumption"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "encounter rate ladders from the docs | affects route priority in Phase 7, not scoring | Asserted; medium risk, low blast radius"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "mode_availability unresolved | affects which items a ceiling may hold | UNRESOLVED. Highest open risk: ceilings may use items absent in the canonical mode"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "weights S.25 T.20 Y.15 F.40 / utility T.30 Y.20 F.50 | affects every ladder ordering | top-10 overlap between weight profiles was 1/10 at the sample checkpoint; highest-leverage judgment call in the model"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "dead-weight penalty 0.50 | affects the lineage ladder and the starters tab | mean penalty is small; low risk as set"
+ },
+ {
+  "check": "E4_sensitivity",
+  "severity": "INFO",
+  "detail": "recovery constants 0.25 / 0.11 / 0.0625 | affects the sustain axis | inherited from SABLE, NOT re-derived for this target"
+ }
+]
